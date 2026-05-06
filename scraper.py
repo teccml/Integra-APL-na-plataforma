@@ -1,13 +1,12 @@
 """
-Scraper Porto de Lisboa — VERSÃO FINAL
+Scraper Porto de Lisboa — VERSÃO REVISTA
 ═══════════════════════════════════════════════════════════════
-Estratégia híbrida:
+Estratégia única e fiável: parsing da tabela React em todas as
+3 páginas. Já não tenta descarregar CSV.
 
-  • Navios em Porto    → parsing das linhas da tabela React
-                         (selectors: .rdt_TableRow / .rdt_TableCell)
-  • Previsão Chegadas  → preencher datas, clicar "Pesquisar",
-                         descarregar CSV via "Tabela completa (csv)"
-  • Partidas           → idem chegadas
+  • Navios em Porto    → tabela React directa (.rdt_TableRow)
+  • Previsão Chegadas  → tabela React directa (.rdt_TableRow)
+  • Partidas           → tabela React directa (.rdt_TableRow)
 
 Janela temporal: hoje-2 a hoje+2 dias.
 
@@ -16,8 +15,6 @@ Output: data/lisbon_port.json com todos os navios normalizados.
 
 from __future__ import annotations
 
-import csv
-import io
 import json
 import re
 import sys
@@ -40,7 +37,6 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 
-# Janela: 2 dias para trás, 2 para a frente
 WINDOW_DAYS_BACK    = 2
 WINDOW_DAYS_FORWARD = 2
 
@@ -49,6 +45,7 @@ CRUISE_TERMINALS = {
     "santa apol":  "Santa Apolónia",
     "apolóni":     "Santa Apolónia",
     "apoloni":     "Santa Apolónia",
+    "sotagus":     "Santa Apolónia",
     "jardim":      "Jardim do Tabaco",
     "tabaco":      "Jardim do Tabaco",
     "rocha":       "Rocha Conde Óbidos",
@@ -56,20 +53,25 @@ CRUISE_TERMINALS = {
     "obidos":      "Rocha Conde Óbidos",
     "alcântara":   "Alcântara",
     "alcantara":   "Alcântara",
+    "liscont":     "Alcântara",
 }
 
 HAZARD_TERMINAL = "Terminal Multiusos do Poço do Bispo"
-HAZARD_TERMINAL_KEYS = ["poço", "poco", "bispo", "multiusos"]
+HAZARD_TERMINAL_KEYS = ["poço", "poco", "bispo", "tmpb", "multiusos"]
 
+# Palavras-chave alargadas (TIPO DE NAVIO + MOTIVO DE ESCALA + carga)
 HAZARD_KEYWORDS = [
     "imdg", "químic", "quimic", "combust", "gnl", "glp", "gás", "gas",
     "tanker", "perigos", "hazard", "fuel", "oil", "petroleo", "petróleo",
-    "metano", "metanol", "etileno", "propano", "butano", "amónia",
-    "amonia", "enxofre", "sulfur",
+    "petroleiro", "metano", "metanol", "etileno", "propano", "butano",
+    "amónia", "amonia", "enxofre", "sulfur", "tanque", "crude",
+    "abastecimento de combust",
 ]
 
 # Tipos de navio que classificamos como "cruzeiro"
-CRUISE_TYPE_KEYWORDS = ["cruzeiro", "cruise", "passageiros", "passenger", "passageiro"]
+CRUISE_TYPE_KEYWORDS = [
+    "cruzeiro", "cruise", "passageiros", "passenger", "passageiro",
+]
 
 OUTPUT_PATH = Path("data/lisbon_port.json")
 
@@ -82,18 +84,11 @@ def normalise(s: str) -> str:
 
 
 def parse_date_iso(date_str: str) -> Optional[str]:
-    """
-    Converte data em ISO8601. Aceita:
-      - 'yyyy-mm-dd hh:mm'  (formato da tabela React)
-      - 'yyyy-mm-dd'
-      - 'dd/mm/yyyy [hh:mm]'
-      - 'dd-mm-yyyy [hh:mm]'
-    """
+    """Aceita yyyy-mm-dd hh:mm, yyyy-mm-dd, dd/mm/yyyy [hh:mm], dd-mm-yyyy [hh:mm]."""
     if not date_str:
         return None
     s = date_str.strip()
 
-    # yyyy-mm-dd hh:mm  ou  yyyy-mm-dd
     mt = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})(?:[\sT](\d{1,2})[:h.](\d{2}))?", s)
     if mt:
         y, m, d = int(mt.group(1)), int(mt.group(2)), int(mt.group(3))
@@ -104,7 +99,6 @@ def parse_date_iso(date_str: str) -> Optional[str]:
         except ValueError:
             return None
 
-    # dd/mm/yyyy ou dd-mm-yyyy
     mt = re.match(r"^(\d{1,2})[/\-](\d{1,2})[/\-](\d{4})(?:\s+(\d{1,2})[:h.](\d{2}))?", s)
     if mt:
         d, m, y = int(mt.group(1)), int(mt.group(2)), int(mt.group(3))
@@ -127,36 +121,49 @@ def hour_from_iso(iso: Optional[str]) -> str:
         return ""
 
 
-def classify_terminal_and_kind(term_str: str, cargo_str: str, type_str: str) -> tuple[str, bool, bool]:
+def classify(term_str: str, motive_str: str, type_str: str) -> tuple[str, bool, bool]:
     """
     Devolve (terminal_normalizado, é_perigoso, é_cruzeiro).
+
+    Lógica:
+      1) Terminal IMDG (Poço do Bispo / TMPB) → IMDG
+      2) Tipo OU motivo contém palavra-chave IMDG → IMDG
+      3) Tipo é cruzeiro/passageiros → cruzeiro (no terminal correspondente)
+      4) Terminal é de cruzeiros → cruzeiro
+      5) Outro → descartar
     """
     t = (term_str or "").lower()
-    c = (cargo_str or "").lower()
+    motive = (motive_str or "").lower()
     ty = (type_str or "").lower()
 
-    is_hazard = (
-        any(k in t for k in HAZARD_TERMINAL_KEYS)
-        or any(k in c for k in HAZARD_KEYWORDS)
-        or any(k in ty for k in HAZARD_KEYWORDS)
+    # 1. Terminal IMDG explícito
+    if any(k in t for k in HAZARD_TERMINAL_KEYS):
+        return HAZARD_TERMINAL, True, False
+
+    # 2. Carga / tipo IMDG
+    is_hazard_content = (
+        any(k in ty for k in HAZARD_KEYWORDS)
+        or any(k in motive for k in HAZARD_KEYWORDS)
     )
+    if is_hazard_content:
+        return HAZARD_TERMINAL, True, False
 
-    is_cruise = any(k in ty for k in CRUISE_TYPE_KEYWORDS)
+    # 3. Cruzeiro pelo tipo
+    is_cruise_type = any(k in ty for k in CRUISE_TYPE_KEYWORDS)
 
+    # 4. Tentar mapear terminal de cruzeiros
     matched_term = None
     for key, name in CRUISE_TERMINALS.items():
         if key in t:
             matched_term = name
             break
 
-    if is_hazard:
-        return HAZARD_TERMINAL, True, False
-    if matched_term:
-        return matched_term, False, True   # se está num terminal de cruzeiro, é cruzeiro
-    if is_cruise:
+    if is_cruise_type:
         return matched_term or "Alcântara", False, True
+    if matched_term and is_cruise_type:
+        return matched_term, False, True
 
-    # Não é IMDG nem cruzeiro — descartamos depois
+    # 5. Não é IMDG nem cruzeiro
     return matched_term or normalise(term_str) or "Outro", False, False
 
 
@@ -180,241 +187,164 @@ def accept_cookies(page: Page) -> bool:
 
 
 # ════════════════════════════════════════════════════════════
-# 1. NAVIOS EM PORTO — parsing da tabela React
+# EXTRACÇÃO DA TABELA REACT
 # ════════════════════════════════════════════════════════════
-def scrape_in_port(page: Page) -> list[dict]:
-    print(f"[in_port] {URL_IN_PORT}")
-    page.goto(URL_IN_PORT, wait_until="networkidle", timeout=60_000)
-    accept_cookies(page)
+def extract_react_rows(page: Page) -> list[dict]:
+    """
+    Devolve a tabela React como lista de dicts:
+      {
+        'navio': 'MSC OPERA',
+        'eta':   '2026-05-08 07:31',
+        ...
+      }
+    Os nomes das chaves são os cabeçalhos em minúsculas.
+    """
+    return page.evaluate("""
+        () => {
+            const out = [];
+            // Cabeçalhos
+            const headerCells = document.querySelectorAll('.rdt_TableHeadRow .rdt_TableCol');
+            const headers = Array.from(headerCells).map(c => {
+                // Limpar — alguns headers têm ícones embutidos
+                return c.textContent.trim().toLowerCase()
+                    .replace(/\\s+/g, ' ');
+            });
 
+            // Linhas
+            const rowEls = document.querySelectorAll('.rdt_TableRow');
+            rowEls.forEach(r => {
+                const cells = Array.from(r.querySelectorAll('.rdt_TableCell'))
+                    .map(c => c.textContent.trim());
+                const obj = { _cells: cells, _headers: headers };
+                headers.forEach((h, i) => {
+                    if (h) obj[h] = cells[i] || '';
+                });
+                out.push(obj);
+            });
+            return out;
+        }
+    """)
+
+
+def get_field(row: dict, *keys: str) -> str:
+    """Procura por chave parcial nos headers da row."""
+    for k in keys:
+        for rk, rv in row.items():
+            if rk.startswith("_"):
+                continue
+            if k in rk:
+                return rv or ""
+    return ""
+
+
+def row_to_record(row: dict, default_type: str, source_label: str) -> Optional[dict]:
+    """Converte uma row da tabela React num registo normalizado."""
+    name = get_field(row, "navio", "vessel", "ship", "nome")
+    if not name:
+        return None
+
+    # Datas: depende da página
+    # - Chegadas:  ETA (1ª) e ETD (2ª)
+    # - Partidas:  ATD (1ª) e ATA (2ª)
+    # - In port:   ATA (1ª) e ETD (2ª)
+    eta = get_field(row, "eta")
+    etd = get_field(row, "etd")
+    ata = get_field(row, "ata")
+    atd = get_field(row, "atd")
+
+    # Para chegadas: usar ETA (chegada prevista)
+    # Para partidas: usar ATD (saída efectiva)
+    # Para in_port: usar ATA (entrada efectiva)
+    primary_date = None
+    if default_type == "arrival":
+        primary_date = eta or ata
+    elif default_type == "departure":
+        primary_date = atd or etd
+    else:  # transit / in_port
+        primary_date = ata or eta or atd
+
+    type_str   = get_field(row, "tipo de navio", "tipo")
+    motive     = get_field(row, "motivo de escala", "motivo", "operação", "operacao")
+    terminal   = get_field(row, "local atribuido", "local", "terminal", "cais")
+
+    terminal_norm, is_hazard, is_cruise = classify(terminal, motive, type_str)
+
+    # Filtramos: só cruzeiros e IMDG
+    if not is_hazard and not is_cruise:
+        return None
+
+    iso_date = parse_date_iso(primary_date)
+    if not iso_date:
+        return None
+
+    cargo_text = normalise(motive)
+    if type_str:
+        cargo_text = cargo_text + (" · " if cargo_text else "") + normalise(type_str)
+
+    return {
+        "name":      normalise(name),
+        "line":      "",
+        "type":      "hazard" if is_hazard else default_type,
+        "terminal":  terminal_norm,
+        "from":      "",
+        "to":        "",
+        "date":      iso_date,
+        "hour":      hour_from_iso(iso_date),
+        "pax":       0,
+        "cargo":     cargo_text,
+        "is_hazard": is_hazard,
+        "ship_type": normalise(type_str),
+        "source":    source_label,
+    }
+
+
+# ════════════════════════════════════════════════════════════
+# SCRAPING POR PÁGINA
+# ════════════════════════════════════════════════════════════
+def scrape_page(page: Page, url: str, label: str, default_type: str,
+                today: datetime, fill_dates: bool = False) -> list[dict]:
+    print(f"[{label}] {url}")
+    page.goto(url, wait_until="networkidle", timeout=60_000)
+    accept_cookies(page)
+    page.wait_for_timeout(2000)
+
+    # Para chegadas e partidas, podemos opcionalmente forçar o intervalo
+    # de datas que queremos. Mas como o site já vem com datas pré-preenchidas
+    # que normalmente cobrem +/- 3 dias, os dados já lá estão à partida.
+    # Se fill_dates for True, garantimos que cobrem ±2 dias.
+    if fill_dates:
+        d_start = (today - timedelta(days=WINDOW_DAYS_BACK)).strftime("%Y-%m-%d")
+        d_end   = (today + timedelta(days=WINDOW_DAYS_FORWARD)).strftime("%Y-%m-%d")
+        print(f"    a forçar intervalo: {d_start} → {d_end}")
+        try:
+            date_inputs = page.locator("input[type='date']")
+            if date_inputs.count() >= 2:
+                date_inputs.nth(0).fill(d_start)
+                date_inputs.nth(1).fill(d_end)
+                page.locator("button:has-text('Pesquisar')").first.click(timeout=5000)
+                page.wait_for_timeout(3000)
+                print(f"    ✓ pesquisa submetida")
+        except Exception as e:
+            print(f"    ⚠ não consegui preencher datas: {e}")
+
+    # Esperar pela tabela
     try:
-        page.wait_for_selector(".rdt_TableRow", timeout=20_000)
+        page.wait_for_selector(".rdt_TableRow", timeout=15_000)
     except PWTimeout:
         print("    (sem linhas — página vazia)")
         return []
 
     page.wait_for_timeout(2000)
 
-    rows = page.evaluate("""
-        () => {
-            const out = [];
-            const headers = Array.from(document.querySelectorAll('.rdt_TableHeadRow .rdt_TableCol'))
-                .map(c => c.textContent.trim().toLowerCase());
-            const rowEls = document.querySelectorAll('.rdt_TableRow');
-            rowEls.forEach(r => {
-                const cells = Array.from(r.querySelectorAll('.rdt_TableCell'))
-                    .map(c => c.textContent.trim());
-                out.push({ headers, cells });
-            });
-            return out;
-        }
-    """)
-
-    print(f"    {len(rows)} linhas extraídas")
-    if not rows:
-        return []
+    raw_rows = extract_react_rows(page)
+    print(f"    {len(raw_rows)} linhas brutas (cabeçalhos: {raw_rows[0].get('_headers') if raw_rows else 'n/a'})")
 
     out = []
-    for r in rows:
-        cells = r.get("cells") or []
-        headers = r.get("headers") or []
-        if len(cells) < 6:
-            continue
-
-        def col(idx: int, *header_keys: str) -> str:
-            for k in header_keys:
-                for i, h in enumerate(headers):
-                    if k in h and i < len(cells):
-                        return cells[i]
-            return cells[idx] if idx < len(cells) else ""
-
-        name        = col(0, "navio", "vessel", "ship")
-        date_in     = col(1, "ata", "entrada", "data inicial", "início")
-        date_out    = col(2, "etd", "saída", "data final", "fim")
-        ship_type   = col(3, "tipo")
-        operation   = col(4, "operação", "operacao")
-        terminal    = col(5, "terminal", "cais", "berço", "berco")
-
-        terminal_norm, is_hazard, is_cruise = classify_terminal_and_kind(
-            terminal, operation, ship_type
-        )
-
-        if not is_hazard and not is_cruise:
-            continue
-
-        rec = {
-            "name":      normalise(name),
-            "line":      "",
-            "type":      "transit",
-            "terminal":  terminal_norm,
-            "from":      "",
-            "to":        "",
-            "date":      parse_date_iso(date_in) or parse_date_iso(date_out),
-            "hour":      hour_from_iso(parse_date_iso(date_in)),
-            "pax":       0,
-            "cargo":     normalise(operation) + (" · " + normalise(ship_type) if ship_type else ""),
-            "is_hazard": is_hazard,
-            "ship_type": normalise(ship_type),
-            "source":    "in_port",
-        }
-        if rec["name"]:
-            out.append(rec)
-
-    return out
-
-
-# ════════════════════════════════════════════════════════════
-# 2/3. CHEGADAS / PARTIDAS via CSV
-# ════════════════════════════════════════════════════════════
-def scrape_csv_page(page: Page, url: str, page_label: str, default_type: str, today: datetime) -> list[dict]:
-    print(f"[{page_label}] {url}")
-    page.goto(url, wait_until="networkidle", timeout=60_000)
-    accept_cookies(page)
-    page.wait_for_timeout(1500)
-
-    d_start = (today - timedelta(days=WINDOW_DAYS_BACK)).strftime("%Y-%m-%d")
-    d_end   = (today + timedelta(days=WINDOW_DAYS_FORWARD)).strftime("%Y-%m-%d")
-    print(f"    intervalo: {d_start} → {d_end}")
-
-    try:
-        date_inputs = page.locator("input[type='date']")
-        count = date_inputs.count()
-        if count >= 2:
-            date_inputs.nth(0).fill(d_start)
-            date_inputs.nth(1).fill(d_end)
-            print(f"    ✓ datas preenchidas")
-        else:
-            print(f"    ✗ esperava 2 inputs date, encontrei {count}")
-            return []
-    except Exception as e:
-        print(f"    ✗ erro a preencher datas: {e}")
-        return []
-
-    try:
-        page.locator("button:has-text('Pesquisar')").first.click(timeout=5000)
-        page.wait_for_timeout(3000)
-        print("    ✓ pesquisa submetida")
-    except Exception as e:
-        print(f"    ✗ erro a clicar Pesquisar: {e}")
-        return []
-
-    csv_text = ""
-    try:
-        with page.expect_download(timeout=15_000) as dl_info:
-            page.locator("a:has-text('Tabela completa'), button:has-text('Tabela completa')").first.click(timeout=5000)
-        download = dl_info.value
-        csv_path = download.path()
-        if csv_path:
-            csv_text = Path(csv_path).read_text(encoding="utf-8", errors="replace")
-            print(f"    ✓ CSV descarregado ({len(csv_text)} bytes)")
-    except Exception as e:
-        print(f"    ⚠ download CSV falhou: {e}")
-        try:
-            page.wait_for_selector(".rdt_TableRow", timeout=5000)
-            return parse_react_table(page, default_type)
-        except Exception:
-            print("    ✗ também não há linhas React — sem dados")
-            return []
-
-    if not csv_text.strip():
-        return []
-
-    return parse_csv(csv_text, default_type)
-
-
-def parse_csv(text: str, default_type: str) -> list[dict]:
-    """Parser CSV — detecta separador automaticamente."""
-    sample = text[:2000]
-    semi = sample.count(";")
-    comma = sample.count(",")
-    sep = ";" if semi > comma else ","
-
-    reader = csv.DictReader(io.StringIO(text), delimiter=sep)
-    out = []
-    for row in reader:
-        rec = csv_row_to_record(row, default_type)
+    for row in raw_rows:
+        rec = row_to_record(row, default_type, label)
         if rec:
             out.append(rec)
-    return out
-
-
-def csv_row_to_record(row: dict, default_type: str) -> Optional[dict]:
-    if not row:
-        return None
-    norm_row = {(k or "").strip().lower(): (v or "").strip() for k, v in row.items()}
-
-    def pick(*keys: str) -> str:
-        for k in keys:
-            for rk, rv in norm_row.items():
-                if k in rk:
-                    return rv
-        return ""
-
-    name = pick("navio", "ship", "vessel", "nome")
-    if not name:
-        return None
-
-    date_s    = pick("data", "date", "eta", "etd")
-    cargo     = pick("carga", "cargo", "tipo de carga", "mercador", "operação", "operacao")
-    company   = pick("armador", "companhia", "operador", "agente", "line")
-    terminal  = pick("terminal", "cais", "berço", "berco")
-    ship_type = pick("tipo")
-    frm       = pick("procedên", "procedenc", "from", "origem", "porto anterior")
-    to_       = pick("destino", "to", "próximo", "proximo", "next")
-    pax_s     = pick("passageiros", "pax", "passengers")
-
-    terminal_norm, is_hazard, is_cruise = classify_terminal_and_kind(terminal, cargo, ship_type)
-
-    if not is_hazard and not is_cruise:
-        return None
-
-    iso_date = parse_date_iso(date_s)
-    pax = 0
-    digits = re.sub(r"\D", "", pax_s)
-    if digits:
-        try:
-            pax = int(digits)
-        except ValueError:
-            pax = 0
-
-    return {
-        "name":      normalise(name),
-        "line":      normalise(company),
-        "type":      "hazard" if is_hazard else default_type,
-        "terminal":  terminal_norm,
-        "from":      normalise(frm),
-        "to":        normalise(to_),
-        "date":      iso_date,
-        "hour":      hour_from_iso(iso_date),
-        "pax":       pax,
-        "cargo":     normalise(cargo),
-        "is_hazard": is_hazard,
-        "ship_type": normalise(ship_type),
-        "source":    default_type,
-    }
-
-
-def parse_react_table(page: Page, default_type: str) -> list[dict]:
-    rows = page.evaluate("""
-        () => {
-            const out = [];
-            const headers = Array.from(document.querySelectorAll('.rdt_TableHeadRow .rdt_TableCol'))
-                .map(c => c.textContent.trim().toLowerCase());
-            document.querySelectorAll('.rdt_TableRow').forEach(r => {
-                const cells = Array.from(r.querySelectorAll('.rdt_TableCell'))
-                    .map(c => c.textContent.trim());
-                const obj = {};
-                headers.forEach((h, i) => obj[h] = cells[i] || '');
-                out.push(obj);
-            });
-            return out;
-        }
-    """)
-    out = []
-    for r in rows:
-        rec = csv_row_to_record(r, default_type)
-        if rec:
-            out.append(rec)
+    print(f"    {len(out)} registos relevantes (cruzeiros + IMDG)")
     return out
 
 
@@ -435,32 +365,34 @@ def main() -> int:
             user_agent=USER_AGENT,
             locale="pt-PT",
             viewport={"width": 1400, "height": 1000},
-            accept_downloads=True,
         )
         page = context.new_page()
 
+        # 1. Navios em Porto
         try:
-            recs = scrape_in_port(page)
-            print(f"    → {len(recs)} registos\n")
+            recs = scrape_page(page, URL_IN_PORT, "in_port", "transit", today, fill_dates=False)
             all_records.extend(recs)
+            print()
         except Exception as e:
             msg = f"in_port: {type(e).__name__}: {e}"
             print(f"    ✗ {msg}\n")
             errors.append(msg)
 
+        # 2. Previsão de Chegadas (com forçar datas para garantir cobertura ±2d)
         try:
-            recs = scrape_csv_page(page, URL_ARRIVALS, "arrivals", "arrival", today)
-            print(f"    → {len(recs)} registos\n")
+            recs = scrape_page(page, URL_ARRIVALS, "arrivals", "arrival", today, fill_dates=True)
             all_records.extend(recs)
+            print()
         except Exception as e:
             msg = f"arrivals: {type(e).__name__}: {e}"
             print(f"    ✗ {msg}\n")
             errors.append(msg)
 
+        # 3. Partidas (com forçar datas)
         try:
-            recs = scrape_csv_page(page, URL_DEPARTURES, "departures", "departure", today)
-            print(f"    → {len(recs)} registos\n")
+            recs = scrape_page(page, URL_DEPARTURES, "departures", "departure", today, fill_dates=True)
             all_records.extend(recs)
+            print()
         except Exception as e:
             msg = f"departures: {type(e).__name__}: {e}"
             print(f"    ✗ {msg}\n")
@@ -468,6 +400,7 @@ def main() -> int:
 
         browser.close()
 
+    # Filtrar pela janela ±2 dias e deduplicar
     today_mid = datetime(today.year, today.month, today.day)
     min_date = today_mid - timedelta(days=WINDOW_DAYS_BACK)
     max_date = today_mid + timedelta(days=WINDOW_DAYS_FORWARD, hours=23, minutes=59)
@@ -492,11 +425,13 @@ def main() -> int:
     ships   = [r for r in filtered if not r["is_hazard"]]
     hazards = [r for r in filtered if r["is_hazard"]]
 
-    print(f"\n=== Total filtrado (±2d): {len(filtered)} ===")
+    print(f"=== Total filtrado (±2d, deduplicado): {len(filtered)} ===")
     print(f"  cruzeiros:        {len(ships)}")
     print(f"  matérias perig.:  {len(hazards)}")
     if errors:
         print(f"  erros:            {len(errors)}")
+        for e in errors:
+            print(f"    - {e}")
 
     payload = {
         "fetched_at": fetched_at,
