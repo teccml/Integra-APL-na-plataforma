@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-06T18:19:21.363544+00:00",
+  "fetched_at": "2026-05-06T20:25:26.463576+00:00",
   "source": "portodelisboa.pt",
-  "count": 19,
+  "count": 18,
   "errors": [],
   "ships": [
     {
@@ -157,21 +157,6 @@
   ],
   "hazards": [
     {
-      "name": "CANNETO M",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-06T12:36:00",
-      "hour": "12:36",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "source": "arrivals"
-    },
-    {
       "name": "FEDERAL SABLE",
       "line": "",
       "type": "hazard",
@@ -217,6 +202,21 @@
       "source": "departures"
     },
     {
+      "name": "GAS AEGEAN",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-06T17:32:00",
+      "hour": "17:32",
+      "pax": 0,
+      "cargo": "Descarga · Tanque Gás Liquefeito",
+      "is_hazard": true,
+      "ship_type": "Tanque Gás Liquefeito",
+      "source": "departures"
+    },
+    {
       "name": "ORAMALIA",
       "line": "",
       "type": "hazard",
@@ -244,21 +244,6 @@
       "cargo": "Abastecimento de Combustível · Graneleiro",
       "is_hazard": true,
       "ship_type": "Graneleiro",
-      "source": "in_port"
-    },
-    {
-      "name": "GAS AEGEAN",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-06T03:58:00",
-      "hour": "03:58",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "source": "in_port"
     },
     {
