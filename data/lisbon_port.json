@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-06T11:50:10.460462+00:00",
+  "fetched_at": "2026-05-06T14:21:00.741758+00:00",
   "source": "portodelisboa.pt",
-  "count": 6,
+  "count": 7,
   "errors": [],
   "ships": [
     {
@@ -28,6 +28,21 @@
       "to": "",
       "date": "2026-05-06T06:05:00",
       "hour": "06:05",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "source": "in_port"
+    },
+    {
+      "name": "OE CORINTHIAN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-06T05:37:00",
+      "hour": "05:37",
       "pax": 0,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
