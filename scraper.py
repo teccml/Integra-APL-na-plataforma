@@ -1,16 +1,12 @@
 """
-Scraper Porto de Lisboa — VERSÃO REVISTA
+Scraper Porto de Lisboa — VERSÃO COM DIAGNÓSTICO ALARGADO
 ═══════════════════════════════════════════════════════════════
-Estratégia única e fiável: parsing da tabela React em todas as
-3 páginas. Já não tenta descarregar CSV.
-
-  • Navios em Porto    → tabela React directa (.rdt_TableRow)
-  • Previsão Chegadas  → tabela React directa (.rdt_TableRow)
-  • Partidas           → tabela React directa (.rdt_TableRow)
-
-Janela temporal: hoje-2 a hoje+2 dias.
-
-Output: data/lisbon_port.json com todos os navios normalizados.
+Mantém a estratégia da tabela React mas:
+  • Captura screenshot em momentos-chave de cada página
+    (chegadas e partidas), gravando-os em data/diagnostic/
+  • Loga em detalhe o que vê em cada passo
+  • Tem tempos de espera mais generosos
+  • Tenta múltiplas estratégias para preencher datas
 """
 
 from __future__ import annotations
@@ -25,9 +21,6 @@ from typing import Optional
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout, Page
 
 
-# ════════════════════════════════════════════════════════════
-# CONFIGURAÇÃO
-# ════════════════════════════════════════════════════════════
 URL_ARRIVALS    = "https://www.portodelisboa.pt/previsao-de-chegadas"
 URL_DEPARTURES  = "https://www.portodelisboa.pt/partidas"
 URL_IN_PORT     = "https://www.portodelisboa.pt/navios-em-porto"
@@ -40,7 +33,6 @@ USER_AGENT = (
 WINDOW_DAYS_BACK    = 2
 WINDOW_DAYS_FORWARD = 2
 
-# Mapeamento de terminais
 CRUISE_TERMINALS = {
     "santa apol":  "Santa Apolónia",
     "apolóni":     "Santa Apolónia",
@@ -59,7 +51,6 @@ CRUISE_TERMINALS = {
 HAZARD_TERMINAL = "Terminal Multiusos do Poço do Bispo"
 HAZARD_TERMINAL_KEYS = ["poço", "poco", "bispo", "tmpb", "multiusos"]
 
-# Palavras-chave alargadas (TIPO DE NAVIO + MOTIVO DE ESCALA + carga)
 HAZARD_KEYWORDS = [
     "imdg", "químic", "quimic", "combust", "gnl", "glp", "gás", "gas",
     "tanker", "perigos", "hazard", "fuel", "oil", "petroleo", "petróleo",
@@ -68,12 +59,12 @@ HAZARD_KEYWORDS = [
     "abastecimento de combust",
 ]
 
-# Tipos de navio que classificamos como "cruzeiro"
 CRUISE_TYPE_KEYWORDS = [
     "cruzeiro", "cruise", "passageiros", "passenger", "passageiro",
 ]
 
-OUTPUT_PATH = Path("data/lisbon_port.json")
+OUTPUT_PATH    = Path("data/lisbon_port.json")
+DIAGNOSTIC_DIR = Path("data/diagnostic")
 
 
 # ════════════════════════════════════════════════════════════
@@ -84,7 +75,6 @@ def normalise(s: str) -> str:
 
 
 def parse_date_iso(date_str: str) -> Optional[str]:
-    """Aceita yyyy-mm-dd hh:mm, yyyy-mm-dd, dd/mm/yyyy [hh:mm], dd-mm-yyyy [hh:mm]."""
     if not date_str:
         return None
     s = date_str.strip()
@@ -108,7 +98,6 @@ def parse_date_iso(date_str: str) -> Optional[str]:
             return datetime(y, m, d, hh, mm).isoformat()
         except ValueError:
             return None
-
     return None
 
 
@@ -122,25 +111,13 @@ def hour_from_iso(iso: Optional[str]) -> str:
 
 
 def classify(term_str: str, motive_str: str, type_str: str) -> tuple[str, bool, bool]:
-    """
-    Devolve (terminal_normalizado, é_perigoso, é_cruzeiro).
-
-    Lógica:
-      1) Terminal IMDG (Poço do Bispo / TMPB) → IMDG
-      2) Tipo OU motivo contém palavra-chave IMDG → IMDG
-      3) Tipo é cruzeiro/passageiros → cruzeiro (no terminal correspondente)
-      4) Terminal é de cruzeiros → cruzeiro
-      5) Outro → descartar
-    """
     t = (term_str or "").lower()
     motive = (motive_str or "").lower()
     ty = (type_str or "").lower()
 
-    # 1. Terminal IMDG explícito
     if any(k in t for k in HAZARD_TERMINAL_KEYS):
         return HAZARD_TERMINAL, True, False
 
-    # 2. Carga / tipo IMDG
     is_hazard_content = (
         any(k in ty for k in HAZARD_KEYWORDS)
         or any(k in motive for k in HAZARD_KEYWORDS)
@@ -148,10 +125,8 @@ def classify(term_str: str, motive_str: str, type_str: str) -> tuple[str, bool, 
     if is_hazard_content:
         return HAZARD_TERMINAL, True, False
 
-    # 3. Cruzeiro pelo tipo
     is_cruise_type = any(k in ty for k in CRUISE_TYPE_KEYWORDS)
 
-    # 4. Tentar mapear terminal de cruzeiros
     matched_term = None
     for key, name in CRUISE_TERMINALS.items():
         if key in t:
@@ -160,10 +135,7 @@ def classify(term_str: str, motive_str: str, type_str: str) -> tuple[str, bool, 
 
     if is_cruise_type:
         return matched_term or "Alcântara", False, True
-    if matched_term and is_cruise_type:
-        return matched_term, False, True
 
-    # 5. Não é IMDG nem cruzeiro
     return matched_term or normalise(term_str) or "Outro", False, False
 
 
@@ -171,9 +143,6 @@ def fingerprint(name: str, terminal: str, date_iso: Optional[str], type_label: s
     return (name.lower(), terminal.lower(), date_iso or "", type_label)
 
 
-# ════════════════════════════════════════════════════════════
-# COOKIES BANNER
-# ════════════════════════════════════════════════════════════
 def accept_cookies(page: Page) -> bool:
     try:
         btn = page.locator("button:has-text('Aceitar')").first
@@ -186,31 +155,25 @@ def accept_cookies(page: Page) -> bool:
     return False
 
 
-# ════════════════════════════════════════════════════════════
-# EXTRACÇÃO DA TABELA REACT
-# ════════════════════════════════════════════════════════════
+def snap(page: Page, name: str) -> None:
+    """Tira screenshot e guarda em data/diagnostic/."""
+    DIAGNOSTIC_DIR.mkdir(parents=True, exist_ok=True)
+    p = DIAGNOSTIC_DIR / f"{name}.png"
+    try:
+        page.screenshot(path=str(p), full_page=True)
+        print(f"      📸 {p}")
+    except Exception as e:
+        print(f"      ⚠ screenshot falhou: {e}")
+
+
 def extract_react_rows(page: Page) -> list[dict]:
-    """
-    Devolve a tabela React como lista de dicts:
-      {
-        'navio': 'MSC OPERA',
-        'eta':   '2026-05-08 07:31',
-        ...
-      }
-    Os nomes das chaves são os cabeçalhos em minúsculas.
-    """
     return page.evaluate("""
         () => {
             const out = [];
-            // Cabeçalhos
             const headerCells = document.querySelectorAll('.rdt_TableHeadRow .rdt_TableCol');
-            const headers = Array.from(headerCells).map(c => {
-                // Limpar — alguns headers têm ícones embutidos
-                return c.textContent.trim().toLowerCase()
-                    .replace(/\\s+/g, ' ');
-            });
-
-            // Linhas
+            const headers = Array.from(headerCells).map(c =>
+                c.textContent.trim().toLowerCase().replace(/\\s+/g, ' ')
+            );
             const rowEls = document.querySelectorAll('.rdt_TableRow');
             rowEls.forEach(r => {
                 const cells = Array.from(r.querySelectorAll('.rdt_TableCell'))
@@ -227,7 +190,6 @@ def extract_react_rows(page: Page) -> list[dict]:
 
 
 def get_field(row: dict, *keys: str) -> str:
-    """Procura por chave parcial nos headers da row."""
     for k in keys:
         for rk, rv in row.items():
             if rk.startswith("_"):
@@ -238,38 +200,27 @@ def get_field(row: dict, *keys: str) -> str:
 
 
 def row_to_record(row: dict, default_type: str, source_label: str) -> Optional[dict]:
-    """Converte uma row da tabela React num registo normalizado."""
     name = get_field(row, "navio", "vessel", "ship", "nome")
     if not name:
         return None
 
-    # Datas: depende da página
-    # - Chegadas:  ETA (1ª) e ETD (2ª)
-    # - Partidas:  ATD (1ª) e ATA (2ª)
-    # - In port:   ATA (1ª) e ETD (2ª)
     eta = get_field(row, "eta")
     etd = get_field(row, "etd")
     ata = get_field(row, "ata")
     atd = get_field(row, "atd")
 
-    # Para chegadas: usar ETA (chegada prevista)
-    # Para partidas: usar ATD (saída efectiva)
-    # Para in_port: usar ATA (entrada efectiva)
-    primary_date = None
     if default_type == "arrival":
         primary_date = eta or ata
     elif default_type == "departure":
         primary_date = atd or etd
-    else:  # transit / in_port
+    else:
         primary_date = ata or eta or atd
 
-    type_str   = get_field(row, "tipo de navio", "tipo")
-    motive     = get_field(row, "motivo de escala", "motivo", "operação", "operacao")
-    terminal   = get_field(row, "local atribuido", "local", "terminal", "cais")
+    type_str = get_field(row, "tipo de navio", "tipo")
+    motive   = get_field(row, "motivo de escala", "motivo", "operação", "operacao")
+    terminal = get_field(row, "local atribuido", "local", "terminal", "cais")
 
     terminal_norm, is_hazard, is_cruise = classify(terminal, motive, type_str)
-
-    # Filtramos: só cruzeiros e IMDG
     if not is_hazard and not is_cruise:
         return None
 
@@ -299,52 +250,166 @@ def row_to_record(row: dict, default_type: str, source_label: str) -> Optional[d
 
 
 # ════════════════════════════════════════════════════════════
+# PREENCHER DATAS — múltiplas estratégias
+# ════════════════════════════════════════════════════════════
+def fill_date_inputs(page: Page, d_start: str, d_end: str) -> bool:
+    """
+    Tenta várias formas de preencher as datas.
+    Devolve True se conseguiu.
+    """
+    try:
+        date_inputs = page.locator("input[type='date']")
+        count = date_inputs.count()
+        print(f"      [datas] inputs type=date encontrados: {count}")
+
+        if count >= 2:
+            # Estratégia 1: fill simples
+            date_inputs.nth(0).fill(d_start)
+            date_inputs.nth(1).fill(d_end)
+            page.wait_for_timeout(500)
+
+            # Verificar se ficaram preenchidos
+            v0 = date_inputs.nth(0).input_value()
+            v1 = date_inputs.nth(1).input_value()
+            print(f"      [datas] após fill: '{v0}' → '{v1}'")
+
+            if v0 == d_start and v1 == d_end:
+                return True
+
+            # Estratégia 2: forçar via JavaScript
+            page.evaluate(f"""
+                () => {{
+                    const inputs = document.querySelectorAll('input[type="date"]');
+                    if (inputs.length >= 2) {{
+                        const setVal = (el, v) => {{
+                            const native = Object.getOwnPropertyDescriptor(
+                                window.HTMLInputElement.prototype, 'value').set;
+                            native.call(el, v);
+                            el.dispatchEvent(new Event('input',  {{ bubbles: true }}));
+                            el.dispatchEvent(new Event('change', {{ bubbles: true }}));
+                        }};
+                        setVal(inputs[0], '{d_start}');
+                        setVal(inputs[1], '{d_end}');
+                    }}
+                }}
+            """)
+            page.wait_for_timeout(500)
+            v0 = date_inputs.nth(0).input_value()
+            v1 = date_inputs.nth(1).input_value()
+            print(f"      [datas] após JS: '{v0}' → '{v1}'")
+            return (v0 == d_start and v1 == d_end)
+
+        # Sem inputs type=date — tentar input genérico
+        all_inputs = page.locator("input")
+        print(f"      [datas] inputs totais na página: {all_inputs.count()}")
+        return False
+    except Exception as e:
+        print(f"      [datas] excepção: {e}")
+        return False
+
+
+# ════════════════════════════════════════════════════════════
 # SCRAPING POR PÁGINA
 # ════════════════════════════════════════════════════════════
-def scrape_page(page: Page, url: str, label: str, default_type: str,
-                today: datetime, fill_dates: bool = False) -> list[dict]:
-    print(f"[{label}] {url}")
+def scrape_in_port(page: Page, today: datetime) -> list[dict]:
+    label = "in_port"
+    print(f"\n[{label}] {URL_IN_PORT}")
+    page.goto(URL_IN_PORT, wait_until="networkidle", timeout=60_000)
+    accept_cookies(page)
+    page.wait_for_timeout(2000)
+
+    try:
+        page.wait_for_selector(".rdt_TableRow", timeout=20_000)
+    except PWTimeout:
+        print("    ✗ tabela não apareceu")
+        snap(page, f"{label}_no_table")
+        return []
+
+    page.wait_for_timeout(2000)
+    rows = extract_react_rows(page)
+    print(f"    ✓ {len(rows)} linhas brutas")
+    if rows:
+        print(f"    cabeçalhos: {rows[0].get('_headers')}")
+
+    out = []
+    for row in rows:
+        rec = row_to_record(row, "transit", label)
+        if rec:
+            out.append(rec)
+    print(f"    → {len(out)} registos relevantes")
+    return out
+
+
+def scrape_search_page(page: Page, url: str, label: str, default_type: str,
+                       today: datetime) -> list[dict]:
+    print(f"\n[{label}] {url}")
     page.goto(url, wait_until="networkidle", timeout=60_000)
     accept_cookies(page)
     page.wait_for_timeout(2000)
 
-    # Para chegadas e partidas, podemos opcionalmente forçar o intervalo
-    # de datas que queremos. Mas como o site já vem com datas pré-preenchidas
-    # que normalmente cobrem +/- 3 dias, os dados já lá estão à partida.
-    # Se fill_dates for True, garantimos que cobrem ±2 dias.
-    if fill_dates:
-        d_start = (today - timedelta(days=WINDOW_DAYS_BACK)).strftime("%Y-%m-%d")
-        d_end   = (today + timedelta(days=WINDOW_DAYS_FORWARD)).strftime("%Y-%m-%d")
-        print(f"    a forçar intervalo: {d_start} → {d_end}")
-        try:
-            date_inputs = page.locator("input[type='date']")
-            if date_inputs.count() >= 2:
-                date_inputs.nth(0).fill(d_start)
-                date_inputs.nth(1).fill(d_end)
-                page.locator("button:has-text('Pesquisar')").first.click(timeout=5000)
-                page.wait_for_timeout(3000)
-                print(f"    ✓ pesquisa submetida")
-        except Exception as e:
-            print(f"    ⚠ não consegui preencher datas: {e}")
+    snap(page, f"{label}_1_initial")
 
-    # Esperar pela tabela
+    d_start = (today - timedelta(days=WINDOW_DAYS_BACK)).strftime("%Y-%m-%d")
+    d_end   = (today + timedelta(days=WINDOW_DAYS_FORWARD)).strftime("%Y-%m-%d")
+    print(f"    intervalo desejado: {d_start} → {d_end}")
+
+    filled = fill_date_inputs(page, d_start, d_end)
+    print(f"    datas preenchidas: {filled}")
+
+    snap(page, f"{label}_2_after_fill")
+
+    # Clicar Pesquisar
     try:
-        page.wait_for_selector(".rdt_TableRow", timeout=15_000)
+        search_btn = page.locator("button:has-text('Pesquisar')").first
+        if search_btn and search_btn.is_visible(timeout=3000):
+            search_btn.click(timeout=5000)
+            print("    ✓ click em Pesquisar")
+            # Esperar resposta — pode demorar até 8s
+            page.wait_for_timeout(5000)
+        else:
+            print("    ⚠ botão Pesquisar não visível")
+    except Exception as e:
+        print(f"    ⚠ erro a clicar Pesquisar: {e}")
+
+    snap(page, f"{label}_3_after_search")
+
+    # Esperar pela tabela. Aceitar tanto linhas como mensagem "Não há registo".
+    has_rows = False
+    try:
+        page.wait_for_selector(".rdt_TableRow, :text('Não há registo')", timeout=20_000)
+        has_rows = page.locator(".rdt_TableRow").count() > 0
     except PWTimeout:
-        print("    (sem linhas — página vazia)")
+        print("    ✗ nem tabela nem mensagem 'Não há registo' apareceram")
+        snap(page, f"{label}_4_timeout")
+
+    if not has_rows:
+        # Verificar se aparece mensagem de "sem dados"
+        body_text = page.locator("body").inner_text()
+        if "Não há registo" in body_text:
+            print("    (página informa 'Não há registo para exibir')")
+        else:
+            # Conta tabelas e linhas para diagnóstico
+            n_rows = page.locator(".rdt_TableRow").count()
+            n_thead = page.locator(".rdt_TableHeadRow").count()
+            n_tableEls = page.locator("[class*='rdt_Table']").count()
+            print(f"    rdt_TableRow={n_rows} rdt_TableHeadRow={n_thead} qualquer rdt_Table*={n_tableEls}")
         return []
 
     page.wait_for_timeout(2000)
-
-    raw_rows = extract_react_rows(page)
-    print(f"    {len(raw_rows)} linhas brutas (cabeçalhos: {raw_rows[0].get('_headers') if raw_rows else 'n/a'})")
+    rows = extract_react_rows(page)
+    print(f"    ✓ {len(rows)} linhas brutas")
+    if rows:
+        print(f"    cabeçalhos: {rows[0].get('_headers')}")
+        # Mostra primeiras 2 linhas para diagnóstico
+        for i, r in enumerate(rows[:2]):
+            print(f"      linha[{i}] cells: {r.get('_cells')}")
 
     out = []
-    for row in raw_rows:
+    for row in rows:
         rec = row_to_record(row, default_type, label)
         if rec:
             out.append(rec)
-    print(f"    {len(out)} registos relevantes (cruzeiros + IMDG)")
+    print(f"    → {len(out)} registos relevantes")
     return out
 
 
@@ -354,7 +419,9 @@ def scrape_page(page: Page, url: str, label: str, default_type: str,
 def main() -> int:
     fetched_at = datetime.now(timezone.utc).isoformat()
     today = datetime.now()
-    print(f"=== Scraper Porto de Lisboa @ {fetched_at} ===\n")
+    print(f"=== Scraper Porto de Lisboa @ {fetched_at} ===")
+
+    DIAGNOSTIC_DIR.mkdir(parents=True, exist_ok=True)
 
     all_records: list[dict] = []
     errors: list[str] = []
@@ -368,39 +435,32 @@ def main() -> int:
         )
         page = context.new_page()
 
-        # 1. Navios em Porto
         try:
-            recs = scrape_page(page, URL_IN_PORT, "in_port", "transit", today, fill_dates=False)
+            recs = scrape_in_port(page, today)
             all_records.extend(recs)
-            print()
         except Exception as e:
             msg = f"in_port: {type(e).__name__}: {e}"
-            print(f"    ✗ {msg}\n")
+            print(f"    ✗ {msg}")
             errors.append(msg)
 
-        # 2. Previsão de Chegadas (com forçar datas para garantir cobertura ±2d)
         try:
-            recs = scrape_page(page, URL_ARRIVALS, "arrivals", "arrival", today, fill_dates=True)
+            recs = scrape_search_page(page, URL_ARRIVALS, "arrivals", "arrival", today)
             all_records.extend(recs)
-            print()
         except Exception as e:
             msg = f"arrivals: {type(e).__name__}: {e}"
-            print(f"    ✗ {msg}\n")
+            print(f"    ✗ {msg}")
             errors.append(msg)
 
-        # 3. Partidas (com forçar datas)
         try:
-            recs = scrape_page(page, URL_DEPARTURES, "departures", "departure", today, fill_dates=True)
+            recs = scrape_search_page(page, URL_DEPARTURES, "departures", "departure", today)
             all_records.extend(recs)
-            print()
         except Exception as e:
             msg = f"departures: {type(e).__name__}: {e}"
-            print(f"    ✗ {msg}\n")
+            print(f"    ✗ {msg}")
             errors.append(msg)
 
         browser.close()
 
-    # Filtrar pela janela ±2 dias e deduplicar
     today_mid = datetime(today.year, today.month, today.day)
     min_date = today_mid - timedelta(days=WINDOW_DAYS_BACK)
     max_date = today_mid + timedelta(days=WINDOW_DAYS_FORWARD, hours=23, minutes=59)
@@ -425,13 +485,7 @@ def main() -> int:
     ships   = [r for r in filtered if not r["is_hazard"]]
     hazards = [r for r in filtered if r["is_hazard"]]
 
-    print(f"=== Total filtrado (±2d, deduplicado): {len(filtered)} ===")
-    print(f"  cruzeiros:        {len(ships)}")
-    print(f"  matérias perig.:  {len(hazards)}")
-    if errors:
-        print(f"  erros:            {len(errors)}")
-        for e in errors:
-            print(f"    - {e}")
+    print(f"\n=== Total filtrado: {len(filtered)} (cruz={len(ships)} haz={len(hazards)}) ===")
 
     payload = {
         "fetched_at": fetched_at,
@@ -447,7 +501,7 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"\n✓ {OUTPUT_PATH} ({OUTPUT_PATH.stat().st_size} bytes)")
+    print(f"✓ {OUTPUT_PATH}")
 
     return 0
 
