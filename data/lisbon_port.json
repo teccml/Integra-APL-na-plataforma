@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-06T15:53:53.918851+00:00",
+  "fetched_at": "2026-05-06T16:43:39.984936+00:00",
   "source": "portodelisboa.pt",
   "count": 19,
   "errors": [],
@@ -112,17 +112,17 @@
     {
       "name": "DOUGLAS MAWSON",
       "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
+      "type": "departure",
+      "terminal": "Alcântara",
       "from": "",
       "to": "",
-      "date": "2026-05-06T06:33:00",
-      "hour": "06:33",
+      "date": "2026-05-06T15:25:00",
+      "hour": "15:25",
       "pax": 0,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "source": "in_port"
+      "source": "departures"
     },
     {
       "name": "COSTA DIADEMA",
@@ -156,21 +156,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "ORAMALIA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-06T14:00:00",
-      "hour": "14:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque Químico",
-      "is_hazard": true,
-      "ship_type": "Tanque Químico",
-      "source": "arrivals"
-    },
     {
       "name": "CANNETO M",
       "line": "",
@@ -230,6 +215,21 @@
       "is_hazard": true,
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "source": "departures"
+    },
+    {
+      "name": "ORAMALIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-06T13:42:00",
+      "hour": "13:42",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "source": "in_port"
     },
     {
       "name": "LMZ ARIEL",
