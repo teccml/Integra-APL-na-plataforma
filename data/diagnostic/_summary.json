@@ -1,0 +1,47 @@
+{
+  "fetched_at": "2026-05-06T09:11:45.586175+00:00",
+  "pages": {
+    "arrivals": {
+      "url": "https://www.portodelisboa.pt/previsao-de-chegadas",
+      "stats": {
+        "tableCount": 0,
+        "iframeCount": 0,
+        "dataTableCount": 0,
+        "listCount": 33,
+        "tables": [],
+        "iframes": [],
+        "bodyTextLength": 911
+      },
+      "html_size": 222470,
+      "ok": true
+    },
+    "departures": {
+      "url": "https://www.portodelisboa.pt/partidas",
+      "stats": {
+        "tableCount": 0,
+        "iframeCount": 0,
+        "dataTableCount": 0,
+        "listCount": 33,
+        "tables": [],
+        "iframes": [],
+        "bodyTextLength": 875
+      },
+      "html_size": 219936,
+      "ok": true
+    },
+    "in_port": {
+      "url": "https://www.portodelisboa.pt/navios-em-porto",
+      "stats": {
+        "tableCount": 0,
+        "iframeCount": 0,
+        "dataTableCount": 0,
+        "listCount": 33,
+        "tables": [],
+        "iframes": [],
+        "bodyTextLength": 8711
+      },
+      "html_size": 320059,
+      "ok": true
+    }
+  }
+}
