@@ -1,10 +1,85 @@
 {
-  "fetched_at": "2026-05-06T09:25:47.442587+00:00",
+  "fetched_at": "2026-05-06T10:35:12.266654+00:00",
   "source": "portodelisboa.pt",
-  "count": 0,
-  "errors": [
-    "Modo diagnóstico — scraping desactivado"
+  "count": 5,
+  "errors": [],
+  "ships": [
+    {
+      "name": "DOUGLAS MAWSON",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-06T06:33:00",
+      "hour": "06:33",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "source": "in_port"
+    },
+    {
+      "name": "COSTA DIADEMA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-06T06:05:00",
+      "hour": "06:05",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "source": "in_port"
+    },
+    {
+      "name": "MAINPORT GEO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-05-04T19:13:00",
+      "hour": "19:13",
+      "pax": 0,
+      "cargo": "Estadia Prolongada (Lay Up) · Navio de assistência",
+      "is_hazard": false,
+      "ship_type": "Navio de assistência",
+      "source": "in_port"
+    }
   ],
-  "ships": [],
-  "hazards": []
+  "hazards": [
+    {
+      "name": "LMZ ARIEL",
+      "line": "",
+      "type": "transit",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-06T06:20:00",
+      "hour": "06:20",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "source": "in_port"
+    },
+    {
+      "name": "ETRUSCO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-05T13:32:00",
+      "hour": "13:32",
+      "pax": 0,
+      "cargo": "Reparação em Estaleiro · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "source": "in_port"
+    }
+  ]
 }
