@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-06T21:59:35.993174+00:00",
+  "fetched_at": "2026-05-06T22:55:08.156672+00:00",
   "source": "portodelisboa.pt",
-  "count": 17,
+  "count": 18,
   "errors": [],
   "ships": [
     {
@@ -125,19 +125,19 @@
       "source": "departures"
     },
     {
-      "name": "COSTA DIADEMA",
+      "name": "OE CORINTHIAN",
       "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
+      "type": "departure",
+      "terminal": "Alcântara",
       "from": "",
       "to": "",
-      "date": "2026-05-06T06:05:00",
-      "hour": "06:05",
+      "date": "2026-05-06T20:10:00",
+      "hour": "20:10",
       "pax": 0,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "source": "in_port"
+      "source": "departures"
     }
   ],
   "hazards": [
@@ -199,6 +199,21 @@
       "cargo": "Descarga · Tanque Gás Liquefeito",
       "is_hazard": true,
       "ship_type": "Tanque Gás Liquefeito",
+      "source": "departures"
+    },
+    {
+      "name": "LMZ ARIEL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-06T19:06:00",
+      "hour": "19:06",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
       "source": "departures"
     },
     {
