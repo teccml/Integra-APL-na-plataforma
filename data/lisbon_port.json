@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-06T23:54:28.610444+00:00",
+  "fetched_at": "2026-05-07T03:26:19.577108+00:00",
   "source": "portodelisboa.pt",
-  "count": 18,
+  "count": 16,
   "errors": [],
   "ships": [
     {
@@ -63,21 +63,6 @@
       "is_hazard": false,
       "ship_type": "Cruzeiro",
       "source": "arrivals"
-    },
-    {
-      "name": "SEAVENTURE",
-      "line": "",
-      "type": "departure",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-05-04T00:00:00",
-      "hour": "00:00",
-      "pax": 0,
-      "cargo": "Turismo · CRUZEIROS",
-      "is_hazard": false,
-      "ship_type": "CRUZEIROS",
-      "source": "departures"
     },
     {
       "name": "VENTURA",
@@ -142,6 +127,21 @@
   ],
   "hazards": [
     {
+      "name": "HIRA V",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-09T06:00:00",
+      "hour": "06:00",
+      "pax": 0,
+      "cargo": "Carga · Tanque Químico",
+      "is_hazard": true,
+      "ship_type": "Tanque Químico",
+      "source": "arrivals"
+    },
+    {
       "name": "FEDERAL SABLE",
       "line": "",
       "type": "hazard",
@@ -155,36 +155,6 @@
       "is_hazard": true,
       "ship_type": "Carga Geral",
       "source": "arrivals"
-    },
-    {
-      "name": "ULTRAMARINE",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-04T00:30:00",
-      "hour": "00:30",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Cruzeiro",
-      "is_hazard": true,
-      "ship_type": "Cruzeiro",
-      "source": "departures"
-    },
-    {
-      "name": "ZAPPHIRE",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-04T20:37:00",
-      "hour": "20:37",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "source": "departures"
     },
     {
       "name": "GAS AEGEAN",
