@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-07T15:05:55.482245+00:00",
+  "fetched_at": "2026-05-07T16:53:17.725636+00:00",
   "source": "portodelisboa.pt",
-  "count": 21,
+  "count": 23,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,23 @@
       "ship_type": "CRUZEIROS",
       "flag": "Panamá",
       "imo": "9250464",
+      "source": "arrivals"
+    },
+    {
+      "name": "WORLD TRAVELLER",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Viana do Castelo",
+      "to": "PTPRM",
+      "date": "2026-05-09T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Portugal",
+      "imo": "9904807",
       "source": "arrivals"
     },
     {
@@ -122,6 +139,23 @@
       "flag": "Itália",
       "imo": "9636888",
       "source": "departures"
+    },
+    {
+      "name": "LAURA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-07T12:31:00",
+      "hour": "12:31",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "EXPLORA",
@@ -234,8 +268,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "PTSIE",
-      "date": "2026-05-08T20:00:00",
-      "hour": "20:00",
+      "date": "2026-05-08T11:00:00",
+      "hour": "11:00",
       "pax": 0,
       "cargo": "Descarga · Tanque Petroleiro",
       "is_hazard": true,
