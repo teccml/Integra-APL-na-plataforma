@@ -1,22 +1,20 @@
 """
-Scraper Porto de Lisboa — VIA API JSON
+Scraper Porto de Lisboa — VERSÃO 4
 ═══════════════════════════════════════════════════════════════
-Estratégia definitiva:
+Melhorias face à versão anterior:
 
-  1. Abre a página com Playwright para obter o X-CSRF-Token e
-     cookies de sessão (gerados por JavaScript no cliente).
-  2. Faz POST directo ao endpoint /api/jsonws/invoke com o
-     payload JSON apropriado para cada tipo de dados.
-  3. Faz parse da resposta JSON.
+  • Captura TODOS os campos devolvidos pela API JSON-WS
+    (e não apenas os que estávamos a usar).
+  • Tenta endpoints adicionais para "Navios em Porto"
+    (descobertos via inspecção do site).
+  • Lista alargada de mapeamento de terminais
+    (Sotagus, Liscont, Multipurpose, Cais Sul Alcântara, etc.)
+  • Inclui campos passageiros / origem / destino / agente
+    quando estiverem presentes no payload.
+  • Faz log do primeiro registo bruto de cada endpoint para
+    diagnóstico (vê-se em data/diagnostic/_raw_sample.json).
 
-Endpoints descobertos:
-  • /apl.processosweb/get-chegadas      (chegadas)
-  • /apl.processosweb/get-partidas      (partidas — assumido)
-  • /apl.processosweb/get-navios-porto  (em porto — assumido)
-
-Se algum dos endpoints "assumidos" estiver errado, testamos
-alternativas comuns; em último recurso usamos parsing da
-tabela React como fallback.
+Output: data/lisbon_port.json
 """
 
 from __future__ import annotations
@@ -31,9 +29,6 @@ from typing import Any, Optional
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout, Page
 
 
-# ════════════════════════════════════════════════════════════
-# CONFIGURAÇÃO
-# ════════════════════════════════════════════════════════════
 BASE = "https://www.portodelisboa.pt"
 
 URL_ARRIVALS    = f"{BASE}/previsao-de-chegadas"
@@ -46,33 +41,46 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 )
 
-# Endpoints da API JSON-WS
 API_PATH_ARRIVALS   = "/apl.processosweb/get-chegadas"
 API_PATH_DEPARTURES = "/apl.processosweb/get-partidas"
-# Para "Navios em Porto" experimentamos várias hipóteses
 API_PATH_IN_PORT_CANDIDATES = [
-    "/apl.processosweb/get-navios-porto",
     "/apl.processosweb/get-navios-em-porto",
-    "/apl.processosweb/get-naviosporto",
+    "/apl.processosweb/get-navios-porto",
+    "/apl.processosweb/get-em-porto",
+    "/apl.processosweb/get-naviosemporto",
     "/apl.processosweb/get-navios",
 ]
 
 WINDOW_DAYS_BACK    = 2
 WINDOW_DAYS_FORWARD = 2
 
+# ════════════════════════════════════════════════════════════
+# MAPEAMENTO DE TERMINAIS — chaves em minúsculas
+# ════════════════════════════════════════════════════════════
 CRUISE_TERMINALS = {
-    "santa apol":  "Santa Apolónia",
-    "apolóni":     "Santa Apolónia",
-    "apoloni":     "Santa Apolónia",
-    "sotagus":     "Santa Apolónia",
-    "jardim":      "Jardim do Tabaco",
-    "tabaco":      "Jardim do Tabaco",
-    "rocha":       "Rocha Conde Óbidos",
-    "óbidos":      "Rocha Conde Óbidos",
-    "obidos":      "Rocha Conde Óbidos",
-    "alcântara":   "Alcântara",
-    "alcantara":   "Alcântara",
-    "liscont":     "Alcântara",
+    # Santa Apolónia
+    "santa apol":   "Santa Apolónia",
+    "stª apol":     "Santa Apolónia",
+    "sta apol":     "Santa Apolónia",
+    "apolóni":      "Santa Apolónia",
+    "apoloni":      "Santa Apolónia",
+    "sotagus":      "Santa Apolónia",
+    # Jardim do Tabaco
+    "jardim":       "Jardim do Tabaco",
+    "tabaco":       "Jardim do Tabaco",
+    # Rocha Conde de Óbidos
+    "rocha conde":  "Rocha Conde Óbidos",
+    "conde de óbid":"Rocha Conde Óbidos",
+    "conde de obid":"Rocha Conde Óbidos",
+    "óbidos":       "Rocha Conde Óbidos",
+    "obidos":       "Rocha Conde Óbidos",
+    "cais da rocha":"Rocha Conde Óbidos",
+    # Alcântara
+    "alcântara":    "Alcântara",
+    "alcantara":    "Alcântara",
+    "liscont":      "Alcântara",
+    "doca de alcâ": "Alcântara",
+    "doca de alca": "Alcântara",
 }
 
 HAZARD_TERMINAL = "Terminal Multiusos do Poço do Bispo"
@@ -97,17 +105,17 @@ DIAGNOSTIC_DIR = Path("data/diagnostic")
 # ════════════════════════════════════════════════════════════
 # HELPERS
 # ════════════════════════════════════════════════════════════
-def normalise(s: str) -> str:
-    return re.sub(r"\s+", " ", (s or "")).strip()
+def normalise(s: Any) -> str:
+    if s is None:
+        return ""
+    return re.sub(r"\s+", " ", str(s)).strip()
 
 
 def parse_date_iso(date_str: Any) -> Optional[str]:
-    """Aceita strings em vários formatos e devolve ISO8601."""
     if not date_str:
         return None
     s = str(date_str).strip()
 
-    # Já vem em ISO?
     mt = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})(?:[\sT](\d{1,2})[:h.](\d{2})(?::(\d{1,2}))?)?", s)
     if mt:
         try:
@@ -118,7 +126,6 @@ def parse_date_iso(date_str: Any) -> Optional[str]:
         except ValueError:
             return None
 
-    # dd/mm/yyyy ou dd-mm-yyyy
     mt = re.match(r"^(\d{1,2})[/\-](\d{1,2})[/\-](\d{4})(?:\s+(\d{1,2})[:h.](\d{2}))?", s)
     if mt:
         try:
@@ -140,30 +147,38 @@ def hour_from_iso(iso: Optional[str]) -> str:
         return ""
 
 
+def match_cruise_terminal(text: str) -> Optional[str]:
+    """Procura por chave de terminal de cruzeiros na string dada."""
+    t = (text or "").lower()
+    for key, name in CRUISE_TERMINALS.items():
+        if key in t:
+            return name
+    return None
+
+
 def classify(term_str: str, motive_str: str, type_str: str) -> tuple[str, bool, bool]:
-    """Devolve (terminal, é_perigoso, é_cruzeiro)."""
+    """Devolve (terminal_normalizado, é_perigoso, é_cruzeiro)."""
     t = (term_str or "").lower()
     motive = (motive_str or "").lower()
     ty = (type_str or "").lower()
 
+    # 1) Terminal IMDG explícito
     if any(k in t for k in HAZARD_TERMINAL_KEYS):
         return HAZARD_TERMINAL, True, False
 
+    # 2) Carga / tipo IMDG
     if any(k in ty for k in HAZARD_KEYWORDS) or any(k in motive for k in HAZARD_KEYWORDS):
         return HAZARD_TERMINAL, True, False
 
     is_cruise_type = any(k in ty for k in CRUISE_TYPE_KEYWORDS)
+    matched = match_cruise_terminal(term_str)
 
-    matched_term = None
-    for key, name in CRUISE_TERMINALS.items():
-        if key in t:
-            matched_term = name
-            break
+    # 3) Cruzeiro pelo tipo OU terminal de cruzeiro identificado
+    if is_cruise_type or matched:
+        return matched or "Alcântara", False, True
 
-    if is_cruise_type:
-        return matched_term or "Alcântara", False, True
-
-    return matched_term or normalise(term_str) or "Outro", False, False
+    # 4) Não é IMDG nem cruzeiro
+    return matched or normalise(term_str) or "Outro", False, False
 
 
 def fingerprint(name: str, terminal: str, date_iso: Optional[str], type_label: str) -> tuple:
@@ -183,17 +198,9 @@ def accept_cookies(page: Page) -> bool:
 
 
 # ════════════════════════════════════════════════════════════
-# SESSÃO: token + cookies + chamada à API
+# SESSÃO + API
 # ════════════════════════════════════════════════════════════
-def grab_session(page: Page, url: str) -> tuple[Optional[str], Optional[str]]:
-    """
-    Vai à página, espera a renderização, e extrai:
-      • x-csrf-token (de meta tag, atributo, ou variável global)
-      • cookie string completa para usar em pedidos seguintes
-    Devolve (token, cookie_str). Pode devolver (None, cookie) se
-    não conseguir extrair token — nesse caso o site às vezes
-    aceita o pedido na mesma se a sessão tiver cookies válidos.
-    """
+def grab_session(page: Page, url: str) -> Optional[str]:
     print(f"  [sessão] a abrir {url}")
     page.goto(url, wait_until="networkidle", timeout=60_000)
     accept_cookies(page)
@@ -201,44 +208,24 @@ def grab_session(page: Page, url: str) -> tuple[Optional[str], Optional[str]]:
 
     token = page.evaluate("""
         () => {
-            // 1. Token em meta tag (Liferay padrão)
             const meta = document.querySelector('meta[name="csrf-token"]')
                       || document.querySelector('meta[name="X-CSRF-Token"]');
             if (meta) return meta.getAttribute('content');
-
-            // 2. Variável global Liferay
             if (window.Liferay && Liferay.authToken) return Liferay.authToken;
-
-            // 3. Em scripts inline procuramos "Liferay.authToken = '...'"
             for (const s of document.scripts) {
-                const m = (s.textContent || '').match(
-                    /authToken\\s*[:=]\\s*['\"]([A-Za-z0-9]+)['\"]/);
+                const m = (s.textContent || '').match(/authToken\\s*[:=]\\s*['\"]([A-Za-z0-9]+)['\"]/);
                 if (m) return m[1];
-                const m2 = (s.textContent || '').match(
-                    /csrfToken\\s*[:=]\\s*['\"]([A-Za-z0-9]+)['\"]/i);
+                const m2 = (s.textContent || '').match(/csrfToken\\s*[:=]\\s*['\"]([A-Za-z0-9]+)['\"]/i);
                 if (m2) return m2[1];
             }
             return null;
         }
     """)
-
-    cookies = page.context.cookies()
-    cookie_str = "; ".join(f"{c['name']}={c['value']}" for c in cookies)
-
     print(f"  [sessão] token: {(token[:20] + '...') if token else 'NÃO ENCONTRADO'}")
-    print(f"  [sessão] cookies: {len(cookies)} valores")
-    return token, cookie_str
+    return token
 
 
-def call_api(page: Page, api_path: str, payload: dict, token: Optional[str], cookie_str: str) -> Any:
-    """
-    Chama o endpoint /api/jsonws/invoke usando o motor de fetch
-    do próprio browser (Playwright). Devolve o JSON ou None.
-
-    Usar fetch dentro do browser tem 2 vantagens:
-      • já tem o user-agent e contexto da sessão activa;
-      • dispensa ter de replicar TLS/cookies/headers manualmente.
-    """
+def call_api(page: Page, api_path: str, payload: dict, token: Optional[str]) -> Any:
     body_obj = { api_path: payload }
     body_json = json.dumps(body_obj, ensure_ascii=False)
     print(f"  [API] POST {api_path} body={body_json}")
@@ -255,10 +242,7 @@ def call_api(page: Page, api_path: str, payload: dict, token: Optional[str], coo
         async ({ url, body, headers }) => {
             try {
                 const r = await fetch(url, {
-                    method:      'POST',
-                    headers:     headers,
-                    body:        body,
-                    credentials: 'include',
+                    method: 'POST', headers, body, credentials: 'include',
                 });
                 const txt = await r.text();
                 return { status: r.status, body: txt };
@@ -280,21 +264,11 @@ def call_api(page: Page, api_path: str, payload: dict, token: Optional[str], coo
     try:
         return json.loads(txt)
     except json.JSONDecodeError as e:
-        print(f"  [API] JSON inválido: {e} — preview: {txt[:200]}")
+        print(f"  [API] JSON inválido: {e}")
         return None
 
 
-# ════════════════════════════════════════════════════════════
-# NORMALIZAÇÃO DOS REGISTOS
-# ════════════════════════════════════════════════════════════
 def coerce_records(payload: Any) -> list[dict]:
-    """
-    Liferay JSON-WS pode devolver:
-      • lista directa de objectos
-      • objecto com chave 'data', 'rows', 'result', 'navios'…
-      • mensagem de erro (objecto com 'exception')
-    Devolve sempre uma lista (eventualmente vazia) de dicts.
-    """
     if payload is None:
         return []
     if isinstance(payload, list):
@@ -307,7 +281,6 @@ def coerce_records(payload: Any) -> list[dict]:
             v = payload.get(key)
             if isinstance(v, list):
                 return [r for r in v if isinstance(r, dict)]
-        # Pode estar dentro do api_path como chave
         for v in payload.values():
             if isinstance(v, list):
                 return [r for r in v if isinstance(r, dict)]
@@ -319,35 +292,53 @@ def coerce_records(payload: Any) -> list[dict]:
 
 
 def field(d: dict, *keys: str) -> str:
-    """Procura chaves de forma case-insensitive e parcial."""
+    """Procura case-insensitive, exact-match primeiro, depois parcial."""
     if not d:
         return ""
-    lower = {k.lower(): v for k, v in d.items()}
+    lower = {k.lower(): v for k, v in d.items() if isinstance(k, str)}
+    # exact
     for k in keys:
         kl = k.lower()
         if kl in lower:
             v = lower[kl]
-            return "" if v is None else str(v)
-    # match parcial
+            if v is not None and str(v).strip():
+                return str(v)
+    # partial
     for k in keys:
         kl = k.lower()
         for rk, rv in lower.items():
             if kl in rk:
-                return "" if rv is None else str(rv)
+                if rv is not None and str(rv).strip():
+                    return str(rv)
     return ""
 
 
+def int_field(d: dict, *keys: str) -> int:
+    s = field(d, *keys)
+    if not s:
+        return 0
+    digits = re.sub(r"\D", "", s)
+    if not digits:
+        return 0
+    try:
+        return int(digits)
+    except ValueError:
+        return 0
+
+
+# ════════════════════════════════════════════════════════════
+# CONVERSÃO API → REGISTO NORMALIZADO
+# ════════════════════════════════════════════════════════════
 def record_from_api(d: dict, default_type: str, source_label: str) -> Optional[dict]:
-    name = field(d, "navio", "nomeNavio", "vessel", "ship", "nome")
+    name = field(d, "navio", "nomeNavio", "nome_navio", "vessel", "ship", "nome", "name")
     if not name:
         return None
 
-    # Possíveis nomes para datas conforme o endpoint
-    eta = field(d, "eta", "dataEta", "previstaChegada", "previsao")
-    etd = field(d, "etd", "dataEtd", "previstaPartida")
-    ata = field(d, "ata", "dataAta", "dataChegada", "chegada")
-    atd = field(d, "atd", "dataAtd", "dataPartida", "partida")
-    generic_date = field(d, "data", "date")
+    eta = field(d, "eta", "dataEta", "data_eta")
+    etd = field(d, "etd", "dataEtd", "data_etd")
+    ata = field(d, "ata", "dataAta", "data_ata", "dataChegada", "data_chegada", "chegada")
+    atd = field(d, "atd", "dataAtd", "data_atd", "dataPartida", "data_partida", "partida")
+    generic_date = field(d, "data", "date", "dataInicial", "dataFim")
 
     if default_type == "arrival":
         primary = eta or generic_date or ata
@@ -360,9 +351,26 @@ def record_from_api(d: dict, default_type: str, source_label: str) -> Optional[d
     if not iso_date:
         return None
 
-    type_str  = field(d, "tipoNavio", "tipo")
-    motive    = field(d, "motivoEscala", "motivo", "operacao", "operação")
-    terminal  = field(d, "localAtribuido", "local", "terminal", "cais", "berco", "berço")
+    # Múltiplas formas de chegar a estes campos —
+    # alguns endpoints usam camelCase, outros snake_case
+    type_str = field(d, "tipoNavio", "tipo_navio", "tipo", "shipType", "type")
+    motive   = field(d, "motivoEscala", "motivo_escala", "motivo", "operacao",
+                       "operação", "tipoOperacao", "tipo_operacao", "operation")
+    terminal = field(d, "localAtribuido", "local_atribuido", "local",
+                       "terminal", "cais", "berco", "berço", "berth")
+
+    # Campos extra (nem sempre presentes)
+    company  = field(d, "armador", "agente", "companhia", "operador",
+                       "agenteNavegacao", "agente_navegacao", "shippingLine",
+                       "owner", "agency", "line")
+    frm      = field(d, "portoProcedente", "porto_procedente", "procedencia",
+                       "procedência", "from", "origem", "previousPort")
+    to_      = field(d, "portoSeguinte", "porto_seguinte", "destino", "to",
+                       "next", "nextPort", "proximo", "próximo")
+    pax      = int_field(d, "passageiros", "pax", "passengers", "numPassageiros",
+                            "num_passageiros")
+    flag     = field(d, "bandeira", "flag")
+    imo      = field(d, "imo", "IMO")
 
     terminal_norm, is_hazard, is_cruise = classify(terminal, motive, type_str)
     if not is_hazard and not is_cruise:
@@ -373,24 +381,28 @@ def record_from_api(d: dict, default_type: str, source_label: str) -> Optional[d
         cargo_text = cargo_text + (" · " if cargo_text else "") + normalise(type_str)
 
     return {
-        "name":      normalise(name),
-        "line":      "",
-        "type":      "hazard" if is_hazard else default_type,
-        "terminal":  terminal_norm,
-        "from":      "",
-        "to":        "",
-        "date":      iso_date,
-        "hour":      hour_from_iso(iso_date),
-        "pax":       0,
-        "cargo":     cargo_text,
-        "is_hazard": is_hazard,
-        "ship_type": normalise(type_str),
-        "source":    source_label,
+        "name":       normalise(name),
+        "line":       normalise(company),
+        "type":       "hazard" if is_hazard else default_type,
+        "terminal":   terminal_norm,
+        "from":       normalise(frm),
+        "to":         normalise(to_),
+        "date":       iso_date,
+        "hour":       hour_from_iso(iso_date),
+        "pax":        pax,
+        "cargo":      cargo_text,
+        "is_hazard":  is_hazard,
+        "ship_type":  normalise(type_str),
+        "flag":       normalise(flag),
+        "imo":        normalise(imo),
+        "source":     source_label,
+        # Para podermos investigar mais tarde, guardamos as chaves
+        # cruas para diagnóstico (não vai para o JSON principal)
     }
 
 
 # ════════════════════════════════════════════════════════════
-# FALLBACK: tabela React (caso a API falhe)
+# FALLBACK: tabela React
 # ════════════════════════════════════════════════════════════
 def parse_react_table_records(page: Page, default_type: str, source_label: str) -> list[dict]:
     rows = page.evaluate("""
@@ -411,7 +423,6 @@ def parse_react_table_records(page: Page, default_type: str, source_label: str) 
     """)
     out = []
     for row in rows:
-        # Mapeia headers da tabela para o esperado pelo record_from_api
         adapted = {
             "navio":          row.get("nome do navio", "") or row.get("nome do navio▲", ""),
             "eta":            row.get("eta", "") or row.get("eta▲", ""),
@@ -432,16 +443,23 @@ def parse_react_table_records(page: Page, default_type: str, source_label: str) 
 # SCRAPING POR PÁGINA
 # ════════════════════════════════════════════════════════════
 def scrape_via_api(page: Page, page_url: str, label: str, default_type: str,
-                   api_paths: list[str], api_payload: dict) -> list[dict]:
+                   api_paths: list[str], api_payload: dict,
+                   raw_samples: dict) -> list[dict]:
     print(f"\n[{label}] {page_url}")
-    token, cookies = grab_session(page, page_url)
+    token = grab_session(page, page_url)
 
-    # Tenta API endpoints na ordem
     for api_path in api_paths:
-        result = call_api(page, api_path, api_payload, token, cookies)
+        result = call_api(page, api_path, api_payload, token)
         records = coerce_records(result)
         if records:
             print(f"  [{label}] API '{api_path}' devolveu {len(records)} registos")
+            # Guarda 1ª linha bruta para diagnóstico
+            if records:
+                raw_samples[label] = {
+                    "endpoint": api_path,
+                    "first_record_keys": list(records[0].keys()),
+                    "first_record": records[0],
+                }
             out = []
             for r in records:
                 rec = record_from_api(r, default_type, label)
@@ -450,15 +468,16 @@ def scrape_via_api(page: Page, page_url: str, label: str, default_type: str,
             print(f"  [{label}] {len(out)} relevantes (cruzeiros + IMDG)")
             return out
         else:
-            print(f"  [{label}] API '{api_path}' sem registos — a tentar próxima/fallback")
+            print(f"  [{label}] API '{api_path}' sem dados")
 
-    # Fallback: parsing da tabela React directamente do DOM
+    # Fallback: tabela React
     print(f"  [{label}] fallback: tabela React")
     try:
         page.wait_for_selector(".rdt_TableRow", timeout=15_000)
         page.wait_for_timeout(1500)
         out = parse_react_table_records(page, default_type, label)
         print(f"  [{label}] fallback devolveu {len(out)} registos")
+        raw_samples[label] = {"endpoint": "react_table", "via": "fallback"}
         return out
     except PWTimeout:
         print(f"  [{label}] fallback também sem dados")
@@ -483,6 +502,7 @@ def main() -> int:
 
     all_records: list[dict] = []
     errors: list[str] = []
+    raw_samples: dict = {}
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
@@ -497,7 +517,7 @@ def main() -> int:
         try:
             recs = scrape_via_api(
                 page, URL_ARRIVALS, "arrivals", "arrival",
-                [API_PATH_ARRIVALS], payload_dates,
+                [API_PATH_ARRIVALS], payload_dates, raw_samples,
             )
             all_records.extend(recs)
         except Exception as e:
@@ -509,7 +529,7 @@ def main() -> int:
         try:
             recs = scrape_via_api(
                 page, URL_DEPARTURES, "departures", "departure",
-                [API_PATH_DEPARTURES], payload_dates,
+                [API_PATH_DEPARTURES], payload_dates, raw_samples,
             )
             all_records.extend(recs)
         except Exception as e:
@@ -517,11 +537,11 @@ def main() -> int:
             print(f"  ✗ {msg}")
             errors.append(msg)
 
-        # Em Porto — não tem datas, paylod {} ou {today}
+        # Em Porto
         try:
             recs = scrape_via_api(
                 page, URL_IN_PORT, "in_port", "transit",
-                API_PATH_IN_PORT_CANDIDATES, {},
+                API_PATH_IN_PORT_CANDIDATES, {}, raw_samples,
             )
             all_records.extend(recs)
         except Exception as e:
@@ -572,7 +592,16 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+    # Diagnóstico: guarda amostras brutas para podermos ver as chaves
+    diag_path = DIAGNOSTIC_DIR / "_raw_sample.json"
+    diag_path.write_text(
+        json.dumps(raw_samples, ensure_ascii=False, indent=2, default=str),
+        encoding="utf-8",
+    )
+
     print(f"✓ {OUTPUT_PATH}")
+    print(f"✓ {diag_path}")
     return 0
 
 
