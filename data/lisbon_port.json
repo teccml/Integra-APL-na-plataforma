@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-07T22:01:55.231442+00:00",
+  "fetched_at": "2026-05-07T23:04:00.851003+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -387,23 +387,6 @@
       "to": "",
       "date": "2026-05-07T07:01:00",
       "hour": "07:01",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "IRENES RESOLVE",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-05-07T06:45:00",
-      "hour": "06:45",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
