@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-08T11:19:56.229626+00:00",
+  "fetched_at": "2026-05-08T13:55:11.657006+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -28,7 +28,7 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-05-09T07:00:00",
+      "date": "2026-05-10T07:00:00",
       "hour": "07:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
@@ -64,7 +64,7 @@
       "to": "Portimão",
       "date": "2026-05-09T08:00:00",
       "hour": "08:00",
-      "pax": 0,
+      "pax": 147,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -432,6 +432,23 @@
       "source": "arrivals"
     },
     {
+      "name": "BAHIA TRES",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-05-10T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Espanha",
+      "imo": "9428671",
+      "source": "arrivals"
+    },
+    {
       "name": "HIRA V",
       "line": "GARLAND SHIPPING LDA",
       "type": "hazard",
@@ -455,8 +472,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "La Coruna",
       "to": "Tarragona",
-      "date": "2026-05-10T05:00:00",
-      "hour": "05:00",
+      "date": "2026-05-10T13:00:00",
+      "hour": "13:00",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para transporte de betume e asfalto",
       "is_hazard": true,
