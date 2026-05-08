@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-08T22:07:32.030736+00:00",
+  "fetched_at": "2026-05-08T23:57:43.818066+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -311,6 +311,23 @@
       "source": "departures"
     },
     {
+      "name": "L AUSTRAL",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "Leixões",
+      "date": "2026-05-08T20:13:00",
+      "hour": "20:13",
+      "pax": 191,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "França",
+      "imo": "9502518",
+      "source": "departures"
+    },
+    {
       "name": "ECO UMANDE",
       "line": "",
       "type": "transit",
@@ -602,6 +619,23 @@
       "source": "departures"
     },
     {
+      "name": "MONTE DA GUIA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Leixões",
+      "date": "2026-05-08T21:51:00",
+      "hour": "21:51",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9123788",
+      "source": "departures"
+    },
+    {
       "name": "BAHIA TRES",
       "line": "",
       "type": "hazard",
@@ -614,23 +648,6 @@
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MONTE DA GUIA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-08T05:31:00",
-      "hour": "05:31",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
