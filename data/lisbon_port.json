@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T09:25:48.554709+00:00",
+  "fetched_at": "2026-05-08T11:19:56.229626+00:00",
   "source": "portodelisboa.pt",
   "count": 39,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Itália",
       "imo": "9479852",
-      "source": "arrivals"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Gibraltar",
-      "to": "Alicante",
-      "date": "2026-05-08T07:30:00",
-      "hour": "07:30",
-      "pax": 2130,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Panamá",
-      "imo": "9250464",
       "source": "arrivals"
     },
     {
@@ -147,8 +130,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Algeciras",
-      "date": "2026-05-08T20:00:00",
-      "hour": "20:00",
+      "date": "2026-05-09T06:00:00",
+      "hour": "06:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -189,23 +172,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
-      "name": "MEIN SCHIFF RELAX",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "La Coruna",
-      "date": "2026-05-08T07:00:00",
-      "hour": "07:00",
-      "pax": 4066,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9862657",
       "source": "arrivals"
     },
     {
@@ -328,6 +294,40 @@
       "source": "departures"
     },
     {
+      "name": "MSC OPERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-08T07:10:00",
+      "hour": "07:10",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MEIN SCHIFF RELAX",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-08T06:37:00",
+      "hour": "06:37",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "LAURA S",
       "line": "",
       "type": "transit",
@@ -414,23 +414,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Caniçal",
-      "to": "Leixões",
-      "date": "2026-05-08T05:00:00",
-      "hour": "05:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9123788",
-      "source": "arrivals"
-    },
     {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -600,6 +583,23 @@
       "flag": "Itália",
       "imo": "9359583",
       "source": "departures"
+    },
+    {
+      "name": "MONTE DA GUIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-08T05:31:00",
+      "hour": "05:31",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FEDERAL SABLE",
