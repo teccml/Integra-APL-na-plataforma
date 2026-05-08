@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-08T13:55:11.657006+00:00",
+  "fetched_at": "2026-05-08T15:26:27.365948+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -62,8 +62,8 @@
       "terminal": "Santa Apolónia",
       "from": "Viana do Castelo",
       "to": "Portimão",
-      "date": "2026-05-09T08:00:00",
-      "hour": "08:00",
+      "date": "2026-05-09T10:00:00",
+      "hour": "10:00",
       "pax": 147,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
@@ -104,23 +104,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428217",
-      "source": "arrivals"
-    },
-    {
-      "name": "ECO UMANDE",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tangier",
-      "date": "2026-05-08T11:00:00",
-      "hour": "11:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9959541",
       "source": "arrivals"
     },
     {
@@ -294,6 +277,40 @@
       "source": "departures"
     },
     {
+      "name": "AKHISAR",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Mindelo",
+      "to": "Leixões",
+      "date": "2026-05-08T11:27:00",
+      "hour": "11:27",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9237149",
+      "source": "departures"
+    },
+    {
+      "name": "ECO UMANDE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-05-08T10:24:00",
+      "hour": "10:24",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "MSC OPERA",
       "line": "",
       "type": "transit",
@@ -362,23 +379,6 @@
       "source": "in_port"
     },
     {
-      "name": "AKHISAR",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-07T07:01:00",
-      "hour": "07:01",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "FURNAS",
       "line": "",
       "type": "transit",
@@ -414,23 +414,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-05-08T11:00:00",
-      "hour": "11:00",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "arrivals"
-    },
     {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
