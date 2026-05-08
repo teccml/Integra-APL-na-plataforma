@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-08T00:02:08.382683+00:00",
+  "fetched_at": "2026-05-08T03:35:45.535725+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -96,8 +96,8 @@
       "terminal": "Alcântara",
       "from": "Antwerpen",
       "to": "Algeciras",
-      "date": "2026-05-09T22:59:00",
-      "hour": "22:59",
+      "date": "2026-05-10T10:00:00",
+      "hour": "10:00",
       "pax": 0,
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
@@ -308,6 +308,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9884136",
+      "source": "departures"
+    },
+    {
+      "name": "IRENES RESOLVE",
+      "line": "Hapag-Lloyd Portugal, Lda.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Le Havre",
+      "to": "Tanger Med",
+      "date": "2026-05-07T21:37:00",
+      "hour": "21:37",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9227273",
       "source": "departures"
     },
     {
