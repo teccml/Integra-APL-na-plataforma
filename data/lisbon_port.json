@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-09T11:53:20.969620+00:00",
+  "fetched_at": "2026-05-09T13:23:00.803263+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -81,29 +81,12 @@
       "to": "Gibraltar",
       "date": "2026-05-10T05:30:00",
       "hour": "05:30",
-      "pax": 0,
+      "pax": 442,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9483126",
-      "source": "arrivals"
-    },
-    {
-      "name": "WORLD TRAVELLER",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Viana do Castelo",
-      "to": "Portimão",
-      "date": "2026-05-09T09:00:00",
-      "hour": "09:00",
-      "pax": 147,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Portugal",
-      "imo": "9904807",
       "source": "arrivals"
     },
     {
@@ -455,8 +438,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "La Coruna",
       "to": "Tarragona",
-      "date": "2026-05-10T13:00:00",
-      "hour": "13:00",
+      "date": "2026-05-10T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para transporte de betume e asfalto",
       "is_hazard": true,
