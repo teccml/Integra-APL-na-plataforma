@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-10T03:32:32.264210+00:00",
+  "fetched_at": "2026-05-10T06:38:43.001559+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -104,23 +104,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Marshall",
       "imo": "9438066",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEABOURN QUEST",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Tangier",
-      "to": "Gibraltar",
-      "date": "2026-05-10T05:30:00",
-      "hour": "05:30",
-      "pax": 437,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9483126",
       "source": "arrivals"
     },
     {
