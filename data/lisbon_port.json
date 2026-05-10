@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T10:17:49.799407+00:00",
+  "fetched_at": "2026-05-10T11:54:42.748644+00:00",
   "source": "portodelisboa.pt",
   "count": 34,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9388390",
-      "source": "arrivals"
-    },
-    {
-      "name": "COSTA FAVOLOSA",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Leixões",
-      "date": "2026-05-10T09:00:00",
-      "hour": "09:00",
-      "pax": 2726,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Itália",
-      "imo": "9479852",
       "source": "arrivals"
     },
     {
@@ -209,20 +192,20 @@
       "source": "arrivals"
     },
     {
-      "name": "MARIA JOSE",
-      "line": "NAIP - Navegação, Agência Internacional Portuguesa",
+      "name": "SEATRADE COLOMBIA",
+      "line": "Pmar - Navegação, Lda",
       "type": "arrival",
       "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Sao Tomé Island",
-      "date": "2026-05-10T09:00:00",
-      "hour": "09:00",
-      "pax": 2,
-      "cargo": "Descarga / Carga · Carga Geral",
+      "from": "Algeciras",
+      "to": "Leixões",
+      "date": "2026-05-11T09:17:00",
+      "hour": "09:17",
+      "pax": 0,
+      "cargo": "Descarga · Porta-Contentores",
       "is_hazard": false,
-      "ship_type": "Carga Geral",
-      "flag": "Portugal",
-      "imo": "9593672",
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9976238",
       "source": "arrivals"
     },
     {
@@ -377,6 +360,23 @@
       "flag": "Malta",
       "imo": "9959541",
       "source": "departures"
+    },
+    {
+      "name": "SEABOURN QUEST",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-10T05:02:00",
+      "hour": "05:02",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ATLANTIC EXPRESS",
