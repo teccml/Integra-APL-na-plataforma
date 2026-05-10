@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-10T13:24:15.888358+00:00",
+  "fetched_at": "2026-05-10T14:56:00.639838+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -11,8 +11,8 @@
       "terminal": "Santa Apolónia",
       "from": "Ponta Delgada",
       "to": "Ponta Delgada",
-      "date": "2026-05-11T12:00:00",
-      "hour": "12:00",
+      "date": "2026-05-11T09:00:00",
+      "hour": "09:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -62,8 +62,8 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-05-10T07:00:00",
-      "hour": "07:00",
+      "date": "2026-05-11T17:00:00",
+      "hour": "17:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -121,23 +121,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
-      "source": "arrivals"
-    },
-    {
-      "name": "JAIME S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-05-10T13:00:00",
-      "hour": "13:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428217",
       "source": "arrivals"
     },
     {
