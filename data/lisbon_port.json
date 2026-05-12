@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-12T03:33:29.888054+00:00",
+  "fetched_at": "2026-05-12T09:43:28.682753+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -531,6 +531,23 @@
       "ship_type": "Carga Geral",
       "flag": "Países Baixos",
       "imo": "9772553",
+      "source": "departures"
+    },
+    {
+      "name": "ACTION",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "La Coruna",
+      "to": "Tarragona",
+      "date": "2026-05-12T01:59:00",
+      "hour": "01:59",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para transporte de betume e asfalto",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para transporte de betume e asfalto",
+      "flag": "Portugal",
+      "imo": "9507984",
       "source": "departures"
     },
     {
