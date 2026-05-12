@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-12T12:00:49.563046+00:00",
+  "fetched_at": "2026-05-12T14:31:12.335616+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -43,7 +43,7 @@
       "line": "GARLAND SHIPPING LDA",
       "type": "arrival",
       "terminal": "Santa Apolónia",
-      "from": "El Ferrol",
+      "from": "Gijon",
       "to": "Leixões",
       "date": "2026-05-14T06:00:00",
       "hour": "06:00",
@@ -64,7 +64,7 @@
       "to": "Vigo",
       "date": "2026-05-13T05:00:00",
       "hour": "05:00",
-      "pax": 214,
+      "pax": 223,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -98,7 +98,7 @@
       "to": "Leixões",
       "date": "2026-05-14T15:01:00",
       "hour": "15:01",
-      "pax": 158,
+      "pax": 159,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -121,6 +121,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Panamá",
       "imo": "9337688",
+      "source": "arrivals"
+    },
+    {
+      "name": "GARCA BRANCA",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Setúbal",
+      "to": "Setúbal",
+      "date": "2026-05-13T10:30:00",
+      "hour": "10:30",
+      "pax": 0,
+      "cargo": "Reparação em Estaleiro · Navio de passageiros, sem nada especificado",
+      "is_hazard": false,
+      "ship_type": "Navio de passageiros, sem nada especificado",
+      "flag": "Portugal",
+      "imo": "9428243",
       "source": "arrivals"
     },
     {
@@ -532,6 +549,23 @@
       "flag": "Portugal",
       "imo": "9507984",
       "source": "departures"
+    },
+    {
+      "name": "VERENA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-12T08:35:00",
+      "hour": "08:35",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "HIRA V",
