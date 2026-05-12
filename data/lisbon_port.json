@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-12T00:00:52.624564+00:00",
+  "fetched_at": "2026-05-12T03:33:29.888054+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "8521232",
-      "source": "arrivals"
-    },
-    {
-      "name": "AKHISAR",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-05-11T23:59:00",
-      "hour": "23:59",
-      "pax": 1,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9237149",
       "source": "arrivals"
     },
     {
@@ -164,8 +147,8 @@
       "terminal": "Alcântara",
       "from": "Hamburg",
       "to": "Algeciras",
-      "date": "2026-05-12T12:00:00",
-      "hour": "12:00",
+      "date": "2026-05-13T15:00:00",
+      "hour": "15:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -362,6 +345,23 @@
       "source": "departures"
     },
     {
+      "name": "AKHISAR",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-11T23:27:00",
+      "hour": "23:27",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "GSL MERCER",
       "line": "",
       "type": "transit",
@@ -372,23 +372,6 @@
       "hour": "20:08",
       "pax": 0,
       "cargo": "Descarga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "FUNCHALENSE 5",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-11T08:51:00",
-      "hour": "08:51",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
       "flag": "",
@@ -549,23 +532,6 @@
       "flag": "Países Baixos",
       "imo": "9772553",
       "source": "departures"
-    },
-    {
-      "name": "ACTION",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-11T04:42:00",
-      "hour": "04:42",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para transporte de betume e asfalto",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para transporte de betume e asfalto",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     },
     {
       "name": "HIRA V",
