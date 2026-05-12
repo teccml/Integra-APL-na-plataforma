@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-12T21:22:25.395821+00:00",
+  "fetched_at": "2026-05-12T23:05:04.170582+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -141,29 +141,12 @@
       "source": "arrivals"
     },
     {
-      "name": "ECO PONENTE",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tangier",
-      "date": "2026-05-12T21:00:00",
-      "hour": "21:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "França",
-      "imo": "9985966",
-      "source": "arrivals"
-    },
-    {
       "name": "CAPT. KATTELMAN",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "arrival",
       "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
+      "from": "Tanger Med",
+      "to": "Leixões",
       "date": "2026-05-14T15:00:00",
       "hour": "15:00",
       "pax": 0,
@@ -379,6 +362,23 @@
       "source": "in_port"
     },
     {
+      "name": "SEATRADE COLOMBIA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-11T08:37:00",
+      "hour": "08:37",
+      "pax": 0,
+      "cargo": "Descarga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "X-PRESS KAVERI",
       "line": "",
       "type": "transit",
@@ -408,23 +408,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MARIA JOSE",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-10T08:47:00",
-      "hour": "08:47",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral",
-      "is_hazard": false,
-      "ship_type": "Carga Geral",
       "flag": "",
       "imo": "",
       "source": "in_port"
