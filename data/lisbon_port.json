@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-14T14:20:48.902785+00:00",
+  "fetched_at": "2026-05-14T17:04:17.122727+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -79,8 +79,8 @@
       "terminal": "Alcântara",
       "from": "Casablanca",
       "to": "Casablanca",
-      "date": "2026-05-15T03:15:00",
-      "hour": "03:15",
+      "date": "2026-05-15T08:30:00",
+      "hour": "08:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -124,23 +124,6 @@
       "source": "arrivals"
     },
     {
-      "name": "SH DIANA",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Sevilla",
-      "to": "Figueira da Foz",
-      "date": "2026-05-14T15:00:00",
-      "hour": "15:00",
-      "pax": 159,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Libéria",
-      "imo": "9921740",
-      "source": "arrivals"
-    },
-    {
       "name": "ATLANTICO",
       "line": "Pmar - Navegação, Lda",
       "type": "arrival",
@@ -155,23 +138,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMAN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-05-15T16:00:00",
-      "hour": "16:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
