@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-14T09:36:40.927233+00:00",
+  "fetched_at": "2026-05-14T11:54:36.418444+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 43,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
-      "name": "AMBIENCE",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Gijon",
-      "to": "Leixões",
-      "date": "2026-05-14T06:30:00",
-      "hour": "06:30",
-      "pax": 1396,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "8521232",
       "source": "arrivals"
     },
     {
@@ -94,7 +77,7 @@
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
       "terminal": "Alcântara",
-      "from": "Vigo",
+      "from": "Casablanca",
       "to": "Casablanca",
       "date": "2026-05-15T03:15:00",
       "hour": "03:15",
@@ -175,23 +158,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CELEBRITY XCEL",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Funchal",
-      "date": "2026-05-14T06:30:00",
-      "hour": "06:30",
-      "pax": 3158,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9884136",
-      "source": "arrivals"
-    },
-    {
       "name": "CAPT. KATTELMAN",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "arrival",
@@ -206,23 +172,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9330915",
-      "source": "arrivals"
-    },
-    {
-      "name": "HMCS WILLIAM HALL",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Halifax",
-      "to": "Halifax",
-      "date": "2026-05-14T08:45:00",
-      "hour": "08:45",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "Canadá",
-      "imo": "2224589",
       "source": "arrivals"
     },
     {
@@ -396,6 +345,40 @@
       "source": "departures"
     },
     {
+      "name": "CELEBRITY XCEL",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-14T06:16:00",
+      "hour": "06:16",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "AMBIENCE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-14T06:06:00",
+      "hour": "06:06",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "LAURA S",
       "line": "",
       "type": "transit",
@@ -517,23 +500,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Setúbal",
-      "date": "2026-05-14T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
       "name": "CANNETO M",
       "line": "Noatum Maritime Portugal, LDA",
       "type": "hazard",
@@ -582,6 +548,23 @@
       "ship_type": "Graneleiro",
       "flag": "Libéria",
       "imo": "9487627",
+      "source": "arrivals"
+    },
+    {
+      "name": "SAKURA BELLE",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Jose Terminal",
+      "to": "Rotterdam",
+      "date": "2026-05-16T17:00:00",
+      "hour": "17:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Panamá",
+      "imo": "9568500",
       "source": "arrivals"
     },
     {
