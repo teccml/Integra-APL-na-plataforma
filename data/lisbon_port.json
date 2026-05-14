@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-14T04:02:44.101572+00:00",
+  "fetched_at": "2026-05-14T06:51:05.413832+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -394,6 +394,23 @@
       "flag": "Libéria",
       "imo": "9976238",
       "source": "departures"
+    },
+    {
+      "name": "LAURA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-14T01:13:00",
+      "hour": "01:13",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "NYK DIANA",
