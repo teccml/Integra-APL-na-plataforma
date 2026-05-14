@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-14T20:28:00.571396+00:00",
+  "fetched_at": "2026-05-14T22:13:46.217036+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 43,
   "errors": [],
   "ships": [
     {
@@ -64,7 +64,7 @@
       "to": "Vigo",
       "date": "2026-05-15T05:30:00",
       "hour": "05:30",
-      "pax": 548,
+      "pax": 546,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -340,23 +340,6 @@
       "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
       "is_hazard": false,
       "ship_type": "Navio Guerra",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CELEBRITY XCEL",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-14T06:16:00",
-      "hour": "06:16",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
