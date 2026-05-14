@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-14T17:04:17.122727+00:00",
+  "fetched_at": "2026-05-14T19:04:44.068423+00:00",
   "source": "portodelisboa.pt",
-  "count": 42,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -309,6 +309,23 @@
       "flag": "Libéria",
       "imo": "9976238",
       "source": "departures"
+    },
+    {
+      "name": "SH DIANA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-14T15:07:00",
+      "hour": "15:07",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "HMCS WILLIAM HALL",
@@ -687,6 +704,40 @@
       "source": "departures"
     },
     {
+      "name": "FEDERAL INFINITY",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Immingham",
+      "to": "Itaqui",
+      "date": "2026-05-14T16:44:00",
+      "hour": "16:44",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "Panamá",
+      "imo": "1014125",
+      "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-14T08:58:00",
+      "hour": "08:58",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "BOMAR HAWK",
       "line": "",
       "type": "hazard",
@@ -699,23 +750,6 @@
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "FEDERAL INFINITY",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-13T20:59:00",
-      "hour": "20:59",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
       "flag": "",
       "imo": "",
       "source": "in_port"
