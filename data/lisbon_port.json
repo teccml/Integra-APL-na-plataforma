@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-15T16:53:02.643093+00:00",
+  "fetched_at": "2026-05-15T18:24:13.733310+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -277,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "NYK DIANA",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Hamburg",
+      "to": "Algeciras",
+      "date": "2026-05-15T16:26:00",
+      "hour": "16:26",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Panamá",
+      "imo": "9337688",
+      "source": "departures"
+    },
+    {
       "name": "INSIGNIA",
       "line": "",
       "type": "transit",
@@ -289,6 +306,23 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "ANDREA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-05-15T07:46:00",
+      "hour": "07:46",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
