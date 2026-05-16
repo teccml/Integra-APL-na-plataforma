@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T19:08:34.525374+00:00",
+  "fetched_at": "2026-05-16T20:52:43.063195+00:00",
   "source": "portodelisboa.pt",
   "count": 36,
   "errors": [],
@@ -311,6 +311,40 @@
       "source": "departures"
     },
     {
+      "name": "SILVER SPIRIT",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "Vigo",
+      "date": "2026-05-16T17:04:00",
+      "hour": "17:04",
+      "pax": 546,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9437866",
+      "source": "departures"
+    },
+    {
+      "name": "INSIGNIA",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Leixões",
+      "date": "2026-05-16T17:41:00",
+      "hour": "17:41",
+      "pax": 633,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9156462",
+      "source": "departures"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -345,23 +379,6 @@
       "source": "in_port"
     },
     {
-      "name": "INSIGNIA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-15T12:34:00",
-      "hour": "12:34",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "ANDREA",
       "line": "",
       "type": "transit",
@@ -374,23 +391,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SILVER SPIRIT",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-15T05:04:00",
-      "hour": "05:04",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -500,23 +500,6 @@
       "source": "arrivals"
     },
     {
-      "name": "DING HENG 20",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Agadir",
-      "to": "Rotterdam",
-      "date": "2026-05-18T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Carga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "China",
-      "imo": "9934412",
-      "source": "arrivals"
-    },
-    {
       "name": "FEDERAL INFINITY",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -566,6 +549,23 @@
       "flag": "Malta",
       "imo": "9396000",
       "source": "departures"
+    },
+    {
+      "name": "SAKURA BELLE",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-16T15:00:00",
+      "hour": "15:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE DA GUIA",
