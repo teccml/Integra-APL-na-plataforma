@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T13:27:26.916299+00:00",
+  "fetched_at": "2026-05-16T14:58:45.644934+00:00",
   "source": "portodelisboa.pt",
   "count": 38,
   "errors": [],
@@ -523,8 +523,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-05-18T09:01:00",
-      "hour": "09:01",
+      "date": "2026-05-18T09:00:00",
+      "hour": "09:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
       "is_hazard": true,
