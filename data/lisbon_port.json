@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-16T03:25:41.444480+00:00",
+  "fetched_at": "2026-05-16T06:24:11.798358+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -514,23 +514,6 @@
       "ship_type": "Petroleiro para transporte de betume e asfalto",
       "flag": "Gibraltar",
       "imo": "9588275",
-      "source": "arrivals"
-    },
-    {
-      "name": "ATHINA L",
-      "line": "Wilhelmsen Port Services Portugal, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Vila do Conde Pt/Barcarena",
-      "to": "Bilbao",
-      "date": "2026-05-15T21:00:00",
-      "hour": "21:00",
-      "pax": 1,
-      "cargo": "Abastecimento de Combustível · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
-      "flag": "Libéria",
-      "imo": "9487627",
       "source": "arrivals"
     },
     {
