@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T22:50:07.764803+00:00",
+  "fetched_at": "2026-05-16T23:55:47.326331+00:00",
   "source": "portodelisboa.pt",
   "count": 38,
   "errors": [],
@@ -483,23 +483,6 @@
       "source": "arrivals"
     },
     {
-      "name": "IVER BEST",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Tarragona",
-      "to": "Viana do Castelo",
-      "date": "2026-05-16T22:00:00",
-      "hour": "22:00",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para transporte de betume e asfalto",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para transporte de betume e asfalto",
-      "flag": "Gibraltar",
-      "imo": "9588275",
-      "source": "arrivals"
-    },
-    {
       "name": "NAVIGATOR ATLAS",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -583,6 +566,23 @@
       "flag": "Portugal",
       "imo": "9123788",
       "source": "departures"
+    },
+    {
+      "name": "IVER BEST",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-16T21:43:00",
+      "hour": "21:43",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para transporte de betume e asfalto",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para transporte de betume e asfalto",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SAKURA BELLE",
