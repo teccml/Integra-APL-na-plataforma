@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-16T17:00:57.108237+00:00",
+  "fetched_at": "2026-05-16T17:57:34.640474+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -294,6 +294,23 @@
       "source": "departures"
     },
     {
+      "name": "LE CHAMPLAIN",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Portimão",
+      "to": "Leixões",
+      "date": "2026-05-16T13:50:00",
+      "hour": "13:50",
+      "pax": 154,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "França",
+      "imo": "9814038",
+      "source": "departures"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -357,23 +374,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "LE CHAMPLAIN",
-      "line": "",
-      "type": "transit",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "",
-      "to": "",
-      "date": "2026-05-15T05:54:00",
-      "hour": "05:54",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -449,23 +449,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CANNETO M",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Algeciras",
-      "date": "2026-05-16T03:18:00",
-      "hour": "03:18",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Itália",
-      "imo": "9359583",
-      "source": "arrivals"
-    },
-    {
       "name": "FAITH",
       "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
       "type": "hazard",
@@ -497,23 +480,6 @@
       "ship_type": "Petroleiro para transporte de betume e asfalto",
       "flag": "Gibraltar",
       "imo": "9588275",
-      "source": "arrivals"
-    },
-    {
-      "name": "SAKURA BELLE",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Jose Terminal",
-      "to": "Rotterdam",
-      "date": "2026-05-16T15:00:00",
-      "hour": "15:00",
-      "pax": 1,
-      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Panamá",
-      "imo": "9568500",
       "source": "arrivals"
     },
     {
