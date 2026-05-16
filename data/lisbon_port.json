@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-16T11:53:33.614509+00:00",
+  "fetched_at": "2026-05-16T13:27:26.916299+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -13,7 +13,7 @@
       "to": "Portimão",
       "date": "2026-05-17T02:15:00",
       "hour": "02:15",
-      "pax": 2400,
+      "pax": 2394,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -64,7 +64,7 @@
       "to": "Leixões",
       "date": "2026-05-17T11:00:00",
       "hour": "11:00",
-      "pax": 2807,
+      "pax": 2808,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -138,23 +138,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428217",
-      "source": "arrivals"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-05-16T09:00:00",
-      "hour": "09:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
       "source": "arrivals"
     },
     {
@@ -309,6 +292,23 @@
       "flag": "Portugal",
       "imo": "9388390",
       "source": "departures"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-16T08:36:00",
+      "hour": "08:36",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "REBECCA S",
@@ -489,8 +489,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Tarragona",
       "to": "Viana do Castelo",
-      "date": "2026-05-16T19:00:00",
-      "hour": "19:00",
+      "date": "2026-05-16T22:00:00",
+      "hour": "22:00",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para transporte de betume e asfalto",
       "is_hazard": true,
@@ -582,6 +582,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
+      "source": "departures"
+    },
+    {
+      "name": "BOMAR HAWK",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-05-16T09:48:00",
+      "hour": "09:48",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Malta",
+      "imo": "9396000",
       "source": "departures"
     },
     {
