@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-17T13:25:52.057155+00:00",
+  "fetched_at": "2026-05-17T14:59:20.279464+00:00",
   "source": "portodelisboa.pt",
-  "count": 42,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -394,6 +394,40 @@
       "flag": "Canadá",
       "imo": "2224589",
       "source": "departures"
+    },
+    {
+      "name": "CELEBRITY EQUINOX",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-17T10:49:00",
+      "hour": "10:49",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "NORWEGIAN DAWN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-17T02:12:00",
+      "hour": "02:12",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "REBECCA S",
