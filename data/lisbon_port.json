@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T21:58:08.667531+00:00",
+  "fetched_at": "2026-05-17T22:55:30.217987+00:00",
   "source": "portodelisboa.pt",
   "count": 43,
   "errors": [],
@@ -121,23 +121,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9397913",
-      "source": "arrivals"
-    },
-    {
-      "name": "JAIME S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-05-17T21:00:00",
-      "hour": "21:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428217",
       "source": "arrivals"
     },
     {
@@ -393,6 +376,23 @@
       "ship_type": "Navio Guerra",
       "flag": "Canadá",
       "imo": "2224589",
+      "source": "departures"
+    },
+    {
+      "name": "NORWEGIAN DAWN",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "Portimão",
+      "date": "2026-05-17T20:23:00",
+      "hour": "20:23",
+      "pax": 2370,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9195169",
       "source": "departures"
     },
     {
