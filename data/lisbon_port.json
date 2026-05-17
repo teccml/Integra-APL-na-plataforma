@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-05-17T03:40:11.806451+00:00",
+  "fetched_at": "2026-05-17T06:46:53.045415+00:00",
   "source": "portodelisboa.pt",
-  "count": 42,
+  "count": 41,
   "errors": [],
   "ships": [
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Portimão",
-      "date": "2026-05-17T02:15:00",
-      "hour": "02:15",
-      "pax": 2394,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9195169",
-      "source": "arrivals"
-    },
     {
       "name": "RIMFAXE R",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
@@ -379,18 +362,18 @@
       "source": "departures"
     },
     {
-      "name": "ATLANTICO",
+      "name": "NORWEGIAN DAWN",
       "line": "",
       "type": "transit",
       "terminal": "Santa Apolónia",
       "from": "",
       "to": "",
-      "date": "2026-05-16T08:36:00",
-      "hour": "08:36",
+      "date": "2026-05-17T02:12:00",
+      "hour": "02:12",
       "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
+      "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
-      "ship_type": "Porta-Contentores",
+      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
