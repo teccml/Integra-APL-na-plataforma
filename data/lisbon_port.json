@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-18T18:53:24.331901+00:00",
+  "fetched_at": "2026-05-18T20:26:25.990898+00:00",
   "source": "portodelisboa.pt",
-  "count": 50,
+  "count": 47,
   "errors": [],
   "ships": [
     {
@@ -121,23 +121,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9937488",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMAN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-05-18T19:00:00",
-      "hour": "19:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
@@ -328,6 +311,40 @@
       "source": "departures"
     },
     {
+      "name": "CELEBRITY EQUINOX",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Tangier",
+      "to": "Leixões",
+      "date": "2026-05-18T19:06:00",
+      "hour": "19:06",
+      "pax": 2806,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Malta",
+      "imo": "9372456",
+      "source": "departures"
+    },
+    {
+      "name": "MSC OPERA",
+      "line": "MSC Portugal, S.A.",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Alicante",
+      "date": "2026-05-18T19:18:00",
+      "hour": "19:18",
+      "pax": 2059,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Panamá",
+      "imo": "9250464",
+      "source": "departures"
+    },
+    {
       "name": "AMALTHEA",
       "line": "",
       "type": "transit",
@@ -362,23 +379,6 @@
       "source": "in_port"
     },
     {
-      "name": "MSC OPERA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-18T07:14:00",
-      "hour": "07:14",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "RIMFAXE R",
       "line": "",
       "type": "transit",
@@ -396,23 +396,6 @@
       "source": "in_port"
     },
     {
-      "name": "KILIA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-05-18T05:27:00",
-      "hour": "05:27",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "JAIME S",
       "line": "",
       "type": "transit",
@@ -425,23 +408,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CELEBRITY EQUINOX",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-17T10:49:00",
-      "hour": "10:49",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -636,23 +602,6 @@
       "source": "arrivals"
     },
     {
-      "name": "NAVIGATOR ATLAS",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Stade",
-      "date": "2026-05-18T16:00:00",
-      "hour": "16:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
-      "flag": "Libéria",
-      "imo": "9661558",
-      "source": "arrivals"
-    },
-    {
       "name": "DING HENG 20",
       "line": "GARLAND SHIPPING LDA",
       "type": "hazard",
@@ -789,6 +738,23 @@
       "source": "departures"
     },
     {
+      "name": "FAITH",
+      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Setúbal",
+      "to": "Leixões",
+      "date": "2026-05-18T19:23:00",
+      "hour": "19:23",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9301108",
+      "source": "departures"
+    },
+    {
       "name": "WEC BOUMEESTER",
       "line": "",
       "type": "hazard",
@@ -797,23 +763,6 @@
       "to": "",
       "date": "2026-05-18T10:59:00",
       "hour": "10:59",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "FAITH",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-17T22:30:00",
-      "hour": "22:30",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Porta-Contentores",
       "is_hazard": true,
