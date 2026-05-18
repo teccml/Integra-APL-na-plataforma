@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-18T16:26:45.606740+00:00",
+  "fetched_at": "2026-05-18T18:53:24.331901+00:00",
   "source": "portodelisboa.pt",
-  "count": 49,
+  "count": 50,
   "errors": [],
   "ships": [
     {
@@ -11,8 +11,8 @@
       "terminal": "Santa Apolónia",
       "from": "Ponta Delgada",
       "to": "Praia da Vitoria",
-      "date": "2026-05-20T07:00:00",
-      "hour": "07:00",
+      "date": "2026-05-19T22:00:00",
+      "hour": "22:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
-      "source": "arrivals"
-    },
-    {
-      "name": "AMALTHEA",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Dumyat",
-      "to": "Tanger Med",
-      "date": "2026-05-18T14:00:00",
-      "hour": "14:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9397913",
       "source": "arrivals"
     },
     {
@@ -155,6 +138,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9330915",
+      "source": "arrivals"
+    },
+    {
+      "name": "AÇOR B",
+      "line": "Bensaude - Agentes de Navegacao Lda",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Yalova",
+      "to": "Caniçal",
+      "date": "2026-05-19T10:00:00",
+      "hour": "10:00",
+      "pax": 0,
+      "cargo": "Estacionamento em Cais · Carga Geral / Contentores",
+      "is_hazard": false,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "Portugal",
+      "imo": "9322853",
       "source": "arrivals"
     },
     {
@@ -326,6 +326,23 @@
       "flag": "Ilhas Bahamas",
       "imo": "9195169",
       "source": "departures"
+    },
+    {
+      "name": "AMALTHEA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-05-18T14:38:00",
+      "hour": "14:38",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "NJORD R",
