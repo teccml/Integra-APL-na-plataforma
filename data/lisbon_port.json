@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-19T03:47:29.691947+00:00",
+  "fetched_at": "2026-05-19T07:49:54.080861+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -412,40 +412,6 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "Singapura",
       "imo": "9409168",
-      "source": "arrivals"
-    },
-    {
-      "name": "WEC CORNEILLE",
-      "line": "Wec Lines-Ibero Portugal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Leixões",
-      "date": "2026-05-19T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9326940",
-      "source": "arrivals"
-    },
-    {
-      "name": "CANDELARIA B",
-      "line": "BOLUDA SHIPPING PORTUGAL",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-05-19T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9277395",
       "source": "arrivals"
     },
     {
