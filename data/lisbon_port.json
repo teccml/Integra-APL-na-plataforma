@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T21:40:31.666089+00:00",
+  "fetched_at": "2026-05-21T23:05:13.921577+00:00",
   "source": "portodelisboa.pt",
   "count": 45,
   "errors": [],
@@ -295,20 +295,20 @@
     },
     {
       "name": "SINAR BUKITTINGGI",
-      "line": "",
-      "type": "transit",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
       "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-05-20T10:35:00",
-      "hour": "10:35",
+      "from": "Leixões",
+      "to": "Southampton",
+      "date": "2026-05-21T18:24:00",
+      "hour": "18:24",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Singapura",
+      "imo": "9942299",
+      "source": "departures"
     },
     {
       "name": "HMS SUTHERLAND",
