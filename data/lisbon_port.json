@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T15:33:45.945619+00:00",
+  "fetched_at": "2026-05-21T18:01:51.854798+00:00",
   "source": "portodelisboa.pt",
   "count": 45,
   "errors": [],
@@ -28,8 +28,8 @@
       "terminal": "Santa Apolónia",
       "from": "Praia da Vitoria",
       "to": "Ponta Delgada",
-      "date": "2026-05-23T08:00:00",
-      "hour": "08:00",
+      "date": "2026-05-22T21:00:00",
+      "hour": "21:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
