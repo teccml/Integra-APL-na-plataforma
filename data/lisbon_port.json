@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T21:13:36.782109+00:00",
+  "fetched_at": "2026-05-22T23:02:35.237819+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -407,7 +407,7 @@
       "date": "2026-05-24T20:00:00",
       "hour": "20:00",
       "pax": 0,
-      "cargo": "Descarga · Carga Geral",
+      "cargo": "Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
       "flag": "Barbados",
