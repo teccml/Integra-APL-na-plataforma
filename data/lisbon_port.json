@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T15:06:27.420156+00:00",
+  "fetched_at": "2026-05-24T17:04:53.319615+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -517,6 +517,23 @@
       "source": "departures"
     },
     {
+      "name": "JOAN",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Aveiro",
+      "to": "Sines",
+      "date": "2026-05-24T13:30:00",
+      "hour": "13:30",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "Bélgica",
+      "imo": "9448877",
+      "source": "departures"
+    },
+    {
       "name": "SIENNA",
       "line": "",
       "type": "hazard",
@@ -529,23 +546,6 @@
       "cargo": "Descarga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "JOAN",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-05-23T06:46:00",
-      "hour": "06:46",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "",
       "imo": "",
       "source": "in_port"
