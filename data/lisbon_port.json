@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T17:04:53.319615+00:00",
+  "fetched_at": "2026-05-24T18:08:07.578686+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -302,8 +302,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Cardiff",
       "to": "Jorf Lasfar",
-      "date": "2026-05-25T09:00:00",
-      "hour": "09:00",
+      "date": "2026-05-26T05:00:00",
+      "hour": "05:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
       "is_hazard": true,
