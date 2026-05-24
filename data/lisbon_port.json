@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-24T20:07:27.281350+00:00",
+  "fetched_at": "2026-05-24T21:57:58.669933+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -295,6 +295,23 @@
     }
   ],
   "hazards": [
+    {
+      "name": "RHYTHMIC",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Bilbao",
+      "to": "Las Palmas (Gran Canaria)",
+      "date": "2026-05-26T20:00:00",
+      "hour": "20:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Grécia",
+      "imo": "9819856",
+      "source": "arrivals"
+    },
     {
       "name": "MONTE BRASIL",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
