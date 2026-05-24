@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-24T18:08:07.578686+00:00",
+  "fetched_at": "2026-05-24T20:07:27.281350+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -70,6 +70,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9365960",
+      "source": "arrivals"
+    },
+    {
+      "name": "EXPLORA",
+      "line": "James Rawes Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Lisboa",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-05-25T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Missão Científica, Cultural ou Benemerita · Navio de exploração científica",
+      "is_hazard": false,
+      "ship_type": "Navio de exploração científica",
+      "flag": "Itália",
+      "imo": "7310868",
       "source": "arrivals"
     },
     {
@@ -192,6 +209,23 @@
       "source": "departures"
     },
     {
+      "name": "WORLD VOYAGER",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Casablanca",
+      "to": "Leixões",
+      "date": "2026-05-24T18:59:00",
+      "hour": "18:59",
+      "pax": 142,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Portugal",
+      "imo": "9871529",
+      "source": "departures"
+    },
+    {
       "name": "ECO PONENTE",
       "line": "",
       "type": "transit",
@@ -221,23 +255,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "WORLD VOYAGER",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-24T05:58:00",
-      "hour": "05:58",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
