@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-24T03:51:29.813751+00:00",
+  "fetched_at": "2026-05-24T07:23:17.127125+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -497,6 +497,23 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "Singapura",
       "imo": "9409168",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Ponta Delgada",
+      "date": "2026-05-24T02:29:00",
+      "hour": "02:29",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
       "source": "departures"
     },
     {
