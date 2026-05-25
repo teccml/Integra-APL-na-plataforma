@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-25T15:53:08.515710+00:00",
+  "fetched_at": "2026-05-25T17:45:59.448534+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -175,6 +175,23 @@
       "source": "departures"
     },
     {
+      "name": "STAR LEGEND",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-25T15:34:00",
+      "hour": "15:34",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "EXPLORA",
       "line": "",
       "type": "transit",
@@ -293,6 +310,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9083055",
+      "source": "arrivals"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-05-26T18:00:00",
+      "hour": "18:00",
+      "pax": 2,
+      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Espanha",
+      "imo": "9428671",
       "source": "arrivals"
     },
     {
