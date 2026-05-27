@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-27T09:56:50.337567+00:00",
+  "fetched_at": "2026-05-27T12:54:42.131849+00:00",
   "source": "portodelisboa.pt",
   "count": 34,
   "errors": [],
@@ -104,23 +104,6 @@
       "ship_type": "Carga Geral",
       "flag": "Portugal",
       "imo": "9235361",
-      "source": "arrivals"
-    },
-    {
-      "name": "XIN CHONG QING",
-      "line": "Agencia Maritima Euronave Porto, Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-05-28T05:00:00",
-      "hour": "05:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "China",
-      "imo": "9262118",
       "source": "arrivals"
     },
     {
@@ -243,6 +226,23 @@
       "source": "departures"
     },
     {
+      "name": "Silver Dawn",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-27T04:23:00",
+      "hour": "04:23",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "EXPLORA",
       "line": "",
       "type": "transit",
@@ -330,23 +330,6 @@
       "source": "arrivals"
     },
     {
-      "name": "PONTA DO SOL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Mindelo",
-      "date": "2026-05-27T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
-      "is_hazard": true,
-      "ship_type": "Carga Geral / Contentores",
-      "flag": "Portugal",
-      "imo": "9141613",
-      "source": "arrivals"
-    },
-    {
       "name": "FEDERAL SWIFT",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -404,8 +387,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Convent, La",
       "to": "Santander",
-      "date": "2026-05-28T18:00:00",
-      "hour": "18:00",
+      "date": "2026-05-28T14:00:00",
+      "hour": "14:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Graneleiro",
       "is_hazard": true,
@@ -498,6 +481,23 @@
       "flag": "Irlanda",
       "imo": "9757137",
       "source": "departures"
+    },
+    {
+      "name": "PONTA DO SOL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-27T06:53:00",
+      "hour": "06:53",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "RHYTHMIC",
