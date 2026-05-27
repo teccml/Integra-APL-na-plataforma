@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-27T05:18:01.113820+00:00",
+  "fetched_at": "2026-05-27T09:56:50.337567+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -121,23 +121,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "China",
       "imo": "9262118",
-      "source": "arrivals"
-    },
-    {
-      "name": "Silver Dawn",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Leixões",
-      "date": "2026-05-27T05:00:00",
-      "hour": "05:00",
-      "pax": 542,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9857937",
       "source": "arrivals"
     },
     {
