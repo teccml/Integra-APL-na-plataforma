@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-27T00:08:34.164826+00:00",
+  "fetched_at": "2026-05-27T05:18:01.113820+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -243,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "JAIME S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Caniçal",
+      "date": "2026-05-27T02:41:00",
+      "hour": "02:41",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9428217",
+      "source": "departures"
+    },
+    {
       "name": "EXPLORA",
       "line": "",
       "type": "transit",
@@ -293,23 +310,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
-      "name": "RHYTHMIC",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Bilbao",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-05-27T01:00:00",
-      "hour": "01:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Grécia",
-      "imo": "9819856",
       "source": "arrivals"
     },
     {
@@ -481,6 +481,57 @@
       "flag": "China",
       "imo": "9934412",
       "source": "departures"
+    },
+    {
+      "name": "MATTEO BR",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Cardiff",
+      "to": "Jorf Lasfar",
+      "date": "2026-05-26T20:48:00",
+      "hour": "20:48",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "Itália",
+      "imo": "9556844",
+      "source": "departures"
+    },
+    {
+      "name": "ARKLOW CLIPPER",
+      "line": "PORTSHIP Unipessoal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Workington",
+      "date": "2026-05-26T23:59:00",
+      "hour": "23:59",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Irlanda",
+      "imo": "9757137",
+      "source": "departures"
+    },
+    {
+      "name": "RHYTHMIC",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-27T01:34:00",
+      "hour": "01:34",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "BAHIA TRES",
