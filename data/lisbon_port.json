@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-29T15:40:39.060092+00:00",
+  "fetched_at": "2026-05-29T18:35:55.525666+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -158,6 +158,23 @@
       "source": "arrivals"
     },
     {
+      "name": "Maybe",
+      "line": "Amundsen - Maritime Agency",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Cadiz",
+      "to": "Barcelona",
+      "date": "2026-05-31T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Reparação em Estaleiro · Embarcação à vela específica",
+      "is_hazard": false,
+      "ship_type": "Embarcação à vela específica",
+      "flag": "Ilhas Marshall",
+      "imo": "1010870",
+      "source": "arrivals"
+    },
+    {
       "name": "JAIME S",
       "line": "Pmar - Navegação, Lda",
       "type": "departure",
@@ -226,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "AURORA",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Alicante",
+      "to": "Southampton",
+      "date": "2026-05-29T17:38:00",
+      "hour": "17:38",
+      "pax": 1783,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Bermudas",
+      "imo": "9169524",
+      "source": "departures"
+    },
+    {
       "name": "MARIA FRANCISCA",
       "line": "",
       "type": "transit",
@@ -238,23 +272,6 @@
       "cargo": "Descarga · Carga Geral",
       "is_hazard": false,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "AURORA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-29T06:30:00",
-      "hour": "06:30",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
