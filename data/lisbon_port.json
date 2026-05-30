@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-30T06:48:23.101982+00:00",
+  "fetched_at": "2026-05-30T09:20:33.216607+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -107,23 +107,6 @@
       "source": "arrivals"
     },
     {
-      "name": "FERDINANDA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Praia",
-      "date": "2026-05-30T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9445019",
-      "source": "arrivals"
-    },
-    {
       "name": "CELEBRITY APEX",
       "line": "Arenthern - Agência de Navegação Lda",
       "type": "arrival",
@@ -158,23 +141,6 @@
       "source": "arrivals"
     },
     {
-      "name": "XIN CHONG QING",
-      "line": "Agencia Maritima Euronave Porto, Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-05-30T04:00:00",
-      "hour": "04:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "China",
-      "imo": "9262118",
-      "source": "arrivals"
-    },
-    {
       "name": "SVENDBORG",
       "line": "One Shipping, Unipessoal Lda",
       "type": "arrival",
@@ -206,23 +172,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428217",
-      "source": "arrivals"
-    },
-    {
-      "name": "GRONA RAVEN",
-      "line": "Afonso H. Oneill, Lda.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Casablanca",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-05-30T07:30:00",
-      "hour": "07:30",
-      "pax": 0,
-      "cargo": "Estacionamento em Cais · Carga Geral",
-      "is_hazard": false,
-      "ship_type": "Carga Geral",
-      "flag": "Ilhas Marshall",
-      "imo": "9368649",
       "source": "arrivals"
     },
     {
@@ -328,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "XIN CHONG QING",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-05-30T05:58:00",
+      "hour": "05:58",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "MARIA FRANCISCA",
       "line": "",
       "type": "transit",
@@ -412,23 +378,6 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Malta",
       "imo": "9457749",
-      "source": "arrivals"
-    },
-    {
-      "name": "MARAS",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Londonderry",
-      "date": "2026-05-29T23:00:00",
-      "hour": "23:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Antígua E Barbuda",
-      "imo": "9195834",
       "source": "arrivals"
     },
     {
@@ -685,6 +634,23 @@
       "flag": "Portugal",
       "imo": "9083055",
       "source": "departures"
+    },
+    {
+      "name": "MARAS",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-30T04:45:00",
+      "hour": "04:45",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
