@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-31T07:50:33.284973+00:00",
+  "fetched_at": "2026-05-31T10:17:57.533012+00:00",
   "source": "portodelisboa.pt",
   "count": 44,
   "errors": [],
@@ -506,8 +506,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Cartagena",
       "to": "Bilbao",
-      "date": "2026-05-31T21:00:00",
-      "hour": "21:00",
+      "date": "2026-05-31T23:00:00",
+      "hour": "23:00",
       "pax": 0,
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
