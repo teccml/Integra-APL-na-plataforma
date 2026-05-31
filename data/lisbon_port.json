@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-31T04:04:11.140757+00:00",
+  "fetched_at": "2026-05-31T07:50:33.284973+00:00",
   "source": "portodelisboa.pt",
   "count": 44,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "8521232",
-      "source": "arrivals"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Portimão",
-      "date": "2026-05-31T04:30:00",
-      "hour": "04:30",
-      "pax": 2463,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9195169",
       "source": "arrivals"
     },
     {
@@ -87,23 +70,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9183855",
-      "source": "arrivals"
-    },
-    {
-      "name": "AMERA",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "La Coruna",
-      "date": "2026-05-31T06:30:00",
-      "hour": "06:30",
-      "pax": 769,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "8700280",
       "source": "arrivals"
     },
     {
@@ -377,6 +343,40 @@
       "flag": "China",
       "imo": "9262118",
       "source": "departures"
+    },
+    {
+      "name": "AMERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-31T06:04:00",
+      "hour": "06:04",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "NORWEGIAN DAWN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-05-31T04:06:00",
+      "hour": "04:06",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FUNCHALENSE 5",
