@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-31T14:47:51.288479+00:00",
+  "fetched_at": "2026-05-31T16:12:24.343445+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -138,23 +138,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9454230",
-      "source": "arrivals"
-    },
-    {
-      "name": "EA GANNET",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-05-31T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9937476",
       "source": "arrivals"
     },
     {
@@ -396,23 +379,6 @@
       "source": "in_port"
     },
     {
-      "name": "KILIA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-05-30T09:27:00",
-      "hour": "09:27",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "GRONA RAVEN",
       "line": "",
       "type": "transit",
@@ -534,23 +500,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-05-31T11:00:00",
-      "hour": "11:00",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
       "name": "MACARENA B",
       "line": "BOLUDA SHIPPING PORTUGAL",
       "type": "hazard",
@@ -591,7 +540,7 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Huelva",
       "to": "Gibraltar",
-      "date": "2026-06-01T12:00:00",
+      "date": "2026-06-02T12:00:00",
       "hour": "12:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
@@ -599,23 +548,6 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Malta",
       "imo": "9830599",
-      "source": "arrivals"
-    },
-    {
-      "name": "CANNETO M",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Huelva",
-      "date": "2026-05-31T03:24:00",
-      "hour": "03:24",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Itália",
-      "imo": "9359583",
       "source": "arrivals"
     },
     {
@@ -736,6 +668,23 @@
       "flag": "Portugal",
       "imo": "9083055",
       "source": "departures"
+    },
+    {
+      "name": "CANNETO M",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-05-31T13:30:00",
+      "hour": "13:30",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MARAS",
