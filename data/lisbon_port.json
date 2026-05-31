@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-31T21:02:26.781926+00:00",
+  "fetched_at": "2026-05-31T22:05:32.780417+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -345,6 +345,23 @@
       "source": "departures"
     },
     {
+      "name": "AMERA",
+      "line": "GARLAND SHIPPING LDA",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "La Coruna",
+      "date": "2026-05-31T20:39:00",
+      "hour": "20:39",
+      "pax": 769,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "8700280",
+      "source": "departures"
+    },
+    {
       "name": "JAIME S",
       "line": "",
       "type": "transit",
@@ -357,23 +374,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "AMERA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-05-31T06:04:00",
-      "hour": "06:04",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -446,23 +446,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9150420",
-      "source": "arrivals"
-    },
-    {
-      "name": "LAGOA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Mindelo",
-      "to": "Aveiro",
-      "date": "2026-05-31T22:00:00",
-      "hour": "22:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Cabo Verde",
-      "imo": "9150470",
       "source": "arrivals"
     },
     {
