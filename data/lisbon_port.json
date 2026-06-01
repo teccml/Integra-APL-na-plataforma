@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T20:56:32.101765+00:00",
+  "fetched_at": "2026-06-01T23:03:29.638366+00:00",
   "source": "portodelisboa.pt",
   "count": 46,
   "errors": [],
@@ -47,7 +47,7 @@
       "to": "Tangier",
       "date": "2026-06-02T20:00:00",
       "hour": "20:00",
-      "pax": 1961,
+      "pax": 1965,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
