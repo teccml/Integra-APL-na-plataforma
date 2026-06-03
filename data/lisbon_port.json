@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03T09:28:52.335997+00:00",
+  "fetched_at": "2026-06-03T14:43:32.296037+00:00",
   "source": "portodelisboa.pt",
   "count": 45,
   "errors": [],
@@ -64,7 +64,7 @@
       "to": "Leixões",
       "date": "2026-06-04T07:45:00",
       "hour": "07:45",
-      "pax": 0,
+      "pax": 3169,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -164,7 +164,7 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-06-04T06:00:00",
+      "date": "2026-06-05T06:00:00",
       "hour": "06:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
@@ -257,6 +257,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9631101",
+      "source": "departures"
+    },
+    {
+      "name": "RUACH LOVE",
+      "line": "Amundsen - Maritime Agency",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Cascais",
+      "to": "Godthaab (Nuuk)",
+      "date": "2026-06-02T16:15:00",
+      "hour": "16:15",
+      "pax": 0,
+      "cargo": "Reparação em Estaleiro · Embarcação à vela com um motor auxiliar",
+      "is_hazard": false,
+      "ship_type": "Embarcação à vela com um motor auxiliar",
+      "flag": "Malásia",
+      "imo": "2224590",
       "source": "departures"
     },
     {
@@ -449,23 +466,6 @@
   ],
   "hazards": [
     {
-      "name": "ILHA DA MADEIRA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Caniçal",
-      "to": "Ponta Delgada",
-      "date": "2026-06-03T10:00:00",
-      "hour": "10:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9202077",
-      "source": "arrivals"
-    },
-    {
       "name": "MONTE DA GUIA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -514,23 +514,6 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
-      "name": "ESL EUROPA",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Agadir",
-      "to": "Uddevalla",
-      "date": "2026-06-05T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Chipre",
-      "imo": "9333553",
       "source": "arrivals"
     },
     {
@@ -702,6 +685,23 @@
       "flag": "Portugal",
       "imo": "9376505",
       "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-03T12:15:00",
+      "hour": "12:15",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "VIOLETA THERESA",
