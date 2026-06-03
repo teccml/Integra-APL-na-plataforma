@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03T21:51:47.021284+00:00",
+  "fetched_at": "2026-06-03T23:46:16.659676+00:00",
   "source": "portodelisboa.pt",
   "count": 47,
   "errors": [],
@@ -721,6 +721,23 @@
       "source": "departures"
     },
     {
+      "name": "MED TUNCER",
+      "line": "Wilhelmsen Port Services Portugal, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Huelva",
+      "to": "Helsingborg",
+      "date": "2026-06-03T22:23:00",
+      "hour": "22:23",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Malta",
+      "imo": "9830599",
+      "source": "departures"
+    },
+    {
       "name": "ILHA DA MADEIRA",
       "line": "",
       "type": "hazard",
@@ -767,23 +784,6 @@
       "cargo": "Abastecimento de Combustível · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MED TUNCER",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-02T17:33:00",
-      "hour": "17:33",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
       "flag": "",
       "imo": "",
       "source": "in_port"
