@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-03T04:21:43.125079+00:00",
+  "fetched_at": "2026-06-03T09:28:52.335997+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 45,
   "errors": [],
   "ships": [
     {
@@ -113,8 +113,8 @@
       "terminal": "Alcântara",
       "from": "Paranagua",
       "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-06-03T08:00:00",
-      "hour": "08:00",
+      "date": "2026-06-04T15:00:00",
+      "hour": "15:00",
       "pax": 0,
       "cargo": "Descarga · Graneleiro / Cereais",
       "is_hazard": false,
@@ -130,8 +130,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Algeciras",
-      "date": "2026-06-03T20:00:00",
-      "hour": "20:00",
+      "date": "2026-06-03T18:30:00",
+      "hour": "18:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -325,6 +325,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9210139",
+      "source": "departures"
+    },
+    {
+      "name": "JAIME S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Lisboa",
+      "date": "2026-06-03T04:49:00",
+      "hour": "04:49",
+      "pax": 3,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9428217",
       "source": "departures"
     },
     {
@@ -670,6 +687,23 @@
       "source": "departures"
     },
     {
+      "name": "TRINA",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Aveiro",
+      "to": "New London",
+      "date": "2026-06-03T06:48:00",
+      "hour": "06:48",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9376505",
+      "source": "departures"
+    },
+    {
       "name": "VIOLETA THERESA",
       "line": "",
       "type": "hazard",
@@ -716,23 +750,6 @@
       "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "TRINA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-02T14:40:00",
-      "hour": "14:40",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
       "flag": "",
       "imo": "",
       "source": "in_port"
