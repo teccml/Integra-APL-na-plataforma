@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-06-04T04:16:06.172764+00:00",
+  "fetched_at": "2026-06-04T08:51:07.497891+00:00",
   "source": "portodelisboa.pt",
   "count": 0,
   "errors": [
-    "arrivals: Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.portodelisboa.pt/previsao-de-chegadas\nCall log:\n  - navigating to \"https://www.portodelisboa.pt/previsao-de-chegadas\", waiting until \"networkidle\"\n",
-    "departures: Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.portodelisboa.pt/partidas\nCall log:\n  - navigating to \"https://www.portodelisboa.pt/partidas\", waiting until \"networkidle\"\n",
-    "in_port: Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.portodelisboa.pt/navios-em-porto\nCall log:\n  - navigating to \"https://www.portodelisboa.pt/navios-em-porto\", waiting until \"networkidle\"\n"
+    "arrivals: TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.portodelisboa.pt/previsao-de-chegadas\", waiting until \"networkidle\"\n",
+    "departures: TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.portodelisboa.pt/partidas\", waiting until \"networkidle\"\n",
+    "in_port: Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.portodelisboa.pt/navios-em-porto\nCall log:\n  - navigating to \"https://www.portodelisboa.pt/navios-em-porto\", waiting until \"networkidle\"\n"
   ],
   "ships": [],
   "hazards": []
