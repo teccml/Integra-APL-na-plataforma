@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T15:20:57.784429+00:00",
+  "fetched_at": "2026-06-04T18:20:14.931770+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -62,8 +62,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-06-05T15:00:00",
-      "hour": "15:00",
+      "date": "2026-06-05T11:00:00",
+      "hour": "11:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
