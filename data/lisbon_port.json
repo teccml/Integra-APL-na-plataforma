@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-06T11:28:11.590280+00:00",
+  "fetched_at": "2026-06-06T13:48:48.278484+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -64,7 +64,7 @@
       "to": "Kribi",
       "date": "2026-06-07T13:00:00",
       "hour": "13:00",
-      "pax": 0,
+      "pax": 1,
       "cargo": "Descarga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
@@ -531,23 +531,6 @@
       "ship_type": "Petroleiro para transporte de óleos e derivados",
       "flag": "China",
       "imo": "9814387",
-      "source": "arrivals"
-    },
-    {
-      "name": "FEDERAL BERING",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Algeciras",
-      "date": "2026-06-07T14:00:00",
-      "hour": "14:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9697832",
       "source": "arrivals"
     },
     {
