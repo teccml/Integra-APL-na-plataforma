@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-06T06:55:01.188915+00:00",
+  "fetched_at": "2026-06-06T09:27:34.111207+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -311,6 +311,23 @@
       "source": "departures"
     },
     {
+      "name": "FURNAS",
+      "line": "Bensaude - Agentes de Navegacao Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-06-05T23:19:00",
+      "hour": "23:19",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9164548",
+      "source": "departures"
+    },
+    {
       "name": "ECO PONENTE",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "departure",
@@ -408,23 +425,6 @@
       "cargo": "Descarga · Graneleiro / Cereais",
       "is_hazard": false,
       "ship_type": "Graneleiro / Cereais",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "FURNAS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-04T07:11:00",
-      "hour": "07:11",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -637,20 +637,37 @@
     },
     {
       "name": "MONTE DA GUIA",
-      "line": "",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-05T05:39:00",
-      "hour": "05:39",
+      "from": "Caniçal",
+      "to": "Leixões",
+      "date": "2026-06-05T21:15:00",
+      "hour": "21:15",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Portugal",
+      "imo": "9123788",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Ponta Delgada",
+      "date": "2026-06-06T06:18:00",
+      "hour": "06:18",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
+      "source": "departures"
     }
   ]
 }
