@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T09:27:34.111207+00:00",
+  "fetched_at": "2026-06-06T11:28:11.590280+00:00",
   "source": "portodelisboa.pt",
   "count": 39,
   "errors": [],
@@ -62,8 +62,8 @@
       "terminal": "Alcântara",
       "from": "Valencia",
       "to": "Kribi",
-      "date": "2026-06-07T14:45:00",
-      "hour": "14:45",
+      "date": "2026-06-07T13:00:00",
+      "hour": "13:00",
       "pax": 0,
       "cargo": "Descarga · Porta-Contentores",
       "is_hazard": false,
