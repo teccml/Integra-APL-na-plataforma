@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T13:58:07.268283+00:00",
+  "fetched_at": "2026-06-07T15:25:57.710845+00:00",
   "source": "portodelisboa.pt",
   "count": 28,
   "errors": [],
@@ -243,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "PORT GDYNIA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-06-07T13:10:00",
+      "hour": "13:10",
+      "pax": 0,
+      "cargo": "Descarga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "JAIME S",
       "line": "",
       "type": "transit",
@@ -272,23 +289,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CORVO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-05T21:26:00",
-      "hour": "21:26",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
