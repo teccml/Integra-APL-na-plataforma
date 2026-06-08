@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T17:56:23.033709+00:00",
+  "fetched_at": "2026-06-08T20:21:46.311873+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "CELEBRITY XCEL",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Funchal",
+      "to": "Cadiz",
+      "date": "2026-06-08T18:48:00",
+      "hour": "18:48",
+      "pax": 3302,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Malta",
+      "imo": "9884136",
+      "source": "departures"
+    },
+    {
       "name": "GALANI",
       "line": "",
       "type": "transit",
@@ -272,23 +289,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CELEBRITY XCEL",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-08T05:04:00",
-      "hour": "05:04",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
