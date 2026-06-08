@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-08T20:21:46.311873+00:00",
+  "fetched_at": "2026-06-08T22:29:30.633672+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -278,13 +278,30 @@
     },
     {
       "name": "GALANI",
+      "line": "GARLAND SHIPPING LDA",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Mariel",
+      "to": "Istanbul",
+      "date": "2026-06-08T21:24:00",
+      "hour": "21:24",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Malta",
+      "imo": "9337597",
+      "source": "departures"
+    },
+    {
+      "name": "ELI A",
       "line": "",
       "type": "transit",
       "terminal": "Alcântara",
       "from": "",
       "to": "",
-      "date": "2026-06-08T05:22:00",
-      "hour": "05:22",
+      "date": "2026-06-08T11:58:00",
+      "hour": "11:58",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
