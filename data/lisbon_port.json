@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T09:50:48.177565+00:00",
+  "fetched_at": "2026-06-09T12:40:09.552342+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -87,23 +87,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9210218",
-      "source": "arrivals"
-    },
-    {
-      "name": "EXPLORA",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Lisboa",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-06-09T10:00:00",
-      "hour": "10:00",
-      "pax": 0,
-      "cargo": "Missão Científica, Cultural ou Benemerita · Navio de exploração científica",
-      "is_hazard": false,
-      "ship_type": "Navio de exploração científica",
-      "flag": "Itália",
-      "imo": "7310868",
       "source": "arrivals"
     },
     {
@@ -277,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "EXPLORA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-06-09T09:34:00",
+      "hour": "09:34",
+      "pax": 0,
+      "cargo": "Missão Científica, Cultural ou Benemerita · Navio de exploração científica",
+      "is_hazard": false,
+      "ship_type": "Navio de exploração científica",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ELI A",
       "line": "",
       "type": "transit",
@@ -404,8 +404,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "Sines",
-      "date": "2026-06-09T07:00:00",
-      "hour": "07:00",
+      "date": "2026-06-09T17:00:00",
+      "hour": "17:00",
       "pax": 0,
       "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
