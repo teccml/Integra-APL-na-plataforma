@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-09T12:40:09.552342+00:00",
+  "fetched_at": "2026-06-09T15:57:57.762101+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -96,8 +96,8 @@
       "terminal": "Alcântara",
       "from": "Algeciras",
       "to": "",
-      "date": "2026-06-09T21:00:00",
-      "hour": "21:00",
+      "date": "2026-06-09T23:00:00",
+      "hour": "23:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -449,23 +449,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CANNETO M",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Huelva",
-      "date": "2026-06-10T00:00:00",
-      "hour": "00:00",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Itália",
-      "imo": "9359583",
-      "source": "arrivals"
-    },
-    {
       "name": "FEDERAL BERING",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -517,6 +500,23 @@
       "source": "departures"
     },
     {
+      "name": "TAI HUA WAN",
+      "line": "Afonso H. Oneill, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Oristano",
+      "to": "La Coruna",
+      "date": "2026-06-09T11:20:00",
+      "hour": "11:20",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para transporte de óleos e derivados",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para transporte de óleos e derivados",
+      "flag": "China",
+      "imo": "9814387",
+      "source": "departures"
+    },
+    {
       "name": "MONTE BRASIL",
       "line": "",
       "type": "hazard",
@@ -529,23 +529,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "TAI HUA WAN",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-08T06:23:00",
-      "hour": "06:23",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para transporte de óleos e derivados",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para transporte de óleos e derivados",
       "flag": "",
       "imo": "",
       "source": "in_port"
