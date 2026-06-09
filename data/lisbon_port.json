@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-09T05:08:57.647223+00:00",
+  "fetched_at": "2026-06-09T09:50:48.177565+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -81,7 +81,7 @@
       "to": "Leixões",
       "date": "2026-06-10T07:00:00",
       "hour": "07:00",
-      "pax": 665,
+      "pax": 666,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -132,7 +132,7 @@
       "to": "Le Havre",
       "date": "2026-06-10T05:30:00",
       "hour": "05:30",
-      "pax": 0,
+      "pax": 799,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -164,8 +164,8 @@
       "terminal": "Alcântara",
       "from": "Tanger Med",
       "to": "Tangier",
-      "date": "2026-06-10T09:00:00",
-      "hour": "09:00",
+      "date": "2026-06-10T12:00:00",
+      "hour": "12:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -381,6 +381,23 @@
       "source": "arrivals"
     },
     {
+      "name": "SHIPKA",
+      "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Teesport",
+      "to": "Campana",
+      "date": "2026-06-10T16:00:00",
+      "hour": "16:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "Bulgária",
+      "imo": "7729722",
+      "source": "arrivals"
+    },
+    {
       "name": "GALBOT",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -395,23 +412,6 @@
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "Malta",
       "imo": "9555084",
-      "source": "arrivals"
-    },
-    {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Ponta Delgada",
-      "date": "2026-06-09T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9083055",
       "source": "arrivals"
     },
     {
@@ -515,6 +515,23 @@
       "flag": "Espanha",
       "imo": "9428671",
       "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-09T06:45:00",
+      "hour": "06:45",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "TAI HUA WAN",
