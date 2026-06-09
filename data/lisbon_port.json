@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T21:00:40.263881+00:00",
+  "fetched_at": "2026-06-09T22:25:28.197163+00:00",
   "source": "portodelisboa.pt",
   "count": 36,
   "errors": [],
@@ -472,8 +472,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Casablanca",
       "to": "Leixões",
-      "date": "2026-06-11T07:00:00",
-      "hour": "07:00",
+      "date": "2026-06-10T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Carga Geral",
       "is_hazard": true,
