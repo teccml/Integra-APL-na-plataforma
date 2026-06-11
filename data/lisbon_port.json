@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-11T05:51:02.243946+00:00",
+  "fetched_at": "2026-06-11T10:40:29.273382+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -22,23 +22,6 @@
       "source": "arrivals"
     },
     {
-      "name": "REBECCA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-06-11T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
       "name": "ARCADIA",
       "line": "James Rawes Navegação, Lda",
       "type": "arrival",
@@ -47,7 +30,7 @@
       "to": "Alicante",
       "date": "2026-06-13T06:30:00",
       "hour": "06:30",
-      "pax": 0,
+      "pax": 1995,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -328,6 +311,23 @@
       "source": "departures"
     },
     {
+      "name": "REBECCA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-11T06:31:00",
+      "hour": "06:31",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "SEA ATIL",
       "line": "",
       "type": "transit",
@@ -466,6 +466,23 @@
       "source": "arrivals"
     },
     {
+      "name": "C LEOPARD",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Rouen",
+      "to": "Tamatave (Toamasina)",
+      "date": "2026-06-13T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Libéria",
+      "imo": "9542817",
+      "source": "arrivals"
+    },
+    {
       "name": "MONTE DA GUIA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -500,23 +517,6 @@
       "source": "arrivals"
     },
     {
-      "name": "TEOS",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Casablanca",
-      "to": "Leixões",
-      "date": "2026-06-10T20:00:00",
-      "hour": "20:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "São Marino",
-      "imo": "9173331",
-      "source": "arrivals"
-    },
-    {
       "name": "CANNETO M",
       "line": "Noatum Maritime Portugal, LDA",
       "type": "hazard",
@@ -540,8 +540,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Dublin",
       "to": "Leixões",
-      "date": "2026-06-12T12:00:00",
-      "hour": "12:00",
+      "date": "2026-06-12T11:00:00",
+      "hour": "11:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Porta-Contentores",
       "is_hazard": true,
@@ -617,6 +617,23 @@
       "flag": "Bulgária",
       "imo": "7729722",
       "source": "departures"
+    },
+    {
+      "name": "TEOS",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-11T05:00:00",
+      "hour": "05:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CELTIC SPIRIT",
