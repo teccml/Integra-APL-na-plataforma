@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-12T19:07:33.556089+00:00",
+  "fetched_at": "2026-06-12T21:48:04.686121+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -115,7 +115,7 @@
       "to": "Cadiz",
       "date": "2026-06-14T05:30:00",
       "hour": "05:30",
-      "pax": 707,
+      "pax": 689,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -396,6 +396,23 @@
       "source": "departures"
     },
     {
+      "name": "SEA ATIL",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Lisboa",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-06-12T20:24:00",
+      "hour": "20:24",
+      "pax": 0,
+      "cargo": "Estacionamento em Cais · Vessel designed to tow objects but sailing alone.",
+      "is_hazard": false,
+      "ship_type": "Vessel designed to tow objects but sailing alone.",
+      "flag": "Países Baixos",
+      "imo": "9612806",
+      "source": "departures"
+    },
+    {
       "name": "CAPT. KATTELMAN",
       "line": "",
       "type": "transit",
@@ -459,23 +476,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SEA ATIL",
-      "line": "",
-      "type": "transit",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "",
-      "to": "",
-      "date": "2026-06-10T19:15:00",
-      "hour": "19:15",
-      "pax": 0,
-      "cargo": "Estacionamento em Cais · Vessel designed to tow objects but sailing alone.",
-      "is_hazard": false,
-      "ship_type": "Vessel designed to tow objects but sailing alone.",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -667,6 +667,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9301108",
+      "source": "departures"
+    },
+    {
+      "name": "ETRUSCO",
+      "line": "L. Branco – Navegação e Trânsitos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ceuta",
+      "to": "Ceuta",
+      "date": "2026-06-12T18:24:00",
+      "hour": "18:24",
+      "pax": 0,
+      "cargo": "Reparação em Estaleiro · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Itália",
+      "imo": "9327346",
       "source": "departures"
     },
     {
