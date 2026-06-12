@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T04:12:34.243082+00:00",
+  "fetched_at": "2026-06-12T08:59:41.544257+00:00",
   "source": "portodelisboa.pt",
   "count": 41,
   "errors": [],
@@ -121,23 +121,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9886213",
-      "source": "arrivals"
-    },
-    {
-      "name": "OCEAN PROTECTOR",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Faro",
-      "to": "Ponta Delgada",
-      "date": "2026-06-12T06:00:00",
-      "hour": "06:00",
-      "pax": 4,
-      "cargo": "Estacionamento em Cais · Navio de assistencia no trabalho",
-      "is_hazard": false,
-      "ship_type": "Navio de assistencia no trabalho",
-      "flag": "Portugal",
-      "imo": "9761437",
       "source": "arrivals"
     },
     {
@@ -377,6 +360,23 @@
       "flag": "França",
       "imo": "2224264",
       "source": "departures"
+    },
+    {
+      "name": "OCEAN PROTECTOR",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-06-12T05:22:00",
+      "hour": "05:22",
+      "pax": 0,
+      "cargo": "Estacionamento em Cais · Navio de assistencia no trabalho",
+      "is_hazard": false,
+      "ship_type": "Navio de assistencia no trabalho",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "AIDAstella",
