@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-13T03:59:42.038581+00:00",
+  "fetched_at": "2026-06-13T07:51:02.981894+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9195169",
-      "source": "arrivals"
-    },
-    {
-      "name": "ARCADIA",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Southampton",
-      "to": "Alicante",
-      "date": "2026-06-13T06:30:00",
-      "hour": "06:30",
-      "pax": 1995,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Bermudas",
-      "imo": "9226906",
       "source": "arrivals"
     },
     {
@@ -138,23 +121,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9886213",
-      "source": "arrivals"
-    },
-    {
-      "name": "VIKING MARS",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Malaga",
-      "to": "Leixões",
-      "date": "2026-06-13T07:00:00",
-      "hour": "07:00",
-      "pax": 896,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Noruega",
-      "imo": "9833187",
       "source": "arrivals"
     },
     {
@@ -360,6 +326,23 @@
       "flag": "Portugal",
       "imo": "9157868",
       "source": "departures"
+    },
+    {
+      "name": "ARCADIA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-13T06:07:00",
+      "hour": "06:07",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CAPT. KATTELMAN",
@@ -653,6 +636,23 @@
       "source": "departures"
     },
     {
+      "name": "IKIGAI",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Amsterdam",
+      "to": "Huelva",
+      "date": "2026-06-13T03:52:00",
+      "hour": "03:52",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Panamá",
+      "imo": "9941283",
+      "source": "departures"
+    },
+    {
       "name": "SAN MARCOS",
       "line": "",
       "type": "hazard",
@@ -665,23 +665,6 @@
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "IKIGAI",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-12T13:32:00",
-      "hour": "13:32",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "",
       "imo": "",
       "source": "in_port"
