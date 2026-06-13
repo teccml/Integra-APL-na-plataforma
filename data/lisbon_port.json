@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-13T15:02:55.430055+00:00",
+  "fetched_at": "2026-06-13T16:22:37.639208+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -345,6 +345,23 @@
       "source": "departures"
     },
     {
+      "name": "LANGENESS",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Rotterdam",
+      "to": "Leixões",
+      "date": "2026-06-13T15:02:00",
+      "hour": "15:02",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9944778",
+      "source": "departures"
+    },
+    {
       "name": "VIKING MARS",
       "line": "",
       "type": "transit",
@@ -396,23 +413,6 @@
       "source": "in_port"
     },
     {
-      "name": "LANGENESS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-06-12T14:32:00",
-      "hour": "14:32",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "OCEAN PROTECTOR",
       "line": "",
       "type": "transit",
@@ -448,23 +448,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "C LEOPARD",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Rouen",
-      "to": "Tamatave (Toamasina)",
-      "date": "2026-06-13T14:00:00",
-      "hour": "14:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
-      "flag": "Libéria",
-      "imo": "9542817",
-      "source": "arrivals"
-    },
     {
       "name": "BOMAR HAWK",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -668,6 +651,40 @@
       "flag": "Panamá",
       "imo": "9941283",
       "source": "departures"
+    },
+    {
+      "name": "C LEOPARD",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-13T14:19:00",
+      "hour": "14:19",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "GAS WIDURI",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-13T12:13:00",
+      "hour": "12:13",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SAN MARCOS",
