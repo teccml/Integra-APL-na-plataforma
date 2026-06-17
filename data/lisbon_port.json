@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-17T15:37:45.346932+00:00",
+  "fetched_at": "2026-06-17T18:21:33.601090+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -28,8 +28,8 @@
       "terminal": "Santa Apolónia",
       "from": "Ponta Delgada",
       "to": "Ponta Delgada",
-      "date": "2026-06-18T07:00:00",
-      "hour": "07:00",
+      "date": "2026-06-18T07:30:00",
+      "hour": "07:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -277,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "NAVIOS DOMINO",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Antwerpen",
+      "to": "Algeciras",
+      "date": "2026-06-17T16:47:00",
+      "hour": "16:47",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9478494",
+      "source": "departures"
+    },
+    {
       "name": "LIBERTY OF THE SEAS",
       "line": "",
       "type": "transit",
@@ -323,23 +340,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "NAVIOS DOMINO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-06-16T06:22:00",
-      "hour": "06:22",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -412,6 +412,23 @@
       "ship_type": "Carga Geral",
       "flag": "Antígua E Barbuda",
       "imo": "9434589",
+      "source": "arrivals"
+    },
+    {
+      "name": "ARKLOW CREST",
+      "line": "PORTSHIP Unipessoal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Workington",
+      "date": "2026-06-18T20:00:00",
+      "hour": "20:00",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Irlanda",
+      "imo": "9771468",
       "source": "arrivals"
     },
     {
