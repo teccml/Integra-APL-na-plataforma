@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-18T16:39:03.075147+00:00",
+  "fetched_at": "2026-06-18T19:35:24.787843+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -45,8 +45,8 @@
       "terminal": "Alcântara",
       "from": "Tanger Med",
       "to": "Tanger Med",
-      "date": "2026-06-19T11:00:00",
-      "hour": "11:00",
+      "date": "2026-06-19T22:00:00",
+      "hour": "22:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -113,8 +113,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-06-19T15:00:00",
-      "hour": "15:00",
+      "date": "2026-06-19T15:30:00",
+      "hour": "15:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -277,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "DOUGLAS MAWSON",
+      "line": "GARLAND SHIPPING LDA",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Portimão",
+      "date": "2026-06-18T18:06:00",
+      "hour": "18:06",
+      "pax": 83,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9992713",
+      "source": "departures"
+    },
+    {
       "name": "FURNAS",
       "line": "",
       "type": "transit",
@@ -326,23 +343,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "DOUGLAS MAWSON",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-18T05:21:00",
-      "hour": "05:21",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -378,23 +378,6 @@
       "ship_type": "Carga Geral",
       "flag": "Antígua E Barbuda",
       "imo": "9434589",
-      "source": "arrivals"
-    },
-    {
-      "name": "ARKLOW CREST",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Workington",
-      "date": "2026-06-18T20:00:00",
-      "hour": "20:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Irlanda",
-      "imo": "9771468",
       "source": "arrivals"
     },
     {
@@ -543,7 +526,7 @@
       "date": "2026-06-16T10:10:00",
       "hour": "10:10",
       "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "",
