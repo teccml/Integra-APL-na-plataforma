@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-19T12:08:31.301493+00:00",
+  "fetched_at": "2026-06-19T16:07:08.389566+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -28,8 +28,8 @@
       "terminal": "Alcântara",
       "from": "Tanger Med",
       "to": "Tanger Med",
-      "date": "2026-06-19T22:00:00",
-      "hour": "22:00",
+      "date": "2026-06-20T07:00:00",
+      "hour": "07:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -87,23 +87,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9823687",
-      "source": "arrivals"
-    },
-    {
-      "name": "EA GANNET",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-06-19T15:30:00",
-      "hour": "15:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9937476",
       "source": "arrivals"
     },
     {
@@ -277,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "ATLANTIC EXPRESS",
+      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Algeciras",
+      "date": "2026-06-19T12:09:00",
+      "hour": "12:09",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9330850",
+      "source": "departures"
+    },
+    {
       "name": "ELI A",
       "line": "",
       "type": "transit",
@@ -328,23 +328,6 @@
       "source": "in_port"
     },
     {
-      "name": "ATLANTIC EXPRESS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-06-18T05:52:00",
-      "hour": "05:52",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "SINAR BUKITTINGGI",
       "line": "",
       "type": "transit",
@@ -370,31 +353,14 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "Sines",
-      "date": "2026-06-20T23:00:00",
-      "hour": "23:00",
+      "date": "2026-06-21T18:00:00",
+      "hour": "18:00",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
-      "name": "ANMARE",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Hereke, Kocaeli",
-      "to": "Ridham Dock",
-      "date": "2026-06-19T13:00:00",
-      "hour": "13:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Antígua E Barbuda",
-      "imo": "9434589",
       "source": "arrivals"
     },
     {
