@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T11:57:31.924364+00:00",
+  "fetched_at": "2026-06-20T14:08:46.731082+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -28,8 +28,8 @@
       "terminal": "Alcântara",
       "from": "Tanger Med",
       "to": "Leixões",
-      "date": "2026-06-22T20:45:00",
-      "hour": "20:45",
+      "date": "2026-06-21T06:00:00",
+      "hour": "06:00",
       "pax": 0,
       "cargo": "Descarga · Porta-Contentores",
       "is_hazard": false,
