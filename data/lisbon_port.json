@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T05:16:56.733230+00:00",
+  "fetched_at": "2026-06-20T09:19:42.649610+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "8700785",
-      "source": "arrivals"
-    },
-    {
-      "name": "MANDO",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Tanger Med",
-      "to": "Tanger Med",
-      "date": "2026-06-20T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Antígua E Barbuda",
-      "imo": "9175705",
       "source": "arrivals"
     },
     {
@@ -104,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428217",
-      "source": "arrivals"
-    },
-    {
-      "name": "EVRIMA",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Tanger Med",
-      "to": "Leixões",
-      "date": "2026-06-20T06:00:00",
-      "hour": "06:00",
-      "pax": 287,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9823687",
       "source": "arrivals"
     },
     {
@@ -258,6 +224,23 @@
       "flag": "Singapura",
       "imo": "9942299",
       "source": "departures"
+    },
+    {
+      "name": "EVRIMA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-20T05:32:00",
+      "hour": "05:32",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CORVO",
@@ -497,6 +480,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Ponta Delgada",
+      "date": "2026-06-20T06:17:00",
+      "hour": "06:17",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
       "source": "departures"
     },
     {
