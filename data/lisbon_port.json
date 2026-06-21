@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-20T22:10:37.497682+00:00",
+  "fetched_at": "2026-06-21T00:09:45.247829+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "8700785",
+      "source": "arrivals"
+    },
+    {
+      "name": "SIRENA",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "Leixões",
+      "date": "2026-06-23T06:00:00",
+      "hour": "06:00",
+      "pax": 656,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9187899",
       "source": "arrivals"
     },
     {
@@ -124,6 +141,23 @@
       "source": "arrivals"
     },
     {
+      "name": "EA NODDY",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Vigo",
+      "date": "2026-06-23T15:30:00",
+      "hour": "15:30",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9937488",
+      "source": "arrivals"
+    },
+    {
       "name": "RHONE",
       "line": "Noatum Maritime Portugal, LDA",
       "type": "arrival",
@@ -139,57 +173,6 @@
       "flag": "França",
       "imo": "4741937",
       "source": "arrivals"
-    },
-    {
-      "name": "LIBERTY OF THE SEAS",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "La Coruna",
-      "to": "Vigo",
-      "date": "2026-06-18T14:52:00",
-      "hour": "14:52",
-      "pax": 4433,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9330032",
-      "source": "departures"
-    },
-    {
-      "name": "DOUGLAS MAWSON",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Portimão",
-      "date": "2026-06-18T18:06:00",
-      "hour": "18:06",
-      "pax": 83,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9992713",
-      "source": "departures"
-    },
-    {
-      "name": "MAINPORT GEO",
-      "line": "L. Branco – Navegação e Trânsitos, Lda.",
-      "type": "departure",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Lisboa",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-06-18T20:06:00",
-      "hour": "20:06",
-      "pax": 0,
-      "cargo": "Estadia Prolongada (Lay Up) · Navio de assistência",
-      "is_hazard": false,
-      "ship_type": "Navio de assistência",
-      "flag": "Ilhas Marshall",
-      "imo": "9723667",
-      "source": "departures"
     },
     {
       "name": "ATLANTIC EXPRESS",
@@ -326,23 +309,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "REBECCA S",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-19T06:07:00",
-      "hour": "06:07",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -398,6 +364,23 @@
       "source": "arrivals"
     },
     {
+      "name": "SELENA ATK",
+      "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Rotterdam",
+      "to": "Algeciras",
+      "date": "2026-06-23T16:00:00",
+      "hour": "16:00",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Turquia",
+      "imo": "9902665",
+      "source": "arrivals"
+    },
+    {
       "name": "TEVFIK BEY",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -412,6 +395,23 @@
       "ship_type": "Carga Geral",
       "flag": "São Cristovão E Nevis",
       "imo": "9383326",
+      "source": "arrivals"
+    },
+    {
+      "name": "VERILA",
+      "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Londonderry",
+      "to": "Jorf Lasfar",
+      "date": "2026-06-23T06:00:00",
+      "hour": "06:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Malta",
+      "imo": "9905734",
       "source": "arrivals"
     },
     {
@@ -515,40 +515,6 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
-    },
-    {
-      "name": "ARKLOW CREST",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-18T18:57:00",
-      "hour": "18:57",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MRC LINA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-18T10:25:00",
-      "hour": "10:25",
-      "pax": 0,
-      "cargo": "Carga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ]
 }
