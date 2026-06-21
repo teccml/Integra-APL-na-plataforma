@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-21T15:12:10.240713+00:00",
+  "fetched_at": "2026-06-21T17:41:32.880013+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Marshall",
       "imo": "9187899",
-      "source": "arrivals"
-    },
-    {
-      "name": "ANDREA",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Casablanca",
-      "date": "2026-06-21T14:00:00",
-      "hour": "14:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9333357",
       "source": "arrivals"
     },
     {
@@ -258,6 +241,23 @@
       "flag": "Malta",
       "imo": "9330915",
       "source": "departures"
+    },
+    {
+      "name": "ANDREA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-06-21T13:34:00",
+      "hour": "13:34",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "JAIME S",
@@ -514,6 +514,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9202077",
+      "source": "departures"
+    },
+    {
+      "name": "MRC LINA",
+      "line": "GARLAND SHIPPING LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Las Palmas (Gran Canaria)",
+      "to": "Rotterdam",
+      "date": "2026-06-21T16:08:00",
+      "hour": "16:08",
+      "pax": 0,
+      "cargo": "Carga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Malta",
+      "imo": "9462299",
       "source": "departures"
     }
   ]
