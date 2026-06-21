@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-21T17:41:32.880013+00:00",
+  "fetched_at": "2026-06-21T19:45:42.113241+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9623673",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEATTLE C",
-      "line": "OOCL Portugal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-06-22T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Chipre",
-      "imo": "9360910",
       "source": "arrivals"
     },
     {
@@ -347,23 +330,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-06-21T18:00:00",
-      "hour": "18:00",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
       "name": "SELENA ATK",
       "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
       "type": "hazard",
@@ -532,6 +498,23 @@
       "flag": "Malta",
       "imo": "9462299",
       "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-21T18:26:00",
+      "hour": "18:26",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
