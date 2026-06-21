@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-21T10:02:31.560579+00:00",
+  "fetched_at": "2026-06-21T12:14:52.156279+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9333357",
-      "source": "arrivals"
-    },
-    {
-      "name": "JAIME S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-06-21T08:30:00",
-      "hour": "08:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428217",
       "source": "arrivals"
     },
     {
