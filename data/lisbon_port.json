@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T04:28:11.814412+00:00",
+  "fetched_at": "2026-06-22T10:41:08.688342+00:00",
   "source": "portodelisboa.pt",
   "count": 29,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9157868",
-      "source": "arrivals"
-    },
-    {
-      "name": "WIND SURF",
-      "line": "Amundsen - Maritime Agency",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Cadiz",
-      "date": "2026-06-22T03:30:00",
-      "hour": "03:30",
-      "pax": 304,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "8700785",
       "source": "arrivals"
     },
     {
@@ -90,23 +73,6 @@
       "source": "arrivals"
     },
     {
-      "name": "RDO FORTUNE",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Tanger Med",
-      "date": "2026-06-22T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9623673",
-      "source": "arrivals"
-    },
-    {
       "name": "EA NODDY",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -121,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9937488",
-      "source": "arrivals"
-    },
-    {
-      "name": "RHONE",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Brest",
-      "to": "Brest",
-      "date": "2026-06-22T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "França",
-      "imo": "4741937",
       "source": "arrivals"
     },
     {
@@ -294,6 +243,40 @@
       "source": "departures"
     },
     {
+      "name": "RDO FORTUNE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-06-22T07:06:00",
+      "hour": "07:06",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "WIND SURF",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-22T02:56:00",
+      "hour": "02:56",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "JAIME S",
       "line": "",
       "type": "transit",
@@ -309,26 +292,26 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
+    },
+    {
+      "name": "X-PRESS KAVERI",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-06-21T07:14:00",
+      "hour": "07:14",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ],
   "hazards": [
-    {
-      "name": "LAGOA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Mindelo",
-      "to": "Leixões",
-      "date": "2026-06-22T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Cabo Verde",
-      "imo": "9150470",
-      "source": "arrivals"
-    },
     {
       "name": "MONTE BRASIL",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -481,6 +464,23 @@
       "flag": "Malta",
       "imo": "9462299",
       "source": "departures"
+    },
+    {
+      "name": "LAGOA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-22T06:20:00",
+      "hour": "06:20",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "BAHIA TRES",
