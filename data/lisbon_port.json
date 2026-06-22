@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-22T22:04:50.598452+00:00",
+  "fetched_at": "2026-06-22T23:39:54.420385+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -326,23 +326,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "X-PRESS KAVERI",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-06-21T07:14:00",
-      "hour": "07:14",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -412,23 +395,6 @@
       "ship_type": "Graneleiro",
       "flag": "Libéria",
       "imo": "9856725",
-      "source": "arrivals"
-    },
-    {
-      "name": "VERILA",
-      "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Londonderry",
-      "to": "Jorf Lasfar",
-      "date": "2026-06-23T00:30:00",
-      "hour": "00:30",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
-      "flag": "Malta",
-      "imo": "9905734",
       "source": "arrivals"
     },
     {
