@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-22T19:31:57.597238+00:00",
+  "fetched_at": "2026-06-22T22:04:50.598452+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -240,6 +240,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9333357",
+      "source": "departures"
+    },
+    {
+      "name": "IDUN R",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Cadiz",
+      "to": "Cadiz",
+      "date": "2026-06-22T20:18:00",
+      "hour": "20:18",
+      "pax": 0,
+      "cargo": "Serviço da Autoridade Portuária ou Licenciados · Navio de recolha de lamas e/ou areia",
+      "is_hazard": false,
+      "ship_type": "Navio de recolha de lamas e/ou areia",
+      "flag": "Países Baixos",
+      "imo": "8325250",
       "source": "departures"
     },
     {
