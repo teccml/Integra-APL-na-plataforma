@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T14:53:31.559662+00:00",
+  "fetched_at": "2026-06-23T17:19:03.592685+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -11,9 +11,9 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Praia da Vitoria",
-      "date": "2026-06-24T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
+      "date": "2026-06-24T06:00:00",
+      "hour": "06:00",
+      "pax": 3,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
@@ -104,6 +104,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9937488",
+      "source": "arrivals"
+    },
+    {
+      "name": "AÇOR B",
+      "line": "Pmar - Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Leixões",
+      "date": "2026-06-25T00:05:00",
+      "hour": "00:05",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral / Contentores",
+      "is_hazard": false,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "Portugal",
+      "imo": "9322853",
       "source": "arrivals"
     },
     {
@@ -378,23 +395,6 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Itália",
       "imo": "9359583",
-      "source": "arrivals"
-    },
-    {
-      "name": "SELENA ATK",
-      "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Rotterdam",
-      "to": "Algeciras",
-      "date": "2026-06-23T14:30:00",
-      "hour": "14:30",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Turquia",
-      "imo": "9902665",
       "source": "arrivals"
     },
     {
