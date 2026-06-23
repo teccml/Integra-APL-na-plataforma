@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T07:51:41.498700+00:00",
+  "fetched_at": "2026-06-23T11:19:50.430199+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -342,7 +342,7 @@
       "cargo": "Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "Turquia",
+      "flag": "Barbados",
       "imo": "9212785",
       "source": "arrivals"
     },
