@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-24T16:23:27.986665+00:00",
+  "fetched_at": "2026-06-24T18:52:38.860391+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -311,23 +311,6 @@
       "source": "in_port"
     },
     {
-      "name": "REGATTA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-24T04:34:00",
-      "hour": "04:34",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "RHONE",
       "line": "",
       "type": "transit",
@@ -404,8 +387,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Leixões",
       "to": "Huelva",
-      "date": "2026-06-25T10:30:00",
-      "hour": "10:30",
+      "date": "2026-06-25T11:00:00",
+      "hour": "11:00",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
