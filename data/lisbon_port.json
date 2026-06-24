@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-24T00:00:07.271545+00:00",
+  "fetched_at": "2026-06-24T03:48:11.141965+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -308,6 +308,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Marshall",
       "imo": "9187899",
+      "source": "departures"
+    },
+    {
+      "name": "JAIME S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Caniçal",
+      "date": "2026-06-24T03:06:00",
+      "hour": "03:06",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9428217",
       "source": "departures"
     },
     {
