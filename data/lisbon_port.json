@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-24T13:23:44.203083+00:00",
+  "fetched_at": "2026-06-24T16:23:27.986665+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -130,8 +130,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-06-25T14:15:00",
-      "hour": "14:15",
+      "date": "2026-06-26T12:00:00",
+      "hour": "12:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -412,6 +412,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Itália",
       "imo": "9359583",
+      "source": "arrivals"
+    },
+    {
+      "name": "FEDERAL TYNE",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "La Pallice",
+      "to": "Abidjan",
+      "date": "2026-06-26T14:00:00",
+      "hour": "14:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9658903",
       "source": "arrivals"
     },
     {
