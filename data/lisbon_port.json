@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T03:48:11.141965+00:00",
+  "fetched_at": "2026-06-24T07:43:15.975548+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -70,23 +70,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Marshall",
       "imo": "9200940",
-      "source": "arrivals"
-    },
-    {
-      "name": "REGATTA",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Santa Cruz De Tenerife",
-      "to": "Portimão",
-      "date": "2026-06-24T05:00:00",
-      "hour": "05:00",
-      "pax": 574,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9156474",
       "source": "arrivals"
     },
     {
@@ -317,8 +300,8 @@
       "terminal": "Santa Apolónia",
       "from": "Caniçal",
       "to": "Caniçal",
-      "date": "2026-06-24T03:06:00",
-      "hour": "03:06",
+      "date": "2026-06-24T02:01:00",
+      "hour": "02:01",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -326,6 +309,23 @@
       "flag": "Portugal",
       "imo": "9428217",
       "source": "departures"
+    },
+    {
+      "name": "REGATTA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-24T04:34:00",
+      "hour": "04:34",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "RHONE",
@@ -517,6 +517,23 @@
       "source": "departures"
     },
     {
+      "name": "SENECA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Tarragona",
+      "to": "Porto Nogaro",
+      "date": "2026-06-24T03:06:00",
+      "hour": "03:06",
+      "pax": 0,
+      "cargo": "Carga · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Libéria",
+      "imo": "9856725",
+      "source": "departures"
+    },
+    {
       "name": "SELENA ATK",
       "line": "",
       "type": "hazard",
@@ -529,23 +546,6 @@
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SENECA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-23T01:12:00",
-      "hour": "01:12",
-      "pax": 0,
-      "cargo": "Carga · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
