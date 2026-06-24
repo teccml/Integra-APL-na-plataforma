@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-24T18:52:38.860391+00:00",
+  "fetched_at": "2026-06-24T20:49:33.023697+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -277,6 +277,40 @@
       "source": "departures"
     },
     {
+      "name": "REGATTA",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Santa Cruz De Tenerife",
+      "to": "Portimão",
+      "date": "2026-06-24T17:47:00",
+      "hour": "17:47",
+      "pax": 568,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9156474",
+      "source": "departures"
+    },
+    {
+      "name": "VENTURA",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Southampton",
+      "date": "2026-06-24T19:30:00",
+      "hour": "19:30",
+      "pax": 3185,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Bermudas",
+      "imo": "9333175",
+      "source": "departures"
+    },
+    {
       "name": "LAURA S",
       "line": "",
       "type": "transit",
@@ -289,23 +323,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "VENTURA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-24T07:33:00",
-      "hour": "07:33",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -501,20 +518,20 @@
     },
     {
       "name": "FRIDA",
-      "line": "",
+      "line": "Noatum Maritime Portugal, LDA",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-24T09:34:00",
-      "hour": "09:34",
+      "from": "Aveiro",
+      "to": "Portsmouth",
+      "date": "2026-06-24T18:41:00",
+      "hour": "18:41",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Alemanha",
+      "imo": "9978494",
+      "source": "departures"
     },
     {
       "name": "WEC CORNEILLE",
