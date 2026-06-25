@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-25T15:41:03.523846+00:00",
+  "fetched_at": "2026-06-25T18:12:09.540318+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -81,7 +81,7 @@
       "to": "Leixões",
       "date": "2026-06-26T19:00:00",
       "hour": "19:00",
-      "pax": 695,
+      "pax": 696,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -429,23 +429,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9287792",
-      "source": "arrivals"
-    },
-    {
-      "name": "BOMAR HAWK",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Aveiro",
-      "date": "2026-06-27T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9396000",
       "source": "arrivals"
     },
     {
