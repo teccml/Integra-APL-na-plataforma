@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T17:50:28.201203+00:00",
+  "fetched_at": "2026-06-26T19:51:24.006657+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -64,7 +64,7 @@
       "to": "Alicante",
       "date": "2026-06-27T07:30:00",
       "hour": "07:30",
-      "pax": 0,
+      "pax": 2279,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "AZAMARA JOURNEY",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Sevilla",
+      "to": "Leixões",
+      "date": "2026-06-26T19:03:00",
+      "hour": "19:03",
+      "pax": 681,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9200940",
+      "source": "departures"
+    },
+    {
       "name": "SVENDBORG",
       "line": "",
       "type": "transit",
@@ -306,23 +323,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "AZAMARA JOURNEY",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-25T06:32:00",
-      "hour": "06:32",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
