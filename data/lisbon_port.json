@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T06:54:01.448821+00:00",
+  "fetched_at": "2026-06-27T09:29:26.449071+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -87,23 +87,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9330032",
-      "source": "arrivals"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Alicante",
-      "date": "2026-06-27T07:30:00",
-      "hour": "07:30",
-      "pax": 2279,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Panamá",
-      "imo": "9250464",
       "source": "arrivals"
     },
     {
@@ -294,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "MSC OPERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-27T07:06:00",
+      "hour": "07:06",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "KILIA",
       "line": "",
       "type": "transit",
@@ -412,23 +412,6 @@
       "ship_type": "Carga Geral",
       "flag": "São Vicente E Granadinas",
       "imo": "9173197",
-      "source": "arrivals"
-    },
-    {
-      "name": "GALBOT",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Sines",
-      "date": "2026-06-27T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Malta",
-      "imo": "9555084",
       "source": "arrivals"
     },
     {
@@ -685,6 +668,23 @@
       "flag": "Malta",
       "imo": "9830599",
       "source": "departures"
+    },
+    {
+      "name": "GALBOT",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-27T05:00:00",
+      "hour": "05:00",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
