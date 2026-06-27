@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T21:06:18.323658+00:00",
+  "fetched_at": "2026-06-27T23:04:10.208884+00:00",
   "source": "portodelisboa.pt",
   "count": 39,
   "errors": [],
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "CRYSTAL SERENITY",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Leixões",
+      "date": "2026-06-27T19:59:00",
+      "hour": "19:59",
+      "pax": 696,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9243667",
+      "source": "departures"
+    },
+    {
       "name": "FUNCHALENSE 5",
       "line": "",
       "type": "transit",
@@ -306,23 +323,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CRYSTAL SERENITY",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-26T18:27:00",
-      "hour": "18:27",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
