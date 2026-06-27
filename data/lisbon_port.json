@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-27T15:17:15.261063+00:00",
+  "fetched_at": "2026-06-27T17:12:57.312238+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Marrocos",
       "imo": "9354349",
-      "source": "arrivals"
-    },
-    {
-      "name": "FUNCHALENSE 5",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Praia da Vitoria",
-      "to": "Ponta Delgada",
-      "date": "2026-06-27T13:30:00",
-      "hour": "13:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9388390",
       "source": "arrivals"
     },
     {
@@ -260,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "FUNCHALENSE 5",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-27T13:38:00",
+      "hour": "13:38",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -323,23 +323,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SVENDBORG",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-06-26T14:33:00",
-      "hour": "14:33",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -415,31 +398,14 @@
       "source": "arrivals"
     },
     {
-      "name": "WEC VAN RUYSDAEL",
-      "line": "Wec Lines-Ibero Portugal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Cork",
-      "to": "Sines",
-      "date": "2026-06-27T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9287792",
-      "source": "arrivals"
-    },
-    {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "Sines",
-      "date": "2026-06-28T20:00:00",
-      "hour": "20:00",
+      "date": "2026-06-28T13:00:00",
+      "hour": "13:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
       "is_hazard": true,
@@ -668,6 +634,23 @@
       "flag": "Malta",
       "imo": "9830599",
       "source": "departures"
+    },
+    {
+      "name": "WEC VAN RUYSDAEL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-27T14:35:00",
+      "hour": "14:35",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "GALBOT",
