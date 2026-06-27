@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T09:29:26.449071+00:00",
+  "fetched_at": "2026-06-27T11:36:08.450636+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -158,23 +158,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-06-27T09:00:00",
-      "hour": "09:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
       "name": "CAPT. KATTELMAN",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "arrival",
@@ -275,6 +258,23 @@
       "flag": "Portugal",
       "imo": "9157868",
       "source": "departures"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-27T08:38:00",
+      "hour": "08:38",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MSC OPERA",
@@ -441,7 +441,7 @@
       "date": "2026-06-28T20:00:00",
       "hour": "20:00",
       "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
