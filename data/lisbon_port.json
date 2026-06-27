@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-27T17:12:57.312238+00:00",
+  "fetched_at": "2026-06-27T19:23:46.316639+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -28,8 +28,8 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-06-28T07:00:00",
-      "hour": "07:00",
+      "date": "2026-06-28T17:00:00",
+      "hour": "17:00",
       "pax": 0,
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
@@ -240,6 +240,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9157868",
+      "source": "departures"
+    },
+    {
+      "name": "SVENDBORG",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Rotterdam",
+      "to": "Leixões",
+      "date": "2026-06-27T16:06:00",
+      "hour": "16:06",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9454230",
       "source": "departures"
     },
     {
