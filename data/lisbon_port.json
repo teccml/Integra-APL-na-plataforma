@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-27T19:23:46.316639+00:00",
+  "fetched_at": "2026-06-27T21:06:18.323658+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -73,23 +73,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MANDO",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-06-29T10:00:00",
-      "hour": "10:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Antígua E Barbuda",
-      "imo": "9175705",
-      "source": "arrivals"
-    },
-    {
       "name": "SEVEN SEAS SPLENDOR",
       "line": "Arenthern - Agência de Navegação Lda",
       "type": "arrival",
@@ -113,8 +96,8 @@
       "terminal": "Santa Apolónia",
       "from": "Caniçal",
       "to": "Caniçal",
-      "date": "2026-06-28T12:00:00",
-      "hour": "12:00",
+      "date": "2026-06-28T09:00:00",
+      "hour": "09:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -260,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "MSC OPERA",
+      "line": "MSC Portugal, S.A.",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Alicante",
+      "date": "2026-06-27T18:43:00",
+      "hour": "18:43",
+      "pax": 2279,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Panamá",
+      "imo": "9250464",
+      "source": "departures"
+    },
+    {
       "name": "FUNCHALENSE 5",
       "line": "",
       "type": "transit",
@@ -289,23 +289,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-06-27T07:06:00",
-      "hour": "07:06",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -395,23 +378,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9150420",
-      "source": "arrivals"
-    },
-    {
-      "name": "TRUFFALDINO",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Port Sutton Bridge",
-      "date": "2026-06-27T18:00:00",
-      "hour": "18:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "São Vicente E Granadinas",
-      "imo": "9173197",
       "source": "arrivals"
     },
     {
@@ -651,6 +617,23 @@
       "flag": "Malta",
       "imo": "9830599",
       "source": "departures"
+    },
+    {
+      "name": "TRUFFALDINO",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-06-27T17:26:00",
+      "hour": "17:26",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "WEC VAN RUYSDAEL",
