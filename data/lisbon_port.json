@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-28T05:19:07.222766+00:00",
+  "fetched_at": "2026-06-28T08:55:50.332180+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Portimão",
-      "date": "2026-06-28T04:30:00",
-      "hour": "04:30",
-      "pax": 2514,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9195169",
       "source": "arrivals"
     },
     {
@@ -189,23 +172,6 @@
       "ship_type": "Carga Geral",
       "flag": "Portugal",
       "imo": "9593672",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMAN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-06-28T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
@@ -360,6 +326,23 @@
       "flag": "Singapura",
       "imo": "9470765",
       "source": "departures"
+    },
+    {
+      "name": "NORWEGIAN DAWN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-28T04:12:00",
+      "hour": "04:12",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FUNCHALENSE 5",
