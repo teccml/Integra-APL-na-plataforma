@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-28T15:19:26.392317+00:00",
+  "fetched_at": "2026-06-28T17:15:18.953485+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -138,23 +138,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Marshall",
       "imo": "9807085",
-      "source": "arrivals"
-    },
-    {
-      "name": "FGS NORDRHEIN-WESTFALEN",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Hamburg",
-      "to": "Hamburg",
-      "date": "2026-06-28T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "Alemanha",
-      "imo": "2224594",
       "source": "arrivals"
     },
     {
