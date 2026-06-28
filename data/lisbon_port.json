@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-28T21:04:13.263213+00:00",
+  "fetched_at": "2026-06-28T22:10:44.454097+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -343,6 +343,23 @@
       "flag": "Malta",
       "imo": "9330915",
       "source": "departures"
+    },
+    {
+      "name": "REBECCA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-06-28T18:07:00",
+      "hour": "18:07",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FGS NORDRHEIN-WESTFALEN",
