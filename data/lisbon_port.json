@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-28T08:55:50.332180+00:00",
+  "fetched_at": "2026-06-28T11:09:25.013309+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -326,6 +326,23 @@
       "flag": "Singapura",
       "imo": "9470765",
       "source": "departures"
+    },
+    {
+      "name": "CAPT. KATTELMAN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-06-28T06:18:00",
+      "hour": "06:18",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "NORWEGIAN DAWN",
