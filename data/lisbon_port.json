@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-29T20:01:03.299171+00:00",
+  "fetched_at": "2026-06-29T21:37:59.686303+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -81,29 +81,12 @@
       "to": "Vigo",
       "date": "2026-06-30T05:45:00",
       "hour": "05:45",
-      "pax": 5535,
+      "pax": 5534,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9803625",
-      "source": "arrivals"
-    },
-    {
-      "name": "SPIRIT OF DUBAI",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Algeciras",
-      "date": "2026-07-01T15:30:00",
-      "hour": "15:30",
-      "pax": 0,
-      "cargo": "Descarga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9366512",
       "source": "arrivals"
     },
     {
