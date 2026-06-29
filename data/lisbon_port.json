@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-29T00:11:34.785753+00:00",
+  "fetched_at": "2026-06-29T05:52:02.797572+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -121,23 +121,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9803625",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEVEN SEAS SPLENDOR",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Cadiz",
-      "date": "2026-06-29T05:45:00",
-      "hour": "05:45",
-      "pax": 737,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9807085",
       "source": "arrivals"
     },
     {
