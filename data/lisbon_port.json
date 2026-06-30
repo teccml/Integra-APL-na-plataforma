@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T20:01:38.595090+00:00",
+  "fetched_at": "2026-06-30T21:42:23.295222+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -517,6 +517,23 @@
       "source": "departures"
     },
     {
+      "name": "CANDELARIA B",
+      "line": "BOLUDA SHIPPING PORTUGAL",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Las Palmas (Gran Canaria)",
+      "date": "2026-06-30T21:11:00",
+      "hour": "21:11",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9277395",
+      "source": "departures"
+    },
+    {
       "name": "TATLISU",
       "line": "",
       "type": "hazard",
@@ -529,23 +546,6 @@
       "cargo": "Carga · Navio para carregar produtos quimicos a granel ou em tanques",
       "is_hazard": true,
       "ship_type": "Navio para carregar produtos quimicos a granel ou em tanques",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CANDELARIA B",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-06-30T05:35:00",
-      "hour": "05:35",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
