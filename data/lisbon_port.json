@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-06-30T17:57:30.416182+00:00",
+  "fetched_at": "2026-06-30T20:01:38.595090+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
   "ships": [
-    {
-      "name": "X-PRESS SOUSSE",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Algeciras",
-      "date": "2026-06-30T18:00:00",
-      "hour": "18:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Marrocos",
-      "imo": "9354349",
-      "source": "arrivals"
-    },
     {
       "name": "VENTURA",
       "line": "James Rawes Navegação, Lda",
@@ -224,6 +207,23 @@
       "flag": "São Marino",
       "imo": "9173331",
       "source": "departures"
+    },
+    {
+      "name": "X-PRESS SOUSSE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-06-30T17:16:00",
+      "hour": "17:16",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MSC VIRTUOSA",
