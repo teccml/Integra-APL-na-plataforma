@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T12:10:40.226589+00:00",
+  "fetched_at": "2026-06-30T15:30:01.167942+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -336,8 +336,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "Sines",
-      "date": "2026-06-30T13:00:00",
-      "hour": "13:00",
+      "date": "2026-07-01T06:00:00",
+      "hour": "06:00",
       "pax": 0,
       "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
@@ -361,6 +361,23 @@
       "ship_type": "Carga Geral / Contentores",
       "flag": "Portugal",
       "imo": "9141613",
+      "source": "arrivals"
+    },
+    {
+      "name": "CELTIC SPIRIT",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sevilla",
+      "to": "Rye",
+      "date": "2026-07-01T19:00:00",
+      "hour": "19:00",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Antígua E Barbuda",
+      "imo": "9365491",
       "source": "arrivals"
     },
     {
@@ -395,23 +412,6 @@
       "ship_type": "Graneleiro / Cereais",
       "flag": "Vanuatu",
       "imo": "9455985",
-      "source": "arrivals"
-    },
-    {
-      "name": "TATLISU",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Casablanca",
-      "to": "Ravenna",
-      "date": "2026-06-30T15:30:00",
-      "hour": "15:30",
-      "pax": 0,
-      "cargo": "Carga · Navio para carregar produtos quimicos a granel ou em tanques",
-      "is_hazard": true,
-      "ship_type": "Navio para carregar produtos quimicos a granel ou em tanques",
-      "flag": "Ilhas Marshall",
-      "imo": "9282364",
       "source": "arrivals"
     },
     {
