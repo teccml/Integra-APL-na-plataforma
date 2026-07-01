@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-01T04:05:56.591032+00:00",
+  "fetched_at": "2026-07-01T08:50:38.965504+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 28,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Bermudas",
       "imo": "9333175",
-      "source": "arrivals"
-    },
-    {
-      "name": "FERDINANDA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Praia",
-      "date": "2026-07-01T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9445019",
       "source": "arrivals"
     },
     {
@@ -245,23 +228,6 @@
       "source": "arrivals"
     },
     {
-      "name": "GALBOT",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-07-01T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Malta",
-      "imo": "9555084",
-      "source": "arrivals"
-    },
-    {
       "name": "PONTA DO SOL",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -464,6 +430,23 @@
       "flag": "Malta",
       "imo": "9396000",
       "source": "departures"
+    },
+    {
+      "name": "GALBOT",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-01T06:07:00",
+      "hour": "06:07",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ZUGA",
