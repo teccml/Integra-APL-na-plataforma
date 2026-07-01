@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-01T15:44:06.986500+00:00",
+  "fetched_at": "2026-07-01T17:58:44.889875+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -192,6 +192,23 @@
       "source": "departures"
     },
     {
+      "name": "X-PRESS SOUSSE",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Algeciras",
+      "date": "2026-07-01T15:23:00",
+      "hour": "15:23",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Marrocos",
+      "imo": "9354349",
+      "source": "departures"
+    },
+    {
       "name": "FERDINANDA S",
       "line": "",
       "type": "transit",
@@ -251,7 +268,7 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Leixões",
       "to": "Mindelo",
-      "date": "2026-07-02T08:00:00",
+      "date": "2026-07-03T08:00:00",
       "hour": "08:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Carga Geral / Contentores",
@@ -293,23 +310,6 @@
       "ship_type": "Graneleiro / Cereais",
       "flag": "Vanuatu",
       "imo": "9455985",
-      "source": "arrivals"
-    },
-    {
-      "name": "CASTILLO DE PAMBRE",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Viana do Castelo",
-      "to": "La Coruna",
-      "date": "2026-07-03T17:00:00",
-      "hour": "17:00",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Malta",
-      "imo": "9661857",
       "source": "arrivals"
     },
     {
