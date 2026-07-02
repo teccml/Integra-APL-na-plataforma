@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-02T03:47:21.733322+00:00",
+  "fetched_at": "2026-07-02T07:34:41.215409+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9381275",
-      "source": "arrivals"
-    },
-    {
-      "name": "VENTURA",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Vigo",
-      "to": "Leixões",
-      "date": "2026-07-02T07:45:00",
-      "hour": "07:45",
-      "pax": 3345,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Bermudas",
-      "imo": "9333175",
       "source": "arrivals"
     },
     {
