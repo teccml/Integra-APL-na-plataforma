@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-02T21:09:38.425140+00:00",
+  "fetched_at": "2026-07-02T23:10:02.406035+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -245,23 +245,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Caniçal",
-      "to": "Leixões",
-      "date": "2026-07-02T21:00:00",
-      "hour": "21:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -269,23 +252,6 @@
       "from": "Sines",
       "to": "Sines",
       "date": "2026-07-03T20:00:00",
-      "hour": "20:00",
-      "pax": 0,
-      "cargo": "Carga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-07-02T20:00:00",
       "hour": "20:00",
       "pax": 0,
       "cargo": "Carga · Petroleiro para carregamento de crude",
@@ -515,6 +481,23 @@
       "flag": "Antígua E Barbuda",
       "imo": "9365491",
       "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-02T19:49:00",
+      "hour": "19:49",
+      "pax": 0,
+      "cargo": "Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "POLSTEAM PILE",
