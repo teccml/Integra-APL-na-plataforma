@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-02T12:59:21.836342+00:00",
+  "fetched_at": "2026-07-02T15:17:49.936797+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMAN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-07-04T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
@@ -279,6 +262,23 @@
       "source": "arrivals"
     },
     {
+      "name": "BAHIA TRES",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-07-02T19:00:00",
+      "hour": "19:00",
+      "pax": 0,
+      "cargo": "Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Espanha",
+      "imo": "9428671",
+      "source": "arrivals"
+    },
+    {
       "name": "PONTA DO SOL",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -293,23 +293,6 @@
       "ship_type": "Carga Geral / Contentores",
       "flag": "Portugal",
       "imo": "9141613",
-      "source": "arrivals"
-    },
-    {
-      "name": "CEMIX",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Motril",
-      "to": "Gemlik, Bursa / BORUSAN",
-      "date": "2026-07-01T08:01:00",
-      "hour": "08:01",
-      "pax": 0,
-      "cargo": "Carga · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
-      "flag": "Vanuatu",
-      "imo": "9455985",
       "source": "arrivals"
     },
     {
@@ -370,7 +353,7 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Casablanca",
       "to": "Ravenna",
-      "date": "2026-07-03T00:00:00",
+      "date": "2026-07-04T00:00:00",
       "hour": "00:00",
       "pax": 0,
       "cargo": "Carga · Carga Geral",
