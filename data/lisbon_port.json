@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-03T17:27:57.621105+00:00",
+  "fetched_at": "2026-07-03T19:25:53.102504+00:00",
   "source": "portodelisboa.pt",
-  "count": 27,
+  "count": 28,
   "errors": [],
   "ships": [
     {
@@ -79,8 +79,8 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Caniçal",
-      "date": "2026-07-04T14:00:00",
-      "hour": "14:00",
+      "date": "2026-07-04T23:59:00",
+      "hour": "23:59",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -189,6 +189,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9237149",
+      "source": "departures"
+    },
+    {
+      "name": "VENTURA",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Vigo",
+      "to": "Leixões",
+      "date": "2026-07-03T18:26:00",
+      "hour": "18:26",
+      "pax": 3345,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Bermudas",
+      "imo": "9333175",
       "source": "departures"
     },
     {
