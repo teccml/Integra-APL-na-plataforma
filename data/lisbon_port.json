@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-03T07:22:30.399444+00:00",
+  "fetched_at": "2026-07-03T10:38:17.340679+00:00",
   "source": "portodelisboa.pt",
-  "count": 27,
+  "count": 28,
   "errors": [],
   "ships": [
     {
@@ -259,6 +259,23 @@
       "ship_type": "Carga Geral / Contentores",
       "flag": "Portugal",
       "imo": "9141613",
+      "source": "arrivals"
+    },
+    {
+      "name": "WEC BOUMEESTER",
+      "line": "Wec Lines-Ibero Portugal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Vigo",
+      "to": "Sines",
+      "date": "2026-07-05T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9150080",
       "source": "arrivals"
     },
     {
