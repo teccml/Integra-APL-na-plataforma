@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-03T03:28:29.432971+00:00",
+  "fetched_at": "2026-07-03T07:22:30.399444+00:00",
   "source": "portodelisboa.pt",
-  "count": 26,
+  "count": 27,
   "errors": [],
   "ships": [
     {
@@ -381,6 +381,40 @@
       "source": "departures"
     },
     {
+      "name": "POLSTEAM PILE",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Quebec",
+      "to": "Pozzallo",
+      "date": "2026-07-03T01:52:00",
+      "hour": "01:52",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9971886",
+      "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-07-03T02:58:00",
+      "hour": "02:58",
+      "pax": 0,
+      "cargo": "Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Espanha",
+      "imo": "9428671",
+      "source": "departures"
+    },
+    {
       "name": "MONTE DA GUIA",
       "line": "",
       "type": "hazard",
@@ -393,23 +427,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "BAHIA TRES",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-02T19:49:00",
-      "hour": "19:49",
-      "pax": 0,
-      "cargo": "Carga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
       "flag": "",
       "imo": "",
       "source": "in_port"
