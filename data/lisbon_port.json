@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-04T03:21:04.666352+00:00",
+  "fetched_at": "2026-07-04T06:48:40.920603+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -515,6 +515,23 @@
       "flag": "Portugal",
       "imo": "9123788",
       "source": "departures"
+    },
+    {
+      "name": "PONTA DO SOL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-04T00:37:00",
+      "hour": "00:37",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
