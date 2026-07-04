@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-04T17:08:22.786213+00:00",
+  "fetched_at": "2026-07-04T19:17:10.180784+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -258,6 +258,23 @@
       "flag": "Portugal",
       "imo": "9322853",
       "source": "departures"
+    },
+    {
+      "name": "NYK VIRGO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-04T14:44:00",
+      "hour": "14:44",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ],
   "hazards": [
@@ -498,6 +515,23 @@
       "flag": "Portugal",
       "imo": "9141613",
       "source": "departures"
+    },
+    {
+      "name": "CASTILLO DE PAMBRE",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-04T16:02:00",
+      "hour": "16:02",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "BREB COURTESY",
