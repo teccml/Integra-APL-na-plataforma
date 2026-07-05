@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-05T16:11:29.341247+00:00",
+  "fetched_at": "2026-07-05T18:05:15.064789+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9333357",
-      "source": "arrivals"
-    },
-    {
-      "name": "XIN WEI HAI",
-      "line": "Agencia Maritima Euronave Porto, Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-07-06T05:00:00",
-      "hour": "05:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "China",
-      "imo": "9312573",
       "source": "arrivals"
     },
     {
@@ -429,23 +412,6 @@
       "ship_type": "Carga Geral",
       "flag": "São Marino",
       "imo": "9173331",
-      "source": "arrivals"
-    },
-    {
-      "name": "CANNETO M",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Huelva",
-      "date": "2026-07-05T17:30:00",
-      "hour": "17:30",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Itália",
-      "imo": "9359583",
       "source": "arrivals"
     },
     {
