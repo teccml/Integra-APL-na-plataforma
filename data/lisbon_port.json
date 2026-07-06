@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-06T20:00:59.511343+00:00",
+  "fetched_at": "2026-07-06T21:39:04.216553+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -260,6 +260,23 @@
       "source": "in_port"
     },
     {
+      "name": "SONGA PANTHER",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-06T07:29:00",
+      "hour": "07:29",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "EA GANNET",
       "line": "",
       "type": "transit",
@@ -295,23 +312,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "MARRY-S",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Brightlingsea",
-      "date": "2026-07-06T21:00:00",
-      "hour": "21:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Países Baixos",
-      "imo": "9148178",
-      "source": "arrivals"
-    },
     {
       "name": "ELVIN SAFAROV",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -583,6 +583,23 @@
       "flag": "Itália",
       "imo": "9359583",
       "source": "departures"
+    },
+    {
+      "name": "BOMAR HAWK",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-06T17:50:00",
+      "hour": "17:50",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "TEOS",
