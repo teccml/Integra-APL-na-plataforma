@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T14:39:43.417044+00:00",
+  "fetched_at": "2026-07-07T17:17:08.827000+00:00",
   "source": "portodelisboa.pt",
   "count": 34,
   "errors": [],
@@ -319,8 +319,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Constantza",
       "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-07-07T18:00:00",
-      "hour": "18:00",
+      "date": "2026-07-07T22:00:00",
+      "hour": "22:00",
       "pax": 0,
       "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
