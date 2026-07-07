@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-07T07:41:16.838960+00:00",
+  "fetched_at": "2026-07-07T11:09:18.884969+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -207,6 +207,40 @@
       "flag": "Singapura",
       "imo": "9937476",
       "source": "departures"
+    },
+    {
+      "name": "SANTA MARIA MANUELA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-07-07T07:14:00",
+      "hour": "07:14",
+      "pax": 0,
+      "cargo": "Turismo · Embarcação à vela de treino",
+      "is_hazard": false,
+      "ship_type": "Embarcação à vela de treino",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MSC OPERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-07T07:09:00",
+      "hour": "07:09",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "RAQUEL S",
@@ -447,6 +481,23 @@
       "flag": "Itália",
       "imo": "9359583",
       "source": "departures"
+    },
+    {
+      "name": "NQ TULIPA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-07T07:25:00",
+      "hour": "07:25",
+      "pax": 0,
+      "cargo": "Carga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE BRASIL",
