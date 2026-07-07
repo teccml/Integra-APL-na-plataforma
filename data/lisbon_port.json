@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-07T19:58:19.351409+00:00",
+  "fetched_at": "2026-07-07T23:04:00.848933+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -96,8 +96,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Sao Tomé Island",
-      "date": "2026-07-08T08:00:00",
-      "hour": "08:00",
+      "date": "2026-07-08T13:00:00",
+      "hour": "13:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Carga Geral",
       "is_hazard": false,
@@ -217,7 +217,7 @@
       "to": "Alicante",
       "date": "2026-07-07T19:00:00",
       "hour": "19:00",
-      "pax": 2380,
+      "pax": 2368,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -497,6 +497,23 @@
       "ship_type": "Carga Geral",
       "flag": "São Marino",
       "imo": "9173331",
+      "source": "departures"
+    },
+    {
+      "name": "BREB COURTESY",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Casablanca",
+      "to": "Ravenna",
+      "date": "2026-07-07T20:58:00",
+      "hour": "20:58",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9421130",
       "source": "departures"
     },
     {
