@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-07T03:36:17.808143+00:00",
+  "fetched_at": "2026-07-07T07:41:16.838960+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Países Baixos",
       "imo": "9491496",
-      "source": "arrivals"
-    },
-    {
-      "name": "SANTA MARIA MANUELA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "La Coruna",
-      "to": "Ponta Delgada",
-      "date": "2026-07-07T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Turismo · Embarcação à vela de treino",
-      "is_hazard": false,
-      "ship_type": "Embarcação à vela de treino",
-      "flag": "Portugal",
-      "imo": "5312628",
       "source": "arrivals"
     },
     {
@@ -70,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9064126",
-      "source": "arrivals"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Alicante",
-      "date": "2026-07-07T07:30:00",
-      "hour": "07:30",
-      "pax": 2380,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Panamá",
-      "imo": "9250464",
       "source": "arrivals"
     },
     {
@@ -330,23 +296,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Ponta Delgada",
-      "date": "2026-07-07T07:00:00",
-      "hour": "07:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9083055",
-      "source": "arrivals"
-    },
-    {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -395,23 +344,6 @@
       "ship_type": "Carga Geral",
       "flag": "Reino Unido",
       "imo": "9256171",
-      "source": "arrivals"
-    },
-    {
-      "name": "NQ TULIPA",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Bilbao",
-      "to": "Casablanca",
-      "date": "2026-07-07T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Carga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9312406",
       "source": "arrivals"
     },
     {
@@ -515,6 +447,23 @@
       "flag": "Itália",
       "imo": "9359583",
       "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-07T06:04:00",
+      "hour": "06:04",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ARKLOW SPRAY",
