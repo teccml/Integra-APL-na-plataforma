@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T17:39:09.876714+00:00",
+  "fetched_at": "2026-07-08T19:28:15.259813+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9157868",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEVEN SEAS NAVIGATOR",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Malaga",
-      "to": "Leixões",
-      "date": "2026-07-08T17:00:00",
-      "hour": "17:00",
-      "pax": 469,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9064126",
       "source": "arrivals"
     },
     {
@@ -258,6 +241,23 @@
       "flag": "Libéria",
       "imo": "9947732",
       "source": "departures"
+    },
+    {
+      "name": "SEVEN SEAS NAVIGATOR",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-08T16:33:00",
+      "hour": "16:33",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MARIA JOSE",
