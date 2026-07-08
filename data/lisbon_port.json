@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-07T23:04:00.848933+00:00",
+  "fetched_at": "2026-07-08T00:07:42.652460+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,40 @@
       "ship_type": "Porta-Contentores",
       "flag": "Países Baixos",
       "imo": "9491496",
+      "source": "arrivals"
+    },
+    {
+      "name": "FUNCHALENSE 5",
+      "line": "Pmar - Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-07-10T07:15:00",
+      "hour": "07:15",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9388390",
+      "source": "arrivals"
+    },
+    {
+      "name": "LAURA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-07-10T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9157868",
       "source": "arrivals"
     },
     {
@@ -105,23 +139,6 @@
       "flag": "Portugal",
       "imo": "9593672",
       "source": "arrivals"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-07-05T20:24:00",
-      "hour": "20:24",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
-      "source": "departures"
     },
     {
       "name": "NYK VIRGO",
@@ -292,23 +309,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "JAIME S",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-05T11:39:00",
-      "hour": "11:39",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -327,6 +327,23 @@
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "São Cristovão E Nevis",
       "imo": "9175183",
+      "source": "arrivals"
+    },
+    {
+      "name": "MONTE DA GUIA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Leixões",
+      "date": "2026-07-10T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9123788",
       "source": "arrivals"
     },
     {
@@ -396,57 +413,6 @@
       "flag": "Antígua E Barbuda",
       "imo": "9505510",
       "source": "arrivals"
-    },
-    {
-      "name": "TATLISU",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Casablanca",
-      "to": "Ravenna",
-      "date": "2026-07-05T09:00:00",
-      "hour": "09:00",
-      "pax": 0,
-      "cargo": "Carga · Navio para carregar produtos quimicos a granel ou em tanques",
-      "is_hazard": true,
-      "ship_type": "Navio para carregar produtos quimicos a granel ou em tanques",
-      "flag": "Ilhas Marshall",
-      "imo": "9282364",
-      "source": "departures"
-    },
-    {
-      "name": "WEC BOUMEESTER",
-      "line": "Wec Lines-Ibero Portugal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Vigo",
-      "to": "Sines",
-      "date": "2026-07-05T11:27:00",
-      "hour": "11:27",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9150080",
-      "source": "departures"
-    },
-    {
-      "name": "CASTILLO DE PAMBRE",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Viana do Castelo",
-      "to": "Huelva",
-      "date": "2026-07-05T15:11:00",
-      "hour": "15:11",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Malta",
-      "imo": "9661857",
-      "source": "departures"
     },
     {
       "name": "CANNETO M",
