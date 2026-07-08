@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-08T21:09:38.299284+00:00",
+  "fetched_at": "2026-07-08T23:10:00.101075+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -514,6 +514,40 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Malta",
       "imo": "9312406",
+      "source": "departures"
+    },
+    {
+      "name": "AMOENITAS",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Rosyth",
+      "to": "Kampung Tanjung Langsat",
+      "date": "2026-07-08T20:46:00",
+      "hour": "20:46",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Antígua E Barbuda",
+      "imo": "9505510",
+      "source": "departures"
+    },
+    {
+      "name": "BOMAR HAWK",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-07-08T21:46:00",
+      "hour": "21:46",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Malta",
+      "imo": "9396000",
       "source": "departures"
     },
     {
