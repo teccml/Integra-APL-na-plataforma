@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-09T07:38:37.996788+00:00",
+  "fetched_at": "2026-07-09T10:56:29.225887+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -30,7 +30,7 @@
       "to": "Ponta Delgada",
       "date": "2026-07-10T07:00:00",
       "hour": "07:00",
-      "pax": 0,
+      "pax": 3,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
@@ -241,6 +241,23 @@
       "flag": "Antígua E Barbuda",
       "imo": "9175705",
       "source": "departures"
+    },
+    {
+      "name": "ESSENCE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-09T07:25:00",
+      "hour": "07:25",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SEVEN SEAS NAVIGATOR",
@@ -515,6 +532,23 @@
       "flag": "Malta",
       "imo": "9396000",
       "source": "departures"
+    },
+    {
+      "name": "BMI EXPRESS",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-09T06:10:00",
+      "hour": "06:10",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CELTIC FORESTER",
