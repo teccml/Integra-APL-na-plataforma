@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T18:51:00.754591+00:00",
+  "fetched_at": "2026-07-09T20:47:47.421897+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -226,6 +226,23 @@
       "source": "departures"
     },
     {
+      "name": "SEVEN SEAS NAVIGATOR",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Malaga",
+      "to": "Leixões",
+      "date": "2026-07-09T17:46:00",
+      "hour": "17:46",
+      "pax": 469,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9064126",
+      "source": "departures"
+    },
+    {
       "name": "ORP WODNIK",
       "line": "",
       "type": "transit",
@@ -255,23 +272,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SEVEN SEAS NAVIGATOR",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-08T16:33:00",
-      "hour": "16:33",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
