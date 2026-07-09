@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-07-09T03:29:42.574511+00:00",
+  "fetched_at": "2026-07-09T07:38:37.996788+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 33,
   "errors": [],
   "ships": [
-    {
-      "name": "ESSENCE",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Southampton",
-      "date": "2026-07-09T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Países Baixos",
-      "imo": "9491496",
-      "source": "arrivals"
-    },
     {
       "name": "FUNCHALENSE 5",
       "line": "Pmar - Navegação, Lda",
@@ -378,23 +361,6 @@
       "ship_type": "Navio rebocador de outros navios",
       "flag": "Portugal",
       "imo": "9710153",
-      "source": "arrivals"
-    },
-    {
-      "name": "BMI EXPRESS",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sal Rei",
-      "to": "Aveiro",
-      "date": "2026-07-09T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9207261",
       "source": "arrivals"
     },
     {
