@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-10T04:53:50.953257+00:00",
+  "fetched_at": "2026-07-10T08:24:10.075681+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9388390",
-      "source": "arrivals"
-    },
-    {
-      "name": "LAURA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Ponta Delgada",
-      "date": "2026-07-10T07:00:00",
-      "hour": "07:00",
-      "pax": 3,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9157868",
       "source": "arrivals"
     },
     {
