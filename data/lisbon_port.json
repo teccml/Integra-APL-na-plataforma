@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-10T08:24:10.075681+00:00",
+  "fetched_at": "2026-07-10T11:53:38.037630+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -226,6 +226,23 @@
       "source": "departures"
     },
     {
+      "name": "LAURA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-10T06:40:00",
+      "hour": "06:40",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ORP WODNIK",
       "line": "",
       "type": "transit",
@@ -293,6 +310,40 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
+      "source": "arrivals"
+    },
+    {
+      "name": "GALBOT",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Setúbal",
+      "to": "Sines",
+      "date": "2026-07-12T18:00:00",
+      "hour": "18:00",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Malta",
+      "imo": "9555084",
+      "source": "arrivals"
+    },
+    {
+      "name": "RHYTHMIC",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Bilbao",
+      "to": "Algeciras",
+      "date": "2026-07-12T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Grécia",
+      "imo": "9819856",
       "source": "arrivals"
     },
     {
