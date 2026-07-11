@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-11T14:56:19.113867+00:00",
+  "fetched_at": "2026-07-11T15:58:09.357645+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -243,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "ESSENCE",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Southampton",
+      "date": "2026-07-11T11:57:00",
+      "hour": "11:57",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Países Baixos",
+      "imo": "9491496",
+      "source": "departures"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -272,23 +289,6 @@
       "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
       "is_hazard": false,
       "ship_type": "Navio Guerra",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ESSENCE",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-07-09T07:25:00",
-      "hour": "07:25",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -498,6 +498,23 @@
       "flag": "Portugal",
       "imo": "9083055",
       "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-11T12:22:00",
+      "hour": "12:22",
+      "pax": 0,
+      "cargo": "Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MED CANARY",
