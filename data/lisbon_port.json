@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-11T20:51:19.856362+00:00",
+  "fetched_at": "2026-07-11T21:52:12.653952+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -124,23 +124,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CONTSHIP BOX",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Algeciras",
-      "date": "2026-07-11T19:30:00",
-      "hour": "19:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9449845",
-      "source": "arrivals"
-    },
-    {
       "name": "CAPT. KATTELMAN",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "arrival",
@@ -258,6 +241,40 @@
       "flag": "Portugal",
       "imo": "5312628",
       "source": "departures"
+    },
+    {
+      "name": "MARIA JOSE",
+      "line": "NAIP - Navegação, Agência Internacional Portuguesa",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Sao Tomé Island",
+      "date": "2026-07-11T20:36:00",
+      "hour": "20:36",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral",
+      "is_hazard": false,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9593672",
+      "source": "departures"
+    },
+    {
+      "name": "CONTSHIP BOX",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-11T19:35:00",
+      "hour": "19:35",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ATLANTICO",
