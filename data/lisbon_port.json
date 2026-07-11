@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T05:42:59.548187+00:00",
+  "fetched_at": "2026-07-11T07:59:22.730241+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -244,20 +244,20 @@
     },
     {
       "name": "LAURA S",
-      "line": "",
-      "type": "transit",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
       "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-10T06:40:00",
-      "hour": "06:40",
-      "pax": 0,
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-07-11T07:04:00",
+      "hour": "07:04",
+      "pax": 3,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Portugal",
+      "imo": "9157868",
+      "source": "departures"
     },
     {
       "name": "ORP WODNIK",
