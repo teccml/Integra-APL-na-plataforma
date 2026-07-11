@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T11:07:27.667129+00:00",
+  "fetched_at": "2026-07-11T13:23:29.173476+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -158,23 +158,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-07-11T10:30:00",
-      "hour": "10:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
       "name": "CAPT. KATTELMAN",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "arrival",
@@ -258,6 +241,23 @@
       "flag": "Portugal",
       "imo": "9157868",
       "source": "departures"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-11T10:01:00",
+      "hour": "10:01",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ORP WODNIK",
