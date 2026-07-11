@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-11T02:47:39.010921+00:00",
+  "fetched_at": "2026-07-11T05:42:59.548187+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -514,6 +514,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
+      "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-07-11T04:37:00",
+      "hour": "04:37",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9083055",
       "source": "departures"
     }
   ]
