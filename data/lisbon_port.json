@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-11T13:23:29.173476+00:00",
+  "fetched_at": "2026-07-11T14:56:19.113867+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -30,7 +30,7 @@
       "to": "Portimão",
       "date": "2026-07-12T04:30:00",
       "hour": "04:30",
-      "pax": 2640,
+      "pax": 2643,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -364,23 +364,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Setúbal",
-      "date": "2026-07-11T12:00:00",
-      "hour": "12:00",
-      "pax": 0,
-      "cargo": "Carga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
       "name": "ARKLOW FIELD",
       "line": "PORTSHIP Unipessoal, Lda.",
       "type": "hazard",
@@ -395,23 +378,6 @@
       "ship_type": "Carga Geral",
       "flag": "Irlanda",
       "imo": "9527673",
-      "source": "arrivals"
-    },
-    {
-      "name": "MED CANARY",
-      "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Algeciras",
-      "date": "2026-07-11T12:30:00",
-      "hour": "12:30",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9544358",
       "source": "arrivals"
     },
     {
@@ -532,6 +498,23 @@
       "flag": "Portugal",
       "imo": "9083055",
       "source": "departures"
+    },
+    {
+      "name": "MED CANARY",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-11T11:58:00",
+      "hour": "11:58",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
