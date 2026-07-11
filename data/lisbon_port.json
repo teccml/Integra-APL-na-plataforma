@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-11T22:51:51.777613+00:00",
+  "fetched_at": "2026-07-11T23:56:59.969531+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -277,6 +277,23 @@
       "source": "in_port"
     },
     {
+      "name": "XIN WEI HAI",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-11T16:02:00",
+      "hour": "16:02",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -535,20 +552,20 @@
     },
     {
       "name": "MED CANARY",
-      "line": "",
+      "line": "Atlantic Lusofrete - Afretamentos Transportes e Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-11T11:58:00",
-      "hour": "11:58",
+      "from": "Leixões",
+      "to": "Barcelona",
+      "date": "2026-07-11T22:59:00",
+      "hour": "22:59",
       "pax": 0,
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Malta",
+      "imo": "9544358",
+      "source": "departures"
     }
   ]
 }
