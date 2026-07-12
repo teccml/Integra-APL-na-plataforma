@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-12T14:58:42.496727+00:00",
+  "fetched_at": "2026-07-12T16:01:24.747223+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9850460",
-      "source": "arrivals"
-    },
-    {
-      "name": "X-PRESS KAVERI",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Algeciras",
-      "to": "Leixões",
-      "date": "2026-07-12T13:30:00",
-      "hour": "13:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9470765",
       "source": "arrivals"
     },
     {
@@ -209,6 +192,40 @@
       "source": "departures"
     },
     {
+      "name": "XIN WEI HAI",
+      "line": "Agencia Maritima Euronave Porto, Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Antwerpen",
+      "to": "Algeciras",
+      "date": "2026-07-12T15:31:00",
+      "hour": "15:31",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "China",
+      "imo": "9312573",
+      "source": "departures"
+    },
+    {
+      "name": "JAIME S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T12:50:00",
+      "hour": "12:50",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "SEA CLOUD SPIRIT",
       "line": "",
       "type": "transit",
@@ -243,23 +260,6 @@
       "source": "in_port"
     },
     {
-      "name": "NORWEGIAN DAWN",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-12T04:07:00",
-      "hour": "04:07",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "CONTSHIP BOX",
       "line": "",
       "type": "transit",
@@ -270,23 +270,6 @@
       "hour": "19:35",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "XIN WEI HAI",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-07-11T16:02:00",
-      "hour": "16:02",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
       "flag": "",
@@ -395,23 +378,6 @@
       "ship_type": "Carga Geral",
       "flag": "São Marino",
       "imo": "9173331",
-      "source": "arrivals"
-    },
-    {
-      "name": "TONAL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Jorf Lasfar",
-      "to": "Pozzallo",
-      "date": "2026-07-12T13:00:00",
-      "hour": "13:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Ilhas Marshall",
-      "imo": "9576129",
       "source": "arrivals"
     },
     {
