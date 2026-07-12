@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-12T09:03:24.396823+00:00",
+  "fetched_at": "2026-07-12T10:39:55.769789+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -224,6 +224,23 @@
       "flag": "Portugal",
       "imo": "9593672",
       "source": "departures"
+    },
+    {
+      "name": "FUNCHALENSE 5",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T06:17:00",
+      "hour": "06:17",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "NORWEGIAN DAWN",
