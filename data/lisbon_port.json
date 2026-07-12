@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-12T02:56:09.338316+00:00",
+  "fetched_at": "2026-07-12T06:06:14.376925+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9388390",
-      "source": "arrivals"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Portimão",
-      "date": "2026-07-12T04:30:00",
-      "hour": "04:30",
-      "pax": 2643,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9195169",
       "source": "arrivals"
     },
     {
