@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T12:03:05.481052+00:00",
+  "fetched_at": "2026-07-12T13:36:08.301934+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -90,23 +90,6 @@
       "source": "arrivals"
     },
     {
-      "name": "JAIME S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Porto Santo",
-      "to": "Caniçal",
-      "date": "2026-07-12T13:00:00",
-      "hour": "13:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428217",
-      "source": "arrivals"
-    },
-    {
       "name": "EA NODDY",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -130,8 +113,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-07-13T06:00:00",
-      "hour": "06:00",
+      "date": "2026-07-13T10:00:00",
+      "hour": "10:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -224,6 +207,23 @@
       "flag": "Portugal",
       "imo": "9641314",
       "source": "departures"
+    },
+    {
+      "name": "SEA CLOUD SPIRIT",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T11:18:00",
+      "hour": "11:18",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FUNCHALENSE 5",
