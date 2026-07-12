@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-12T10:39:55.769789+00:00",
+  "fetched_at": "2026-07-12T12:03:05.481052+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEA CLOUD SPIRIT",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Funchal",
-      "date": "2026-07-12T12:00:00",
-      "hour": "12:00",
-      "pax": 97,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9483712",
       "source": "arrivals"
     },
     {
@@ -226,6 +209,23 @@
       "source": "departures"
     },
     {
+      "name": "ATLANTICO",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-07-12T04:38:00",
+      "hour": "04:38",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9641314",
+      "source": "departures"
+    },
+    {
       "name": "FUNCHALENSE 5",
       "line": "",
       "type": "transit",
@@ -287,23 +287,6 @@
       "hour": "16:02",
       "pax": 0,
       "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-11T10:01:00",
-      "hour": "10:01",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
       "flag": "",
@@ -378,23 +361,6 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Grécia",
       "imo": "9819856",
-      "source": "arrivals"
-    },
-    {
-      "name": "ARKLOW FIELD",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "El Ferrol",
-      "to": "Sunderland",
-      "date": "2026-07-12T11:00:00",
-      "hour": "11:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Irlanda",
-      "imo": "9527673",
       "source": "arrivals"
     },
     {
@@ -549,6 +515,23 @@
       "flag": "Malta",
       "imo": "9544358",
       "source": "departures"
+    },
+    {
+      "name": "ARKLOW FIELD",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T10:33:00",
+      "hour": "10:33",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
