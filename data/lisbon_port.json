@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T19:17:41.299400+00:00",
+  "fetched_at": "2026-07-12T20:52:26.025309+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -96,8 +96,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-07-13T10:00:00",
-      "hour": "10:00",
+      "date": "2026-07-13T15:00:00",
+      "hour": "15:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -364,23 +364,6 @@
       "source": "arrivals"
     },
     {
-      "name": "RHYTHMIC",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Bilbao",
-      "to": "Algeciras",
-      "date": "2026-07-12T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Grécia",
-      "imo": "9819856",
-      "source": "arrivals"
-    },
-    {
       "name": "SANTUCA B",
       "line": "BOLUDA SHIPPING PORTUGAL",
       "type": "hazard",
@@ -515,6 +498,23 @@
       "flag": "Malta",
       "imo": "9544358",
       "source": "departures"
+    },
+    {
+      "name": "RHYTHMIC",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T16:55:00",
+      "hour": "16:55",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "TONAL",
