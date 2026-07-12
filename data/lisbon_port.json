@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-12T17:02:55.066893+00:00",
+  "fetched_at": "2026-07-12T18:03:40.337795+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -224,6 +224,23 @@
       "flag": "Ilhas Bahamas",
       "imo": "9195169",
       "source": "departures"
+    },
+    {
+      "name": "X-PRESS KAVERI",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T14:54:00",
+      "hour": "14:54",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "JAIME S",
@@ -498,6 +515,23 @@
       "flag": "Malta",
       "imo": "9544358",
       "source": "departures"
+    },
+    {
+      "name": "TONAL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T15:20:00",
+      "hour": "15:20",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ARKLOW FIELD",
