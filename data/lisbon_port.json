@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-07-12T06:06:14.376925+00:00",
+  "fetched_at": "2026-07-12T09:03:24.396823+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
   "ships": [
-    {
-      "name": "FUNCHALENSE 5",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Praia da Vitoria",
-      "to": "Ponta Delgada",
-      "date": "2026-07-12T06:30:00",
-      "hour": "06:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9388390",
-      "source": "arrivals"
-    },
     {
       "name": "VENTURA",
       "line": "James Rawes Navegação, Lda",
@@ -241,6 +224,23 @@
       "flag": "Portugal",
       "imo": "9593672",
       "source": "departures"
+    },
+    {
+      "name": "NORWEGIAN DAWN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-12T04:07:00",
+      "hour": "04:07",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CONTSHIP BOX",
