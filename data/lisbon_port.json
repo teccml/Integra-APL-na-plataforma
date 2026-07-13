@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T02:57:27.929961+00:00",
+  "fetched_at": "2026-07-13T06:22:04.815314+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -328,6 +328,23 @@
       "source": "departures"
     },
     {
+      "name": "FUNCHALENSE 5",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Praia da Vitoria",
+      "to": "Ponta Delgada",
+      "date": "2026-07-13T01:01:00",
+      "hour": "01:01",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9388390",
+      "source": "departures"
+    },
+    {
       "name": "X-PRESS KAVERI",
       "line": "",
       "type": "transit",
@@ -374,23 +391,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "FUNCHALENSE 5",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-12T06:17:00",
-      "hour": "06:17",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -552,20 +552,20 @@
     },
     {
       "name": "RHYTHMIC",
-      "line": "",
+      "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-12T16:55:00",
-      "hour": "16:55",
+      "from": "Bilbao",
+      "to": "Algeciras",
+      "date": "2026-07-13T01:55:00",
+      "hour": "01:55",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Grécia",
+      "imo": "9819856",
+      "source": "departures"
     },
     {
       "name": "TONAL",
