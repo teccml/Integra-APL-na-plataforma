@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-13T06:22:04.815314+00:00",
+  "fetched_at": "2026-07-13T10:28:55.399872+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -47,7 +47,7 @@
       "to": "Leixões",
       "date": "2026-07-15T05:45:00",
       "hour": "05:45",
-      "pax": 0,
+      "pax": 2782,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -115,7 +115,7 @@
       "to": "Leixões",
       "date": "2026-07-14T07:00:00",
       "hour": "07:00",
-      "pax": 151,
+      "pax": 155,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -147,8 +147,8 @@
       "terminal": "Alcântara",
       "from": "Rotterdam",
       "to": "Leixões",
-      "date": "2026-07-15T07:00:00",
-      "hour": "07:00",
+      "date": "2026-07-15T16:00:00",
+      "hour": "16:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -345,6 +345,23 @@
       "source": "departures"
     },
     {
+      "name": "ORP WODNIK",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Funchal",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-07-13T09:40:00",
+      "hour": "09:40",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "Polónia",
+      "imo": "8642828",
+      "source": "departures"
+    },
+    {
       "name": "X-PRESS KAVERI",
       "line": "",
       "type": "transit",
@@ -397,23 +414,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "INSULAR",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Leixões",
-      "date": "2026-07-13T08:00:00",
-      "hour": "08:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9150420",
-      "source": "arrivals"
-    },
     {
       "name": "SIYA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -566,6 +566,23 @@
       "flag": "Grécia",
       "imo": "9819856",
       "source": "departures"
+    },
+    {
+      "name": "INSULAR",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-13T06:59:00",
+      "hour": "06:59",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "TONAL",
