@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-15T14:52:44.218808+00:00",
+  "fetched_at": "2026-07-15T16:24:30.279458+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9381275",
-      "source": "arrivals"
-    },
-    {
-      "name": "REBECCA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Las Palmas",
-      "date": "2026-07-15T15:30:00",
-      "hour": "15:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428205",
       "source": "arrivals"
     },
     {
@@ -87,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9334387",
-      "source": "arrivals"
-    },
-    {
-      "name": "LANGENESS",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Rotterdam",
-      "to": "Leixões",
-      "date": "2026-07-15T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Antígua E Barbuda",
-      "imo": "9944778",
       "source": "arrivals"
     },
     {
@@ -311,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "LANGENESS",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-15T14:23:00",
+      "hour": "14:23",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "JUGURTHA",
       "line": "",
       "type": "transit",
@@ -340,23 +323,6 @@
       "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
       "is_hazard": false,
       "ship_type": "Navio Guerra",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MEIN SCHIFF 6",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-15T05:19:00",
-      "hour": "05:19",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -512,23 +478,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "07 GAJA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-15T05:29:00",
-      "hour": "05:29",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
       "flag": "",
       "imo": "",
       "source": "in_port"
