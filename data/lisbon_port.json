@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-15T05:33:58.420416+00:00",
+  "fetched_at": "2026-07-15T08:14:50.584449+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Panamá",
       "imo": "9250464",
-      "source": "arrivals"
-    },
-    {
-      "name": "MEIN SCHIFF 6",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Leixões",
-      "date": "2026-07-15T05:45:00",
-      "hour": "05:45",
-      "pax": 2775,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9753208",
       "source": "arrivals"
     },
     {
@@ -415,23 +398,6 @@
       "source": "arrivals"
     },
     {
-      "name": "07 GAJA",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Rouen",
-      "to": "Lavrion (Laurium)",
-      "date": "2026-07-15T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Antígua E Barbuda",
-      "imo": "9273791",
-      "source": "arrivals"
-    },
-    {
       "name": "RHYTHMIC",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -532,6 +498,23 @@
       "flag": "Espanha",
       "imo": "9428671",
       "source": "departures"
+    },
+    {
+      "name": "07 GAJA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-15T05:29:00",
+      "hour": "05:29",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SIYA",
