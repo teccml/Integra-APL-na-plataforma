@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-15T08:14:50.584449+00:00",
+  "fetched_at": "2026-07-15T10:52:16.025680+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -121,40 +121,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Panamá",
       "imo": "9337688",
-      "source": "arrivals"
-    },
-    {
-      "name": "JUGURTHA",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Rades/ Tunis",
-      "to": "Rades/ Tunis",
-      "date": "2026-07-15T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "Tunísia",
-      "imo": "2224595",
-      "source": "arrivals"
-    },
-    {
-      "name": "SOPHONISBE",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Rades/ Tunis",
-      "to": "Rades/ Tunis",
-      "date": "2026-07-15T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "Tunísia",
-      "imo": "2224596",
       "source": "arrivals"
     },
     {
@@ -343,6 +309,57 @@
       "flag": "Portugal",
       "imo": "9428217",
       "source": "departures"
+    },
+    {
+      "name": "JUGURTHA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-07-15T07:51:00",
+      "hour": "07:51",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "SOPHONISBE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-07-15T07:35:00",
+      "hour": "07:35",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MEIN SCHIFF 6",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-15T05:19:00",
+      "hour": "05:19",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ],
   "hazards": [
