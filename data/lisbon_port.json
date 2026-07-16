@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T07:23:01.350051+00:00",
+  "fetched_at": "2026-07-16T10:10:55.437366+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -79,8 +79,8 @@
       "terminal": "Alcântara",
       "from": "Antwerpen",
       "to": "Algeciras",
-      "date": "2026-07-16T22:00:00",
-      "hour": "22:00",
+      "date": "2026-07-16T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -364,23 +364,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-07-16T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
       "name": "PONTA DO SOL",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -498,6 +481,23 @@
       "flag": "Libéria",
       "imo": "9442108",
       "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-16T07:08:00",
+      "hour": "07:08",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ILHA DA MADEIRA",
