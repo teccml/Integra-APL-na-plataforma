@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T12:20:59.488294+00:00",
+  "fetched_at": "2026-07-16T15:03:50.572298+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -336,8 +336,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Caniçal",
       "to": "Leixões",
-      "date": "2026-07-17T08:00:00",
-      "hour": "08:00",
+      "date": "2026-07-17T06:00:00",
+      "hour": "06:00",
       "pax": 2,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
