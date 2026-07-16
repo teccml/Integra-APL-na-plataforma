@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T21:12:02.434838+00:00",
+  "fetched_at": "2026-07-16T22:58:12.707260+00:00",
   "source": "portodelisboa.pt",
   "count": 29,
   "errors": [],
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Antígua E Barbuda",
       "imo": "9175705",
-      "source": "arrivals"
-    },
-    {
-      "name": "NYK DIANA",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-07-16T20:00:00",
-      "hour": "20:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Panamá",
-      "imo": "9337688",
       "source": "arrivals"
     },
     {
@@ -480,6 +463,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
+      "source": "departures"
+    },
+    {
+      "name": "ELVIN SAFAROV",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Constantza",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-07-16T19:57:00",
+      "hour": "19:57",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "São Cristovão E Nevis",
+      "imo": "9175183",
       "source": "departures"
     },
     {
