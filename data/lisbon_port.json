@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T10:48:58.247040+00:00",
+  "fetched_at": "2026-07-17T12:10:36.830130+00:00",
   "source": "portodelisboa.pt",
   "count": 28,
   "errors": [],
@@ -302,8 +302,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Cartagena",
       "to": "Tarragona",
-      "date": "2026-07-18T23:00:00",
-      "hour": "23:00",
+      "date": "2026-07-18T23:59:00",
+      "hour": "23:59",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
