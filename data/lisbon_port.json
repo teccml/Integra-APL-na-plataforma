@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T12:10:36.830130+00:00",
+  "fetched_at": "2026-07-17T14:44:47.211970+00:00",
   "source": "portodelisboa.pt",
   "count": 28,
   "errors": [],
@@ -319,8 +319,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Setúbal",
       "to": "Leixões",
-      "date": "2026-07-17T21:00:00",
-      "hour": "21:00",
+      "date": "2026-07-17T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Porta-Contentores",
       "is_hazard": true,
