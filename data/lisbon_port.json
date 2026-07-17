@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-17T18:07:03.336039+00:00",
+  "fetched_at": "2026-07-17T20:07:04.811998+00:00",
   "source": "portodelisboa.pt",
-  "count": 27,
+  "count": 25,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
-      "name": "AÇOR B",
-      "line": "Bensaude - Agentes de Navegacao Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Praia da Vitoria",
-      "to": "Ponta Delgada",
-      "date": "2026-07-17T19:00:00",
-      "hour": "19:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
-      "is_hazard": false,
-      "ship_type": "Carga Geral / Contentores",
-      "flag": "Portugal",
-      "imo": "9322853",
       "source": "arrivals"
     },
     {
@@ -175,6 +158,23 @@
       "source": "departures"
     },
     {
+      "name": "MSC OPERA",
+      "line": "MSC Portugal, S.A.",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Alicante",
+      "date": "2026-07-17T18:58:00",
+      "hour": "18:58",
+      "pax": 2388,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Panamá",
+      "imo": "9250464",
+      "source": "departures"
+    },
+    {
       "name": "MANDO",
       "line": "",
       "type": "transit",
@@ -187,23 +187,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-17T07:07:00",
-      "hour": "07:07",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -293,23 +276,6 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Malta",
       "imo": "9800374",
-      "source": "arrivals"
-    },
-    {
-      "name": "WEC VAN RUYSDAEL",
-      "line": "Wec Lines-Ibero Portugal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Leixões",
-      "date": "2026-07-17T20:00:00",
-      "hour": "20:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9287792",
       "source": "arrivals"
     },
     {
