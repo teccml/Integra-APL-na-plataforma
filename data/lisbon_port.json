@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-18T22:53:07.608516+00:00",
+  "fetched_at": "2026-07-18T23:55:45.460973+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 28,
   "errors": [],
   "ships": [
     {
@@ -243,23 +243,6 @@
       "source": "departures"
     },
     {
-      "name": "ATLANTICO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-18T05:18:00",
-      "hour": "05:18",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "AÇOR B",
       "line": "",
       "type": "transit",
@@ -293,23 +276,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9326940",
-      "source": "arrivals"
-    },
-    {
-      "name": "GRETA K",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Cartagena",
-      "to": "Tarragona",
-      "date": "2026-07-18T23:59:00",
-      "hour": "23:59",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Malta",
-      "imo": "9800374",
       "source": "arrivals"
     },
     {
