@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-18T20:52:06.437385+00:00",
+  "fetched_at": "2026-07-18T21:53:14.545111+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -226,6 +226,23 @@
       "source": "departures"
     },
     {
+      "name": "MANDO",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-07-18T20:56:00",
+      "hour": "20:56",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9175705",
+      "source": "departures"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -255,23 +272,6 @@
       "cargo": "Descarga / Carga · Carga Geral / Contentores",
       "is_hazard": false,
       "ship_type": "Carga Geral / Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MANDO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-07-17T07:26:00",
-      "hour": "07:26",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -480,6 +480,23 @@
       "ship_type": "Carga Geral",
       "flag": "Irlanda",
       "imo": "9527673",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Ponta Delgada",
+      "date": "2026-07-18T20:23:00",
+      "hour": "20:23",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
       "source": "departures"
     },
     {
