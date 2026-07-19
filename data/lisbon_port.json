@@ -1,9 +1,26 @@
 {
-  "fetched_at": "2026-07-18T23:55:45.460973+00:00",
+  "fetched_at": "2026-07-19T02:53:31.495670+00:00",
   "source": "portodelisboa.pt",
-  "count": 28,
+  "count": 32,
   "errors": [],
   "ships": [
+    {
+      "name": "API BHUM",
+      "line": "Hapag-Lloyd Portugal, Lda.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Antwerpen",
+      "to": "Tanger Med",
+      "date": "2026-07-21T19:00:00",
+      "hour": "19:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9292149",
+      "source": "arrivals"
+    },
     {
       "name": "Seven Seas Voyager",
       "line": "Arenthern - Agência de Navegação Lda",
@@ -19,6 +36,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9247144",
+      "source": "arrivals"
+    },
+    {
+      "name": "CTM ISTMO",
+      "line": "GARLAND SHIPPING LDA",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Mariel",
+      "to": "Istanbul",
+      "date": "2026-07-21T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Panamá",
+      "imo": "9430870",
       "source": "arrivals"
     },
     {
@@ -39,6 +73,23 @@
       "source": "arrivals"
     },
     {
+      "name": "X-PRESS KAVERI",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Algeciras",
+      "to": "Leixões",
+      "date": "2026-07-21T16:00:00",
+      "hour": "16:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9470765",
+      "source": "arrivals"
+    },
+    {
       "name": "JAIME S",
       "line": "Pmar - Navegação, Lda",
       "type": "arrival",
@@ -53,6 +104,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428217",
+      "source": "arrivals"
+    },
+    {
+      "name": "SINAR BUKITTINGGI",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Rotterdam",
+      "to": "Leixões",
+      "date": "2026-07-21T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9942299",
       "source": "arrivals"
     },
     {
@@ -122,40 +190,6 @@
       "flag": "Ilhas Marshall",
       "imo": "9598294",
       "source": "arrivals"
-    },
-    {
-      "name": "LANGENESS",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "departure",
-      "terminal": "Alcântara",
-      "from": "Rotterdam",
-      "to": "Leixões",
-      "date": "2026-07-16T17:11:00",
-      "hour": "17:11",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Antígua E Barbuda",
-      "imo": "9944778",
-      "source": "departures"
-    },
-    {
-      "name": "REBECCA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Las Palmas",
-      "date": "2026-07-16T19:40:00",
-      "hour": "19:40",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428205",
-      "source": "departures"
     },
     {
       "name": "EA NODDY",
@@ -243,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "ATLANTICO",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-07-19T00:31:00",
+      "hour": "00:31",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9641314",
+      "source": "departures"
+    },
+    {
       "name": "AÇOR B",
       "line": "",
       "type": "transit",
@@ -276,6 +327,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9326940",
+      "source": "arrivals"
+    },
+    {
+      "name": "GALBOT",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-07-21T09:00:00",
+      "hour": "09:00",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Malta",
+      "imo": "9555084",
       "source": "arrivals"
     },
     {
@@ -381,40 +449,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-07-16T15:15:00",
-      "hour": "15:15",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
-      "source": "departures"
-    },
-    {
-      "name": "ELVIN SAFAROV",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Constantza",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-07-16T19:57:00",
-      "hour": "19:57",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "São Cristovão E Nevis",
-      "imo": "9175183",
-      "source": "departures"
-    },
-    {
       "name": "MONTE DA GUIA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -429,6 +463,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
+      "source": "departures"
+    },
+    {
+      "name": "WEC VAN RUYSDAEL",
+      "line": "Wec Lines-Ibero Portugal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Setúbal",
+      "to": "Leixões",
+      "date": "2026-07-18T01:41:00",
+      "hour": "01:41",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9287792",
       "source": "departures"
     },
     {
@@ -464,6 +515,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "GRETA K",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-18T23:19:00",
+      "hour": "23:19",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "PONTA DO SOL",
