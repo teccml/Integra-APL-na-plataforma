@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T05:56:20.035126+00:00",
+  "fetched_at": "2026-07-19T08:22:29.028756+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
-      "source": "arrivals"
-    },
-    {
-      "name": "JAIME S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Porto Santo",
-      "to": "Caniçal",
-      "date": "2026-07-19T07:00:00",
-      "hour": "07:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428217",
       "source": "arrivals"
     },
     {
@@ -275,6 +258,23 @@
       "flag": "Portugal",
       "imo": "9641314",
       "source": "departures"
+    },
+    {
+      "name": "IRENES RESOLVE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-19T05:39:00",
+      "hour": "05:39",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "AÇOR B",
