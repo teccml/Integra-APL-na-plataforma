@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-19T02:53:31.495670+00:00",
+  "fetched_at": "2026-07-19T05:56:20.035126+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Panamá",
       "imo": "9430870",
-      "source": "arrivals"
-    },
-    {
-      "name": "IRENES RESOLVE",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Tanger Med",
-      "date": "2026-07-19T05:00:00",
-      "hour": "05:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9227273",
       "source": "arrivals"
     },
     {
@@ -164,8 +147,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-07-20T06:00:00",
-      "hour": "06:00",
+      "date": "2026-07-20T06:05:00",
+      "hour": "06:05",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
