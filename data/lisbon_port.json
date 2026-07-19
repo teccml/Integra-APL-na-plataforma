@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-19T10:36:31.335136+00:00",
+  "fetched_at": "2026-07-19T12:00:09.888614+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -260,6 +260,40 @@
       "source": "departures"
     },
     {
+      "name": "JUGURTHA",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Rades/ Tunis",
+      "to": "Rades/ Tunis",
+      "date": "2026-07-19T09:26:00",
+      "hour": "09:26",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "Tunísia",
+      "imo": "2224595",
+      "source": "departures"
+    },
+    {
+      "name": "SOPHONISBE",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Rades/ Tunis",
+      "to": "Rades/ Tunis",
+      "date": "2026-07-19T09:36:00",
+      "hour": "09:36",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "Tunísia",
+      "imo": "2224596",
+      "source": "departures"
+    },
+    {
       "name": "JAIME S",
       "line": "",
       "type": "transit",
@@ -438,8 +472,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Castellon De La Plana",
       "to": "Aveiro",
-      "date": "2026-07-20T12:00:00",
-      "hour": "12:00",
+      "date": "2026-07-21T06:00:00",
+      "hour": "06:00",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
