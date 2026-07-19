@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T19:09:09.071624+00:00",
+  "fetched_at": "2026-07-19T20:52:39.751555+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -90,23 +90,6 @@
       "source": "arrivals"
     },
     {
-      "name": "HANSA ROTENBURG",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Vigo",
-      "to": "Algeciras",
-      "date": "2026-07-19T17:00:00",
-      "hour": "17:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9401673",
-      "source": "arrivals"
-    },
-    {
       "name": "EA GANNET",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -130,8 +113,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-07-20T06:00:00",
-      "hour": "06:00",
+      "date": "2026-07-20T11:00:00",
+      "hour": "11:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -309,6 +292,23 @@
       "flag": "Portugal",
       "imo": "9322853",
       "source": "departures"
+    },
+    {
+      "name": "HANSA ROTENBURG",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-19T16:27:00",
+      "hour": "16:27",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "JAIME S",
