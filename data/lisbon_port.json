@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T08:22:29.028756+00:00",
+  "fetched_at": "2026-07-19T10:36:31.335136+00:00",
   "source": "portodelisboa.pt",
   "count": 31,
   "errors": [],
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "JAIME S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-19T06:44:00",
+      "hour": "06:44",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "IRENES RESOLVE",
       "line": "",
       "type": "transit",
@@ -512,23 +529,6 @@
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "PONTA DO SOL",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-17T08:24:00",
-      "hour": "08:24",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
-      "is_hazard": true,
-      "ship_type": "Carga Geral / Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
