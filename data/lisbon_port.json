@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T14:57:46.357946+00:00",
+  "fetched_at": "2026-07-19T15:59:14.805529+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -294,6 +294,23 @@
       "source": "departures"
     },
     {
+      "name": "AÇOR B",
+      "line": "Bensaude - Agentes de Navegacao Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Praia da Vitoria",
+      "to": "Ponta Delgada",
+      "date": "2026-07-19T15:10:00",
+      "hour": "15:10",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": false,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "Portugal",
+      "imo": "9322853",
+      "source": "departures"
+    },
+    {
       "name": "JAIME S",
       "line": "",
       "type": "transit",
@@ -323,23 +340,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "AÇOR B",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-17T19:01:00",
-      "hour": "19:01",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
-      "is_hazard": false,
-      "ship_type": "Carga Geral / Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -457,7 +457,7 @@
       "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
       "date": "2026-07-19T19:00:00",
       "hour": "19:00",
-      "pax": 0,
+      "pax": 8,
       "cargo": "Abastecimento de Combustível · Navio de providencia de bens",
       "is_hazard": true,
       "ship_type": "Navio de providencia de bens",
