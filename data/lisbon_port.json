@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-19T20:52:39.751555+00:00",
+  "fetched_at": "2026-07-19T21:54:45.352695+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -326,23 +326,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "IRENES RESOLVE",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-07-19T05:39:00",
-      "hour": "05:39",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -432,23 +415,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BOKA SUB C",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Santander",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-07-19T19:00:00",
-      "hour": "19:00",
-      "pax": 8,
-      "cargo": "Abastecimento de Combustível · Navio de providencia de bens",
-      "is_hazard": true,
-      "ship_type": "Navio de providencia de bens",
-      "flag": "Chipre",
-      "imo": "9275153",
-      "source": "arrivals"
-    },
-    {
       "name": "MH SHOGUN",
       "line": "James Rawes Navegação, Lda",
       "type": "hazard",
@@ -532,6 +498,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "BOKA SUB C",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-19T18:30:00",
+      "hour": "18:30",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Navio de providencia de bens",
+      "is_hazard": true,
+      "ship_type": "Navio de providencia de bens",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "WEC CORNEILLE",
