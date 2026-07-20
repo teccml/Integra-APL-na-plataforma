@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-19T22:55:01.129296+00:00",
+  "fetched_at": "2026-07-19T23:59:48.461679+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -87,6 +87,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9942299",
+      "source": "arrivals"
+    },
+    {
+      "name": "SOBREDA",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Setúbal",
+      "to": "Setúbal",
+      "date": "2026-07-21T16:30:00",
+      "hour": "16:30",
+      "pax": 0,
+      "cargo": "Trem de Reboque - Rebocado · Navio rebocador de outros navios",
+      "is_hazard": false,
+      "ship_type": "Navio rebocador de outros navios",
+      "flag": "Portugal",
+      "imo": "7385057",
       "source": "arrivals"
     },
     {
@@ -291,6 +308,23 @@
       "ship_type": "Carga Geral / Contentores",
       "flag": "Portugal",
       "imo": "9322853",
+      "source": "departures"
+    },
+    {
+      "name": "IRENES RESOLVE",
+      "line": "Hapag-Lloyd Portugal, Lda.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Le Havre",
+      "to": "Tanger Med",
+      "date": "2026-07-19T20:17:00",
+      "hour": "20:17",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9227273",
       "source": "departures"
     },
     {
