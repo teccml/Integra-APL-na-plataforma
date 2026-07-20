@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-20T13:08:06.089177+00:00",
+  "fetched_at": "2026-07-20T15:52:24.099297+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -127,7 +127,7 @@
       "name": "SOBREDA",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "arrival",
-      "terminal": "Alcântara",
+      "terminal": "Rocha Conde Óbidos",
       "from": "Setúbal",
       "to": "Setúbal",
       "date": "2026-07-21T16:30:00",
@@ -138,23 +138,6 @@
       "ship_type": "Navio rebocador de outros navios",
       "flag": "Portugal",
       "imo": "7385057",
-      "source": "arrivals"
-    },
-    {
-      "name": "EA GANNET",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-07-20T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9937476",
       "source": "arrivals"
     },
     {
@@ -292,6 +275,40 @@
       "flag": "Libéria",
       "imo": "9227273",
       "source": "departures"
+    },
+    {
+      "name": "EA GANNET",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-20T14:30:00",
+      "hour": "14:30",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "CAPT. KATTELMAN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-20T10:25:00",
+      "hour": "10:25",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "Seven Seas Voyager",
