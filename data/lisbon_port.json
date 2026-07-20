@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-20T18:05:53.417005+00:00",
+  "fetched_at": "2026-07-20T20:22:47.080400+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -104,6 +104,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
+      "source": "arrivals"
+    },
+    {
+      "name": "SEDNA",
+      "line": "Amundsen - Maritime Agency",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Cascais",
+      "to": "Cascais",
+      "date": "2026-07-21T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Reparação em Estaleiro · Embarcação à vela com um motor auxiliar",
+      "is_hazard": false,
+      "ship_type": "Embarcação à vela com um motor auxiliar",
+      "flag": "Malásia",
+      "imo": "5044312",
       "source": "arrivals"
     },
     {
