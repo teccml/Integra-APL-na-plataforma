@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-20T03:22:01.724533+00:00",
+  "fetched_at": "2026-07-20T06:48:57.609325+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Antígua E Barbuda",
       "imo": "9175705",
-      "source": "arrivals"
-    },
-    {
-      "name": "Seven Seas Voyager",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Bordeaux",
-      "date": "2026-07-20T06:00:00",
-      "hour": "06:00",
-      "pax": 666,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9247144",
       "source": "arrivals"
     },
     {
