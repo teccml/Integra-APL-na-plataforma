@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T11:47:47.999345+00:00",
+  "fetched_at": "2026-07-21T13:55:25.964043+00:00",
   "source": "portodelisboa.pt",
   "count": 37,
   "errors": [],
@@ -28,8 +28,8 @@
       "terminal": "Rocha Conde Óbidos",
       "from": "Trapani",
       "to": "Blyth",
-      "date": "2026-07-22T12:00:00",
-      "hour": "12:00",
+      "date": "2026-07-22T10:30:00",
+      "hour": "10:30",
       "pax": 0,
       "cargo": "Arribada (Mudança de Tripulação) · Navio de exploração científica",
       "is_hazard": false,
