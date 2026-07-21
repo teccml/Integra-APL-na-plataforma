@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-21T22:59:06.313633+00:00",
+  "fetched_at": "2026-07-21T23:56:50.792017+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -294,6 +294,40 @@
       "source": "departures"
     },
     {
+      "name": "X-PRESS KAVERI",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-21T20:30:00",
+      "hour": "20:30",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "SEAHOPE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-21T20:15:00",
+      "hour": "20:15",
+      "pax": 0,
+      "cargo": "Descarga · Graneleiro",
+      "is_hazard": false,
+      "ship_type": "Graneleiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "SEDNA",
       "line": "",
       "type": "transit",
@@ -500,6 +534,23 @@
       "source": "departures"
     },
     {
+      "name": "WEC CORNEILLE",
+      "line": "Wec Lines-Ibero Portugal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Cork",
+      "to": "Sines",
+      "date": "2026-07-21T22:44:00",
+      "hour": "22:44",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9326940",
+      "source": "departures"
+    },
+    {
       "name": "TEOS",
       "line": "",
       "type": "hazard",
@@ -578,23 +629,6 @@
       "hour": "06:05",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "WEC CORNEILLE",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-19T15:52:00",
-      "hour": "15:52",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
       "flag": "",
