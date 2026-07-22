@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-22T02:47:47.885382+00:00",
+  "fetched_at": "2026-07-22T05:52:20.004125+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -340,23 +340,6 @@
       "cargo": "Trem de Reboque - Rebocado · Navio rebocador de outros navios",
       "is_hazard": false,
       "ship_type": "Navio rebocador de outros navios",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CTM ISTMO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-07-21T06:28:00",
-      "hour": "06:28",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
