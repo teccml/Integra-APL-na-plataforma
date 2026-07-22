@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-22T19:23:21.261518+00:00",
+  "fetched_at": "2026-07-22T21:15:32.894690+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -585,6 +585,40 @@
       "source": "departures"
     },
     {
+      "name": "TEOS",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Casablanca",
+      "date": "2026-07-22T17:43:00",
+      "hour": "17:43",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "São Marino",
+      "imo": "9173331",
+      "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-07-22T18:22:00",
+      "hour": "18:22",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9083055",
+      "source": "departures"
+    },
+    {
       "name": "MH SHOGUN",
       "line": "",
       "type": "hazard",
@@ -597,23 +631,6 @@
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MONTE BRASIL",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-20T06:05:00",
-      "hour": "06:05",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
