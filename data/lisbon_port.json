@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-22T05:52:20.004125+00:00",
+  "fetched_at": "2026-07-22T08:32:02.049793+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Navio de exploração científica",
       "flag": "Noruega",
       "imo": "9745768",
-      "source": "arrivals"
-    },
-    {
-      "name": "API BHUM",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Tanger Med",
-      "date": "2026-07-22T05:30:00",
-      "hour": "05:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9292149",
       "source": "arrivals"
     },
     {
@@ -258,6 +241,40 @@
       "flag": "Portugal",
       "imo": "9428217",
       "source": "departures"
+    },
+    {
+      "name": "CTM ISTMO",
+      "line": "GARLAND SHIPPING LDA",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Mariel",
+      "to": "Istanbul",
+      "date": "2026-07-22T06:30:00",
+      "hour": "06:30",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Panamá",
+      "imo": "9430870",
+      "source": "departures"
+    },
+    {
+      "name": "API BHUM",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-22T06:17:00",
+      "hour": "06:17",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "X-PRESS KAVERI",
