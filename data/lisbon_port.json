@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-23T05:56:48.225414+00:00",
+  "fetched_at": "2026-07-23T08:33:23.819119+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -275,6 +275,23 @@
       "flag": "Noruega",
       "imo": "9745768",
       "source": "departures"
+    },
+    {
+      "name": "NAUTICA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-23T05:18:00",
+      "hour": "05:18",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SINAR BUKITTINGGI",
