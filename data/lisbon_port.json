@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-23T02:53:47.540684+00:00",
+  "fetched_at": "2026-07-23T05:56:48.225414+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Antígua E Barbuda",
       "imo": "9175705",
-      "source": "arrivals"
-    },
-    {
-      "name": "NAUTICA",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Funchal",
-      "date": "2026-07-23T05:45:00",
-      "hour": "05:45",
-      "pax": 633,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9200938",
       "source": "arrivals"
     },
     {
