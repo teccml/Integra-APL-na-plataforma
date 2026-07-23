@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-23T17:24:16.687718+00:00",
+  "fetched_at": "2026-07-23T19:20:46.976660+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -190,6 +190,23 @@
       "flag": "Singapura",
       "imo": "9470765",
       "source": "departures"
+    },
+    {
+      "name": "NYK VENUS",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-23T15:44:00",
+      "hour": "15:44",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "AIDAstella",
@@ -389,7 +406,7 @@
       "to": "Caniçal",
       "date": "2026-07-25T08:00:00",
       "hour": "08:00",
-      "pax": 1,
+      "pax": 3,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
@@ -455,8 +472,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Leixões",
       "to": "Huelva",
-      "date": "2026-07-24T22:59:00",
-      "hour": "22:59",
+      "date": "2026-07-25T11:27:00",
+      "hour": "11:27",
       "pax": 0,
       "cargo": "Descarga · Petroleiro para carregamento de crude",
       "is_hazard": true,
