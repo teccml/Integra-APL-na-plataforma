@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-23T21:06:01.507262+00:00",
+  "fetched_at": "2026-07-23T22:57:57.704392+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9157868",
-      "source": "arrivals"
-    },
-    {
-      "name": "SONGA PANTHER",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Algeciras",
-      "to": "Tanger Med",
-      "date": "2026-07-23T21:00:00",
-      "hour": "21:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9947732",
       "source": "arrivals"
     },
     {
@@ -192,6 +175,23 @@
       "source": "departures"
     },
     {
+      "name": "SINAR BUKITTINGGI",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Leixões",
+      "date": "2026-07-23T21:07:00",
+      "hour": "21:07",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9942299",
+      "source": "departures"
+    },
+    {
       "name": "NYK VENUS",
       "line": "",
       "type": "transit",
@@ -255,23 +255,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SINAR BUKITTINGGI",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-07-22T22:00:00",
-      "hour": "22:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
