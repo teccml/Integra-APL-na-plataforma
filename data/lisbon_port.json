@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-24T11:43:21.541214+00:00",
+  "fetched_at": "2026-07-24T13:48:34.835743+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9388390",
-      "source": "arrivals"
-    },
-    {
-      "name": "LAURA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Ponta Delgada",
-      "date": "2026-07-24T12:00:00",
-      "hour": "12:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9157868",
       "source": "arrivals"
     },
     {
@@ -98,7 +81,7 @@
       "to": "Leixões",
       "date": "2026-07-26T06:45:00",
       "hour": "06:45",
-      "pax": 0,
+      "pax": 3269,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -130,8 +113,8 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Caniçal",
-      "date": "2026-07-25T06:00:00",
-      "hour": "06:00",
+      "date": "2026-07-25T07:00:00",
+      "hour": "07:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -292,6 +275,23 @@
       "flag": "Malta",
       "imo": "9616230",
       "source": "departures"
+    },
+    {
+      "name": "LAURA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-24T11:33:00",
+      "hour": "11:33",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SONGA PANTHER",
@@ -600,6 +600,23 @@
       "flag": "Singapura",
       "imo": "9851622",
       "source": "departures"
+    },
+    {
+      "name": "LAGOA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-24T11:16:00",
+      "hour": "11:16",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE DA GUIA",
