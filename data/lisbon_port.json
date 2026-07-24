@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-24T21:05:41.107575+00:00",
+  "fetched_at": "2026-07-24T23:03:19.873715+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -294,6 +294,23 @@
       "source": "departures"
     },
     {
+      "name": "NYK VENUS",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Hamburg",
+      "to": "Algeciras",
+      "date": "2026-07-24T20:06:00",
+      "hour": "20:06",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Panamá",
+      "imo": "9312793",
+      "source": "departures"
+    },
+    {
       "name": "LAURA S",
       "line": "",
       "type": "transit",
@@ -328,14 +345,14 @@
       "source": "in_port"
     },
     {
-      "name": "NYK VENUS",
+      "name": "MANDO",
       "line": "",
       "type": "transit",
       "terminal": "Alcântara",
       "from": "",
       "to": "",
-      "date": "2026-07-23T15:44:00",
-      "hour": "15:44",
+      "date": "2026-07-23T14:54:00",
+      "hour": "14:54",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
