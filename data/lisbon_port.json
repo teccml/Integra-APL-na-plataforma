@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T15:04:28.408538+00:00",
+  "fetched_at": "2026-07-25T16:10:08.937836+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -115,7 +115,7 @@
       "to": "Leixões",
       "date": "2026-07-26T06:45:00",
       "hour": "06:45",
-      "pax": 3267,
+      "pax": 3271,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -398,23 +398,6 @@
       "source": "arrivals"
     },
     {
-      "name": "JUNO",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Cadiz",
-      "date": "2026-07-25T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
-      "flag": "Ilhas Bahamas",
-      "imo": "9422378",
-      "source": "arrivals"
-    },
-    {
       "name": "AQUABLISS",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -481,6 +464,23 @@
       "flag": "Singapura",
       "imo": "9851622",
       "source": "departures"
+    },
+    {
+      "name": "JUNO",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-25T14:15:00",
+      "hour": "14:15",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CANNETO M",
