@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T20:10:39.649133+00:00",
+  "fetched_at": "2026-07-26T22:01:01.078809+00:00",
   "source": "portodelisboa.pt",
   "count": 36,
   "errors": [],
@@ -11,8 +11,8 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-07-27T02:30:00",
-      "hour": "02:30",
+      "date": "2026-07-27T03:30:00",
+      "hour": "03:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
