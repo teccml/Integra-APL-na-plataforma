@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-27T14:39:17.521241+00:00",
+  "fetched_at": "2026-07-27T17:00:04.853694+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Navio de recolha de lamas e/ou areia",
       "flag": "Portugal",
       "imo": "7039464",
-      "source": "arrivals"
-    },
-    {
-      "name": "PORT GDYNIA",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Setúbal",
-      "to": "Tanger Med",
-      "date": "2026-07-29T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9334387",
       "source": "arrivals"
     },
     {
@@ -419,9 +402,9 @@
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
+      "from": "Leixões",
       "to": "Aveiro",
-      "date": "2026-07-29T08:00:00",
+      "date": "2026-07-28T08:00:00",
       "hour": "08:00",
       "pax": 0,
       "cargo": "Descarga · Tanque / Químico (alto mar)",
@@ -450,7 +433,7 @@
     },
     {
       "name": "RS LISA",
-      "line": "BOLUDA SHIPPING PORTUGAL",
+      "line": "BOLUDA SHIPPING PORTUGAL, SOCIEDADE UNIPESSOAL LIMITADA",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Leixões",
@@ -466,31 +449,14 @@
       "source": "arrivals"
     },
     {
-      "name": "TEOS",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Casablanca",
-      "to": "Leixões",
-      "date": "2026-07-27T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "São Marino",
-      "imo": "9173331",
-      "source": "arrivals"
-    },
-    {
       "name": "BMI EXPRESS",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Palmeira (Ilha do Sal)",
       "to": "Cadiz",
-      "date": "2026-07-27T08:00:00",
-      "hour": "08:00",
+      "date": "2026-07-27T23:00:00",
+      "hour": "23:00",
       "pax": 0,
       "cargo": "Descarga · Porta-Contentores",
       "is_hazard": true,
