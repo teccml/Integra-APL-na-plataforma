@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-27T18:25:24.890474+00:00",
+  "fetched_at": "2026-07-27T20:23:40.148249+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -260,6 +260,40 @@
       "source": "departures"
     },
     {
+      "name": "LIBERTY OF THE SEAS",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Vigo",
+      "to": "Cadiz",
+      "date": "2026-07-27T18:36:00",
+      "hour": "18:36",
+      "pax": 4552,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9330032",
+      "source": "departures"
+    },
+    {
+      "name": "MSC OPERA",
+      "line": "MSC Portugal, S.A.",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Alicante",
+      "date": "2026-07-27T18:52:00",
+      "hour": "18:52",
+      "pax": 2372,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Panamá",
+      "imo": "9250464",
+      "source": "departures"
+    },
+    {
       "name": "FURNAS",
       "line": "",
       "type": "transit",
@@ -272,40 +306,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-27T07:12:00",
-      "hour": "07:12",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "LIBERTY OF THE SEAS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-27T06:27:00",
-      "hour": "06:27",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -634,6 +634,23 @@
       "flag": "Libéria",
       "imo": "9922835",
       "source": "departures"
+    },
+    {
+      "name": "ARKLOW VILLA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-27T05:27:00",
+      "hour": "05:27",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
