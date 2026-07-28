@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-28T14:10:39.775954+00:00",
+  "fetched_at": "2026-07-28T16:41:42.420802+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Bermudas",
       "imo": "9333175",
-      "source": "arrivals"
-    },
-    {
-      "name": "PORTO NOVO",
-      "line": "Wilhelmsen Port Services Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Funchal",
-      "to": "Funchal",
-      "date": "2026-07-28T03:00:00",
-      "hour": "03:00",
-      "pax": 0,
-      "cargo": "Reparação em Estaleiro · Navio de recolha de lamas e/ou areia",
-      "is_hazard": false,
-      "ship_type": "Navio de recolha de lamas e/ou areia",
-      "flag": "Portugal",
-      "imo": "7039464",
       "source": "arrivals"
     },
     {
@@ -294,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "PORTO NOVO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-07-28T13:36:00",
+      "hour": "13:36",
+      "pax": 0,
+      "cargo": "Reparação em Estaleiro · Navio de recolha de lamas e/ou areia",
+      "is_hazard": false,
+      "ship_type": "Navio de recolha de lamas e/ou areia",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "MEIN SCHIFF 6",
       "line": "",
       "type": "transit",
@@ -363,23 +363,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "ILHA DA MADEIRA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Ponta Delgada",
-      "date": "2026-07-28T06:00:00",
-      "hour": "06:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9202077",
-      "source": "arrivals"
-    },
     {
       "name": "RIOJA KNUTSEN",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
@@ -568,6 +551,23 @@
       "source": "departures"
     },
     {
+      "name": "ILHA DA MADEIRA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-28T14:00:00",
+      "hour": "14:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "BAHIA TRES",
       "line": "",
       "type": "hazard",
@@ -612,23 +612,6 @@
       "hour": "06:31",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "BMI EXPRESS",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-28T04:38:00",
-      "hour": "04:38",
-      "pax": 0,
-      "cargo": "Descarga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
       "flag": "",
