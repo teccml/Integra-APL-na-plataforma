@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T16:41:42.420802+00:00",
+  "fetched_at": "2026-07-28T18:15:45.744789+00:00",
   "source": "portodelisboa.pt",
   "count": 37,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Bermudas",
       "imo": "9333175",
-      "source": "arrivals"
-    },
-    {
-      "name": "PORT GDYNIA",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Setúbal",
-      "to": "Tanger Med",
-      "date": "2026-07-30T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9334387",
       "source": "arrivals"
     },
     {
@@ -79,8 +62,8 @@
       "terminal": "Alcântara",
       "from": "Le Havre",
       "to": "Tanger Med",
-      "date": "2026-07-30T02:00:00",
-      "hour": "02:00",
+      "date": "2026-07-30T05:30:00",
+      "hour": "05:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Carga Geral / Contentores",
       "is_hazard": false,
@@ -548,6 +531,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Libéria",
       "imo": "9922835",
+      "source": "departures"
+    },
+    {
+      "name": "BMI EXPRESS",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Palmeira (Ilha do Sal)",
+      "to": "Cadiz",
+      "date": "2026-07-28T15:41:00",
+      "hour": "15:41",
+      "pax": 0,
+      "cargo": "Descarga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9207261",
       "source": "departures"
     },
     {
