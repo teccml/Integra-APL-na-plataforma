@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-28T20:20:32.179837+00:00",
+  "fetched_at": "2026-07-28T22:05:39.390944+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -47,7 +47,7 @@
       "to": "La Coruna",
       "date": "2026-07-29T16:30:00",
       "hour": "16:30",
-      "pax": 2569,
+      "pax": 2568,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "CAPT. KATTELMAN",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-07-28T20:44:00",
+      "hour": "20:44",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Malta",
+      "imo": "9330915",
+      "source": "departures"
+    },
+    {
       "name": "PORTO NOVO",
       "line": "",
       "type": "transit",
@@ -289,23 +306,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CAPT. KATTELMAN",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-07-28T05:27:00",
-      "hour": "05:27",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -347,23 +347,6 @@
   ],
   "hazards": [
     {
-      "name": "RIOJA KNUTSEN",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sabine",
-      "to": "Ain Sukhna",
-      "date": "2026-07-28T19:00:00",
-      "hour": "19:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / LNG e LPG",
-      "is_hazard": true,
-      "ship_type": "Tanque / LNG e LPG",
-      "flag": "Espanha",
-      "imo": "9721736",
-      "source": "arrivals"
-    },
-    {
       "name": "MONTE BRASIL",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -378,23 +361,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9083055",
-      "source": "arrivals"
-    },
-    {
-      "name": "BOMAR HAWK",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Aveiro",
-      "date": "2026-07-28T19:00:00",
-      "hour": "19:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9396000",
       "source": "arrivals"
     },
     {
@@ -600,6 +566,23 @@
       "flag": "Libéria",
       "imo": "9930624",
       "source": "departures"
+    },
+    {
+      "name": "RIOJA KNUTSEN",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-28T19:59:00",
+      "hour": "19:59",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / LNG e LPG",
+      "is_hazard": true,
+      "ship_type": "Tanque / LNG e LPG",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ILHA DA MADEIRA",
