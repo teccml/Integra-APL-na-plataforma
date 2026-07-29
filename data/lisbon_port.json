@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T05:54:16.612642+00:00",
+  "fetched_at": "2026-07-29T08:43:34.990871+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -296,23 +296,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CADIZ KNUTSEN",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "REVITHOUSSA",
-      "to": "Sabine",
-      "date": "2026-07-29T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
-      "flag": "Espanha",
-      "imo": "9246578",
-      "source": "arrivals"
-    },
-    {
       "name": "MARIA",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -463,6 +446,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Libéria",
       "imo": "9930624",
+      "source": "departures"
+    },
+    {
+      "name": "RIOJA KNUTSEN",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sabine",
+      "to": "Ain Sukhna",
+      "date": "2026-07-29T06:13:00",
+      "hour": "06:13",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / LNG e LPG",
+      "is_hazard": true,
+      "ship_type": "Tanque / LNG e LPG",
+      "flag": "Espanha",
+      "imo": "9721736",
       "source": "departures"
     },
     {
