@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-29T16:22:55.849089+00:00",
+  "fetched_at": "2026-07-29T18:08:36.200383+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -22,23 +22,6 @@
       "source": "arrivals"
     },
     {
-      "name": "VALIANT LADY",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Tangier",
-      "to": "La Coruna",
-      "date": "2026-07-29T16:30:00",
-      "hour": "16:30",
-      "pax": 2568,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9805336",
-      "source": "arrivals"
-    },
-    {
       "name": "TORONTO EXPRESS",
       "line": "Hapag-Lloyd Portugal, Lda.",
       "type": "arrival",
@@ -53,23 +36,6 @@
       "ship_type": "Carga Geral / Contentores",
       "flag": "Bermudas",
       "imo": "9253727",
-      "source": "arrivals"
-    },
-    {
-      "name": "VIVALDI",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Alexandria",
-      "to": "Algeciras",
-      "date": "2026-07-29T15:00:00",
-      "hour": "15:00",
-      "pax": 4,
-      "cargo": "Descarga · Carga Geral / Contentores",
-      "is_hazard": false,
-      "ship_type": "Carga Geral / Contentores",
-      "flag": "Libéria",
-      "imo": "9429326",
       "source": "arrivals"
     },
     {
@@ -207,23 +173,6 @@
       "flag": "Portugal",
       "imo": "9428217",
       "source": "departures"
-    },
-    {
-      "name": "VENTURA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-29T07:58:00",
-      "hour": "07:58",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     },
     {
       "name": "PORTO NOVO",
@@ -500,6 +449,23 @@
       "source": "departures"
     },
     {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-07-29T16:44:00",
+      "hour": "16:44",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
+      "source": "departures"
+    },
+    {
       "name": "CADIZ KNUTSEN",
       "line": "",
       "type": "hazard",
@@ -512,23 +478,6 @@
       "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
       "is_hazard": true,
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ILHA DA MADEIRA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-28T14:00:00",
-      "hour": "14:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
