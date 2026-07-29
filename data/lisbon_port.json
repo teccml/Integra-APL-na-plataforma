@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-29T20:13:22.353417+00:00",
+  "fetched_at": "2026-07-29T22:02:36.947698+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -190,6 +190,23 @@
       "flag": "Bermudas",
       "imo": "9333175",
       "source": "departures"
+    },
+    {
+      "name": "VALIANT LADY",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-07-29T16:11:00",
+      "hour": "16:11",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "PORTO NOVO",
