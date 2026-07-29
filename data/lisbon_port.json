@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-29T18:08:36.200383+00:00",
+  "fetched_at": "2026-07-29T20:13:22.353417+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -172,6 +172,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428217",
+      "source": "departures"
+    },
+    {
+      "name": "VENTURA",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Southampton",
+      "date": "2026-07-29T18:31:00",
+      "hour": "18:31",
+      "pax": 3452,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Bermudas",
+      "imo": "9333175",
       "source": "departures"
     },
     {
