@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T11:27:27.243800+00:00",
+  "fetched_at": "2026-07-29T14:13:14.867336+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -330,20 +330,20 @@
       "source": "arrivals"
     },
     {
-      "name": "H&S HONESTY",
+      "name": "H&S Patience",
       "line": "PORTSHIP Unipessoal, Lda.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Aveiro",
       "to": "Brightlingsea",
-      "date": "2026-07-30T06:00:00",
-      "hour": "06:00",
+      "date": "2026-07-30T15:00:00",
+      "hour": "15:00",
       "pax": 0,
       "cargo": "Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
       "flag": "Países Baixos",
-      "imo": "9421611",
+      "imo": "9421659",
       "source": "arrivals"
     },
     {
