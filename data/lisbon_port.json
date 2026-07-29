@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T02:47:07.674563+00:00",
+  "fetched_at": "2026-07-29T05:54:16.612642+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -206,6 +206,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9753208",
+      "source": "departures"
+    },
+    {
+      "name": "JAIME S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Porto Santo",
+      "to": "Caniçal",
+      "date": "2026-07-29T03:36:00",
+      "hour": "03:36",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9428217",
       "source": "departures"
     },
     {
@@ -447,23 +464,6 @@
       "flag": "Libéria",
       "imo": "9930624",
       "source": "departures"
-    },
-    {
-      "name": "RIOJA KNUTSEN",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-28T19:59:00",
-      "hour": "19:59",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / LNG e LPG",
-      "is_hazard": true,
-      "ship_type": "Tanque / LNG e LPG",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     },
     {
       "name": "BOMAR HAWK",
