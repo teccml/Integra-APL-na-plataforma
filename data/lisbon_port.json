@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-30T11:53:06.538533+00:00",
+  "fetched_at": "2026-07-30T14:06:07.848034+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 27,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
-      "source": "arrivals"
-    },
-    {
-      "name": "XIN CHONG QING",
-      "line": "Agencia Maritima Euronave Porto, Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-08-01T00:00:00",
-      "hour": "00:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "China",
-      "imo": "9262118",
       "source": "arrivals"
     },
     {
@@ -107,7 +90,7 @@
       "source": "arrivals"
     },
     {
-      "name": "CAPT. KATTELMAN",
+      "name": "CAPT. KATTELMANN",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "departure",
       "terminal": "Alcântara",
@@ -293,23 +276,6 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
-      "name": "MARIA",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Portsmouth",
-      "date": "2026-07-31T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Antígua E Barbuda",
-      "imo": "9266566",
       "source": "arrivals"
     },
     {
