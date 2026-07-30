@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-30T14:06:07.848034+00:00",
+  "fetched_at": "2026-07-30T16:28:19.167078+00:00",
   "source": "portodelisboa.pt",
-  "count": 27,
+  "count": 28,
   "errors": [],
   "ships": [
     {
@@ -11,8 +11,8 @@
       "terminal": "Alcântara",
       "from": "Algeciras",
       "to": "Leixões",
-      "date": "2026-07-30T15:00:00",
-      "hour": "15:00",
+      "date": "2026-07-30T17:00:00",
+      "hour": "17:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -228,6 +228,23 @@
   ],
   "hazards": [
     {
+      "name": "MSC PALOMA",
+      "line": "MSC Portugal, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Liverpool",
+      "to": "Port Klang (Pelabuhan Klang)",
+      "date": "2026-07-31T22:00:00",
+      "hour": "22:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Qualquer estrutura flutuante",
+      "is_hazard": true,
+      "ship_type": "Qualquer estrutura flutuante",
+      "flag": "Panamá",
+      "imo": "9441001",
+      "source": "arrivals"
+    },
+    {
       "name": "ILHA DA MADEIRA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -432,6 +449,23 @@
       "source": "departures"
     },
     {
+      "name": "CADIZ KNUTSEN",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "REVITHOUSSA",
+      "to": "Sabine",
+      "date": "2026-07-30T09:15:00",
+      "hour": "09:15",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "Espanha",
+      "imo": "9246578",
+      "source": "departures"
+    },
+    {
       "name": "MONTE BRASIL",
       "line": "",
       "type": "hazard",
@@ -444,23 +478,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CADIZ KNUTSEN",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-07-29T07:45:00",
-      "hour": "07:45",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "",
       "imo": "",
       "source": "in_port"
