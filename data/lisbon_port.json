@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-30T06:29:51.391700+00:00",
+  "fetched_at": "2026-07-30T09:32:17.795875+00:00",
   "source": "portodelisboa.pt",
-  "count": 28,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -39,20 +39,20 @@
       "source": "arrivals"
     },
     {
-      "name": "TORONTO EXPRESS",
-      "line": "Hapag-Lloyd Portugal, Lda.",
+      "name": "TCG ORUÇREIS",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Tanger Med",
-      "date": "2026-07-30T05:30:00",
-      "hour": "05:30",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Brest",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-07-31T08:00:00",
+      "hour": "08:00",
       "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
       "is_hazard": false,
-      "ship_type": "Carga Geral / Contentores",
-      "flag": "Bermudas",
-      "imo": "9253727",
+      "ship_type": "Navio Guerra",
+      "flag": "Turquia",
+      "imo": "2224597",
       "source": "arrivals"
     },
     {
@@ -175,6 +175,23 @@
       "source": "departures"
     },
     {
+      "name": "TORONTO EXPRESS",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-30T05:59:00",
+      "hour": "05:59",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": false,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "VALIANT LADY",
       "line": "",
       "type": "transit",
@@ -187,6 +204,23 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "VIVALDI",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-07-29T14:19:00",
+      "hour": "14:19",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral / Contentores",
+      "is_hazard": false,
+      "ship_type": "Carga Geral / Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -242,23 +276,6 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Malta",
       "imo": "9431044",
-      "source": "arrivals"
-    },
-    {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-07-30T07:00:00",
-      "hour": "07:00",
-      "pax": 2,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9083055",
       "source": "arrivals"
     },
     {
@@ -464,6 +481,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-07-30T07:32:00",
+      "hour": "07:32",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CADIZ KNUTSEN",
