@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-30T18:18:04.043644+00:00",
+  "fetched_at": "2026-07-30T20:15:31.984471+00:00",
   "source": "portodelisboa.pt",
-  "count": 27,
+  "count": 26,
   "errors": [],
   "ships": [
     {
@@ -158,23 +158,6 @@
       "source": "in_port"
     },
     {
-      "name": "VALIANT LADY",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-07-29T16:11:00",
-      "hour": "16:11",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "VIVALDI",
       "line": "",
       "type": "transit",
@@ -210,40 +193,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "MSC PALOMA",
-      "line": "MSC Portugal, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Liverpool",
-      "to": "Port Klang (Pelabuhan Klang)",
-      "date": "2026-07-31T22:00:00",
-      "hour": "22:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Qualquer estrutura flutuante",
-      "is_hazard": true,
-      "ship_type": "Qualquer estrutura flutuante",
-      "flag": "Panamá",
-      "imo": "9441001",
-      "source": "arrivals"
-    },
-    {
-      "name": "ILHA DA MADEIRA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-08-01T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9202077",
-      "source": "arrivals"
-    },
     {
       "name": "BESIKTAS ZEALAND",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -310,6 +259,40 @@
       "ship_type": "Carga Geral",
       "flag": "Países Baixos",
       "imo": "9421611",
+      "source": "arrivals"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-08-01T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
+      "source": "arrivals"
+    },
+    {
+      "name": "MSC PALOMA",
+      "line": "MSC Portugal, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Liverpool",
+      "to": "Port Klang (Pelabuhan Klang)",
+      "date": "2026-07-31T22:00:00",
+      "hour": "22:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Qualquer estrutura flutuante",
+      "is_hazard": true,
+      "ship_type": "Qualquer estrutura flutuante",
+      "flag": "Panamá",
+      "imo": "9441001",
       "source": "arrivals"
     },
     {
