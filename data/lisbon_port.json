@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-07-30T16:28:19.167078+00:00",
+  "fetched_at": "2026-07-30T18:18:04.043644+00:00",
   "source": "portodelisboa.pt",
-  "count": 28,
+  "count": 27,
   "errors": [],
   "ships": [
-    {
-      "name": "X-PRESS KAVERI",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Algeciras",
-      "to": "Leixões",
-      "date": "2026-07-30T17:00:00",
-      "hour": "17:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9470765",
-      "source": "arrivals"
-    },
     {
       "name": "TCG ORUÇREIS",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
