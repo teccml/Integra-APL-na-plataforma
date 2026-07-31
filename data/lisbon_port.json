@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T18:21:38.441780+00:00",
+  "fetched_at": "2026-07-31T20:21:20.423941+00:00",
   "source": "portodelisboa.pt",
   "count": 28,
   "errors": [],
@@ -111,7 +111,7 @@
       "line": "Bensaude - Agentes de Navegacao Lda",
       "type": "arrival",
       "terminal": "Santa Apolónia",
-      "from": "Praia da Vitoria",
+      "from": "Ponta Delgada",
       "to": "Ponta Delgada",
       "date": "2026-08-01T07:00:00",
       "hour": "07:00",
