@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-01T11:17:33.686344+00:00",
+  "fetched_at": "2026-08-01T13:25:10.113156+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 27,
   "errors": [],
   "ships": [
     {
@@ -138,23 +138,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428217",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMANN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-08-02T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
@@ -327,23 +310,6 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Malta",
       "imo": "9431044",
-      "source": "arrivals"
-    },
-    {
-      "name": "MARIA",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Portsmouth",
-      "date": "2026-08-03T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Antígua E Barbuda",
-      "imo": "9266566",
       "source": "arrivals"
     },
     {
