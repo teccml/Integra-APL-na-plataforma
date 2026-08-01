@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-01T15:01:28.478654+00:00",
+  "fetched_at": "2026-08-01T16:04:06.558428+00:00",
   "source": "portodelisboa.pt",
-  "count": 27,
+  "count": 26,
   "errors": [],
   "ships": [
     {
@@ -295,23 +295,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "BESIKTAS ZEALAND",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Sines",
-      "date": "2026-08-01T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9431044",
-      "source": "arrivals"
-    },
     {
       "name": "CANNETO M",
       "line": "Noatum Maritime Portugal, LDA",
