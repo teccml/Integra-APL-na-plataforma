@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-01T17:10:07.270251+00:00",
+  "fetched_at": "2026-08-01T19:10:31.994193+00:00",
   "source": "portodelisboa.pt",
-  "count": 26,
+  "count": 27,
   "errors": [],
   "ships": [
     {
@@ -379,6 +379,23 @@
       "flag": "Países Baixos",
       "imo": "9772618",
       "source": "departures"
+    },
+    {
+      "name": "BESIKTAS ZEALAND",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-01T15:20:00",
+      "hour": "15:20",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ILHA DA MADEIRA",
