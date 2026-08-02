@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T06:05:04.879616+00:00",
+  "fetched_at": "2026-08-02T08:34:46.743045+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -141,23 +141,6 @@
       "source": "arrivals"
     },
     {
-      "name": "XIN CHONG QING",
-      "line": "Agencia Maritima Euronave Porto, Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-08-02T05:30:00",
-      "hour": "05:30",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "China",
-      "imo": "9262118",
-      "source": "arrivals"
-    },
-    {
       "name": "DUBLIN EXPRESS",
       "line": "Hapag-Lloyd Portugal, Lda.",
       "type": "arrival",
@@ -275,6 +258,23 @@
       "flag": "Portugal",
       "imo": "9641314",
       "source": "departures"
+    },
+    {
+      "name": "XIN CHONG QING",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-02T06:11:00",
+      "hour": "06:11",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "AÇOR B",
@@ -501,20 +501,20 @@
     },
     {
       "name": "BAHIA TRES",
-      "line": "",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-01T01:17:00",
-      "hour": "01:17",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-08-02T05:24:00",
+      "hour": "05:24",
       "pax": 0,
       "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Espanha",
+      "imo": "9428671",
+      "source": "departures"
     }
   ]
 }
