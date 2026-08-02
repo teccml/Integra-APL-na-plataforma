@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T02:55:55.100281+00:00",
+  "fetched_at": "2026-08-02T06:05:04.879616+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -98,7 +98,7 @@
       "to": "Sao Tomé Island",
       "date": "2026-08-03T08:00:00",
       "hour": "08:00",
-      "pax": 0,
+      "pax": 6,
       "cargo": "Carga · Carga Geral",
       "is_hazard": false,
       "ship_type": "Carga Geral",
