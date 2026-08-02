@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-02T12:04:08.276920+00:00",
+  "fetched_at": "2026-08-02T13:46:58.528372+00:00",
   "source": "portodelisboa.pt",
-  "count": 28,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -224,6 +224,23 @@
       "flag": "Portugal",
       "imo": "9641314",
       "source": "departures"
+    },
+    {
+      "name": "JAIME S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-02T10:13:00",
+      "hour": "10:13",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "XIN CHONG QING",
