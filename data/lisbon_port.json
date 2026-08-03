@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-02T23:59:33.741086+00:00",
+  "fetched_at": "2026-08-03T02:57:08.142487+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Países Baixos",
       "imo": "9491496",
+      "source": "arrivals"
+    },
+    {
+      "name": "LAURA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-08-05T07:05:00",
+      "hour": "07:05",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9157868",
       "source": "arrivals"
     },
     {
@@ -121,6 +138,40 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9838383",
+      "source": "arrivals"
+    },
+    {
+      "name": "CONTSHIP BOX",
+      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Casablanca",
+      "date": "2026-08-05T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9449845",
+      "source": "arrivals"
+    },
+    {
+      "name": "EA GANNET",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Vigo",
+      "date": "2026-08-05T21:00:00",
+      "hour": "21:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9937476",
       "source": "arrivals"
     },
     {
@@ -292,23 +343,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "TCG ORUÇREIS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "",
-      "to": "",
-      "date": "2026-07-31T07:34:00",
-      "hour": "07:34",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -330,6 +364,23 @@
       "source": "arrivals"
     },
     {
+      "name": "BAHIA TRES",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-08-05T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Espanha",
+      "imo": "9428671",
+      "source": "arrivals"
+    },
+    {
       "name": "TEOS",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -344,6 +395,23 @@
       "ship_type": "Carga Geral",
       "flag": "São Marino",
       "imo": "9173331",
+      "source": "arrivals"
+    },
+    {
+      "name": "MARIA",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Aveiro",
+      "to": "Portsmouth",
+      "date": "2026-08-05T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Antígua E Barbuda",
+      "imo": "9266566",
       "source": "arrivals"
     },
     {
