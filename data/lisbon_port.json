@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T06:26:03.309619+00:00",
+  "fetched_at": "2026-08-03T10:43:57.251567+00:00",
   "source": "portodelisboa.pt",
   "count": 34,
   "errors": [],
@@ -39,31 +39,14 @@
       "source": "arrivals"
     },
     {
-      "name": "REBECCA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-08-03T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
       "name": "MANDO",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-08-02T07:00:00",
-      "hour": "07:00",
+      "date": "2026-08-03T17:30:00",
+      "hour": "17:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -138,6 +121,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9838383",
+      "source": "arrivals"
+    },
+    {
+      "name": "MSC VIRTUOSA",
+      "line": "MSC Portugal, S.A.",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Gibraltar",
+      "to": "Southampton",
+      "date": "2026-08-05T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Malta",
+      "imo": "9803625",
       "source": "arrivals"
     },
     {
@@ -277,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "XIN CHONG QING",
+      "line": "Agencia Maritima Euronave Porto, Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Antwerpen",
+      "to": "Algeciras",
+      "date": "2026-08-03T04:52:00",
+      "hour": "04:52",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "China",
+      "imo": "9262118",
+      "source": "departures"
+    },
+    {
       "name": "DUBLIN EXPRESS",
       "line": "",
       "type": "transit",
@@ -326,23 +343,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "XIN CHONG QING",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-08-02T06:11:00",
-      "hour": "06:11",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -373,7 +373,7 @@
       "date": "2026-08-05T12:00:00",
       "hour": "12:00",
       "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
