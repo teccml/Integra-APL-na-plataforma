@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-04T07:41:18.397346+00:00",
+  "fetched_at": "2026-08-04T10:41:45.427296+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -53,6 +53,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9157868",
+      "source": "arrivals"
+    },
+    {
+      "name": "MSC OPERA",
+      "line": "MSC Portugal, S.A.",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Alicante",
+      "date": "2026-08-06T07:30:00",
+      "hour": "07:30",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Panamá",
+      "imo": "9250464",
       "source": "arrivals"
     },
     {
@@ -209,23 +226,6 @@
       "source": "departures"
     },
     {
-      "name": "MARIA FRANCISCA",
-      "line": "NAIP - Navegação, Agência Internacional Portuguesa",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Sao Tomé Island",
-      "date": "2026-08-04T02:35:00",
-      "hour": "02:35",
-      "pax": 6,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": false,
-      "ship_type": "Carga Geral",
-      "flag": "Portugal",
-      "imo": "9235361",
-      "source": "departures"
-    },
-    {
       "name": "CELEBRITY APEX",
       "line": "",
       "type": "transit",
@@ -326,6 +326,23 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
+    },
+    {
+      "name": "MARIA FRANCISCA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-02T09:19:00",
+      "hour": "09:19",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": false,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ],
   "hazards": [
@@ -398,23 +415,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ASP TREASURES",
-      "line": "Wilhelmsen Port Services Portugal, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Houston",
-      "date": "2026-08-04T09:00:00",
-      "hour": "09:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Panamá",
-      "imo": "9732242",
-      "source": "arrivals"
-    },
-    {
       "name": "WHITE ALLEGRA",
       "line": "AFONSO H. O'NEILL & CA LDA",
       "type": "hazard",
@@ -464,6 +464,23 @@
       "flag": "Países Baixos",
       "imo": "9421611",
       "source": "departures"
+    },
+    {
+      "name": "ASP TREASURES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-04T08:02:00",
+      "hour": "08:02",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE DA GUIA",
