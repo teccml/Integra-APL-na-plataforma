@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-04T15:30:49.742838+00:00",
+  "fetched_at": "2026-08-04T17:50:07.217409+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -45,8 +45,8 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Ponta Delgada",
-      "date": "2026-08-05T07:05:00",
-      "hour": "07:05",
+      "date": "2026-08-05T06:30:00",
+      "hour": "06:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -344,6 +344,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9202077",
+      "source": "arrivals"
+    },
+    {
+      "name": "BREB COURAGEOUS",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Casablanca",
+      "to": "Porto Marghera",
+      "date": "2026-08-06T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9421178",
       "source": "arrivals"
     },
     {
