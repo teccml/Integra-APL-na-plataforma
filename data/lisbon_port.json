@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T04:15:49.764205+00:00",
+  "fetched_at": "2026-08-04T07:41:18.397346+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -90,23 +90,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CELEBRITY APEX",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Palma De Mallorca",
-      "date": "2026-08-04T06:15:00",
-      "hour": "06:15",
-      "pax": 3202,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9838383",
-      "source": "arrivals"
-    },
-    {
       "name": "MSC VIRTUOSA",
       "line": "MSC Portugal, S.A.",
       "type": "arrival",
@@ -115,7 +98,7 @@
       "to": "Southampton",
       "date": "2026-08-05T08:00:00",
       "hour": "08:00",
-      "pax": 0,
+      "pax": 6043,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -226,6 +209,40 @@
       "source": "departures"
     },
     {
+      "name": "MARIA FRANCISCA",
+      "line": "NAIP - Navegação, Agência Internacional Portuguesa",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Sao Tomé Island",
+      "date": "2026-08-04T02:35:00",
+      "hour": "02:35",
+      "pax": 6,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": false,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9235361",
+      "source": "departures"
+    },
+    {
+      "name": "CELEBRITY APEX",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-04T05:51:00",
+      "hour": "05:51",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "CAPT. KATTELMANN",
       "line": "",
       "type": "transit",
@@ -309,23 +326,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "MARIA FRANCISCA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-02T09:19:00",
-      "hour": "09:19",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": false,
-      "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -361,23 +361,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9202077",
-      "source": "arrivals"
-    },
-    {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Leixões",
-      "date": "2026-08-04T07:00:00",
-      "hour": "07:00",
-      "pax": 4,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9123788",
       "source": "arrivals"
     },
     {
@@ -481,6 +464,23 @@
       "flag": "Países Baixos",
       "imo": "9421611",
       "source": "departures"
+    },
+    {
+      "name": "MONTE DA GUIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-04T06:34:00",
+      "hour": "06:34",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "BAHIA TRES",
