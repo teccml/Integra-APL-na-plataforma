@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-04T00:10:54.676593+00:00",
+  "fetched_at": "2026-08-04T04:15:49.764205+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -158,23 +158,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CAPT. KATTELMANN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-08-04T00:30:00",
-      "hour": "00:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
-      "source": "arrivals"
-    },
-    {
       "name": "AÇOR B",
       "line": "Bensaude - Agentes de Navegacao Lda",
       "type": "departure",
@@ -241,6 +224,23 @@
       "flag": "Turquia",
       "imo": "2224597",
       "source": "departures"
+    },
+    {
+      "name": "CAPT. KATTELMANN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-04T00:16:00",
+      "hour": "00:16",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MANDO",
@@ -463,6 +463,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
+      "source": "departures"
+    },
+    {
+      "name": "H&S HONESTY",
+      "line": "PORTSHIP Unipessoal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Aveiro",
+      "to": "Port Sutton Bridge",
+      "date": "2026-08-04T00:00:00",
+      "hour": "00:00",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Países Baixos",
+      "imo": "9421611",
       "source": "departures"
     },
     {
