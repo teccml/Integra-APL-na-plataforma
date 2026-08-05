@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-05T07:40:36.663290+00:00",
+  "fetched_at": "2026-08-05T10:37:12.566189+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -39,6 +39,23 @@
       "source": "arrivals"
     },
     {
+      "name": "CAPITAN MIRANDA",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Horta",
+      "to": "Rota",
+      "date": "2026-08-06T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "Uruguai",
+      "imo": "4695138",
+      "source": "arrivals"
+    },
+    {
       "name": "MSC OPERA",
       "line": "MSC Portugal, S.A.",
       "type": "arrival",
@@ -64,7 +81,7 @@
       "to": "Gibraltar",
       "date": "2026-08-07T10:45:00",
       "hour": "10:45",
-      "pax": 0,
+      "pax": 2780,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
