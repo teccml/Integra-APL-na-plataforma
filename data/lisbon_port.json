@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-05T10:37:12.566189+00:00",
+  "fetched_at": "2026-08-05T12:54:14.483125+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -26,10 +26,10 @@
       "line": "Pmar - Navegação, Lda",
       "type": "arrival",
       "terminal": "Santa Apolónia",
-      "from": "Porto Santo",
+      "from": "Caniçal",
       "to": "Ponta Delgada",
-      "date": "2026-08-06T14:00:00",
-      "hour": "14:00",
+      "date": "2026-08-06T12:00:00",
+      "hour": "12:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -258,6 +258,23 @@
       "flag": "Malta",
       "imo": "9330915",
       "source": "departures"
+    },
+    {
+      "name": "MSC VIRTUOSA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-05T07:34:00",
+      "hour": "07:34",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "LAURA S",
