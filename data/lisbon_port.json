@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-08-06T12:03:44.439803+00:00",
+  "fetched_at": "2026-08-06T14:30:17.839052+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 34,
   "errors": [],
   "ships": [
-    {
-      "name": "FUNCHALENSE 5",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Ponta Delgada",
-      "date": "2026-08-06T13:00:00",
-      "hour": "13:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9388390",
-      "source": "arrivals"
-    },
     {
       "name": "MEIN SCHIFF 2",
       "line": "Arenthern - Agência de Navegação Lda",
