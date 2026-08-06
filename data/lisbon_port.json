@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-06T06:32:52.247907+00:00",
+  "fetched_at": "2026-08-06T09:41:07.869710+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -36,40 +36,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9783576",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPITAN MIRANDA",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Horta",
-      "to": "Rota",
-      "date": "2026-08-06T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "Uruguai",
-      "imo": "4695138",
-      "source": "arrivals"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Alicante",
-      "date": "2026-08-06T07:30:00",
-      "hour": "07:30",
-      "pax": 2378,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Panamá",
-      "imo": "9250464",
       "source": "arrivals"
     },
     {
@@ -277,6 +243,40 @@
       "source": "departures"
     },
     {
+      "name": "CAPITAN MIRANDA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-08-06T07:28:00",
+      "hour": "07:28",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MSC OPERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-06T07:02:00",
+      "hour": "07:02",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ESSENCE",
       "line": "",
       "type": "transit",
@@ -412,6 +412,23 @@
       "ship_type": "Carga Geral",
       "flag": "Portugal",
       "imo": "9421178",
+      "source": "arrivals"
+    },
+    {
+      "name": "ATLANTA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Aveiro",
+      "to": "Tekirdag",
+      "date": "2026-08-07T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Ilhas Marshall",
+      "imo": "9513373",
       "source": "arrivals"
     },
     {
