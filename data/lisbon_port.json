@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T20:42:26.092412+00:00",
+  "fetched_at": "2026-08-07T21:40:19.544860+00:00",
   "source": "portodelisboa.pt",
   "count": 34,
   "errors": [],
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "EA GANNET",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Vigo",
+      "date": "2026-08-07T20:47:00",
+      "hour": "20:47",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9937476",
+      "source": "departures"
+    },
+    {
       "name": "MEIN SCHIFF 6",
       "line": "",
       "type": "transit",
@@ -272,23 +289,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "EA GANNET",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-08-06T22:29:00",
-      "hour": "22:29",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -551,6 +551,23 @@
       "source": "departures"
     },
     {
+      "name": "WHITE ALLEGRA",
+      "line": "AFONSO H. O'NEILL & CA LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "New Orleans, La",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-08-07T20:03:00",
+      "hour": "20:03",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Ilhas Marshall",
+      "imo": "9973353",
+      "source": "departures"
+    },
+    {
       "name": "ILHA DA MADEIRA",
       "line": "",
       "type": "hazard",
@@ -563,23 +580,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "WHITE ALLEGRA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-06T19:09:00",
-      "hour": "19:09",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
       "flag": "",
       "imo": "",
       "source": "in_port"
