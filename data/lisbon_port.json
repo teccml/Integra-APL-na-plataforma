@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-07T22:37:42.681151+00:00",
+  "fetched_at": "2026-08-07T23:35:11.245315+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -278,20 +278,37 @@
     },
     {
       "name": "MEIN SCHIFF 6",
-      "line": "",
-      "type": "transit",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
       "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-07T10:25:00",
-      "hour": "10:25",
-      "pax": 0,
+      "from": "Leixões",
+      "to": "Gibraltar",
+      "date": "2026-08-07T23:09:00",
+      "hour": "23:09",
+      "pax": 2766,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Malta",
+      "imo": "9753208",
+      "source": "departures"
+    },
+    {
+      "name": "LAURA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-08-07T23:20:00",
+      "hour": "23:20",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9157868",
+      "source": "departures"
     },
     {
       "name": "FUNCHALENSE 5",
@@ -326,23 +343,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "LAURA S",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-05T06:09:00",
-      "hour": "06:09",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -361,23 +361,6 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "Singapura",
       "imo": "9409168",
-      "source": "arrivals"
-    },
-    {
-      "name": "IRENA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Gemlik, Bursa / BORUSAN",
-      "date": "2026-08-07T23:00:00",
-      "hour": "23:00",
-      "pax": 0,
-      "cargo": "Carga · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
-      "flag": "Malta",
-      "imo": "9306380",
       "source": "arrivals"
     },
     {
