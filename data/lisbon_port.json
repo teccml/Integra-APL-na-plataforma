@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T07:18:27.210926+00:00",
+  "fetched_at": "2026-08-07T09:00:59.912059+00:00",
   "source": "portodelisboa.pt",
   "count": 34,
   "errors": [],
@@ -200,7 +200,7 @@
       "to": "Alicante",
       "date": "2026-08-06T18:45:00",
       "hour": "18:45",
-      "pax": 2377,
+      "pax": 2370,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
