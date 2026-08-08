@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-08T20:31:44.109252+00:00",
+  "fetched_at": "2026-08-08T21:32:16.580558+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "MEIN SCHIFF 2",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Bilbao",
+      "date": "2026-08-08T19:54:00",
+      "hour": "19:54",
+      "pax": 3121,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Malta",
+      "imo": "9783576",
+      "source": "departures"
+    },
+    {
       "name": "X-PRESS KAVERI",
       "line": "",
       "type": "transit",
@@ -289,23 +306,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MEIN SCHIFF 2",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-08T07:03:00",
-      "hour": "07:03",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -518,20 +518,20 @@
     },
     {
       "name": "MONTE DA GUIA",
-      "line": "",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-08T11:39:00",
-      "hour": "11:39",
-      "pax": 0,
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-08-08T21:00:00",
+      "hour": "21:00",
+      "pax": 2,
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Portugal",
+      "imo": "9123788",
+      "source": "departures"
     },
     {
       "name": "PONTA DO SOL",
@@ -563,6 +563,23 @@
       "cargo": "Carga · Graneleiro / Cereais",
       "is_hazard": true,
       "ship_type": "Graneleiro / Cereais",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-07T07:59:00",
+      "hour": "07:59",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
