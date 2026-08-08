@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-08-08T06:56:02.945234+00:00",
+  "fetched_at": "2026-08-08T07:51:13.571984+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 32,
   "errors": [],
   "ships": [
-    {
-      "name": "MEIN SCHIFF 2",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Bilbao",
-      "date": "2026-08-08T07:30:00",
-      "hour": "07:30",
-      "pax": 3122,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9783576",
-      "source": "arrivals"
-    },
     {
       "name": "NORWEGIAN DAWN",
       "line": "Arenthern - Agência de Navegação Lda",
@@ -432,23 +415,6 @@
       "source": "arrivals"
     },
     {
-      "name": "PONTA DO SOL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Mindelo",
-      "date": "2026-08-08T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
-      "is_hazard": true,
-      "ship_type": "Carga Geral / Contentores",
-      "flag": "Portugal",
-      "imo": "9141613",
-      "source": "arrivals"
-    },
-    {
       "name": "BREB COURAGEOUS",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -532,6 +498,23 @@
       "flag": "Ilhas Marshall",
       "imo": "9973353",
       "source": "departures"
+    },
+    {
+      "name": "PONTA DO SOL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-08T05:27:00",
+      "hour": "05:27",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "IRENA",
