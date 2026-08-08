@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T08:43:12.265816+00:00",
+  "fetched_at": "2026-08-08T09:39:49.483425+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -141,23 +141,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-08-08T07:45:00",
-      "hour": "07:45",
-      "pax": 3,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
       "name": "MSC OPERA",
       "line": "MSC Portugal, S.A.",
       "type": "departure",
@@ -275,6 +258,23 @@
       "flag": "Portugal",
       "imo": "9157868",
       "source": "departures"
+    },
+    {
+      "name": "MEIN SCHIFF 2",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-08T07:03:00",
+      "hour": "07:03",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FUNCHALENSE 5",
