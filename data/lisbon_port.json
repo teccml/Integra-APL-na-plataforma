@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T12:51:24.302491+00:00",
+  "fetched_at": "2026-08-08T13:47:29.935132+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -347,23 +347,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-08-08T09:00:00",
-      "hour": "09:00",
-      "pax": 2,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
       "name": "GALBOT",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -483,6 +466,23 @@
       "source": "arrivals"
     },
     {
+      "name": "EPIC BORACAY",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Fawley",
+      "to": "Dakar",
+      "date": "2026-08-10T18:00:00",
+      "hour": "18:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "Singapura",
+      "imo": "9521588",
+      "source": "arrivals"
+    },
+    {
       "name": "FRIDA",
       "line": "Noatum Maritime Portugal, LDA",
       "type": "hazard",
@@ -517,6 +517,23 @@
       "source": "departures"
     },
     {
+      "name": "MONTE DA GUIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-08T11:39:00",
+      "hour": "11:39",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "PONTA DO SOL",
       "line": "",
       "type": "hazard",
@@ -546,23 +563,6 @@
       "cargo": "Carga · Graneleiro / Cereais",
       "is_hazard": true,
       "ship_type": "Graneleiro / Cereais",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ILHA DA MADEIRA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-07T07:59:00",
-      "hour": "07:59",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
