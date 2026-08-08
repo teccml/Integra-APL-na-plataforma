@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T16:35:42.525890+00:00",
+  "fetched_at": "2026-08-08T17:32:15.318318+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -79,8 +79,8 @@
       "terminal": "Alcântara",
       "from": "Antwerpen",
       "to": "Algeciras",
-      "date": "2026-08-10T01:00:00",
-      "hour": "01:00",
+      "date": "2026-08-09T22:00:00",
+      "hour": "22:00",
       "pax": 0,
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
