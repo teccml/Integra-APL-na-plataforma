@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T16:37:21.806635+00:00",
+  "fetched_at": "2026-08-09T17:32:43.724027+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -30,7 +30,7 @@
       "to": "Leixões",
       "date": "2026-08-10T09:30:00",
       "hour": "09:30",
-      "pax": 2610,
+      "pax": 2609,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
