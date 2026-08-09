@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-09T08:44:48.471709+00:00",
+  "fetched_at": "2026-08-09T09:41:25.841986+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -30,7 +30,7 @@
       "to": "Leixões",
       "date": "2026-08-10T09:30:00",
       "hour": "09:30",
-      "pax": 2606,
+      "pax": 2610,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -515,6 +515,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "ALICE THERESA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-09T06:31:00",
+      "hour": "06:31",
+      "pax": 0,
+      "cargo": "Carga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "WEC VAN RUYSDAEL",
