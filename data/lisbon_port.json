@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T20:34:17.785843+00:00",
+  "fetched_at": "2026-08-09T21:34:03.565275+00:00",
   "source": "portodelisboa.pt",
   "count": 36,
   "errors": [],
@@ -96,8 +96,8 @@
       "terminal": "Santa Apolónia",
       "from": "Porto Santo",
       "to": "Lisboa",
-      "date": "2026-08-09T23:30:00",
-      "hour": "23:30",
+      "date": "2026-08-09T23:00:00",
+      "hour": "23:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
