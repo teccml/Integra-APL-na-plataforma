@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-10T05:28:08.565763+00:00",
+  "fetched_at": "2026-08-10T07:45:00.282822+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -73,23 +73,6 @@
       "source": "arrivals"
     },
     {
-      "name": "VENETIA",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Tanger Med",
-      "date": "2026-08-10T05:00:00",
-      "hour": "05:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9400203",
-      "source": "arrivals"
-    },
-    {
       "name": "SIRENA",
       "line": "Arenthern - Agência de Navegação Lda",
       "type": "arrival",
@@ -155,23 +138,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Antígua E Barbuda",
       "imo": "9944778",
-      "source": "arrivals"
-    },
-    {
-      "name": "EXPLORA III",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Leixões",
-      "date": "2026-08-10T04:30:00",
-      "hour": "04:30",
-      "pax": 839,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9869899",
       "source": "arrivals"
     },
     {
@@ -326,6 +292,23 @@
       "flag": "Ilhas Bahamas",
       "imo": "9195169",
       "source": "departures"
+    },
+    {
+      "name": "EXPLORA III",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-10T04:09:00",
+      "hour": "04:09",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "JAIME S",
@@ -568,6 +551,23 @@
       "source": "departures"
     },
     {
+      "name": "ALICE THERESA",
+      "line": "ATLANTIC LUSOFRETE - AFRETAMENTOS, TRANSPORTES E NAVEGAÇÃO, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Milford Haven",
+      "to": "Barcelona",
+      "date": "2026-08-10T07:16:00",
+      "hour": "07:16",
+      "pax": 0,
+      "cargo": "Carga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Dinamarca",
+      "imo": "9478303",
+      "source": "departures"
+    },
+    {
       "name": "BAHIA TRES",
       "line": "",
       "type": "hazard",
@@ -580,23 +580,6 @@
       "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ALICE THERESA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-09T06:31:00",
-      "hour": "06:31",
-      "pax": 0,
-      "cargo": "Carga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
       "flag": "",
       "imo": "",
       "source": "in_port"
