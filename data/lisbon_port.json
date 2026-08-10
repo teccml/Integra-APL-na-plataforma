@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-10T01:56:17.581007+00:00",
+  "fetched_at": "2026-08-10T03:58:40.422599+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -326,6 +326,23 @@
       "flag": "Ilhas Bahamas",
       "imo": "9195169",
       "source": "departures"
+    },
+    {
+      "name": "JAIME S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-09T22:45:00",
+      "hour": "22:45",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ],
   "hazards": [
