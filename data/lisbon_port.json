@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-10T07:45:00.282822+00:00",
+  "fetched_at": "2026-08-10T09:24:18.150772+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -294,6 +294,23 @@
       "source": "departures"
     },
     {
+      "name": "VENETIA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-10T05:46:00",
+      "hour": "05:46",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "EXPLORA III",
       "line": "",
       "type": "transit",
@@ -569,20 +586,20 @@
     },
     {
       "name": "BAHIA TRES",
-      "line": "",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-09T14:46:00",
-      "hour": "14:46",
+      "from": "Sines",
+      "to": "Setúbal",
+      "date": "2026-08-10T07:54:00",
+      "hour": "07:54",
       "pax": 0,
       "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
       "is_hazard": true,
       "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Espanha",
+      "imo": "9428671",
+      "source": "departures"
     },
     {
       "name": "TRAMMO MARYCAM",
