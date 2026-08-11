@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-11T07:10:33.495760+00:00",
+  "fetched_at": "2026-08-11T08:58:56.141297+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -124,23 +124,6 @@
       "source": "arrivals"
     },
     {
-      "name": "LANGENESS",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Southampton",
-      "date": "2026-08-11T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Antígua E Barbuda",
-      "imo": "9944778",
-      "source": "arrivals"
-    },
-    {
       "name": "EA NODDY",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -172,23 +155,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9330915",
-      "source": "arrivals"
-    },
-    {
-      "name": "MEIN SCHIFF FLOW",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Tangier",
-      "date": "2026-08-11T07:45:00",
-      "hour": "07:45",
-      "pax": 4791,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9862669",
       "source": "arrivals"
     },
     {
@@ -415,23 +381,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Leixões",
-      "date": "2026-08-11T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9083055",
-      "source": "arrivals"
-    },
-    {
       "name": "ARKLOW RAVEN",
       "line": "PORTSHIP Unipessoal, Lda.",
       "type": "hazard",
@@ -446,23 +395,6 @@
       "ship_type": "Carga Geral",
       "flag": "Irlanda",
       "imo": "9344538",
-      "source": "arrivals"
-    },
-    {
-      "name": "MACARENA B",
-      "line": "BOLUDA SHIPPING PORTUGAL, SOCIEDADE UNIPESSOAL LIMITADA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-08-11T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9277400",
       "source": "arrivals"
     },
     {
@@ -650,6 +582,23 @@
       "ship_type": "Graneleiro / Cereais",
       "flag": "Malta",
       "imo": "9306380",
+      "source": "departures"
+    },
+    {
+      "name": "SEAHOPE",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Suape",
+      "to": "Klaipeda",
+      "date": "2026-08-11T07:01:00",
+      "hour": "07:01",
+      "pax": 0,
+      "cargo": "Descarga · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9598294",
       "source": "departures"
     },
     {
