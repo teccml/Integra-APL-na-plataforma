@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-11T20:55:43.463369+00:00",
+  "fetched_at": "2026-08-11T21:50:38.795527+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -306,23 +306,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "LANGENESS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-08-11T05:22:00",
-      "hour": "05:22",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
