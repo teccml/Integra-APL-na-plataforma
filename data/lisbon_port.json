@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-10T23:36:38.059391+00:00",
+  "fetched_at": "2026-08-11T01:52:04.800824+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9381275",
+      "source": "arrivals"
+    },
+    {
+      "name": "MANDO",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-08-13T16:30:00",
+      "hour": "16:30",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9175705",
       "source": "arrivals"
     },
     {
@@ -73,6 +90,23 @@
       "source": "arrivals"
     },
     {
+      "name": "SEA CLOUD SPIRIT",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Cadiz",
+      "date": "2026-08-13T07:00:00",
+      "hour": "07:00",
+      "pax": 93,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Malta",
+      "imo": "9483712",
+      "source": "arrivals"
+    },
+    {
       "name": "MAAS",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "arrival",
@@ -104,6 +138,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Antígua E Barbuda",
       "imo": "9944778",
+      "source": "arrivals"
+    },
+    {
+      "name": "EA NODDY",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Vigo",
+      "date": "2026-08-13T19:00:00",
+      "hour": "19:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9937488",
       "source": "arrivals"
     },
     {
@@ -139,40 +190,6 @@
       "flag": "Malta",
       "imo": "9862669",
       "source": "arrivals"
-    },
-    {
-      "name": "FUNCHALENSE 5",
-      "line": "Pmar - Navegação, Lda",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Ponta Delgada",
-      "date": "2026-08-08T04:08:00",
-      "hour": "04:08",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9388390",
-      "source": "departures"
-    },
-    {
-      "name": "MEIN SCHIFF 2",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Bilbao",
-      "date": "2026-08-08T19:54:00",
-      "hour": "19:54",
-      "pax": 3121,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9783576",
-      "source": "departures"
     },
     {
       "name": "ATLANTICO",
@@ -352,7 +369,7 @@
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Algeciras",
-      "to": "La Coruna",
+      "to": "Ponta Delgada",
       "date": "2026-08-12T20:00:00",
       "hour": "20:00",
       "pax": 0,
@@ -361,6 +378,23 @@
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "Malta",
       "imo": "9314868",
+      "source": "arrivals"
+    },
+    {
+      "name": "MONTE DA GUIA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Ponta Delgada",
+      "date": "2026-08-13T08:00:00",
+      "hour": "08:00",
+      "pax": 2,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9123788",
       "source": "arrivals"
     },
     {
@@ -500,23 +534,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-08-08T21:00:00",
-      "hour": "21:00",
-      "pax": 2,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9123788",
-      "source": "departures"
-    },
-    {
       "name": "ILHA DA MADEIRA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -616,6 +633,23 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "Singapura",
       "imo": "9409168",
+      "source": "departures"
+    },
+    {
+      "name": "EPIC BORACAY",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Fawley",
+      "to": "Dakar",
+      "date": "2026-08-11T00:04:00",
+      "hour": "00:04",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "Singapura",
+      "imo": "9521588",
       "source": "departures"
     },
     {
