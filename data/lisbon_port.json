@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-11T17:01:33.332276+00:00",
+  "fetched_at": "2026-08-11T17:59:09.086897+00:00",
   "source": "portodelisboa.pt",
-  "count": 42,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -11,8 +11,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-08-13T16:30:00",
-      "hour": "16:30",
+      "date": "2026-08-13T23:30:00",
+      "hour": "23:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -53,23 +53,6 @@
       "ship_type": "Navio Guerra",
       "flag": "França",
       "imo": "2224598",
-      "source": "arrivals"
-    },
-    {
-      "name": "FERDINANDA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Praia",
-      "date": "2026-08-11T17:30:00",
-      "hour": "17:30",
-      "pax": 3,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9445019",
       "source": "arrivals"
     },
     {
@@ -441,7 +424,7 @@
       "date": "2026-08-12T08:00:00",
       "hour": "08:00",
       "pax": 0,
-      "cargo": "Carga · Carga Geral",
+      "cargo": "Descarga / Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
       "flag": "São Marino",
@@ -636,6 +619,23 @@
       "source": "departures"
     },
     {
+      "name": "GALBOT",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-08-11T16:45:00",
+      "hour": "16:45",
+      "pax": 2,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Malta",
+      "imo": "9555084",
+      "source": "departures"
+    },
+    {
       "name": "ARKLOW RAVEN",
       "line": "",
       "type": "hazard",
@@ -699,23 +699,6 @@
       "cargo": "Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "GALBOT",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-10T16:13:00",
-      "hour": "16:13",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "",
       "imo": "",
       "source": "in_port"
