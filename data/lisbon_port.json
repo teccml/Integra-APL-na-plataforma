@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-12T13:12:59.675363+00:00",
+  "fetched_at": "2026-08-12T14:58:54.024017+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -421,8 +421,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Caniçal",
       "to": "Ponta Delgada",
-      "date": "2026-08-13T08:00:00",
-      "hour": "08:00",
+      "date": "2026-08-13T12:00:00",
+      "hour": "12:00",
       "pax": 2,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
@@ -480,6 +480,23 @@
       "ship_type": "Carga Geral",
       "flag": "São Marino",
       "imo": "9173331",
+      "source": "arrivals"
+    },
+    {
+      "name": "SONGA COSMOS",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "La Coruna",
+      "to": "Huelva",
+      "date": "2026-08-14T20:00:00",
+      "hour": "20:00",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Malta",
+      "imo": "9457024",
       "source": "arrivals"
     },
     {
