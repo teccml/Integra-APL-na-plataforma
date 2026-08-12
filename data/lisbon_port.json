@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-12T14:58:54.024017+00:00",
+  "fetched_at": "2026-08-12T15:59:46.126289+00:00",
   "source": "portodelisboa.pt",
-  "count": 42,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9243667",
-      "source": "arrivals"
-    },
-    {
-      "name": "PORT GDYNIA",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Setúbal",
-      "to": "Tanger Med",
-      "date": "2026-08-14T12:00:00",
-      "hour": "12:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9334387",
       "source": "arrivals"
     },
     {
@@ -294,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "SIRENA",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Cadiz",
+      "date": "2026-08-12T15:51:00",
+      "hour": "15:51",
+      "pax": 624,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9187899",
+      "source": "departures"
+    },
+    {
       "name": "LA PEROUSE",
       "line": "",
       "type": "transit",
@@ -340,23 +340,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SIRENA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-12T05:19:00",
-      "hour": "05:19",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -429,23 +412,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
-      "name": "RUNA",
-      "line": "ATLANTIC LUSOFRETE - AFRETAMENTOS, TRANSPORTES E NAVEGAÇÃO, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Vlissingen (Flushing)",
-      "to": "Algeciras",
-      "date": "2026-08-12T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Descarga · Carga Geral / Contentores",
-      "is_hazard": true,
-      "ship_type": "Carga Geral / Contentores",
-      "flag": "Chipre",
-      "imo": "9361328",
       "source": "arrivals"
     },
     {
