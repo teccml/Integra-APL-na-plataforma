@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12T19:03:27.801751+00:00",
+  "fetched_at": "2026-08-12T20:02:24.753930+00:00",
   "source": "portodelisboa.pt",
   "count": 41,
   "errors": [],
@@ -387,8 +387,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Algeciras",
       "to": "Ponta Delgada",
-      "date": "2026-08-13T16:00:00",
-      "hour": "16:00",
+      "date": "2026-08-14T02:00:00",
+      "hour": "02:00",
       "pax": 0,
       "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
@@ -429,23 +429,6 @@
       "ship_type": "Carga Geral",
       "flag": "Ilhas Marshall",
       "imo": "9513373",
-      "source": "arrivals"
-    },
-    {
-      "name": "TEOS",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Casablanca",
-      "date": "2026-08-12T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "São Marino",
-      "imo": "9173331",
       "source": "arrivals"
     },
     {
@@ -651,6 +634,23 @@
       "flag": "Portugal",
       "imo": "9421178",
       "source": "departures"
+    },
+    {
+      "name": "TEOS",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-12T17:29:00",
+      "hour": "17:29",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "RUNA",
