@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-12T02:04:31.609860+00:00",
+  "fetched_at": "2026-08-12T04:14:41.539326+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -325,6 +325,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Antígua E Barbuda",
       "imo": "9944778",
+      "source": "departures"
+    },
+    {
+      "name": "MEIN SCHIFF FLOW",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Tangier",
+      "date": "2026-08-12T00:20:00",
+      "hour": "00:20",
+      "pax": 4791,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Malta",
+      "imo": "9862669",
       "source": "departures"
     },
     {
