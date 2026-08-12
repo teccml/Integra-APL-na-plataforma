@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-12T06:15:57.470925+00:00",
+  "fetched_at": "2026-08-12T08:19:02.046132+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -90,23 +90,6 @@
       "source": "arrivals"
     },
     {
-      "name": "LA PEROUSE",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Brest",
-      "to": "Brest",
-      "date": "2026-08-12T08:15:00",
-      "hour": "08:15",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "França",
-      "imo": "2224598",
-      "source": "arrivals"
-    },
-    {
       "name": "CARNIVAL LEGEND",
       "line": "James Rawes Navegação, Lda",
       "type": "arrival",
@@ -138,23 +121,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9483712",
-      "source": "arrivals"
-    },
-    {
-      "name": "MAAS",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Liverpool",
-      "to": "Huelva",
-      "date": "2026-08-12T09:31:00",
-      "hour": "09:31",
-      "pax": 0,
-      "cargo": "Serviço da Autoridade Portuária ou Licenciados · Navio de recolha de lamas e/ou areia",
-      "is_hazard": false,
-      "ship_type": "Navio de recolha de lamas e/ou areia",
-      "flag": "Países Baixos",
-      "imo": "9904948",
       "source": "arrivals"
     },
     {
@@ -326,6 +292,23 @@
       "flag": "Portugal",
       "imo": "9428217",
       "source": "departures"
+    },
+    {
+      "name": "SIRENA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-12T05:19:00",
+      "hour": "05:19",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FERDINANDA S",
