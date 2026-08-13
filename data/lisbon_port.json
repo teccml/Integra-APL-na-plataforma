@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-13T19:04:22.363768+00:00",
+  "fetched_at": "2026-08-13T19:57:57.675362+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -81,7 +81,7 @@
       "to": "Leixões",
       "date": "2026-08-14T07:30:00",
       "hour": "07:30",
-      "pax": 2263,
+      "pax": 2264,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -258,6 +258,23 @@
       "flag": "Malta",
       "imo": "9330915",
       "source": "departures"
+    },
+    {
+      "name": "PIRITA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-13T17:28:00",
+      "hour": "17:28",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SEA CLOUD SPIRIT",
