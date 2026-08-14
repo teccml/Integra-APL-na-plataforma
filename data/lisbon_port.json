@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-14T20:33:15.954873+00:00",
+  "fetched_at": "2026-08-14T21:26:41.465376+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -258,6 +258,23 @@
       "flag": "Ilhas Bahamas",
       "imo": "9224726",
       "source": "departures"
+    },
+    {
+      "name": "AÇOR B",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-14T19:12:00",
+      "hour": "19:12",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": false,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "EA NODDY",
@@ -552,20 +569,20 @@
     },
     {
       "name": "EBERHART ESSBERGER",
-      "line": "",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-14T15:19:00",
-      "hour": "15:19",
+      "from": "Huelva",
+      "to": "Brofjorden Scanraff",
+      "date": "2026-08-14T20:14:00",
+      "hour": "20:14",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Portugal",
+      "imo": "9939802",
+      "source": "departures"
     },
     {
       "name": "ATLANTA",
