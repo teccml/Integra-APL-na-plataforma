@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-14T08:16:59.800410+00:00",
+  "fetched_at": "2026-08-14T10:04:52.314963+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -53,6 +53,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9337597",
+      "source": "arrivals"
+    },
+    {
+      "name": "MSC OPERA",
+      "line": "MSC Portugal, S.A.",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Alicante",
+      "date": "2026-08-16T07:30:00",
+      "hour": "07:30",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Panamá",
+      "imo": "9250464",
       "source": "arrivals"
     },
     {
@@ -130,8 +147,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-08-14T20:00:00",
-      "hour": "20:00",
+      "date": "2026-08-14T18:00:00",
+      "hour": "18:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -260,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "CARNIVAL LEGEND",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-14T07:06:00",
+      "hour": "07:06",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "CRYSTAL SERENITY",
       "line": "",
       "type": "transit",
@@ -370,8 +404,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Algeciras",
       "to": "Ponta Delgada",
-      "date": "2026-08-14T22:00:00",
-      "hour": "22:00",
+      "date": "2026-08-14T22:30:00",
+      "hour": "22:30",
       "pax": 0,
       "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
