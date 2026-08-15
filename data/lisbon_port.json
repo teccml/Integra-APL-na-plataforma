@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T17:21:22.152097+00:00",
+  "fetched_at": "2026-08-15T18:32:02.559750+00:00",
   "source": "portodelisboa.pt",
   "count": 41,
   "errors": [],
@@ -240,23 +240,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9330915",
-      "source": "arrivals"
-    },
-    {
-      "name": "ONE OLYMPUS",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Singapore",
-      "date": "2026-08-15T16:30:00",
-      "hour": "16:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9312987",
       "source": "arrivals"
     },
     {
@@ -619,6 +602,23 @@
       "source": "departures"
     },
     {
+      "name": "ELAR TRADER",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Rouen",
+      "to": "Casablanca",
+      "date": "2026-08-15T11:19:00",
+      "hour": "11:19",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "Ilhas Bahamas",
+      "imo": "9409534",
+      "source": "departures"
+    },
+    {
       "name": "SAN FELIX",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -634,6 +634,23 @@
       "flag": "Malta",
       "imo": "9314868",
       "source": "departures"
+    },
+    {
+      "name": "MSC LEIGH",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-15T15:42:00",
+      "hour": "15:42",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Qualquer estrutura flutuante",
+      "is_hazard": true,
+      "ship_type": "Qualquer estrutura flutuante",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CLEAROCEAN GINKGO",
@@ -665,23 +682,6 @@
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ELAR TRADER",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-14T23:16:00",
-      "hour": "23:16",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
       "flag": "",
       "imo": "",
       "source": "in_port"
