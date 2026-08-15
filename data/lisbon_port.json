@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T11:21:37.927133+00:00",
+  "fetched_at": "2026-08-15T12:39:50.235028+00:00",
   "source": "portodelisboa.pt",
   "count": 43,
   "errors": [],
@@ -96,8 +96,8 @@
       "terminal": "Santa Apolónia",
       "from": "Vigo",
       "to": "Portimão",
-      "date": "2026-08-17T08:15:00",
-      "hour": "08:15",
+      "date": "2026-08-17T09:00:00",
+      "hour": "09:00",
       "pax": 417,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
@@ -585,23 +585,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CLEAROCEAN GINKGO",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Houston",
-      "date": "2026-08-15T05:00:00",
-      "hour": "05:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Singapura",
-      "imo": "9916604",
-      "source": "arrivals"
-    },
-    {
       "name": "TEOS",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -668,6 +651,23 @@
       "flag": "Portugal",
       "imo": "9123788",
       "source": "departures"
+    },
+    {
+      "name": "CLEAROCEAN GINKGO",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-15T08:14:00",
+      "hour": "08:14",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE BRASIL",
