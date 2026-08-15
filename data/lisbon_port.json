@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T06:40:12.542887+00:00",
+  "fetched_at": "2026-08-15T07:32:26.894186+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -223,23 +223,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9631101",
-      "source": "arrivals"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-08-15T07:15:00",
-      "hour": "07:15",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
       "source": "arrivals"
     },
     {
@@ -634,6 +617,23 @@
       "flag": "Portugal",
       "imo": "9123788",
       "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-15T05:40:00",
+      "hour": "05:40",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ELAR TRADER",
