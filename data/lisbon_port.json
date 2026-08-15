@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-15T15:21:51.065205+00:00",
+  "fetched_at": "2026-08-15T16:26:50.559635+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -379,6 +379,23 @@
       "source": "departures"
     },
     {
+      "name": "EA NODDY",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Vigo",
+      "date": "2026-08-15T15:24:00",
+      "hour": "15:24",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9937488",
+      "source": "departures"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -408,23 +425,6 @@
       "cargo": "Descarga / Carga · Carga Geral / Contentores",
       "is_hazard": false,
       "ship_type": "Carga Geral / Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "EA NODDY",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-08-14T17:29:00",
-      "hour": "17:29",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -483,23 +483,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MSC LEIGH",
-      "line": "MSC Portugal, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-08-15T12:00:00",
-      "hour": "12:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Qualquer estrutura flutuante",
-      "is_hazard": true,
-      "ship_type": "Qualquer estrutura flutuante",
-      "flag": "Panamá",
-      "imo": "9320439",
-      "source": "arrivals"
-    },
-    {
       "name": "BOMAR HAWK",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -531,23 +514,6 @@
       "ship_type": "Carga Geral",
       "flag": "Barbados",
       "imo": "9213894",
-      "source": "arrivals"
-    },
-    {
-      "name": "WICKO",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Garrucha",
-      "date": "2026-08-15T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
-      "flag": "Malta",
-      "imo": "9393474",
       "source": "arrivals"
     },
     {
@@ -653,6 +619,23 @@
       "source": "departures"
     },
     {
+      "name": "SAN FELIX",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Algeciras",
+      "to": "Ponta Delgada",
+      "date": "2026-08-15T14:18:00",
+      "hour": "14:18",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Malta",
+      "imo": "9314868",
+      "source": "departures"
+    },
+    {
       "name": "CLEAROCEAN GINKGO",
       "line": "",
       "type": "hazard",
@@ -699,23 +682,6 @@
       "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
       "is_hazard": true,
       "ship_type": "Graneleiro / Cereais",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SAN FELIX",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-14T21:49:00",
-      "hour": "21:49",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "",
       "imo": "",
       "source": "in_port"
