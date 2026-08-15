@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-15T08:31:11.448673+00:00",
+  "fetched_at": "2026-08-15T09:27:28.318577+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 43,
   "errors": [],
   "ships": [
     {
@@ -362,6 +362,40 @@
       "source": "departures"
     },
     {
+      "name": "CORVO",
+      "line": "Bensaude - Agentes de Navegacao Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-08-15T07:53:00",
+      "hour": "07:53",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9381275",
+      "source": "departures"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-15T06:51:00",
+      "hour": "06:51",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "AÇOR B",
       "line": "",
       "type": "transit",
@@ -446,6 +480,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Cabo Verde",
       "imo": "9150470",
+      "source": "arrivals"
+    },
+    {
+      "name": "MSC LEIGH",
+      "line": "MSC Portugal, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
+      "date": "2026-08-15T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Qualquer estrutura flutuante",
+      "is_hazard": true,
+      "ship_type": "Qualquer estrutura flutuante",
+      "flag": "Panamá",
+      "imo": "9320439",
       "source": "arrivals"
     },
     {
