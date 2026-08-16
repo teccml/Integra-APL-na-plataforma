@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-16T21:21:16.876811+00:00",
+  "fetched_at": "2026-08-16T22:22:18.420797+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -360,6 +360,23 @@
       "flag": "Panamá",
       "imo": "9250464",
       "source": "departures"
+    },
+    {
+      "name": "JAIME S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-16T17:27:00",
+      "hour": "17:27",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "BOREALIS",
