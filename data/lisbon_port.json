@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-16T08:31:10.315434+00:00",
+  "fetched_at": "2026-08-16T09:28:21.102017+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 45,
   "errors": [],
   "ships": [
     {
@@ -379,6 +379,40 @@
       "source": "departures"
     },
     {
+      "name": "ATLANTICO",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-08-16T09:28:00",
+      "hour": "09:28",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9641314",
+      "source": "departures"
+    },
+    {
+      "name": "MSC OPERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-16T07:21:00",
+      "hour": "07:21",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "GALANI",
       "line": "",
       "type": "transit",
@@ -404,23 +438,6 @@
       "to": "",
       "date": "2026-08-15T17:21:00",
       "hour": "17:21",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-15T06:51:00",
-      "hour": "06:51",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -719,6 +736,23 @@
       "flag": "Panamá",
       "imo": "9320439",
       "source": "departures"
+    },
+    {
+      "name": "LAGOA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-16T04:58:00",
+      "hour": "04:58",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SONGA COSMOS",
