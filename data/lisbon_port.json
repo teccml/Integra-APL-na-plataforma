@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-16T15:23:26.788301+00:00",
+  "fetched_at": "2026-08-16T16:27:02.634843+00:00",
   "source": "portodelisboa.pt",
-  "count": 45,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -28,8 +28,8 @@
       "terminal": "Santa Apolónia",
       "from": "Mindelo",
       "to": "Caniçal",
-      "date": "2026-08-17T17:00:00",
-      "hour": "17:00",
+      "date": "2026-08-17T16:00:00",
+      "hour": "16:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -172,23 +172,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9631101",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMANN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-08-17T19:00:00",
-      "hour": "19:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
