@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-16T11:21:38.870139+00:00",
+  "fetched_at": "2026-08-16T12:41:29.915361+00:00",
   "source": "portodelisboa.pt",
-  "count": 45,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
-      "name": "BOREALIS",
-      "line": "Wilhelmsen Port Services Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Southampton",
-      "date": "2026-08-16T11:30:00",
-      "hour": "11:30",
-      "pax": 1160,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9122552",
       "source": "arrivals"
     },
     {
@@ -104,23 +87,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Bermudas",
       "imo": "9802396",
-      "source": "arrivals"
-    },
-    {
-      "name": "PORT GDYNIA",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Setúbal",
-      "to": "Tanger Med",
-      "date": "2026-08-17T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9334387",
       "source": "arrivals"
     },
     {
@@ -393,6 +359,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9641314",
+      "source": "departures"
+    },
+    {
+      "name": "LA PEROUSE",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Brest",
+      "to": "Brest",
+      "date": "2026-08-16T09:58:00",
+      "hour": "09:58",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "França",
+      "imo": "2224598",
       "source": "departures"
     },
     {
