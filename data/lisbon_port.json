@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T17:20:35.663184+00:00",
+  "fetched_at": "2026-08-16T18:31:08.271133+00:00",
   "source": "portodelisboa.pt",
   "count": 44,
   "errors": [],
@@ -81,7 +81,7 @@
       "to": "La Coruna",
       "date": "2026-08-18T08:45:00",
       "hour": "08:45",
-      "pax": 0,
+      "pax": 3591,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
