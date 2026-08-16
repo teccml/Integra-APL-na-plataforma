@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-16T01:24:01.151755+00:00",
+  "fetched_at": "2026-08-16T03:01:25.069570+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 45,
   "errors": [],
   "ships": [
     {
@@ -753,6 +753,23 @@
       "flag": "Panamá",
       "imo": "9320439",
       "source": "departures"
+    },
+    {
+      "name": "SONGA COSMOS",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-15T22:02:00",
+      "hour": "22:02",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
