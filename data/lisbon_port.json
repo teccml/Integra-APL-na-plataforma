@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-17T16:29:40.035056+00:00",
+  "fetched_at": "2026-08-17T17:27:35.976314+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -311,6 +311,40 @@
       "source": "departures"
     },
     {
+      "name": "REBECCA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-17T15:00:00",
+      "hour": "15:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "HANSA ROTENBURG",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-17T14:52:00",
+      "hour": "14:52",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "SEVEN SEAS NAVIGATOR",
       "line": "",
       "type": "transit",
@@ -379,23 +413,6 @@
       "source": "in_port"
     },
     {
-      "name": "GALANI",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-08-15T18:20:00",
-      "hour": "18:20",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "ONE OLYMPUS",
       "line": "",
       "type": "transit",
@@ -455,8 +472,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "Sines",
-      "date": "2026-08-18T08:00:00",
-      "hour": "08:00",
+      "date": "2026-08-19T18:00:00",
+      "hour": "18:00",
       "pax": 0,
       "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
