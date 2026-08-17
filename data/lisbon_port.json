@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-17T20:28:33.045876+00:00",
+  "fetched_at": "2026-08-17T21:27:19.157874+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -138,23 +138,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9947732",
-      "source": "arrivals"
-    },
-    {
-      "name": "CALI",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Tanger Med",
-      "date": "2026-08-17T21:00:00",
-      "hour": "21:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9631101",
       "source": "arrivals"
     },
     {
@@ -328,6 +311,40 @@
       "source": "departures"
     },
     {
+      "name": "SEVEN SEAS NAVIGATOR",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Vigo",
+      "to": "Portimão",
+      "date": "2026-08-17T19:43:00",
+      "hour": "19:43",
+      "pax": 416,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9064126",
+      "source": "departures"
+    },
+    {
+      "name": "ONE OLYMPUS",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Le Havre",
+      "to": "Singapore",
+      "date": "2026-08-17T20:06:00",
+      "hour": "20:06",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Singapura",
+      "imo": "9312987",
+      "source": "departures"
+    },
+    {
       "name": "REBECCA S",
       "line": "",
       "type": "transit",
@@ -362,23 +379,6 @@
       "source": "in_port"
     },
     {
-      "name": "SEVEN SEAS NAVIGATOR",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-17T08:39:00",
-      "hour": "08:39",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "VENTURA",
       "line": "",
       "type": "transit",
@@ -404,23 +404,6 @@
       "to": "",
       "date": "2026-08-16T17:27:00",
       "hour": "17:27",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ONE OLYMPUS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-08-15T17:21:00",
-      "hour": "17:21",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
