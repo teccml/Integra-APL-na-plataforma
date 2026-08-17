@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T18:41:25.015291+00:00",
+  "fetched_at": "2026-08-17T19:29:46.308542+00:00",
   "source": "portodelisboa.pt",
   "count": 41,
   "errors": [],
@@ -311,6 +311,23 @@
       "source": "departures"
     },
     {
+      "name": "BOREALIS",
+      "line": "Wilhelmsen Port Services Portugal, S.A.",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Southampton",
+      "date": "2026-08-17T18:21:00",
+      "hour": "18:21",
+      "pax": 1158,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9122552",
+      "source": "departures"
+    },
+    {
       "name": "REBECCA S",
       "line": "",
       "type": "transit",
@@ -391,23 +408,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "BOREALIS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-16T10:41:00",
-      "hour": "10:41",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -653,6 +653,23 @@
       "source": "departures"
     },
     {
+      "name": "LAGOA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sal Rei",
+      "to": "Aveiro",
+      "date": "2026-08-17T18:42:00",
+      "hour": "18:42",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Cabo Verde",
+      "imo": "9150470",
+      "source": "departures"
+    },
+    {
       "name": "TEVFIK BEY",
       "line": "",
       "type": "hazard",
@@ -665,23 +682,6 @@
       "cargo": "Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "LAGOA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-16T04:58:00",
-      "hour": "04:58",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
