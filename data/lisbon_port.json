@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-18T06:45:07.478679+00:00",
+  "fetched_at": "2026-08-18T07:39:05.699862+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -429,23 +429,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Países Baixos",
       "imo": "9277383",
-      "source": "arrivals"
-    },
-    {
-      "name": "ILHA DA MADEIRA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Leixões",
-      "date": "2026-08-18T08:00:00",
-      "hour": "08:00",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9202077",
       "source": "arrivals"
     },
     {
