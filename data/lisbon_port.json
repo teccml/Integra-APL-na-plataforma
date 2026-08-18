@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-18T08:39:08.498051+00:00",
+  "fetched_at": "2026-08-18T09:35:03.400477+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9515591",
-      "source": "arrivals"
-    },
-    {
-      "name": "SKY PRINCESS",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Gibraltar",
-      "to": "La Coruna",
-      "date": "2026-08-18T08:45:00",
-      "hour": "08:45",
-      "pax": 3589,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Bermudas",
-      "imo": "9802396",
       "source": "arrivals"
     },
     {
@@ -294,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "SKY PRINCESS",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-18T08:25:00",
+      "hour": "08:25",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "LAURA S",
       "line": "",
       "type": "transit",
@@ -388,7 +388,7 @@
       "date": "2026-08-16T17:27:00",
       "hour": "17:27",
       "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
+      "cargo": "Descarga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
       "flag": "",
@@ -500,23 +500,6 @@
       "source": "arrivals"
     },
     {
-      "name": "WICKO",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Garrucha",
-      "date": "2026-08-18T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
-      "flag": "Malta",
-      "imo": "9393474",
-      "source": "arrivals"
-    },
-    {
       "name": "LAGOA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -532,6 +515,40 @@
       "flag": "Cabo Verde",
       "imo": "9150470",
       "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-18T07:33:00",
+      "hour": "07:33",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "WICKO",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-18T05:54:00",
+      "hour": "05:54",
+      "pax": 0,
+      "cargo": "Descarga · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "TEVFIK BEY",
