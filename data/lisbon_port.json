@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-19T22:26:20.409811+00:00",
+  "fetched_at": "2026-08-19T23:24:30.137760+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -362,23 +362,6 @@
       "source": "in_port"
     },
     {
-      "name": "RAQUEL S",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-18T13:53:00",
-      "hour": "13:53",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "LAURA S",
       "line": "",
       "type": "transit",
@@ -497,23 +480,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9083055",
-      "source": "arrivals"
-    },
-    {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Algeciras",
-      "to": "Sines",
-      "date": "2026-08-19T22:00:00",
-      "hour": "22:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
       "source": "arrivals"
     },
     {
@@ -636,6 +602,40 @@
       "source": "departures"
     },
     {
+      "name": "WICKO",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Garrucha",
+      "date": "2026-08-19T23:47:00",
+      "hour": "23:47",
+      "pax": 0,
+      "cargo": "Descarga · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "Malta",
+      "imo": "9393474",
+      "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-19T21:46:00",
+      "hour": "21:46",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "BOMAR HAWK",
       "line": "",
       "type": "hazard",
@@ -648,23 +648,6 @@
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "WICKO",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-18T05:54:00",
-      "hour": "05:54",
-      "pax": 0,
-      "cargo": "Descarga · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
       "flag": "",
       "imo": "",
       "source": "in_port"
