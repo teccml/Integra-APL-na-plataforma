@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T18:45:58.798730+00:00",
+  "fetched_at": "2026-08-19T19:30:09.568010+00:00",
   "source": "portodelisboa.pt",
   "count": 39,
   "errors": [],
@@ -312,20 +312,20 @@
     },
     {
       "name": "QUEEN ANNE",
-      "line": "",
-      "type": "transit",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
       "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-19T06:29:00",
-      "hour": "06:29",
-      "pax": 0,
+      "from": "Southampton",
+      "to": "Palma De Mallorca",
+      "date": "2026-08-19T18:56:00",
+      "hour": "18:56",
+      "pax": 2954,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Bermudas",
+      "imo": "9839399",
+      "source": "departures"
     },
     {
       "name": "SINAR BUKITTINGGI",
@@ -517,7 +517,7 @@
       "source": "arrivals"
     },
     {
-      "name": "STOLYA",
+      "name": "STOLYA A",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
@@ -602,6 +602,23 @@
       "source": "departures"
     },
     {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ponta Delgada",
+      "to": "Leixões",
+      "date": "2026-08-19T17:59:00",
+      "hour": "17:59",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
+      "source": "departures"
+    },
+    {
       "name": "TINA",
       "line": "",
       "type": "hazard",
@@ -631,23 +648,6 @@
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ILHA DA MADEIRA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-18T07:33:00",
-      "hour": "07:33",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
