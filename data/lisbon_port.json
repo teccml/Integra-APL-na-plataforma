@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-19T05:33:00.700591+00:00",
+  "fetched_at": "2026-08-19T09:39:03.904113+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -73,23 +73,6 @@
       "source": "arrivals"
     },
     {
-      "name": "QUEEN ANNE",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Southampton",
-      "to": "Palma De Mallorca",
-      "date": "2026-08-19T06:45:00",
-      "hour": "06:45",
-      "pax": 2956,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Bermudas",
-      "imo": "9839399",
-      "source": "arrivals"
-    },
-    {
       "name": "NAVIOS DOMINO",
       "line": "One Shipping, Unipessoal Lda",
       "type": "arrival",
@@ -104,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9478494",
-      "source": "arrivals"
-    },
-    {
-      "name": "SINAR BUKITTINGGI",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Rotterdam",
-      "to": "Leixões",
-      "date": "2026-08-19T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9942299",
       "source": "arrivals"
     },
     {
@@ -147,8 +113,8 @@
       "terminal": "Santa Apolónia",
       "from": "Caniçal",
       "to": "Caniçal",
-      "date": "2026-08-20T11:00:00",
-      "hour": "11:00",
+      "date": "2026-08-20T10:00:00",
+      "hour": "10:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -345,6 +311,40 @@
       "source": "departures"
     },
     {
+      "name": "QUEEN ANNE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-19T06:29:00",
+      "hour": "06:29",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "SINAR BUKITTINGGI",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-19T05:20:00",
+      "hour": "05:20",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "SONGA PANTHER",
       "line": "",
       "type": "transit",
@@ -514,23 +514,6 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
-      "source": "arrivals"
-    },
-    {
-      "name": "BOMAR HAWK",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Leixões",
-      "date": "2026-08-19T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9396000",
       "source": "arrivals"
     },
     {
