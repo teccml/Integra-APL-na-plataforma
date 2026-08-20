@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-20T10:32:05.182858+00:00",
+  "fetched_at": "2026-08-20T11:28:20.859614+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -11,7 +11,7 @@
       "terminal": "Santa Apolónia",
       "from": "Ponta Delgada",
       "to": "Ponta Delgada",
-      "date": "2026-08-21T07:00:00",
+      "date": "2026-08-22T07:00:00",
       "hour": "07:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
@@ -36,23 +36,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9753208",
-      "source": "arrivals"
-    },
-    {
-      "name": "NERVIO",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "El Ferrol",
-      "to": "Figueira da Foz",
-      "date": "2026-08-22T12:00:00",
-      "hour": "12:00",
-      "pax": 0,
-      "cargo": "Trem de Reboque - Rebocador Estrangeiro · Navio rebocador de outros navios",
-      "is_hazard": false,
-      "ship_type": "Navio rebocador de outros navios",
-      "flag": "Espanha",
-      "imo": "8117770",
       "source": "arrivals"
     },
     {
@@ -155,23 +138,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9937476",
-      "source": "arrivals"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-08-20T10:00:00",
-      "hour": "10:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
       "source": "arrivals"
     },
     {
@@ -489,8 +455,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sevilla",
       "to": "Pasajes",
-      "date": "2026-08-21T21:30:00",
-      "hour": "21:30",
+      "date": "2026-08-21T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Carga Geral",
       "is_hazard": true,
@@ -617,6 +583,23 @@
       "flag": "Malta",
       "imo": "9396000",
       "source": "departures"
+    },
+    {
+      "name": "WATERWAY",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-20T08:11:00",
+      "hour": "08:11",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE BRASIL",
