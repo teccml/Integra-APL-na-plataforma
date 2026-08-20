@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-20T01:19:35.044777+00:00",
+  "fetched_at": "2026-08-20T02:57:58.904693+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -342,6 +342,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Bermudas",
       "imo": "9839399",
+      "source": "departures"
+    },
+    {
+      "name": "RAQUEL S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Praia",
+      "date": "2026-08-19T23:51:00",
+      "hour": "23:51",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9515591",
       "source": "departures"
     },
     {
