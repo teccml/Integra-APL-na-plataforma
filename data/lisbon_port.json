@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-20T18:41:00.125098+00:00",
+  "fetched_at": "2026-08-20T19:32:51.969146+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -62,8 +62,8 @@
       "terminal": "Alcântara",
       "from": "Setúbal",
       "to": "Tanger Med",
-      "date": "2026-08-21T06:00:00",
-      "hour": "06:00",
+      "date": "2026-08-21T12:00:00",
+      "hour": "12:00",
       "pax": 0,
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
@@ -340,23 +340,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SILVER MUSE",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-20T04:29:00",
-      "hour": "04:29",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
