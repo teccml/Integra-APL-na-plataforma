@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-20T12:52:43.181912+00:00",
+  "fetched_at": "2026-08-20T13:49:14.502121+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -62,8 +62,8 @@
       "terminal": "Alcântara",
       "from": "Setúbal",
       "to": "Tanger Med",
-      "date": "2026-08-21T09:00:00",
-      "hour": "09:00",
+      "date": "2026-08-21T06:00:00",
+      "hour": "06:00",
       "pax": 0,
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
@@ -130,7 +130,7 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-08-21T06:15:00",
+      "date": "2026-08-22T06:15:00",
       "hour": "06:15",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
@@ -309,6 +309,23 @@
       "flag": "Libéria",
       "imo": "9947732",
       "source": "departures"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-20T09:59:00",
+      "hour": "09:59",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CAPT. KATTELMANN",
