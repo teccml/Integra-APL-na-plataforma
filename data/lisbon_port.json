@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-20T20:29:54.892343+00:00",
+  "fetched_at": "2026-08-20T21:29:05.481734+00:00",
   "source": "portodelisboa.pt",
   "count": 39,
   "errors": [],
@@ -308,6 +308,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9947732",
+      "source": "departures"
+    },
+    {
+      "name": "SILVER MUSE",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Casablanca",
+      "to": "Casablanca",
+      "date": "2026-08-20T20:12:00",
+      "hour": "20:12",
+      "pax": 605,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9784350",
       "source": "departures"
     },
     {
@@ -631,23 +648,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "STOLYA A",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-20T02:13:00",
-      "hour": "02:13",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
       "flag": "",
       "imo": "",
       "source": "in_port"
