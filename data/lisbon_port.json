@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-20T14:38:02.410298+00:00",
+  "fetched_at": "2026-08-20T15:34:55.466960+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -11,8 +11,8 @@
       "terminal": "Santa Apolónia",
       "from": "Ponta Delgada",
       "to": "Ponta Delgada",
-      "date": "2026-08-22T07:00:00",
-      "hour": "07:00",
+      "date": "2026-08-21T23:00:00",
+      "hour": "23:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -96,8 +96,8 @@
       "terminal": "Alcântara",
       "from": "Antwerpen",
       "to": "Algeciras",
-      "date": "2026-08-21T12:00:00",
-      "hour": "12:00",
+      "date": "2026-08-22T05:30:00",
+      "hour": "05:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -446,6 +446,23 @@
       "ship_type": "Carga Geral",
       "flag": "Bélgica",
       "imo": "9252929",
+      "source": "arrivals"
+    },
+    {
+      "name": "HIZIR",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Castellon De La Plana",
+      "to": "Savona-Vado",
+      "date": "2026-08-20T21:00:00",
+      "hour": "21:00",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Malta",
+      "imo": "9396529",
       "source": "arrivals"
     },
     {
