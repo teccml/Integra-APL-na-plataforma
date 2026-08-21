@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-21T06:50:25.749952+00:00",
+  "fetched_at": "2026-08-21T07:43:57.119573+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -363,23 +363,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "SONGA EAGLE",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Bilbao",
-      "date": "2026-08-21T08:15:00",
-      "hour": "08:15",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9388704",
-      "source": "arrivals"
-    },
     {
       "name": "ILHA DA MADEIRA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
