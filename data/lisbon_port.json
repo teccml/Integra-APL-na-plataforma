@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-21T16:36:07.482094+00:00",
+  "fetched_at": "2026-08-21T17:30:16.259491+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -62,8 +62,8 @@
       "terminal": "Alcântara",
       "from": "Setúbal",
       "to": "Tanger Med",
-      "date": "2026-08-22T23:59:00",
-      "hour": "23:59",
+      "date": "2026-08-22T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
@@ -398,23 +398,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ONEGO NEVA",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sevilla",
-      "to": "Pasajes",
-      "date": "2026-08-21T16:00:00",
-      "hour": "16:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Antígua E Barbuda",
-      "imo": "9438585",
-      "source": "arrivals"
-    },
-    {
       "name": "MED TUNCER",
       "line": "Wilhelmsen Port Services Portugal, S.A.",
       "type": "hazard",
@@ -429,23 +412,6 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Malta",
       "imo": "9830599",
-      "source": "arrivals"
-    },
-    {
-      "name": "HAV SARDIS",
-      "line": "ATLANTIC LUSOFRETE - AFRETAMENTOS, TRANSPORTES E NAVEGAÇÃO, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Vlissingen (Flushing)",
-      "to": "Rotterdam",
-      "date": "2026-08-23T23:00:00",
-      "hour": "23:00",
-      "pax": 0,
-      "cargo": "Descarga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Portugal",
-      "imo": "1089209",
       "source": "arrivals"
     },
     {
@@ -566,6 +532,23 @@
       "flag": "Espanha",
       "imo": "9428671",
       "source": "departures"
+    },
+    {
+      "name": "ONEGO NEVA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-21T15:58:00",
+      "hour": "15:58",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SONGA EAGLE",
