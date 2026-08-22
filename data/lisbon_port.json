@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-22T08:31:39.364991+00:00",
+  "fetched_at": "2026-08-22T09:27:44.102253+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -30,7 +30,7 @@
       "to": "Portimão",
       "date": "2026-08-23T04:30:00",
       "hour": "04:30",
-      "pax": 2660,
+      "pax": 2652,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -155,23 +155,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Ilhas Caimão",
       "imo": "9468310",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMANN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-08-24T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
@@ -309,6 +292,40 @@
       "flag": "Portugal",
       "imo": "9157868",
       "source": "departures"
+    },
+    {
+      "name": "SPIRIT OF ADVENTURE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-22T07:36:00",
+      "hour": "07:36",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "NAVIOS DOMINO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-22T05:45:00",
+      "hour": "05:45",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FUNCHALENSE 5",
