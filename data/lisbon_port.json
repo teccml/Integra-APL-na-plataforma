@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-22T06:41:55.007299+00:00",
+  "fetched_at": "2026-08-22T07:32:52.715389+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -138,57 +138,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Marshall",
       "imo": "9807085",
-      "source": "arrivals"
-    },
-    {
-      "name": "SPIRIT OF ADVENTURE",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Dover",
-      "to": "Mahon",
-      "date": "2026-08-22T08:00:00",
-      "hour": "08:00",
-      "pax": 973,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Reino Unido",
-      "imo": "9818084",
-      "source": "arrivals"
-    },
-    {
-      "name": "NAVIOS DOMINO",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-08-22T05:30:00",
-      "hour": "05:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9478494",
-      "source": "arrivals"
-    },
-    {
-      "name": "INS SUDARSHINI",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Ponta Delgada",
-      "to": "Barcelona",
-      "date": "2026-08-22T08:30:00",
-      "hour": "08:30",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "India",
-      "imo": "1011721",
       "source": "arrivals"
     },
     {
@@ -415,23 +364,6 @@
   ],
   "hazards": [
     {
-      "name": "ILHA DA MADEIRA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-08-22T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9202077",
-      "source": "arrivals"
-    },
-    {
       "name": "MARIE",
       "line": "PORTSHIP Unipessoal, Lda.",
       "type": "hazard",
@@ -651,6 +583,23 @@
       "flag": "Malta",
       "imo": "9555084",
       "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-22T06:00:00",
+      "hour": "06:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ONEGO NEVA",
