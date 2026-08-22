@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T15:22:25.416715+00:00",
+  "fetched_at": "2026-08-22T16:26:08.923070+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -653,38 +653,38 @@
       "source": "departures"
     },
     {
-      "name": "ILHA DA MADEIRA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-22T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "ONEGO NEVA",
-      "line": "",
+      "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-21T15:58:00",
-      "hour": "15:58",
+      "from": "Sevilla",
+      "to": "Pasajes",
+      "date": "2026-08-22T13:13:00",
+      "hour": "13:13",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Antígua E Barbuda",
+      "imo": "9438585",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-08-22T15:35:00",
+      "hour": "15:35",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
+      "source": "departures"
     }
   ]
 }
