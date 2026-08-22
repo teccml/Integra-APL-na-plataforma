@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-22T01:18:22.866558+00:00",
+  "fetched_at": "2026-08-22T02:55:48.577550+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -345,6 +345,40 @@
       "source": "departures"
     },
     {
+      "name": "LAURA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-08-22T01:08:00",
+      "hour": "01:08",
+      "pax": 4,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9157868",
+      "source": "departures"
+    },
+    {
+      "name": "FUNCHALENSE 5",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-21T23:31:00",
+      "hour": "23:31",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "EA GANNET",
       "line": "",
       "type": "transit",
@@ -599,6 +633,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9083055",
+      "source": "departures"
+    },
+    {
+      "name": "GALBOT",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-08-21T23:56:00",
+      "hour": "23:56",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Malta",
+      "imo": "9555084",
       "source": "departures"
     },
     {
