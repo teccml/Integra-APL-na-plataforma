@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T14:25:02.665969+00:00",
+  "fetched_at": "2026-08-23T15:23:59.953246+00:00",
   "source": "portodelisboa.pt",
   "count": 38,
   "errors": [],
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "FUNCHALENSE 5",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-08-23T02:58:00",
+      "hour": "02:58",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9388390",
+      "source": "departures"
+    },
+    {
       "name": "NAVIOS DOMINO",
       "line": "One Shipping, Unipessoal Lda",
       "type": "departure",
@@ -377,23 +394,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "FUNCHALENSE 5",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-21T23:31:00",
-      "hour": "23:31",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -421,8 +421,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Sines",
       "to": "Sines",
-      "date": "2026-08-24T11:00:00",
-      "hour": "11:00",
+      "date": "2026-08-25T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Tráfego Local · Petroleiro para carregamento de crude",
       "is_hazard": true,
