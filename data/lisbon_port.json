@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T03:03:57.832676+00:00",
+  "fetched_at": "2026-08-23T03:56:28.490111+00:00",
   "source": "portodelisboa.pt",
   "count": 38,
   "errors": [],
@@ -345,6 +345,23 @@
       "source": "departures"
     },
     {
+      "name": "NAVIOS DOMINO",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Antwerpen",
+      "to": "Algeciras",
+      "date": "2026-08-23T03:51:00",
+      "hour": "03:51",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9478494",
+      "source": "departures"
+    },
+    {
       "name": "INS SUDARSHINI",
       "line": "",
       "type": "transit",
@@ -357,23 +374,6 @@
       "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
       "is_hazard": false,
       "ship_type": "Navio Guerra",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "NAVIOS DOMINO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-08-22T05:45:00",
-      "hour": "05:45",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
