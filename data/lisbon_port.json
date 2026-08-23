@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-23T04:38:39.769729+00:00",
+  "fetched_at": "2026-08-23T05:30:57.812502+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Portimão",
-      "date": "2026-08-23T04:30:00",
-      "hour": "04:30",
-      "pax": 2652,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9195169",
       "source": "arrivals"
     },
     {
@@ -90,23 +73,6 @@
       "source": "arrivals"
     },
     {
-      "name": "PORT GDYNIA",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Setúbal",
-      "to": "Tanger Med",
-      "date": "2026-08-23T02:30:00",
-      "hour": "02:30",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9334387",
-      "source": "arrivals"
-    },
-    {
       "name": "X-PRESS KAVERI",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -121,40 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
-      "source": "arrivals"
-    },
-    {
-      "name": "MSC VIRTUOSA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Brest",
-      "to": "Gibraltar",
-      "date": "2026-08-23T06:00:00",
-      "hour": "06:00",
-      "pax": 6100,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9803625",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEVEN SEAS SPLENDOR",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Ponta Delgada",
-      "date": "2026-08-23T05:00:00",
-      "hour": "05:00",
-      "pax": 741,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9807085",
       "source": "arrivals"
     },
     {
@@ -360,6 +292,40 @@
       "flag": "Libéria",
       "imo": "9478494",
       "source": "departures"
+    },
+    {
+      "name": "NORWEGIAN DAWN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-23T04:05:00",
+      "hour": "04:05",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "PORT GDYNIA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-23T03:05:00",
+      "hour": "03:05",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "INS SUDARSHINI",
