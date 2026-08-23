@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-23T06:42:44.778180+00:00",
+  "fetched_at": "2026-08-23T07:34:28.815025+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9641730",
-      "source": "arrivals"
-    },
-    {
-      "name": "MANDO",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-08-23T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Antígua E Barbuda",
-      "imo": "9175705",
       "source": "arrivals"
     },
     {
@@ -294,6 +277,40 @@
       "source": "departures"
     },
     {
+      "name": "MANDO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-08-23T05:53:00",
+      "hour": "05:53",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "SEVEN SEAS SPLENDOR",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-23T04:36:00",
+      "hour": "04:36",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "NORWEGIAN DAWN",
       "line": "",
       "type": "transit",
@@ -363,23 +380,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "MARIE",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Palamos",
-      "to": "Brightlingsea",
-      "date": "2026-08-23T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Bélgica",
-      "imo": "9252929",
-      "source": "arrivals"
-    },
     {
       "name": "MONTE DA GUIA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -617,6 +617,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "MARIE",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-23T06:16:00",
+      "hour": "06:16",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
