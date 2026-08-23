@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-23T08:32:31.265407+00:00",
+  "fetched_at": "2026-08-23T09:29:25.416252+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -289,6 +289,23 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MSC VIRTUOSA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-23T05:47:00",
+      "hour": "05:47",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
