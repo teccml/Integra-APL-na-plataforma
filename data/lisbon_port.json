@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-24T07:01:10.484727+00:00",
+  "fetched_at": "2026-08-24T07:59:13.725469+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 31,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9381275",
-      "source": "arrivals"
-    },
-    {
-      "name": "MEIN SCHIFF 3",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Bilbao",
-      "date": "2026-08-24T07:30:00",
-      "hour": "07:30",
-      "pax": 2726,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9641730",
       "source": "arrivals"
     },
     {
@@ -87,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9622019",
-      "source": "arrivals"
-    },
-    {
-      "name": "ONE ARCADIA",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Singapore",
-      "date": "2026-08-24T05:30:00",
-      "hour": "05:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Ilhas Caimão",
-      "imo": "9468310",
       "source": "arrivals"
     },
     {
@@ -535,20 +501,20 @@
     },
     {
       "name": "MED TUNCER",
-      "line": "",
+      "line": "Wilhelmsen Port Services Portugal, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-23T22:17:00",
-      "hour": "22:17",
+      "from": "Huelva",
+      "to": "Antwerpen",
+      "date": "2026-08-24T06:44:00",
+      "hour": "06:44",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Malta",
+      "imo": "9830599",
+      "source": "departures"
     },
     {
       "name": "MARIE",
