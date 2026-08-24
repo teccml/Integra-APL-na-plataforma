@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T15:40:14.626508+00:00",
+  "fetched_at": "2026-08-24T16:39:03.060463+00:00",
   "source": "portodelisboa.pt",
   "count": 33,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9381275",
-      "source": "arrivals"
-    },
-    {
-      "name": "EMS TRADER",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Syros",
-      "to": "Leixões",
-      "date": "2026-08-26T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Chipre",
-      "imo": "9347750",
       "source": "arrivals"
     },
     {
@@ -87,6 +70,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9622019",
+      "source": "arrivals"
+    },
+    {
+      "name": "EMS TRADER",
+      "line": "Pmar - Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Syros",
+      "to": "Leixões",
+      "date": "2026-08-26T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Chipre",
+      "imo": "9347750",
       "source": "arrivals"
     },
     {
@@ -398,6 +398,23 @@
       "source": "arrivals"
     },
     {
+      "name": "WEC BOUMEESTER",
+      "line": "Wec Lines-Ibero Portugal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Vigo",
+      "to": "Setúbal",
+      "date": "2026-08-24T18:00:00",
+      "hour": "18:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9150080",
+      "source": "arrivals"
+    },
+    {
       "name": "TEOS",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -446,23 +463,6 @@
       "ship_type": "Carga Geral",
       "flag": "Portugal",
       "imo": "1089209",
-      "source": "arrivals"
-    },
-    {
-      "name": "WEC BOUMEESTER",
-      "line": "Wec Lines-Ibero Portugal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Vigo",
-      "to": "Setúbal",
-      "date": "2026-08-24T18:00:00",
-      "hour": "18:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9150080",
       "source": "arrivals"
     },
     {
