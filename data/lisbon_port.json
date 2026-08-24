@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-24T14:43:17.472513+00:00",
+  "fetched_at": "2026-08-24T15:40:14.626508+00:00",
   "source": "portodelisboa.pt",
-  "count": 32,
+  "count": 33,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9381275",
+      "source": "arrivals"
+    },
+    {
+      "name": "EMS TRADER",
+      "line": "Pmar - Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Syros",
+      "to": "Leixões",
+      "date": "2026-08-26T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Chipre",
+      "imo": "9347750",
       "source": "arrivals"
     },
     {
@@ -70,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9622019",
-      "source": "arrivals"
-    },
-    {
-      "name": "EMS TRADER",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Syros",
-      "to": "Leixões",
-      "date": "2026-08-26T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Chipre",
-      "imo": "9347750",
       "source": "arrivals"
     },
     {
@@ -277,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "AIDAstella",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-24T12:44:00",
+      "hour": "12:44",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "MEIN SCHIFF 3",
       "line": "",
       "type": "transit",
@@ -370,7 +387,7 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Ponta Delgada",
       "to": "Leixões",
-      "date": "2026-08-24T08:00:00",
+      "date": "2026-08-25T08:00:00",
       "hour": "08:00",
       "pax": 1,
       "cargo": "Descarga / Carga · Porta-Contentores",
@@ -378,23 +395,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
-      "name": "WEC BOUMEESTER",
-      "line": "Wec Lines-Ibero Portugal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Vigo",
-      "to": "Setúbal",
-      "date": "2026-08-24T18:00:00",
-      "hour": "18:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9150080",
       "source": "arrivals"
     },
     {
@@ -421,8 +421,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Leixões",
       "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-08-25T10:00:00",
-      "hour": "10:00",
+      "date": "2026-08-25T09:00:00",
+      "hour": "09:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
@@ -446,6 +446,23 @@
       "ship_type": "Carga Geral",
       "flag": "Portugal",
       "imo": "1089209",
+      "source": "arrivals"
+    },
+    {
+      "name": "WEC BOUMEESTER",
+      "line": "Wec Lines-Ibero Portugal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Vigo",
+      "to": "Setúbal",
+      "date": "2026-08-24T18:00:00",
+      "hour": "18:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9150080",
       "source": "arrivals"
     },
     {
