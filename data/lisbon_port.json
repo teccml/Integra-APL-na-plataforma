@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-25T23:26:06.904332+00:00",
+  "fetched_at": "2026-08-26T01:23:42.167667+00:00",
   "source": "portodelisboa.pt",
-  "count": 30,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -36,6 +36,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Panamá",
       "imo": "9250464",
+      "source": "arrivals"
+    },
+    {
+      "name": "MANDO",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-08-28T15:00:00",
+      "hour": "15:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9175705",
       "source": "arrivals"
     },
     {
@@ -141,89 +158,38 @@
       "source": "arrivals"
     },
     {
-      "name": "EA GANNET",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "departure",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-08-23T01:30:00",
-      "hour": "01:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9937476",
-      "source": "departures"
-    },
-    {
-      "name": "FUNCHALENSE 5",
+      "name": "ATLANTICO",
       "line": "Pmar - Navegação, Lda",
-      "type": "departure",
+      "type": "arrival",
       "terminal": "Santa Apolónia",
-      "from": "Ponta Delgada",
-      "to": "Ponta Delgada",
-      "date": "2026-08-23T02:58:00",
-      "hour": "02:58",
+      "from": "Caniçal",
+      "to": "Caniçal",
+      "date": "2026-08-28T07:00:00",
+      "hour": "07:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
-      "imo": "9388390",
-      "source": "departures"
+      "imo": "9641314",
+      "source": "arrivals"
     },
     {
-      "name": "NAVIOS DOMINO",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "departure",
+      "name": "CAPT. KATTELMANN",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "arrival",
       "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-08-23T03:51:00",
-      "hour": "03:51",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-08-28T22:00:00",
+      "hour": "22:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9478494",
-      "source": "departures"
-    },
-    {
-      "name": "MSC VIRTUOSA",
-      "line": "MSC Portugal, S.A.",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Brest",
-      "to": "Gibraltar",
-      "date": "2026-08-23T17:19:00",
-      "hour": "17:19",
-      "pax": 6099,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "Malta",
-      "imo": "9803625",
-      "source": "departures"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Portimão",
-      "date": "2026-08-23T19:03:00",
-      "hour": "19:03",
-      "pax": 2640,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9195169",
-      "source": "departures"
+      "imo": "9330915",
+      "source": "arrivals"
     },
     {
       "name": "MANDO",
@@ -326,23 +292,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "PORT GDYNIA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "",
-      "to": "",
-      "date": "2026-08-23T03:05:00",
-      "hour": "03:05",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -381,6 +330,23 @@
       "source": "arrivals"
     },
     {
+      "name": "WEC VAN RUYSDAEL",
+      "line": "Wec Lines-Ibero Portugal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Setúbal",
+      "date": "2026-08-28T06:00:00",
+      "hour": "06:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9287792",
+      "source": "arrivals"
+    },
+    {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -395,6 +361,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Espanha",
       "imo": "9428671",
+      "source": "arrivals"
+    },
+    {
+      "name": "PONTA DO SOL",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Mindelo",
+      "to": "Aveiro",
+      "date": "2026-08-28T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "Cabo Verde",
+      "imo": "9141613",
       "source": "arrivals"
     },
     {
@@ -449,6 +432,23 @@
       "source": "arrivals"
     },
     {
+      "name": "CANNETO M",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Huelva",
+      "date": "2026-08-28T18:00:00",
+      "hour": "18:00",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Itália",
+      "imo": "9359583",
+      "source": "arrivals"
+    },
+    {
       "name": "PSERIMOS",
       "line": "AFONSO H. O'NEILL & CA LDA",
       "type": "hazard",
@@ -498,23 +498,6 @@
       "flag": "Malta",
       "imo": "9830599",
       "source": "departures"
-    },
-    {
-      "name": "MARIE",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-23T06:16:00",
-      "hour": "06:16",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ]
 }
