@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-29T10:54:08.446526+00:00",
+  "fetched_at": "2026-08-29T15:31:41.613371+00:00",
   "source": "portodelisboa.pt",
-  "count": 27,
+  "count": 26,
   "errors": [],
   "ships": [
     {
@@ -279,23 +279,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CANNETO M",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Huelva",
-      "date": "2026-08-29T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Itália",
-      "imo": "9359583",
-      "source": "arrivals"
-    },
-    {
       "name": "PSERIMOS",
       "line": "AFONSO H. O'NEILL & CA LDA",
       "type": "hazard",
@@ -336,8 +319,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Setúbal",
       "to": "Leixões",
-      "date": "2026-08-30T07:00:00",
-      "hour": "07:00",
+      "date": "2026-08-30T14:00:00",
+      "hour": "14:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Porta-Contentores",
       "is_hazard": true,
