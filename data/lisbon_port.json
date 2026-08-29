@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-29T15:31:41.613371+00:00",
+  "fetched_at": "2026-08-29T19:16:18.237113+00:00",
   "source": "portodelisboa.pt",
-  "count": 26,
+  "count": 27,
   "errors": [],
   "ships": [
     {
@@ -319,8 +319,8 @@
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Setúbal",
       "to": "Leixões",
-      "date": "2026-08-30T14:00:00",
-      "hour": "14:00",
+      "date": "2026-08-30T17:00:00",
+      "hour": "17:00",
       "pax": 0,
       "cargo": "Abastecimento de Combustível · Porta-Contentores",
       "is_hazard": true,
@@ -396,6 +396,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "CANNETO M",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-29T14:23:00",
+      "hour": "14:23",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE DA GUIA",
