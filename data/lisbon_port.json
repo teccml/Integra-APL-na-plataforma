@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-30T01:08:51.912643+00:00",
+  "fetched_at": "2026-08-30T08:00:30.800459+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9404314",
-      "source": "arrivals"
-    },
-    {
-      "name": "AZAMARA QUEST",
-      "line": "Wilhelmsen Port Services Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Portimão",
-      "date": "2026-08-30T04:30:00",
-      "hour": "04:30",
-      "pax": 669,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9210218",
       "source": "arrivals"
     },
     {
@@ -224,6 +207,23 @@
       "flag": "Portugal",
       "imo": "9641314",
       "source": "departures"
+    },
+    {
+      "name": "AZAMARA QUEST",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-08-30T04:03:00",
+      "hour": "04:03",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "AÇOR B",
@@ -446,6 +446,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
+      "source": "departures"
+    },
+    {
+      "name": "ARKLOW CASTLE",
+      "line": "PORTSHIP Unipessoal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Setúbal",
+      "to": "Sunderland",
+      "date": "2026-08-30T07:08:00",
+      "hour": "07:08",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Irlanda",
+      "imo": "9757101",
       "source": "departures"
     },
     {
