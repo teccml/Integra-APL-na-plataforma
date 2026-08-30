@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-30T13:39:17.810433+00:00",
+  "fetched_at": "2026-08-30T17:58:31.221134+00:00",
   "source": "portodelisboa.pt",
-  "count": 29,
+  "count": 28,
   "errors": [],
   "ships": [
     {
@@ -28,8 +28,8 @@
       "terminal": "Santa Apolónia",
       "from": "Porto Santo",
       "to": "Caniçal",
-      "date": "2026-08-30T23:00:00",
-      "hour": "23:00",
+      "date": "2026-08-30T23:30:00",
+      "hour": "23:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -207,23 +207,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "AZAMARA QUEST",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-08-30T04:03:00",
-      "hour": "04:03",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -330,23 +313,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MORINA THERESA",
-      "line": "ATLANTIC LUSOFRETE - AFRETAMENTOS, TRANSPORTES E NAVEGAÇÃO, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Amsterdam",
-      "date": "2026-08-30T14:30:00",
-      "hour": "14:30",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9243382",
-      "source": "arrivals"
-    },
-    {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -430,6 +396,23 @@
       "flag": "Irlanda",
       "imo": "9757101",
       "source": "departures"
+    },
+    {
+      "name": "MORINA THERESA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-08-30T14:58:00",
+      "hour": "14:58",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "HOMERIC",
