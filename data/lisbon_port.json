@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T20:43:20.074332+00:00",
+  "fetched_at": "2026-08-30T23:16:44.090036+00:00",
   "source": "portodelisboa.pt",
   "count": 29,
   "errors": [],
@@ -39,6 +39,23 @@
       "source": "arrivals"
     },
     {
+      "name": "MANDO",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-08-31T17:00:00",
+      "hour": "17:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9175705",
+      "source": "arrivals"
+    },
+    {
       "name": "CELEBRITY ECLIPSE",
       "line": "Arenthern - Agência de Navegação Lda",
       "type": "arrival",
@@ -70,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Ilha Man",
       "imo": "9391672",
-      "source": "arrivals"
-    },
-    {
-      "name": "MANDO",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-08-31T17:00:00",
-      "hour": "17:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Antígua E Barbuda",
-      "imo": "9175705",
       "source": "arrivals"
     },
     {
@@ -228,6 +228,23 @@
   ],
   "hazards": [
     {
+      "name": "MONTE BRASIL",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ponta Delgada",
+      "to": "Leixões",
+      "date": "2026-09-01T08:00:00",
+      "hour": "08:00",
+      "pax": 3,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9083055",
+      "source": "arrivals"
+    },
+    {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -262,6 +279,23 @@
       "source": "arrivals"
     },
     {
+      "name": "PSERIMOS",
+      "line": "AFONSO H. O'NEILL & CA LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Setúbal",
+      "to": "Corpus Christi",
+      "date": "2026-08-30T23:00:00",
+      "hour": "23:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Ilhas Marshall",
+      "imo": "9578658",
+      "source": "arrivals"
+    },
+    {
       "name": "FURE VESBORG",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -293,40 +327,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9344253",
-      "source": "arrivals"
-    },
-    {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Leixões",
-      "date": "2026-09-01T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9083055",
-      "source": "arrivals"
-    },
-    {
-      "name": "PSERIMOS",
-      "line": "AFONSO H. O'NEILL & CA LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Corpus Christi",
-      "date": "2026-08-30T23:00:00",
-      "hour": "23:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Ilhas Marshall",
-      "imo": "9578658",
       "source": "arrivals"
     },
     {
@@ -415,6 +415,23 @@
       "source": "departures"
     },
     {
+      "name": "CANNETO M",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Huelva",
+      "date": "2026-08-30T16:51:00",
+      "hour": "16:51",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Itália",
+      "imo": "9359583",
+      "source": "departures"
+    },
+    {
       "name": "HOMERIC",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -461,23 +478,6 @@
       "cargo": "Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CANNETO M",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-08-29T14:23:00",
-      "hour": "14:23",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
       "flag": "",
       "imo": "",
       "source": "in_port"
