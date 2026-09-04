@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T03:27:05.893301+00:00",
+  "fetched_at": "2026-09-04T08:34:56.388874+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -121,23 +121,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Singapura",
       "imo": "9470765",
-      "source": "arrivals"
-    },
-    {
-      "name": "EVRIMA",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Cartagena",
-      "date": "2026-09-04T06:30:00",
-      "hour": "06:30",
-      "pax": 239,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9823687",
       "source": "arrivals"
     },
     {
@@ -326,6 +309,23 @@
       "flag": "Portugal",
       "imo": "9593672",
       "source": "departures"
+    },
+    {
+      "name": "EVRIMA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-04T06:08:00",
+      "hour": "06:08",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ATLANTICO",
