@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-05T18:50:39.991543+00:00",
+  "fetched_at": "2026-09-05T20:58:45.339032+00:00",
   "source": "portodelisboa.pt",
   "count": 46,
   "errors": [],
@@ -47,7 +47,7 @@
       "to": "Portimão",
       "date": "2026-09-06T03:30:00",
       "hour": "03:30",
-      "pax": 2622,
+      "pax": 2619,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -483,23 +483,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BESIKTAS ZEALAND",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Sines",
-      "date": "2026-09-05T10:00:00",
-      "hour": "10:00",
-      "pax": 1,
-      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Malta",
-      "imo": "9431044",
-      "source": "arrivals"
-    },
-    {
       "name": "BAHIA TRES",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -719,6 +702,23 @@
       "flag": "Malta",
       "imo": "9555084",
       "source": "departures"
+    },
+    {
+      "name": "BESIKTAS ZEALAND",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-05T18:32:00",
+      "hour": "18:32",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "RIO FYN",
