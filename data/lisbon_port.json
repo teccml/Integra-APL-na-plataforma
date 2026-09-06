@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-06T05:37:18.472402+00:00",
+  "fetched_at": "2026-09-06T10:29:23.139143+00:00",
   "source": "portodelisboa.pt",
   "count": 45,
   "errors": [],
@@ -104,23 +104,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9437866",
-      "source": "arrivals"
-    },
-    {
-      "name": "CARNIVAL LEGEND",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Malaga",
-      "date": "2026-09-06T07:30:00",
-      "hour": "07:30",
-      "pax": 2105,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9224726",
       "source": "arrivals"
     },
     {
@@ -377,6 +360,23 @@
       "flag": "Portugal",
       "imo": "9641314",
       "source": "departures"
+    },
+    {
+      "name": "CARNIVAL LEGEND",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-06T07:00:00",
+      "hour": "07:00",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "NORWEGIAN DAWN",
