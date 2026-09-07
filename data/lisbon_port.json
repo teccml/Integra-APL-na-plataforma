@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-07T19:01:55.201279+00:00",
+  "fetched_at": "2026-09-07T21:56:28.033375+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -81,7 +81,7 @@
       "to": "Tangier",
       "date": "2026-09-08T07:00:00",
       "hour": "07:00",
-      "pax": 2812,
+      "pax": 2814,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -311,6 +311,23 @@
       "source": "departures"
     },
     {
+      "name": "SH DIANA",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Portimão",
+      "date": "2026-09-07T18:58:00",
+      "hour": "18:58",
+      "pax": 93,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Libéria",
+      "imo": "9921740",
+      "source": "departures"
+    },
+    {
       "name": "MANDO",
       "line": "",
       "type": "transit",
@@ -323,23 +340,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SH DIANA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-09-07T06:29:00",
-      "hour": "06:29",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -446,23 +446,6 @@
       "ship_type": "Carga Geral",
       "flag": "Libéria",
       "imo": "9045704",
-      "source": "arrivals"
-    },
-    {
-      "name": "TEOS",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Casablanca",
-      "to": "Casablanca",
-      "date": "2026-09-07T12:00:00",
-      "hour": "12:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "São Marino",
-      "imo": "9173331",
       "source": "arrivals"
     },
     {
