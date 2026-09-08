@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-08T00:02:21.441798+00:00",
+  "fetched_at": "2026-09-08T04:05:42.038339+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -449,6 +449,23 @@
       "source": "arrivals"
     },
     {
+      "name": "CELTIC VOYAGER",
+      "line": "ICC - Agência de Navegação e Transportes Terrestres, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Antwerpen",
+      "to": "Aviles",
+      "date": "2026-09-10T10:00:00",
+      "hour": "10:00",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9377913",
+      "source": "arrivals"
+    },
+    {
       "name": "CANNETO M",
       "line": "Noatum Maritime Portugal, LDA",
       "type": "hazard",
@@ -582,6 +599,23 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Malta",
       "imo": "9383651",
+      "source": "departures"
+    },
+    {
+      "name": "ONEGO ISLE",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Pasajes",
+      "to": "Huelva",
+      "date": "2026-09-08T00:02:00",
+      "hour": "00:02",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Ilha Man",
+      "imo": "9626156",
       "source": "departures"
     },
     {
