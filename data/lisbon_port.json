@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-10T05:41:29.348408+00:00",
+  "fetched_at": "2026-09-10T10:51:55.020213+00:00",
   "source": "portodelisboa.pt",
   "count": 43,
   "errors": [],
@@ -70,23 +70,6 @@
       "ship_type": "Navio de exploração científica",
       "flag": "Itália",
       "imo": "7310868",
-      "source": "arrivals"
-    },
-    {
-      "name": "XIN WEI HAI",
-      "line": "Agencia Maritima Euronave Porto, Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-09-10T05:30:00",
-      "hour": "05:30",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "China",
-      "imo": "9312573",
       "source": "arrivals"
     },
     {
@@ -362,6 +345,23 @@
       "source": "departures"
     },
     {
+      "name": "XIN WEI HAI",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-09-10T06:40:00",
+      "hour": "06:40",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "FURNAS",
       "line": "",
       "type": "transit",
@@ -446,23 +446,6 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "Malta",
       "imo": "9742819",
-      "source": "arrivals"
-    },
-    {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Caniçal",
-      "to": "Ponta Delgada",
-      "date": "2026-09-10T06:00:00",
-      "hour": "06:00",
-      "pax": 2,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9083055",
       "source": "arrivals"
     },
     {
@@ -565,23 +548,6 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "Malta",
       "imo": "9774185",
-      "source": "arrivals"
-    },
-    {
-      "name": "GAS HUSKY",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Malta (Valetta)",
-      "to": "Aveiro",
-      "date": "2026-09-10T02:00:00",
-      "hour": "02:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
-      "flag": "Libéria",
-      "imo": "9507764",
       "source": "arrivals"
     },
     {
@@ -702,6 +668,40 @@
       "flag": "Itália",
       "imo": "9359583",
       "source": "departures"
+    },
+    {
+      "name": "GAS HUSKY",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-10T08:01:00",
+      "hour": "08:01",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-10T06:08:00",
+      "hour": "06:08",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MARITEA",
