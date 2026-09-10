@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-10T10:51:55.020213+00:00",
+  "fetched_at": "2026-09-10T14:54:55.793484+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -13,7 +13,7 @@
       "to": "Cadiz",
       "date": "2026-09-12T06:45:00",
       "hour": "06:45",
-      "pax": 0,
+      "pax": 4336,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -43,7 +43,7 @@
       "line": "ICC - Agência de Navegação e Transportes Terrestres, S.A.",
       "type": "arrival",
       "terminal": "Rocha Conde Óbidos",
-      "from": "La Coruna",
+      "from": "Vigo",
       "to": "Jorf Lasfar",
       "date": "2026-09-11T03:00:00",
       "hour": "03:00",
@@ -73,23 +73,6 @@
       "source": "arrivals"
     },
     {
-      "name": "EA NODDY",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-09-12T17:30:00",
-      "hour": "17:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9937488",
-      "source": "arrivals"
-    },
-    {
       "name": "MARIA JOSE",
       "line": "NAIP - Navegação, Agência Internacional Portuguesa",
       "type": "arrival",
@@ -104,23 +87,6 @@
       "ship_type": "Carga Geral",
       "flag": "Portugal",
       "imo": "9593672",
-      "source": "arrivals"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-09-10T14:00:00",
-      "hour": "14:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9641314",
       "source": "arrivals"
     },
     {
@@ -432,6 +398,23 @@
       "source": "arrivals"
     },
     {
+      "name": "PANDA 002",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Setúbal",
+      "to": "Casablanca",
+      "date": "2026-09-11T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9328053",
+      "source": "arrivals"
+    },
+    {
       "name": "CASTILLO DE CALDELAS",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -453,7 +436,7 @@
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
+      "from": "Setúbal",
       "to": "Setúbal",
       "date": "2026-09-11T12:00:00",
       "hour": "12:00",
@@ -497,23 +480,6 @@
       "ship_type": "Graneleiro",
       "flag": "Irlanda",
       "imo": "9757149",
-      "source": "arrivals"
-    },
-    {
-      "name": "SOUTHERN XANTIS",
-      "line": "Wilhelmsen Port Services Portugal, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Aveiro",
-      "date": "2026-09-10T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "Libéria",
-      "imo": "9883493",
       "source": "arrivals"
     },
     {
@@ -667,6 +633,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Itália",
       "imo": "9359583",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ponta Delgada",
+      "to": "Leixões",
+      "date": "2026-09-10T02:17:00",
+      "hour": "02:17",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
       "source": "departures"
     },
     {
