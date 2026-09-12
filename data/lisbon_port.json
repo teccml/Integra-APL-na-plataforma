@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-12T19:00:31.519597+00:00",
+  "fetched_at": "2026-09-12T21:16:51.057672+00:00",
   "source": "portodelisboa.pt",
-  "count": 45,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -357,23 +357,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "LIBERTY OF THE SEAS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-09-12T06:27:00",
-      "hour": "06:27",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
