@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-12T16:48:50.288733+00:00",
+  "fetched_at": "2026-09-12T19:00:31.519597+00:00",
   "source": "portodelisboa.pt",
-  "count": 42,
+  "count": 45,
   "errors": [],
   "ships": [
     {
@@ -294,6 +294,74 @@
       "source": "departures"
     },
     {
+      "name": "ATLANTICO",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Caniçal",
+      "date": "2026-09-12T17:53:00",
+      "hour": "17:53",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9641314",
+      "source": "departures"
+    },
+    {
+      "name": "LIBERTY OF THE SEAS",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Vigo",
+      "to": "Cadiz",
+      "date": "2026-09-12T19:04:00",
+      "hour": "19:04",
+      "pax": 4349,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9330032",
+      "source": "departures"
+    },
+    {
+      "name": "MARIA JOSE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-09-12T15:28:00",
+      "hour": "15:28",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral",
+      "is_hazard": false,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "CAPT. KATTELMANN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-09-12T14:28:00",
+      "hour": "14:28",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "LIBERTY OF THE SEAS",
       "line": "",
       "type": "transit",
@@ -360,23 +428,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-09-10T13:34:00",
-      "hour": "13:34",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -395,23 +446,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
-      "name": "ATLANTIC MATE",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Immingham",
-      "to": "Barcelona",
-      "date": "2026-09-12T19:00:00",
-      "hour": "19:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / LNG e LPG",
-      "is_hazard": true,
-      "ship_type": "Tanque / LNG e LPG",
-      "flag": "Gibraltar",
-      "imo": "9350745",
       "source": "arrivals"
     },
     {
@@ -667,6 +701,23 @@
       "ship_type": "Tanque / Químico (alto mar)",
       "flag": "Libéria",
       "imo": "9883493",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-09-12T16:26:00",
+      "hour": "16:26",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
       "source": "departures"
     },
     {
