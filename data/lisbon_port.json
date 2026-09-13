@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-13T20:28:14.691809+00:00",
+  "fetched_at": "2026-09-13T22:58:13.858910+00:00",
   "source": "portodelisboa.pt",
   "count": 47,
   "errors": [],
@@ -534,23 +534,6 @@
       "source": "arrivals"
     },
     {
-      "name": "SEA CORAL",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Brofjorden Scanraff",
-      "to": "Georgetown",
-      "date": "2026-09-13T21:00:00",
-      "hour": "21:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Grécia",
-      "imo": "9920708",
-      "source": "arrivals"
-    },
-    {
       "name": "MYGAS",
       "line": "Noatum Maritime Portugal, LDA",
       "type": "hazard",
@@ -804,6 +787,23 @@
       "flag": "Países Baixos",
       "imo": "9534365",
       "source": "departures"
+    },
+    {
+      "name": "ARKLOW CLOUD",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-13T18:21:00",
+      "hour": "18:21",
+      "pax": 0,
+      "cargo": "Carga · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
