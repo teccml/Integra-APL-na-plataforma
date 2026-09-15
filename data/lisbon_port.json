@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-15T07:22:01.083032+00:00",
+  "fetched_at": "2026-09-15T13:15:00.044477+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9108063",
-      "source": "arrivals"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Alicante",
-      "date": "2026-09-15T08:00:00",
-      "hour": "08:00",
-      "pax": 2201,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Panamá",
-      "imo": "9250464",
       "source": "arrivals"
     },
     {
@@ -107,23 +90,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MSC VIRTUOSA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Southampton",
-      "to": "Cadiz",
-      "date": "2026-09-15T06:00:00",
-      "hour": "06:00",
-      "pax": 4791,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9803625",
-      "source": "arrivals"
-    },
-    {
       "name": "DISNEY DREAM",
       "line": "James Rawes Navegação, Lda",
       "type": "arrival",
@@ -147,8 +113,8 @@
       "terminal": "Alcântara",
       "from": "Antwerpen",
       "to": "Algeciras",
-      "date": "2026-09-14T15:30:00",
-      "hour": "15:30",
+      "date": "2026-09-15T18:00:00",
+      "hour": "18:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -328,6 +294,40 @@
       "source": "departures"
     },
     {
+      "name": "MSC OPERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-15T07:43:00",
+      "hour": "07:43",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MSC VIRTUOSA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-15T05:35:00",
+      "hour": "05:35",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "EXPEDITO",
       "line": "",
       "type": "transit",
@@ -397,6 +397,23 @@
     }
   ],
   "hazards": [
+    {
+      "name": "TINA",
+      "line": "Wec Lines-Ibero Portugal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Setúbal",
+      "date": "2026-09-17T20:00:00",
+      "hour": "20:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Países Baixos",
+      "imo": "9277383",
+      "source": "arrivals"
+    },
     {
       "name": "ILHA DA MADEIRA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
