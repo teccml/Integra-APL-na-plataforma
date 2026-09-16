@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T03:51:28.282447+00:00",
+  "fetched_at": "2026-09-16T09:09:20.691288+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9388390",
-      "source": "arrivals"
-    },
-    {
-      "name": "LAURA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Ponta Delgada",
-      "date": "2026-09-16T07:30:00",
-      "hour": "07:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9157868",
       "source": "arrivals"
     },
     {
@@ -342,6 +325,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Panamá",
       "imo": "9250464",
+      "source": "departures"
+    },
+    {
+      "name": "REBECCA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Caniçal",
+      "date": "2026-09-16T07:12:00",
+      "hour": "07:12",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9428205",
       "source": "departures"
     },
     {
