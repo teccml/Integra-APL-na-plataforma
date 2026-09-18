@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-18T01:05:37.359978+00:00",
+  "fetched_at": "2026-09-18T07:10:01.880397+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "8203440",
-      "source": "arrivals"
-    },
-    {
-      "name": "SILVER SPIRIT",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Gijon",
-      "to": "Casablanca",
-      "date": "2026-09-18T05:00:00",
-      "hour": "05:00",
-      "pax": 606,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9437866",
       "source": "arrivals"
     },
     {
@@ -415,23 +398,6 @@
       "source": "arrivals"
     },
     {
-      "name": "KLARIKA",
-      "line": "ATLANTIC LUSOFRETE - AFRETAMENTOS, TRANSPORTES E NAVEGAÇÃO, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Vlissingen (Flushing)",
-      "to": "Rotterdam",
-      "date": "2026-09-18T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Antígua E Barbuda",
-      "imo": "9342164",
-      "source": "arrivals"
-    },
-    {
       "name": "WHITE IVY",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -551,6 +517,40 @@
       "source": "departures"
     },
     {
+      "name": "ULUSOY 9",
+      "line": "PMS - PORTUGUESE MARIT AGENCY LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Dumyat",
+      "to": "Warrenpoint",
+      "date": "2026-09-18T03:37:00",
+      "hour": "03:37",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Turquia",
+      "imo": "9498884",
+      "source": "departures"
+    },
+    {
+      "name": "HARBOUR FASHION",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-17T23:46:00",
+      "hour": "23:46",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ILHA DA MADEIRA",
       "line": "",
       "type": "hazard",
@@ -595,23 +595,6 @@
       "hour": "05:06",
       "pax": 0,
       "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ULUSOY 9",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-09-16T17:18:00",
-      "hour": "17:18",
-      "pax": 0,
-      "cargo": "Descarga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
       "flag": "",
