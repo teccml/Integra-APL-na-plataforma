@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-18T16:58:52.290863+00:00",
+  "fetched_at": "2026-09-18T19:27:47.300123+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 43,
   "errors": [],
   "ships": [
     {
@@ -124,23 +124,6 @@
       "source": "arrivals"
     },
     {
-      "name": "CARNOTA",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Setúbal",
-      "to": "Cadiz",
-      "date": "2026-09-18T15:30:00",
-      "hour": "15:30",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "Espanha",
-      "imo": "9666962",
-      "source": "arrivals"
-    },
-    {
       "name": "ONE HONG KONG",
       "line": "One Shipping, Unipessoal Lda",
       "type": "arrival",
@@ -172,6 +155,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Malta",
       "imo": "9330915",
+      "source": "arrivals"
+    },
+    {
+      "name": "C-INSTALLER",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Piombino",
+      "to": "Bilbao",
+      "date": "2026-09-18T22:30:00",
+      "hour": "22:30",
+      "pax": 0,
+      "cargo": "Movimento de Passageiros · Navio de pesquisa pesqueira",
+      "is_hazard": false,
+      "ship_type": "Navio de pesquisa pesqueira",
+      "flag": "Dinamarca",
+      "imo": "9165554",
       "source": "arrivals"
     },
     {
@@ -326,6 +326,40 @@
       "flag": "Libéria",
       "imo": "9947732",
       "source": "departures"
+    },
+    {
+      "name": "CARNOTA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-09-18T15:56:00",
+      "hour": "15:56",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "SVENDBORG",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-09-18T15:23:00",
+      "hour": "15:23",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ATLANTICO",
@@ -500,23 +534,6 @@
       "source": "arrivals"
     },
     {
-      "name": "GAS WIDURI",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Algeciras",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-09-18T17:30:00",
-      "hour": "17:30",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
-      "flag": "Indonésia",
-      "imo": "9590668",
-      "source": "arrivals"
-    },
-    {
       "name": "MONTE DA GUIA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -651,6 +668,23 @@
       "flag": "Portugal",
       "imo": "9473080",
       "source": "departures"
+    },
+    {
+      "name": "GAS WIDURI",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-18T17:48:00",
+      "hour": "17:48",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "KLARIKA",
