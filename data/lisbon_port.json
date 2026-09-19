@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-19T05:33:18.075379+00:00",
+  "fetched_at": "2026-09-19T10:29:34.625283+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Antígua E Barbuda",
       "imo": "9175705",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEADREAM II",
-      "line": "Amundsen - Maritime Agency",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Cadiz",
-      "date": "2026-09-19T07:00:00",
-      "hour": "07:00",
-      "pax": 94,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "8203440",
       "source": "arrivals"
     },
     {
@@ -343,6 +326,23 @@
       "flag": "Dinamarca",
       "imo": "9165554",
       "source": "departures"
+    },
+    {
+      "name": "SEADREAM II",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-19T06:22:00",
+      "hour": "06:22",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FUNCHALENSE 5",
@@ -634,6 +634,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "MONTE DA GUIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-19T05:39:00",
+      "hour": "05:39",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "GAS WIDURI",
