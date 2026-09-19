@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-19T20:11:56.916283+00:00",
+  "fetched_at": "2026-09-19T22:43:08.976544+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -360,6 +360,23 @@
       "flag": "Ilhas Bahamas",
       "imo": "8203440",
       "source": "departures"
+    },
+    {
+      "name": "BALTIC STRENGTH",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-19T17:52:00",
+      "hour": "17:52",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral",
+      "is_hazard": false,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "FUNCHALENSE 5",
