@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-19T01:00:58.782363+00:00",
+  "fetched_at": "2026-09-19T05:33:18.075379+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -311,6 +311,57 @@
       "source": "departures"
     },
     {
+      "name": "LAURA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-09-18T23:50:00",
+      "hour": "23:50",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9157868",
+      "source": "departures"
+    },
+    {
+      "name": "C-INSTALLER",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Piombino",
+      "to": "Bilbao",
+      "date": "2026-09-19T01:38:00",
+      "hour": "01:38",
+      "pax": 0,
+      "cargo": "Movimento de Passageiros · Navio de pesquisa pesqueira",
+      "is_hazard": false,
+      "ship_type": "Navio de pesquisa pesqueira",
+      "flag": "Dinamarca",
+      "imo": "9165554",
+      "source": "departures"
+    },
+    {
+      "name": "FUNCHALENSE 5",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-18T22:00:00",
+      "hour": "22:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "CARNOTA",
       "line": "",
       "type": "transit",
@@ -363,23 +414,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-09-19T06:00:00",
-      "hour": "06:00",
-      "pax": 2,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9123788",
-      "source": "arrivals"
-    },
     {
       "name": "MONTE BRASIL",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
