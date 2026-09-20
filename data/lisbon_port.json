@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-20T18:04:00.622477+00:00",
+  "fetched_at": "2026-09-20T20:43:01.394082+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -243,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "NORWEGIAN DAWN",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "Portimão",
+      "date": "2026-09-20T18:29:00",
+      "hour": "18:29",
+      "pax": 2321,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9195169",
+      "source": "departures"
+    },
+    {
       "name": "ONE HONG KONG",
       "line": "",
       "type": "transit",
@@ -272,23 +289,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-09-20T06:51:00",
-      "hour": "06:51",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -551,6 +551,23 @@
       "source": "departures"
     },
     {
+      "name": "ALDEBARAN J",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Viana do Castelo",
+      "to": "Miami",
+      "date": "2026-09-20T18:35:00",
+      "hour": "18:35",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9349186",
+      "source": "departures"
+    },
+    {
       "name": "PONTA DO SOL",
       "line": "",
       "type": "hazard",
@@ -563,23 +580,6 @@
       "cargo": "Descarga / Carga · Carga Geral / Contentores",
       "is_hazard": true,
       "ship_type": "Carga Geral / Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ALDEBARAN J",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-09-20T11:38:00",
-      "hour": "11:38",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
