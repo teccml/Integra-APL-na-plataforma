@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-20T00:46:55.407437+00:00",
+  "fetched_at": "2026-09-20T05:50:04.686709+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -11,8 +11,8 @@
       "terminal": "Santa Apolónia",
       "from": "Caniçal",
       "to": "Caniçal",
-      "date": "2026-09-20T09:00:00",
-      "hour": "09:00",
+      "date": "2026-09-20T10:00:00",
+      "hour": "10:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -87,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Panamá",
       "imo": "9395161",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMANN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-09-20T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Malta",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
@@ -320,7 +303,7 @@
       "date": "2026-09-18T22:00:00",
       "hour": "22:00",
       "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
+      "cargo": "Descarga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
       "flag": "",
