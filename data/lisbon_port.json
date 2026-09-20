@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-20T20:43:01.394082+00:00",
+  "fetched_at": "2026-09-20T23:03:21.616301+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -243,6 +243,23 @@
       "source": "departures"
     },
     {
+      "name": "FURNAS",
+      "line": "Bensaude - Agentes de Navegacao Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-09-20T17:52:00",
+      "hour": "17:52",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9164548",
+      "source": "departures"
+    },
+    {
       "name": "NORWEGIAN DAWN",
       "line": "Arenthern - Agência de Navegação Lda",
       "type": "departure",
@@ -257,6 +274,40 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9195169",
+      "source": "departures"
+    },
+    {
+      "name": "CARNOTA",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "departure",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Setúbal",
+      "to": "Cadiz",
+      "date": "2026-09-20T20:05:00",
+      "hour": "20:05",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "Espanha",
+      "imo": "9666962",
+      "source": "departures"
+    },
+    {
+      "name": "CAPT. KATTELMANN",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-09-20T20:58:00",
+      "hour": "20:58",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Malta",
+      "imo": "9330915",
       "source": "departures"
     },
     {
@@ -294,23 +345,6 @@
       "source": "in_port"
     },
     {
-      "name": "CAPT. KATTELMANN",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-09-20T05:05:00",
-      "hour": "05:05",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "BALTIC STRENGTH",
       "line": "",
       "type": "transit",
@@ -323,23 +357,6 @@
       "cargo": "Descarga · Carga Geral",
       "is_hazard": false,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CARNOTA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "",
-      "to": "",
-      "date": "2026-09-18T15:56:00",
-      "hour": "15:56",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
       "flag": "",
       "imo": "",
       "source": "in_port"
