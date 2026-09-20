@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-20T05:50:04.686709+00:00",
+  "fetched_at": "2026-09-20T10:51:39.430856+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Portimão",
-      "date": "2026-09-20T06:40:00",
-      "hour": "06:40",
-      "pax": 2321,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9195169",
       "source": "arrivals"
     },
     {
@@ -277,6 +260,40 @@
       "source": "departures"
     },
     {
+      "name": "NORWEGIAN DAWN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-20T06:51:00",
+      "hour": "06:51",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "CAPT. KATTELMANN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-09-20T05:05:00",
+      "hour": "05:05",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "BALTIC STRENGTH",
       "line": "",
       "type": "transit",
@@ -415,23 +432,6 @@
       "source": "arrivals"
     },
     {
-      "name": "WHITE IVY",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Iskenderun, Hatay",
-      "to": "Antwerpen",
-      "date": "2026-09-20T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
-      "flag": "Panamá",
-      "imo": "9370393",
-      "source": "arrivals"
-    },
-    {
       "name": "ALDEBARAN J",
       "line": "Noatum Maritime Portugal, LDA",
       "type": "hazard",
@@ -566,6 +566,23 @@
       "flag": "Portugal",
       "imo": "9123788",
       "source": "departures"
+    },
+    {
+      "name": "WHITE IVY",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-20T07:04:00",
+      "hour": "07:04",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "GAS WIDURI",
