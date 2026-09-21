@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-21T18:31:50.873736+00:00",
+  "fetched_at": "2026-09-21T22:29:27.041753+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 32,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Bermudas",
       "imo": "9333175",
+      "source": "arrivals"
+    },
+    {
+      "name": "NERVIO",
+      "line": "ICC - Agência de Navegação e Transportes Terrestres, S.A.",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Jorf Lasfar",
+      "to": "Jorf Lasfar",
+      "date": "2026-09-23T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Trem de Reboque - Rebocador Estrangeiro · Navio rebocador de outros navios",
+      "is_hazard": false,
+      "ship_type": "Navio rebocador de outros navios",
+      "flag": "Espanha",
+      "imo": "8117770",
       "source": "arrivals"
     },
     {
@@ -260,6 +277,23 @@
       "source": "departures"
     },
     {
+      "name": "ONE HONG KONG",
+      "line": "One Shipping, Unipessoal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Le Havre",
+      "to": "Singapore",
+      "date": "2026-09-21T18:06:00",
+      "hour": "18:06",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Panamá",
+      "imo": "9395161",
+      "source": "departures"
+    },
+    {
       "name": "MEIN SCHIFF FLOW",
       "line": "",
       "type": "transit",
@@ -272,23 +306,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ONE HONG KONG",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-09-20T11:48:00",
-      "hour": "11:48",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -500,6 +517,23 @@
       "source": "departures"
     },
     {
+      "name": "PONTA DO SOL",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Mindelo",
+      "to": "Aveiro",
+      "date": "2026-09-21T19:39:00",
+      "hour": "19:39",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "Cabo Verde",
+      "imo": "9141613",
+      "source": "departures"
+    },
+    {
       "name": "MONTE BRASIL",
       "line": "",
       "type": "hazard",
@@ -512,23 +546,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "PONTA DO SOL",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-09-20T15:59:00",
-      "hour": "15:59",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
-      "is_hazard": true,
-      "ship_type": "Carga Geral / Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
