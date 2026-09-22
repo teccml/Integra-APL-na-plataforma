@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-22T20:59:45.152959+00:00",
+  "fetched_at": "2026-09-22T23:31:22.676379+00:00",
   "source": "portodelisboa.pt",
-  "count": 33,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -257,6 +257,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9862669",
+      "source": "departures"
+    },
+    {
+      "name": "BALTIC STRENGTH",
+      "line": "Bensaude - Agentes de Navegacao Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Las Palmas (Gran Canaria)",
+      "to": "Figueira da Foz",
+      "date": "2026-09-22T21:18:00",
+      "hour": "21:18",
+      "pax": 0,
+      "cargo": "Descarga · Carga Geral",
+      "is_hazard": false,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "1133907",
       "source": "departures"
     },
     {
@@ -532,6 +549,23 @@
       "flag": "Portugal",
       "imo": "9277400",
       "source": "departures"
+    },
+    {
+      "name": "LYRIC CAMELLIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-22T19:14:00",
+      "hour": "19:14",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "LION",
