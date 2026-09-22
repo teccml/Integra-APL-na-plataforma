@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-22T01:28:54.656758+00:00",
+  "fetched_at": "2026-09-22T07:26:49.010271+00:00",
   "source": "portodelisboa.pt",
   "count": 32,
   "errors": [],
@@ -347,23 +347,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MACARENA B",
-      "line": "BOLUDA SHIPPING PORTUGAL, SOCIEDADE UNIPESSOAL LIMITADA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-09-22T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9277400",
-      "source": "arrivals"
-    },
-    {
       "name": "LIVATYA",
       "line": "GARLAND SHIPPING LDA",
       "type": "hazard",
@@ -532,6 +515,23 @@
       "flag": "Cabo Verde",
       "imo": "9141613",
       "source": "departures"
+    },
+    {
+      "name": "MACARENA B",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-22T05:34:00",
+      "hour": "05:34",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MONTE BRASIL",
