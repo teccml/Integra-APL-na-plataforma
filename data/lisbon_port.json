@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-27T00:19:53.586832+00:00",
+  "fetched_at": "2026-09-27T06:22:25.442832+00:00",
   "source": "portodelisboa.pt",
   "count": 35,
   "errors": [],
@@ -347,23 +347,6 @@
       "source": "arrivals"
     },
     {
-      "name": "PATHWAY",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Le Havre",
-      "to": "Gibraltar",
-      "date": "2026-09-26T23:30:00",
-      "hour": "23:30",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Libéria",
-      "imo": "1033705",
-      "source": "arrivals"
-    },
-    {
       "name": "DAIWAN JUSTICE",
       "line": "GARLAND SHIPPING LDA",
       "type": "hazard",
@@ -566,6 +549,23 @@
       "flag": "Portugal",
       "imo": "9083055",
       "source": "departures"
+    },
+    {
+      "name": "PATHWAY",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-27T00:13:00",
+      "hour": "00:13",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "GALBOT",
