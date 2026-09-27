@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-27T17:35:03.886013+00:00",
+  "fetched_at": "2026-09-27T21:02:25.474479+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 35,
   "errors": [],
   "ships": [
     {
@@ -47,7 +47,7 @@
       "to": "Tangier",
       "date": "2026-09-28T07:30:00",
       "hour": "07:30",
-      "pax": 2904,
+      "pax": 2910,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -292,6 +292,23 @@
       "flag": "Malta",
       "imo": "9330915",
       "source": "departures"
+    },
+    {
+      "name": "RAQUEL S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-09-27T15:35:00",
+      "hour": "15:35",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ],
   "hazards": [
