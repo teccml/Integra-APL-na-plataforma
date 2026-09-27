@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-27T12:51:05.112307+00:00",
+  "fetched_at": "2026-09-27T17:35:03.886013+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9157868",
-      "source": "arrivals"
-    },
-    {
-      "name": "RAQUEL S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-09-27T16:00:00",
-      "hour": "16:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9515591",
       "source": "arrivals"
     },
     {
@@ -295,20 +278,20 @@
     },
     {
       "name": "CAPT. KATTELMANN",
-      "line": "",
-      "type": "transit",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "departure",
       "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-09-26T12:58:00",
-      "hour": "12:58",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-09-27T14:20:00",
+      "hour": "14:20",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Malta",
+      "imo": "9330915",
+      "source": "departures"
     }
   ],
   "hazards": [
