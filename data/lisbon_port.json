@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-29T00:14:59.643507+00:00",
+  "fetched_at": "2026-09-29T06:39:01.531582+00:00",
   "source": "portodelisboa.pt",
-  "count": 25,
+  "count": 27,
   "errors": [],
   "ships": [
     {
@@ -240,6 +240,40 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Marshall",
       "imo": "9200938",
+      "source": "departures"
+    },
+    {
+      "name": "MEIN SCHIFF 2",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Tangier",
+      "date": "2026-09-29T00:02:00",
+      "hour": "00:02",
+      "pax": 2910,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Malta",
+      "imo": "9783576",
+      "source": "departures"
+    },
+    {
+      "name": "CONTSHIP BOX",
+      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-09-29T00:20:00",
+      "hour": "00:20",
+      "pax": 1,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9449845",
       "source": "departures"
     },
     {
