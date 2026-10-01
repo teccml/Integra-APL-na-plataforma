@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-01T01:08:30.857220+00:00",
+  "fetched_at": "2026-10-01T08:28:47.056815+00:00",
   "source": "portodelisboa.pt",
-  "count": 31,
+  "count": 29,
   "errors": [],
   "ships": [
     {
@@ -79,8 +79,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-10-03T11:30:00",
-      "hour": "11:30",
+      "date": "2026-10-02T20:00:00",
+      "hour": "20:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -107,23 +107,6 @@
       "source": "arrivals"
     },
     {
-      "name": "INSIGNIA",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Cadiz",
-      "date": "2026-10-01T05:45:00",
-      "hour": "05:45",
-      "pax": 646,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9156462",
-      "source": "arrivals"
-    },
-    {
       "name": "AMALTHEA",
       "line": "Hapag-Lloyd Portugal, Lda.",
       "type": "arrival",
@@ -138,40 +121,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9397913",
-      "source": "arrivals"
-    },
-    {
-      "name": "Silver Dawn",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-10-01T05:30:00",
-      "hour": "05:30",
-      "pax": 552,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9857937",
-      "source": "arrivals"
-    },
-    {
-      "name": "DUBLIN EXPRESS",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Tanger Med",
-      "date": "2026-10-01T05:30:00",
-      "hour": "05:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Bermudas",
-      "imo": "9232577",
       "source": "arrivals"
     },
     {
@@ -311,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "INSIGNIA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-01T05:23:00",
+      "hour": "05:23",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "X-PRESS KAVERI",
       "line": "",
       "type": "transit",
@@ -346,23 +312,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "TC GRACE",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sevilla",
-      "to": "Livorno (Leghorn)",
-      "date": "2026-10-01T09:00:00",
-      "hour": "09:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "Panamá",
-      "imo": "9130236",
-      "source": "arrivals"
-    },
     {
       "name": "HARBOUR EXPRESS",
       "line": "Noatum Maritime Portugal, LDA",
@@ -532,6 +481,23 @@
       "flag": "Portugal",
       "imo": "9202077",
       "source": "departures"
+    },
+    {
+      "name": "GALBOT",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-09-30T22:55:00",
+      "hour": "22:55",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
