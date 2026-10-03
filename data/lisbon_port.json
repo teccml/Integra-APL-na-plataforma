@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-03T01:46:53.706090+00:00",
+  "fetched_at": "2026-10-03T07:44:37.510987+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 34,
   "errors": [],
   "ships": [
     {
@@ -36,23 +36,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9164548",
-      "source": "arrivals"
-    },
-    {
-      "name": "SEAVENTURE",
-      "line": "Amundsen - Maritime Agency",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Reykjavik",
-      "to": "Montevideo",
-      "date": "2026-10-03T06:30:00",
-      "hour": "06:30",
-      "pax": 0,
-      "cargo": "Estacionamento em Cais · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "8907424",
       "source": "arrivals"
     },
     {
@@ -121,23 +104,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9372456",
-      "source": "arrivals"
-    },
-    {
-      "name": "AMBITION",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Lorient",
-      "date": "2026-10-03T07:30:00",
-      "hour": "07:30",
-      "pax": 1217,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9172777",
       "source": "arrivals"
     },
     {
@@ -398,23 +364,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ILHA DA MADEIRA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-10-03T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9202077",
-      "source": "arrivals"
-    },
-    {
       "name": "GALBOT",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -429,23 +378,6 @@
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "Malta",
       "imo": "9555084",
-      "source": "arrivals"
-    },
-    {
-      "name": "BAHIA TRES",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Algeciras",
-      "to": "Sines",
-      "date": "2026-10-03T01:00:00",
-      "hour": "01:00",
-      "pax": 0,
-      "cargo": "Descarga · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Espanha",
-      "imo": "9428671",
       "source": "arrivals"
     },
     {
@@ -600,6 +532,23 @@
       "flag": "Portugal",
       "imo": "9083055",
       "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-03T06:08:00",
+      "hour": "06:08",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "RAZONI",
