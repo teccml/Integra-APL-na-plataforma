@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-04T15:41:57.500979+00:00",
+  "fetched_at": "2026-10-04T19:17:54.025443+00:00",
   "source": "portodelisboa.pt",
   "count": 44,
   "errors": [],
@@ -449,23 +449,6 @@
       "source": "arrivals"
     },
     {
-      "name": "GALBOT",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-10-04T12:00:00",
-      "hour": "12:00",
-      "pax": 0,
-      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
-      "is_hazard": true,
-      "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "Malta",
-      "imo": "9555084",
-      "source": "arrivals"
-    },
-    {
       "name": "ALONDRA",
       "line": "L. Branco – Navegação e Trânsitos, Lda.",
       "type": "hazard",
@@ -719,6 +702,23 @@
       "flag": "Espanha",
       "imo": "9428671",
       "source": "departures"
+    },
+    {
+      "name": "GALBOT",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-04T16:33:00",
+      "hour": "16:33",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "HARBOUR EXPRESS",
