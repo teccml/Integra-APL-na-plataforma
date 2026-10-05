@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-05T01:42:37.360936+00:00",
+  "fetched_at": "2026-10-05T08:34:05.230185+00:00",
   "source": "portodelisboa.pt",
-  "count": 46,
+  "count": 43,
   "errors": [],
   "ships": [
     {
@@ -39,57 +39,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ARTANIA",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portland",
-      "to": "Cadiz",
-      "date": "2026-10-05T08:00:00",
-      "hour": "08:00",
-      "pax": 1096,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "8201480",
-      "source": "arrivals"
-    },
-    {
-      "name": "REGATTA",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Leixões",
-      "date": "2026-10-05T05:45:00",
-      "hour": "05:45",
-      "pax": 651,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9156474",
-      "source": "arrivals"
-    },
-    {
-      "name": "MSC OPERA",
-      "line": "MSC Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Alicante",
-      "date": "2026-10-05T07:45:00",
-      "hour": "07:45",
-      "pax": 2133,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Panamá",
-      "imo": "9250464",
-      "source": "arrivals"
-    },
-    {
       "name": "NORWEGIAN STAR",
       "line": "Arenthern - Agência de Navegação Lda",
       "type": "arrival",
@@ -104,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Ilhas Bahamas",
       "imo": "9195157",
-      "source": "arrivals"
-    },
-    {
-      "name": "MARINA",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Leixões",
-      "to": "Portimão",
-      "date": "2026-10-05T06:45:00",
-      "hour": "06:45",
-      "pax": 1155,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Marshall",
-      "imo": "9438066",
       "source": "arrivals"
     },
     {
@@ -249,8 +181,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-10-05T22:00:00",
-      "hour": "22:00",
+      "date": "2026-10-06T14:00:00",
+      "hour": "14:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -464,6 +396,23 @@
       "source": "departures"
     },
     {
+      "name": "REGATTA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-05T05:20:00",
+      "hour": "05:20",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "REBECCA S",
       "line": "",
       "type": "transit",
@@ -482,23 +431,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "LAGOA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Mindelo",
-      "date": "2026-10-05T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "Cabo Verde",
-      "imo": "9150470",
-      "source": "arrivals"
-    },
     {
       "name": "VICTORIA THERESA",
       "line": "Orey Comércio e Navegação, S.A.",
@@ -753,6 +685,23 @@
       "flag": "Libéria",
       "imo": "9188922",
       "source": "departures"
+    },
+    {
+      "name": "LAGOA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-05T06:18:00",
+      "hour": "06:18",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "GALBOT",
