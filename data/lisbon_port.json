@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-08T02:35:29.765494+00:00",
+  "fetched_at": "2026-10-08T10:10:10.089224+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -124,23 +124,6 @@
       "source": "arrivals"
     },
     {
-      "name": "EMERALD SAKARA",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Portimão",
-      "date": "2026-10-08T07:00:00",
-      "hour": "07:00",
-      "pax": 95,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9948827",
-      "source": "arrivals"
-    },
-    {
       "name": "VIKING SATURN",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -200,7 +183,7 @@
       "to": "Portimão",
       "date": "2026-10-09T05:30:00",
       "hour": "05:30",
-      "pax": 719,
+      "pax": 720,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -345,6 +328,23 @@
       "source": "departures"
     },
     {
+      "name": "EMERALD SAKARA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-08T06:26:00",
+      "hour": "06:26",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ESPERANCE",
       "line": "",
       "type": "transit",
@@ -446,6 +446,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9123788",
+      "source": "arrivals"
+    },
+    {
+      "name": "GALBOT",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-10-09T15:00:00",
+      "hour": "15:00",
+      "pax": 0,
+      "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
+      "is_hazard": true,
+      "ship_type": "Navio exclusivamente equipado com tanques de carga",
+      "flag": "Malta",
+      "imo": "9555084",
       "source": "arrivals"
     },
     {
