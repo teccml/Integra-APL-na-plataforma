@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-10T19:52:10.814651+00:00",
+  "fetched_at": "2026-10-10T23:19:19.957283+00:00",
   "source": "portodelisboa.pt",
-  "count": 45,
+  "count": 46,
   "errors": [],
   "ships": [
     {
@@ -413,6 +413,40 @@
       "source": "departures"
     },
     {
+      "name": "ATLANTICO",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Caniçal",
+      "date": "2026-10-10T20:25:00",
+      "hour": "20:25",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9641314",
+      "source": "departures"
+    },
+    {
+      "name": "CRYSTAL SERENITY",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-10T18:11:00",
+      "hour": "18:11",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "SONGA PANTHER",
       "line": "",
       "type": "transit",
@@ -687,6 +721,23 @@
       "source": "departures"
     },
     {
+      "name": "MONTE DA GUIA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-10-10T20:50:00",
+      "hour": "20:50",
+      "pax": 2,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9123788",
+      "source": "departures"
+    },
+    {
       "name": "SONGA COSMOS",
       "line": "",
       "type": "hazard",
@@ -704,23 +755,6 @@
       "source": "in_port"
     },
     {
-      "name": "MONTE DA GUIA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-10-10T06:54:00",
-      "hour": "06:54",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "GALBOT",
       "line": "",
       "type": "hazard",
@@ -733,23 +767,6 @@
       "cargo": "Descarga · Navio exclusivamente equipado com tanques de carga",
       "is_hazard": true,
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "GCL KRISHNA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-10-09T20:52:00",
-      "hour": "20:52",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
