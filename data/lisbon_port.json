@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-13T00:16:55.734942+00:00",
+  "fetched_at": "2026-10-13T07:26:48.705555+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -39,23 +39,6 @@
       "source": "arrivals"
     },
     {
-      "name": "BOREALIS",
-      "line": "Wilhelmsen Port Services Portugal, S.A.",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cagliari",
-      "to": "Southampton",
-      "date": "2026-10-13T06:00:00",
-      "hour": "06:00",
-      "pax": 1151,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9122552",
-      "source": "arrivals"
-    },
-    {
       "name": "VENTURA",
       "line": "James Rawes Navegação, Lda",
       "type": "arrival",
@@ -70,23 +53,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Bermudas",
       "imo": "9333175",
-      "source": "arrivals"
-    },
-    {
-      "name": "NIEUW STATENDAM",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Lanzarote",
-      "to": "Dover",
-      "date": "2026-10-13T06:45:00",
-      "hour": "06:45",
-      "pax": 2571,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Países Baixos",
-      "imo": "9767106",
       "source": "arrivals"
     },
     {
@@ -189,23 +155,6 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9884136",
-      "source": "arrivals"
-    },
-    {
-      "name": "DOUGLAS MAWSON",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Portimão",
-      "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-10-13T05:30:00",
-      "hour": "05:30",
-      "pax": 126,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Ilhas Bahamas",
-      "imo": "9992713",
       "source": "arrivals"
     },
     {
@@ -379,6 +328,57 @@
       "source": "departures"
     },
     {
+      "name": "IONA",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Lanzarote",
+      "to": "Vigo",
+      "date": "2026-10-13T01:21:00",
+      "hour": "01:21",
+      "pax": 5385,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Bermudas",
+      "imo": "9826548",
+      "source": "departures"
+    },
+    {
+      "name": "BOREALIS",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-13T05:43:00",
+      "hour": "05:43",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "DOUGLAS MAWSON",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-13T05:02:00",
+      "hour": "05:02",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "XIN CHANG SHA",
       "line": "",
       "type": "transit",
@@ -391,23 +391,6 @@
       "cargo": "Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "IONA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-10-12T06:53:00",
-      "hour": "06:53",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
@@ -465,23 +448,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "SONGA TAURUS",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-10-13T06:00:00",
-      "hour": "06:00",
-      "pax": 1,
-      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Portugal",
-      "imo": "9373644",
-      "source": "arrivals"
-    },
     {
       "name": "MONTE DA GUIA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
@@ -685,6 +651,23 @@
       "flag": "Dinamarca",
       "imo": "9113719",
       "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-12T23:18:00",
+      "hour": "23:18",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "ANNA",
