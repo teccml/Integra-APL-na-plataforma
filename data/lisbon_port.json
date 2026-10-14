@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-14T05:54:01.540777+00:00",
+  "fetched_at": "2026-10-14T11:23:46.177045+00:00",
   "source": "portodelisboa.pt",
-  "count": 36,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -11,8 +11,8 @@
       "terminal": "Santa Apolónia",
       "from": "Leixões",
       "to": "Ponta Delgada",
-      "date": "2026-10-14T15:00:00",
-      "hour": "15:00",
+      "date": "2026-10-14T23:59:00",
+      "hour": "23:59",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9108063",
-      "source": "arrivals"
-    },
-    {
-      "name": "VENTURA",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Southampton",
-      "date": "2026-10-14T07:30:00",
-      "hour": "07:30",
-      "pax": 3085,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Bermudas",
-      "imo": "9333175",
       "source": "arrivals"
     },
     {
@@ -362,6 +345,40 @@
       "source": "departures"
     },
     {
+      "name": "VENTURA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-14T07:24:00",
+      "hour": "07:24",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "SCENIC ECLIPSE II",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-14T05:26:00",
+      "hour": "05:26",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "LANGENESS",
       "line": "",
       "type": "transit",
@@ -534,6 +551,23 @@
       "source": "departures"
     },
     {
+      "name": "PONTA DO SOL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-14T05:38:00",
+      "hour": "05:38",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "CELTIC SPIRIT",
       "line": "",
       "type": "hazard",
@@ -577,7 +611,7 @@
       "date": "2026-10-12T23:18:00",
       "hour": "23:18",
       "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
+      "cargo": "Descarga · Porta-Contentores",
       "is_hazard": true,
       "ship_type": "Porta-Contentores",
       "flag": "",
