@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-15T18:05:14.480986+00:00",
+  "fetched_at": "2026-10-15T21:16:32.308344+00:00",
   "source": "portodelisboa.pt",
-  "count": 43,
+  "count": 44,
   "errors": [],
   "ships": [
     {
@@ -70,6 +70,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9616230",
+      "source": "arrivals"
+    },
+    {
+      "name": "MANDO",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-10-17T20:00:00",
+      "hour": "20:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9175705",
       "source": "arrivals"
     },
     {
@@ -362,6 +379,23 @@
       "source": "departures"
     },
     {
+      "name": "PIRITA",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Vigo",
+      "to": "Algeciras",
+      "date": "2026-10-15T18:16:00",
+      "hour": "18:16",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9108063",
+      "source": "departures"
+    },
+    {
       "name": "LAURA S",
       "line": "",
       "type": "transit",
@@ -408,23 +442,6 @@
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "PIRITA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-10-15T05:31:00",
-      "hour": "05:31",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
