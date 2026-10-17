@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-17T21:18:40.782631+00:00",
+  "fetched_at": "2026-10-17T23:50:06.953272+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -28,8 +28,8 @@
       "terminal": "Santa Apolónia",
       "from": "Porto Santo",
       "to": "Caniçal",
-      "date": "2026-10-18T10:00:00",
-      "hour": "10:00",
+      "date": "2026-10-18T11:30:00",
+      "hour": "11:30",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -483,6 +483,23 @@
       "source": "arrivals"
     },
     {
+      "name": "ARKLOW ROSE",
+      "line": "PORTSHIP Unipessoal, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Castellon De La Plana",
+      "to": "Sunderland",
+      "date": "2026-10-19T16:00:00",
+      "hour": "16:00",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Irlanda",
+      "imo": "9923267",
+      "source": "arrivals"
+    },
+    {
       "name": "TAI HUA WAN",
       "line": "AFONSO H. O'NEILL & CA LDA",
       "type": "hazard",
@@ -497,6 +514,23 @@
       "ship_type": "Petroleiro para transporte de óleos e derivados",
       "flag": "China",
       "imo": "9814387",
+      "source": "arrivals"
+    },
+    {
+      "name": "DAIWAN JUSTICE",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Rouen",
+      "to": "Casablanca",
+      "date": "2026-10-19T21:00:00",
+      "hour": "21:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Panamá",
+      "imo": "9709312",
       "source": "arrivals"
     },
     {
@@ -633,6 +667,23 @@
       "ship_type": "Petroleiro para transporte de betume e asfalto",
       "flag": "Portugal",
       "imo": "9507984",
+      "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-10-17T19:58:00",
+      "hour": "19:58",
+      "pax": 1,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9083055",
       "source": "departures"
     }
   ]
