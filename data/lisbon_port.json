@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-17T18:15:28.379080+00:00",
+  "fetched_at": "2026-10-17T21:18:40.782631+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 37,
   "errors": [],
   "ships": [
     {
@@ -107,23 +107,6 @@
       "source": "arrivals"
     },
     {
-      "name": "EUROPA 2",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Cadiz",
-      "to": "Tangier",
-      "date": "2026-10-17T18:30:00",
-      "hour": "18:30",
-      "pax": 512,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Malta",
-      "imo": "9616230",
-      "source": "arrivals"
-    },
-    {
       "name": "MANDO",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -164,8 +147,8 @@
       "terminal": "Rocha Conde Óbidos",
       "from": "Brest",
       "to": "Las Palmas (Gran Canaria)",
-      "date": "2026-10-19T08:00:00",
-      "hour": "08:00",
+      "date": "2026-10-19T14:00:00",
+      "hour": "14:00",
       "pax": 0,
       "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
       "is_hazard": false,
@@ -379,14 +362,31 @@
       "source": "departures"
     },
     {
-      "name": "MEIN SCHIFF 3",
+      "name": "VOLENDAM",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Cartagena",
+      "date": "2026-10-17T18:02:00",
+      "hour": "18:02",
+      "pax": 1255,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Países Baixos",
+      "imo": "9156515",
+      "source": "departures"
+    },
+    {
+      "name": "EUROPA 2",
       "line": "",
       "type": "transit",
       "terminal": "Santa Apolónia",
       "from": "",
       "to": "",
-      "date": "2026-10-17T07:28:00",
-      "hour": "07:28",
+      "date": "2026-10-17T18:09:00",
+      "hour": "18:09",
       "pax": 0,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
@@ -396,14 +396,14 @@
       "source": "in_port"
     },
     {
-      "name": "VOLENDAM",
+      "name": "MEIN SCHIFF 3",
       "line": "",
       "type": "transit",
       "terminal": "Santa Apolónia",
       "from": "",
       "to": "",
-      "date": "2026-10-17T06:00:00",
-      "hour": "06:00",
+      "date": "2026-10-17T07:28:00",
+      "hour": "07:28",
       "pax": 0,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
@@ -497,23 +497,6 @@
       "ship_type": "Petroleiro para transporte de óleos e derivados",
       "flag": "China",
       "imo": "9814387",
-      "source": "arrivals"
-    },
-    {
-      "name": "LUIGI GALVANI",
-      "line": "Noatum Maritime Portugal, LDA",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Santander",
-      "date": "2026-10-17T19:00:00",
-      "hour": "19:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
-      "flag": "Malta",
-      "imo": "9738246",
       "source": "arrivals"
     },
     {
@@ -651,23 +634,6 @@
       "flag": "Portugal",
       "imo": "9507984",
       "source": "departures"
-    },
-    {
-      "name": "MONTE BRASIL",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-10-17T10:05:00",
-      "hour": "10:05",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ]
 }
