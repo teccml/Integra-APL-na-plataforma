@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T16:26:36.854489+00:00",
+  "fetched_at": "2026-10-18T19:16:51.598237+00:00",
   "source": "portodelisboa.pt",
   "count": 42,
   "errors": [],
@@ -379,6 +379,23 @@
       "source": "departures"
     },
     {
+      "name": "NORWEGIAN DAWN",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "Cadiz",
+      "date": "2026-10-18T17:17:00",
+      "hour": "17:17",
+      "pax": 2345,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9195169",
+      "source": "departures"
+    },
+    {
       "name": "REBECCA S",
       "line": "",
       "type": "transit",
@@ -442,23 +459,6 @@
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "NORWEGIAN DAWN",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-10-18T04:12:00",
-      "hour": "04:12",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
