@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T08:39:58.476171+00:00",
+  "fetched_at": "2026-10-18T13:02:55.005937+00:00",
   "source": "portodelisboa.pt",
   "count": 40,
   "errors": [],
@@ -39,23 +39,6 @@
       "source": "arrivals"
     },
     {
-      "name": "REBECCA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Porto Santo",
-      "to": "Caniçal",
-      "date": "2026-10-18T11:30:00",
-      "hour": "11:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Portugal",
-      "imo": "9428205",
-      "source": "arrivals"
-    },
-    {
       "name": "AIDAMAR",
       "line": "James Rawes Navegação, Lda",
       "type": "arrival",
@@ -64,7 +47,7 @@
       "to": "Cadiz",
       "date": "2026-10-19T08:30:00",
       "hour": "08:30",
-      "pax": 0,
+      "pax": 2260,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
       "ship_type": "Cruzeiro",
@@ -113,8 +96,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-10-19T06:00:00",
-      "hour": "06:00",
+      "date": "2026-10-18T19:00:00",
+      "hour": "19:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -164,8 +147,8 @@
       "terminal": "Alcântara",
       "from": "Antwerpen",
       "to": "Algeciras",
-      "date": "2026-10-20T16:30:00",
-      "hour": "16:30",
+      "date": "2026-10-20T19:00:00",
+      "hour": "19:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -189,23 +172,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "Libéria",
       "imo": "9449845",
-      "source": "arrivals"
-    },
-    {
-      "name": "INS TRISHUL",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Rocha Conde Óbidos",
-      "from": "Valencia",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-10-18T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
-      "is_hazard": false,
-      "ship_type": "Navio Guerra",
-      "flag": "India",
-      "imo": "2224599",
       "source": "arrivals"
     },
     {
@@ -377,6 +343,23 @@
       "flag": "Portugal",
       "imo": "9388390",
       "source": "departures"
+    },
+    {
+      "name": "INS TRISHUL",
+      "line": "",
+      "type": "transit",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "",
+      "to": "",
+      "date": "2026-10-18T08:08:00",
+      "hour": "08:08",
+      "pax": 0,
+      "cargo": "Visita Oficial ou Rotina com Reciprocidade · Navio Guerra",
+      "is_hazard": false,
+      "ship_type": "Navio Guerra",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "GALANI",
@@ -685,6 +668,23 @@
       "flag": "Malta",
       "imo": "9738246",
       "source": "departures"
+    },
+    {
+      "name": "BAHIA TRES",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-18T07:10:00",
+      "hour": "07:10",
+      "pax": 0,
+      "cargo": "Descarga · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
