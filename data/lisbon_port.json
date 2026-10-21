@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-21T13:32:50.125439+00:00",
+  "fetched_at": "2026-10-21T18:27:57.402067+00:00",
   "source": "portodelisboa.pt",
-  "count": 39,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -113,8 +113,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Tanger Med",
-      "date": "2026-10-21T21:00:00",
-      "hour": "21:00",
+      "date": "2026-10-22T01:00:00",
+      "hour": "01:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -328,23 +328,6 @@
       "source": "in_port"
     },
     {
-      "name": "CELEBRITY APEX",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-10-21T06:39:00",
-      "hour": "06:39",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "SILVER MUSE",
       "line": "",
       "type": "transit",
@@ -471,7 +454,7 @@
       "type": "hazard",
       "terminal": "Terminal Multiusos do Poço do Bispo",
       "from": "Leixões",
-      "to": "Leixões",
+      "to": "Dublin",
       "date": "2026-10-22T06:00:00",
       "hour": "06:00",
       "pax": 0,
@@ -548,6 +531,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9277395",
+      "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Ponta Delgada",
+      "to": "Leixões",
+      "date": "2026-10-21T15:52:00",
+      "hour": "15:52",
+      "pax": 2,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
       "source": "departures"
     },
     {
@@ -631,23 +631,6 @@
       "cargo": "Descarga · Tanque / Químico (alto mar)",
       "is_hazard": true,
       "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ILHA DA MADEIRA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-10-19T14:25:00",
-      "hour": "14:25",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
