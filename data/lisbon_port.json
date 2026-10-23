@@ -1,26 +1,9 @@
 {
-  "fetched_at": "2026-10-23T01:18:21.116322+00:00",
+  "fetched_at": "2026-10-23T07:08:29.015057+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 38,
   "errors": [],
   "ships": [
-    {
-      "name": "RENAISSANCE",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Tangier",
-      "to": "Leixões",
-      "date": "2026-10-23T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "BM",
-      "imo": "8919257",
-      "source": "arrivals"
-    },
     {
       "name": "CALI",
       "line": "Hapag-Lloyd Portugal, Lda.",
@@ -155,23 +138,6 @@
       "ship_type": "Cruzeiro",
       "flag": "BS",
       "imo": "9857937",
-      "source": "arrivals"
-    },
-    {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Porto Santo",
-      "to": "Caniçal",
-      "date": "2026-10-23T07:30:00",
-      "hour": "07:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9641314",
       "source": "arrivals"
     },
     {
@@ -360,6 +326,40 @@
       "flag": "Libéria",
       "imo": "9449845",
       "source": "departures"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-23T07:07:00",
+      "hour": "07:07",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "RENAISSANCE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-23T05:42:00",
+      "hour": "05:42",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "AÇOR B",
@@ -565,6 +565,23 @@
       "ship_type": "Petroleiro para carregamento de crude",
       "flag": "Malta",
       "imo": "9843209",
+      "source": "departures"
+    },
+    {
+      "name": "LAGOA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Palmeira (Ilha do Sal)",
+      "to": "Aveiro",
+      "date": "2026-10-23T00:08:00",
+      "hour": "00:08",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Cabo Verde",
+      "imo": "9150470",
       "source": "departures"
     },
     {
