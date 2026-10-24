@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-24T20:30:36.244814+00:00",
+  "fetched_at": "2026-10-24T22:57:43.049581+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -648,23 +648,6 @@
       "cargo": "Abastecimento de Combustível · Graneleiro",
       "is_hazard": true,
       "ship_type": "Graneleiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "BOMAR HAWK",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-10-24T13:26:00",
-      "hour": "13:26",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
       "flag": "",
       "imo": "",
       "source": "in_port"
