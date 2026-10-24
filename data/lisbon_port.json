@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-24T14:18:53.261887+00:00",
+  "fetched_at": "2026-10-24T17:56:56.373033+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -79,8 +79,8 @@
       "terminal": "Santa Apolónia",
       "from": "Porto Santo",
       "to": "Caniçal",
-      "date": "2026-10-25T17:00:00",
-      "hour": "17:00",
+      "date": "2026-10-25T18:00:00",
+      "hour": "18:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -164,8 +164,8 @@
       "terminal": "Alcântara",
       "from": "Algeciras",
       "to": "Leixões",
-      "date": "2026-10-25T07:00:00",
-      "hour": "07:00",
+      "date": "2026-10-25T08:00:00",
+      "hour": "08:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -328,6 +328,23 @@
       "source": "departures"
     },
     {
+      "name": "ATLANTICO",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Porto Santo",
+      "to": "Caniçal",
+      "date": "2026-10-24T15:15:00",
+      "hour": "15:15",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9641314",
+      "source": "departures"
+    },
+    {
       "name": "EXPLORA I",
       "line": "",
       "type": "transit",
@@ -396,23 +413,6 @@
       "source": "in_port"
     },
     {
-      "name": "ATLANTICO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-10-23T07:07:00",
-      "hour": "07:07",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
       "name": "AÇOR B",
       "line": "",
       "type": "transit",
@@ -466,23 +466,6 @@
       "source": "arrivals"
     },
     {
-      "name": "A. M. K. EVANDER",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Jorf Lasfar",
-      "to": "Jorf Lasfar",
-      "date": "2026-10-24T15:00:00",
-      "hour": "15:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
-      "flag": "SL",
-      "imo": "9221633",
-      "source": "arrivals"
-    },
-    {
       "name": "ONEGO GABRIELA",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -514,23 +497,6 @@
       "ship_type": "Tanque",
       "flag": "MT",
       "imo": "9464106",
-      "source": "arrivals"
-    },
-    {
-      "name": "BOMAR HAWK",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Aveiro",
-      "date": "2026-10-24T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
-      "flag": "MT",
-      "imo": "9396000",
       "source": "arrivals"
     },
     {
@@ -651,6 +617,23 @@
       "flag": "Portugal",
       "imo": "9365972",
       "source": "departures"
+    },
+    {
+      "name": "A. M. K. EVANDER",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-24T15:21:00",
+      "hour": "15:21",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "BOMAR HAWK",
