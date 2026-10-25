@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T14:53:25.834856+00:00",
+  "fetched_at": "2026-10-25T18:13:43.743606+00:00",
   "source": "portodelisboa.pt",
   "count": 41,
   "errors": [],
@@ -87,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "PT",
       "imo": "9157868",
-      "source": "arrivals"
-    },
-    {
-      "name": "REBECCA S",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Porto Santo",
-      "to": "Caniçal",
-      "date": "2026-10-25T16:00:00",
-      "hour": "16:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9428205",
       "source": "arrivals"
     },
     {
@@ -326,6 +309,23 @@
       "flag": "Portugal",
       "imo": "9445019",
       "source": "departures"
+    },
+    {
+      "name": "REBECCA S",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-25T15:40:00",
+      "hour": "15:40",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "X-PRESS KAVERI",
@@ -653,6 +653,23 @@
       "source": "departures"
     },
     {
+      "name": "SONGA EAGLE",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-10-25T14:27:00",
+      "hour": "14:27",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Malta",
+      "imo": "9388704",
+      "source": "departures"
+    },
+    {
       "name": "ONEGO GABRIELA",
       "line": "",
       "type": "hazard",
@@ -682,23 +699,6 @@
       "cargo": "Abastecimento de Combustível · Tanque / Gás Petróleo Liquefeito (LPG)",
       "is_hazard": true,
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SONGA EAGLE",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-10-23T00:08:00",
-      "hour": "00:08",
-      "pax": 0,
-      "cargo": "Descarga · Tanque / Químico (alto mar)",
-      "is_hazard": true,
-      "ship_type": "Tanque / Químico (alto mar)",
       "flag": "",
       "imo": "",
       "source": "in_port"
