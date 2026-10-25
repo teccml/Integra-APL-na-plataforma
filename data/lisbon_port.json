@@ -1,9 +1,26 @@
 {
-  "fetched_at": "2026-10-24T22:57:43.049581+00:00",
+  "fetched_at": "2026-10-25T00:53:43.901851+00:00",
   "source": "portodelisboa.pt",
   "count": 39,
   "errors": [],
   "ships": [
+    {
+      "name": "ILMA",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Tangier",
+      "to": "Funchal",
+      "date": "2026-10-27T06:30:00",
+      "hour": "06:30",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "MT",
+      "imo": "9967586",
+      "source": "arrivals"
+    },
     {
       "name": "CALI",
       "line": "Hapag-Lloyd Portugal, Lda.",
@@ -39,23 +56,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MANDO",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-10-25T00:30:00",
-      "hour": "00:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "AG",
-      "imo": "9175705",
-      "source": "arrivals"
-    },
-    {
       "name": "PIRITA",
       "line": "Burmester & Stuve - Navegação S.A.",
       "type": "arrival",
@@ -70,6 +70,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "PT",
       "imo": "9108063",
+      "source": "arrivals"
+    },
+    {
+      "name": "LAURA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-10-27T08:00:00",
+      "hour": "08:00",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "PT",
+      "imo": "9157868",
       "source": "arrivals"
     },
     {
@@ -141,6 +158,23 @@
       "source": "arrivals"
     },
     {
+      "name": "BRITANNIA",
+      "line": "James Rawes Navegação, Lda",
+      "type": "arrival",
+      "terminal": "Santa Apolónia",
+      "from": "Cadiz",
+      "to": "Southampton",
+      "date": "2026-10-27T08:45:00",
+      "hour": "08:45",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "GB",
+      "imo": "9614036",
+      "source": "arrivals"
+    },
+    {
       "name": "MARIA JOSE",
       "line": "NAIP - Navegação, Agência Internacional Portuguesa",
       "type": "arrival",
@@ -175,6 +209,23 @@
       "source": "arrivals"
     },
     {
+      "name": "EA GANNET",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Vigo",
+      "date": "2026-10-27T05:45:00",
+      "hour": "05:45",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "SG",
+      "imo": "9937476",
+      "source": "arrivals"
+    },
+    {
       "name": "AIDAprima",
       "line": "James Rawes Navegação, Lda",
       "type": "arrival",
@@ -190,74 +241,6 @@
       "flag": "IT",
       "imo": "9636955",
       "source": "arrivals"
-    },
-    {
-      "name": "NAVIOS DOMINO",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "departure",
-      "terminal": "Alcântara",
-      "from": "Antwerpen",
-      "to": "Algeciras",
-      "date": "2026-10-22T01:12:00",
-      "hour": "01:12",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9478494",
-      "source": "departures"
-    },
-    {
-      "name": "EA NODDY",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "departure",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-10-22T11:58:00",
-      "hour": "11:58",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Singapura",
-      "imo": "9937488",
-      "source": "departures"
-    },
-    {
-      "name": "SPIRIT OF ADVENTURE",
-      "line": "James Rawes Navegação, Lda",
-      "type": "departure",
-      "terminal": "Santa Apolónia",
-      "from": "Lanzarote",
-      "to": "Portsmouth",
-      "date": "2026-10-22T18:00:00",
-      "hour": "18:00",
-      "pax": 931,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "Reino Unido",
-      "imo": "9818084",
-      "source": "departures"
-    },
-    {
-      "name": "CONTSHIP BOX",
-      "line": "CMA CGM Portugal - Agentes De Navegação, S.A.",
-      "type": "departure",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-10-22T19:51:00",
-      "hour": "19:51",
-      "pax": 1,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "Libéria",
-      "imo": "9449845",
-      "source": "departures"
     },
     {
       "name": "RENAISSANCE",
@@ -362,6 +345,23 @@
       "source": "departures"
     },
     {
+      "name": "MANDO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-10-24T23:44:00",
+      "hour": "23:44",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "EXPLORA I",
       "line": "",
       "type": "transit",
@@ -428,23 +428,6 @@
       "flag": "",
       "imo": "",
       "source": "in_port"
-    },
-    {
-      "name": "FERDINANDA S",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-10-22T08:53:00",
-      "hour": "08:53",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
     }
   ],
   "hazards": [
@@ -500,6 +483,23 @@
       "source": "arrivals"
     },
     {
+      "name": "TRAMMO MARYCAM",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Augusta",
+      "to": "Ceuta",
+      "date": "2026-10-27T00:00:00",
+      "hour": "00:00",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Gás Petróleo Liquefeito (LPG)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
+      "flag": "SG",
+      "imo": "9409168",
+      "source": "arrivals"
+    },
+    {
       "name": "MONTE DA GUIA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -532,23 +532,6 @@
       "flag": "PT",
       "imo": "9518983",
       "source": "arrivals"
-    },
-    {
-      "name": "SEAFAITH",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Trieste",
-      "to": "Gdansk",
-      "date": "2026-10-22T08:19:00",
-      "hour": "08:19",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Petroleiro para carregamento de crude",
-      "is_hazard": true,
-      "ship_type": "Petroleiro para carregamento de crude",
-      "flag": "Malta",
-      "imo": "9843209",
-      "source": "departures"
     },
     {
       "name": "LAGOA",
@@ -633,6 +616,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "Portugal",
       "imo": "9202077",
+      "source": "departures"
+    },
+    {
+      "name": "BOMAR HAWK",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Aveiro",
+      "date": "2026-10-24T21:47:00",
+      "hour": "21:47",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / Químico (alto mar)",
+      "is_hazard": true,
+      "ship_type": "Tanque / Químico (alto mar)",
+      "flag": "Malta",
+      "imo": "9396000",
       "source": "departures"
     },
     {
