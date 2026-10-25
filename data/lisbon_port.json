@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-25T21:30:54.388991+00:00",
+  "fetched_at": "2026-10-25T23:54:46.321994+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -62,8 +62,8 @@
       "terminal": "Alcântara",
       "from": "Vigo",
       "to": "Casablanca",
-      "date": "2026-10-26T15:00:00",
-      "hour": "15:00",
+      "date": "2026-10-27T18:00:00",
+      "hour": "18:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -87,23 +87,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "PT",
       "imo": "9157868",
-      "source": "arrivals"
-    },
-    {
-      "name": "SPIRIT OF SYDNEY",
-      "line": "Hapag-Lloyd Portugal, Lda.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Tanger Med",
-      "date": "2026-10-26T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "IM",
-      "imo": "9391672",
       "source": "arrivals"
     },
     {
@@ -370,23 +353,6 @@
       "to": "",
       "date": "2026-10-25T07:18:00",
       "hour": "07:18",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MANDO",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-10-24T23:44:00",
-      "hour": "23:44",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -684,6 +650,23 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "Noruega",
       "imo": "9734836",
+      "source": "departures"
+    },
+    {
+      "name": "ONEGO GABRIELA",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Veracruz",
+      "date": "2026-10-25T20:43:00",
+      "hour": "20:43",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Antígua E Barbuda",
+      "imo": "9580780",
       "source": "departures"
     }
   ]
