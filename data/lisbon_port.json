@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-25T10:56:22.897215+00:00",
+  "fetched_at": "2026-10-25T14:53:25.834856+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 41,
   "errors": [],
   "ships": [
     {
@@ -260,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "LE BOREAL",
+      "line": "James Rawes Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Portimão",
+      "to": "Las Palmas (Gran Canaria)",
+      "date": "2026-10-24T19:10:00",
+      "hour": "19:10",
+      "pax": 182,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "França",
+      "imo": "9502506",
+      "source": "departures"
+    },
+    {
       "name": "AÇOR B",
       "line": "Bensaude - Agentes de Navegacao Lda",
       "type": "departure",
@@ -291,6 +308,23 @@
       "ship_type": "Cruzeiro",
       "flag": "Malta",
       "imo": "9869875",
+      "source": "departures"
+    },
+    {
+      "name": "FERDINANDA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Praia",
+      "date": "2026-10-25T10:53:00",
+      "hour": "10:53",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9445019",
       "source": "departures"
     },
     {
@@ -397,23 +431,6 @@
     }
   ],
   "hazards": [
-    {
-      "name": "ONEGO GABRIELA",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Veracruz",
-      "date": "2026-10-25T13:00:00",
-      "hour": "13:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "AG",
-      "imo": "9580780",
-      "source": "arrivals"
-    },
     {
       "name": "YM NEPTUNE",
       "line": "PORTSHIP Unipessoal, Lda.",
@@ -602,6 +619,23 @@
       "source": "departures"
     },
     {
+      "name": "BAHIA TRES",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Sines",
+      "to": "Sines",
+      "date": "2026-10-25T02:32:00",
+      "hour": "02:32",
+      "pax": 0,
+      "cargo": "Tráfego Local · Petroleiro para carregamento de crude",
+      "is_hazard": true,
+      "ship_type": "Petroleiro para carregamento de crude",
+      "flag": "Espanha",
+      "imo": "9428671",
+      "source": "departures"
+    },
+    {
       "name": "A. M. K. EVANDER",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -617,6 +651,23 @@
       "flag": "Serra Leoa",
       "imo": "9221633",
       "source": "departures"
+    },
+    {
+      "name": "ONEGO GABRIELA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-25T12:00:00",
+      "hour": "12:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "YARA KARA",
