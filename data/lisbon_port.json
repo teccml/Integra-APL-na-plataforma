@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T03:45:14.689133+00:00",
+  "fetched_at": "2026-10-26T09:51:49.757941+00:00",
   "source": "portodelisboa.pt",
   "count": 38,
   "errors": [],
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "LR",
       "imo": "9631101",
-      "source": "arrivals"
-    },
-    {
-      "name": "CAPT. KATTELMANN",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Tanger Med",
-      "date": "2026-10-26T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "MT",
-      "imo": "9330915",
       "source": "arrivals"
     },
     {
@@ -198,7 +181,7 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-10-27T05:45:00",
+      "date": "2026-10-28T05:45:00",
       "hour": "05:45",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
@@ -206,23 +189,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "SG",
       "imo": "9937476",
-      "source": "arrivals"
-    },
-    {
-      "name": "AIDAprima",
-      "line": "James Rawes Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Funchal",
-      "date": "2026-10-26T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "IT",
-      "imo": "9636955",
       "source": "arrivals"
     },
     {
@@ -379,6 +345,40 @@
       "source": "departures"
     },
     {
+      "name": "AIDAprima",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-10-26T07:57:00",
+      "hour": "07:57",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "CAPT. KATTELMANN",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-10-26T06:26:00",
+      "hour": "06:26",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "REBECCA S",
       "line": "",
       "type": "transit",
@@ -415,23 +415,6 @@
   ],
   "hazards": [
     {
-      "name": "YM NEPTUNE",
-      "line": "PORTSHIP Unipessoal, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ceuta",
-      "to": "Portos Desconhecidos / Alto Mar (Ao Largo)",
-      "date": "2026-10-26T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque",
-      "is_hazard": true,
-      "ship_type": "Tanque",
-      "flag": "MT",
-      "imo": "9464106",
-      "source": "arrivals"
-    },
-    {
       "name": "WEC BOUMEESTER",
       "line": "Wec Lines-Ibero Portugal, Lda.",
       "type": "hazard",
@@ -463,23 +446,6 @@
       "ship_type": "Tanque / Gás Petróleo Liquefeito (LPG)",
       "flag": "SG",
       "imo": "9409168",
-      "source": "arrivals"
-    },
-    {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Leixões",
-      "date": "2026-10-26T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9123788",
       "source": "arrivals"
     },
     {
@@ -651,6 +617,40 @@
       "flag": "Antígua E Barbuda",
       "imo": "9580780",
       "source": "departures"
+    },
+    {
+      "name": "YM NEPTUNE",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-26T08:29:00",
+      "hour": "08:29",
+      "pax": 0,
+      "cargo": "Descarga · Tanque",
+      "is_hazard": true,
+      "ship_type": "Tanque",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "MONTE DA GUIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-10-26T07:26:00",
+      "hour": "07:26",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     }
   ]
 }
