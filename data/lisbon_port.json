@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-31T18:17:59.560006+00:00",
+  "fetched_at": "2026-10-31T22:16:30.849608+00:00",
   "source": "portodelisboa.pt",
-  "count": 44,
+  "count": 43,
   "errors": [],
   "ships": [
     {
@@ -209,6 +209,23 @@
       "source": "departures"
     },
     {
+      "name": "ODYSSEY OF THE SEAS",
+      "line": "Arenthern - Agência de Navegação Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Cartagena",
+      "to": "Ponta Delgada",
+      "date": "2026-10-31T18:32:00",
+      "hour": "18:32",
+      "pax": 4083,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "Ilhas Bahamas",
+      "imo": "9795737",
+      "source": "departures"
+    },
+    {
       "name": "X-PRESS KAVERI",
       "line": "",
       "type": "transit",
@@ -285,23 +302,6 @@
       "to": "",
       "date": "2026-10-31T05:24:00",
       "hour": "05:24",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "ODYSSEY OF THE SEAS",
-      "line": "",
-      "type": "transit",
-      "terminal": "Santa Apolónia",
-      "from": "",
-      "to": "",
-      "date": "2026-10-31T05:08:00",
-      "hour": "05:08",
       "pax": 0,
       "cargo": "Turismo · Cruzeiro",
       "is_hazard": false,
@@ -395,23 +395,6 @@
       "ship_type": "Tanque / Petroleiro",
       "flag": "IT",
       "imo": "9359583",
-      "source": "arrivals"
-    },
-    {
-      "name": "GALBOT",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sines",
-      "to": "Sines",
-      "date": "2026-11-01T08:00:00",
-      "hour": "08:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque",
-      "is_hazard": true,
-      "ship_type": "Tanque",
-      "flag": "MT",
-      "imo": "9555084",
       "source": "arrivals"
     },
     {
