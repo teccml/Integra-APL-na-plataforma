@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-31T00:30:25.864368+00:00",
+  "fetched_at": "2026-10-31T06:44:25.405933+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -226,21 +226,38 @@
       "source": "departures"
     },
     {
-      "name": "AMALTHEA",
-      "line": "",
-      "type": "transit",
-      "terminal": "Alcântara",
-      "from": "",
-      "to": "",
-      "date": "2026-10-30T06:32:00",
-      "hour": "06:32",
+      "name": "LAURA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Ponta Delgada",
+      "date": "2026-10-31T00:25:00",
+      "hour": "00:25",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
       "ship_type": "Porta-Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
+      "flag": "Portugal",
+      "imo": "9157868",
+      "source": "departures"
+    },
+    {
+      "name": "AMALTHEA",
+      "line": "Hapag-Lloyd Portugal, Lda.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Le Havre",
+      "to": "Tanger Med",
+      "date": "2026-10-31T03:20:00",
+      "hour": "03:20",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9397913",
+      "source": "departures"
     },
     {
       "name": "ATLANTICO",
