@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-02T00:22:57.974753+00:00",
+  "fetched_at": "2026-11-02T07:23:55.081746+00:00",
   "source": "portodelisboa.pt",
-  "count": 40,
+  "count": 38,
   "errors": [],
   "ships": [
     {
@@ -70,23 +70,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "LR",
       "imo": "9431769",
-      "source": "arrivals"
-    },
-    {
-      "name": "NYK VENUS",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Le Havre",
-      "to": "Singapore",
-      "date": "2026-11-01T19:30:00",
-      "hour": "19:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "PA",
-      "imo": "9312793",
       "source": "arrivals"
     },
     {
@@ -277,6 +260,23 @@
       "source": "departures"
     },
     {
+      "name": "NYK VENUS",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-11-01T20:32:00",
+      "hour": "20:32",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "MANDO",
       "line": "",
       "type": "transit",
@@ -347,23 +347,6 @@
   ],
   "hazards": [
     {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Ponta Delgada",
-      "to": "Leixões",
-      "date": "2026-11-02T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9083055",
-      "source": "arrivals"
-    },
-    {
       "name": "KEN WAVE",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -378,23 +361,6 @@
       "ship_type": "Graneleiro",
       "flag": "LR",
       "imo": "9454204",
-      "source": "arrivals"
-    },
-    {
-      "name": "EKFJORD",
-      "line": "Orey Comércio e Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Aveiro",
-      "to": "Algeciras",
-      "date": "2026-11-02T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga · Tanque",
-      "is_hazard": true,
-      "ship_type": "Tanque",
-      "flag": "NO",
-      "imo": "9356622",
       "source": "arrivals"
     },
     {
@@ -619,6 +585,40 @@
       "source": "departures"
     },
     {
+      "name": "HORIZON",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Rouen",
+      "to": "Nador",
+      "date": "2026-11-02T00:40:00",
+      "hour": "00:40",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "Libéria",
+      "imo": "9323637",
+      "source": "departures"
+    },
+    {
+      "name": "SACURA",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caen",
+      "to": "Safi",
+      "date": "2026-11-02T04:30:00",
+      "hour": "04:30",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
+      "is_hazard": true,
+      "ship_type": "Graneleiro / Cereais",
+      "flag": "Libéria",
+      "imo": "9497000",
+      "source": "departures"
+    },
+    {
       "name": "ORANGE STREAM",
       "line": "",
       "type": "hazard",
@@ -648,40 +648,6 @@
       "cargo": "Abastecimento de Combustível · Graneleiro",
       "is_hazard": true,
       "ship_type": "Graneleiro",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "HORIZON",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-11-01T12:17:00",
-      "hour": "12:17",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "SACURA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-11-01T11:59:00",
-      "hour": "11:59",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro / Cereais",
-      "is_hazard": true,
-      "ship_type": "Graneleiro / Cereais",
       "flag": "",
       "imo": "",
       "source": "in_port"
