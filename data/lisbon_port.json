@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-04T01:58:08.598933+00:00",
+  "fetched_at": "2026-11-04T08:44:46.138222+00:00",
   "source": "portodelisboa.pt",
-  "count": 38,
+  "count": 40,
   "errors": [],
   "ships": [
     {
@@ -292,6 +292,40 @@
       "flag": "Malta",
       "imo": "9330915",
       "source": "departures"
+    },
+    {
+      "name": "REBECCA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Caniçal",
+      "to": "Caniçal",
+      "date": "2026-11-04T02:34:00",
+      "hour": "02:34",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9428205",
+      "source": "departures"
+    },
+    {
+      "name": "MARIA JOSE",
+      "line": "NAIP - Navegação, Agência Internacional Portuguesa",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Leixões",
+      "to": "Sao Tomé Island",
+      "date": "2026-11-04T03:24:00",
+      "hour": "03:24",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral",
+      "is_hazard": false,
+      "ship_type": "Carga Geral",
+      "flag": "Portugal",
+      "imo": "9593672",
+      "source": "departures"
     }
   ],
   "hazards": [
@@ -395,23 +429,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "PT",
       "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
-      "name": "PONTA DO SOL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Aveiro",
-      "date": "2026-11-04T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Carga Geral / Contentores",
-      "is_hazard": true,
-      "ship_type": "Carga Geral / Contentores",
-      "flag": "CV",
-      "imo": "9141613",
       "source": "arrivals"
     },
     {
@@ -617,6 +634,23 @@
       "flag": "Libéria",
       "imo": "9853436",
       "source": "departures"
+    },
+    {
+      "name": "PONTA DO SOL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-11-04T06:35:00",
+      "hour": "06:35",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "EKFJORD",
