@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-06T00:52:22.246544+00:00",
+  "fetched_at": "2026-11-06T07:44:51.756986+00:00",
   "source": "portodelisboa.pt",
-  "count": 34,
+  "count": 36,
   "errors": [],
   "ships": [
     {
@@ -107,23 +107,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-11-06T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
       "name": "AÇOR B",
       "line": "Bensaude - Agentes de Navegacao Lda",
       "type": "arrival",
@@ -226,23 +209,6 @@
       "source": "arrivals"
     },
     {
-      "name": "AMERA",
-      "line": "GARLAND SHIPPING LDA",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Agadir",
-      "date": "2026-11-06T06:30:00",
-      "hour": "06:30",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "BS",
-      "imo": "8700280",
-      "source": "arrivals"
-    },
-    {
       "name": "REBECCA S",
       "line": "Pmar - Navegação, Lda",
       "type": "departure",
@@ -292,6 +258,57 @@
       "flag": "Ilhas Bahamas",
       "imo": "9122552",
       "source": "departures"
+    },
+    {
+      "name": "ANDROUSA",
+      "line": "OOCL Portugal Lda",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Hamburg",
+      "to": "Algeciras",
+      "date": "2026-11-05T21:34:00",
+      "hour": "21:34",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Libéria",
+      "imo": "9431769",
+      "source": "departures"
+    },
+    {
+      "name": "AMERA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-11-06T06:08:00",
+      "hour": "06:08",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-11-06T05:43:00",
+      "hour": "05:43",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "SONGA PANTHER",
@@ -531,6 +548,23 @@
       "ship_type": "Navio exclusivamente equipado com tanques de carga",
       "flag": "Malta",
       "imo": "9555084",
+      "source": "departures"
+    },
+    {
+      "name": "PONTA DO SOL",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Mindelo",
+      "date": "2026-11-05T23:29:00",
+      "hour": "23:29",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Carga Geral / Contentores",
+      "is_hazard": true,
+      "ship_type": "Carga Geral / Contentores",
+      "flag": "Cabo Verde",
+      "imo": "9141613",
       "source": "departures"
     },
     {
