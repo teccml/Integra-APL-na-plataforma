@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-07T01:42:05.935599+00:00",
+  "fetched_at": "2026-11-07T08:28:38.838788+00:00",
   "source": "portodelisboa.pt",
   "count": 45,
   "errors": [],
@@ -226,23 +226,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ESPERANCE",
-      "line": "One Shipping, Unipessoal Lda",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Leixões",
-      "date": "2026-11-07T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "NL",
-      "imo": "9491484",
-      "source": "arrivals"
-    },
-    {
       "name": "BOREALIS",
       "line": "Wilhelmsen Port Services Portugal, S.A.",
       "type": "departure",
@@ -326,6 +309,23 @@
       "flag": "Portugal",
       "imo": "9381275",
       "source": "departures"
+    },
+    {
+      "name": "ESPERANCE",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-11-07T05:38:00",
+      "hour": "05:38",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "AÇOR B",
@@ -602,23 +602,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MONTE BRASIL",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-11-07T06:30:00",
-      "hour": "06:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9083055",
-      "source": "arrivals"
-    },
-    {
       "name": "ASTRA CENTAURUS",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -736,6 +719,23 @@
       "flag": "Portugal",
       "imo": "9123788",
       "source": "departures"
+    },
+    {
+      "name": "MONTE BRASIL",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-11-07T06:08:00",
+      "hour": "06:08",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "MED ANTARTIC",
