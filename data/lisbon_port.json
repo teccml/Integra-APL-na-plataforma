@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T01:05:16.489339+00:00",
+  "fetched_at": "2026-11-11T07:42:05.900033+00:00",
   "source": "portodelisboa.pt",
   "count": 30,
   "errors": [],
@@ -107,23 +107,6 @@
       "source": "arrivals"
     },
     {
-      "name": "EA NODDY",
-      "line": "Burmester & Stuve - Navegação S.A.",
-      "type": "arrival",
-      "terminal": "Alcântara",
-      "from": "Leixões",
-      "to": "Vigo",
-      "date": "2026-11-11T06:30:00",
-      "hour": "06:30",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "SG",
-      "imo": "9937488",
-      "source": "arrivals"
-    },
-    {
       "name": "INSIGNIA",
       "line": "Arenthern - Agência de Navegação Lda",
       "type": "departure",
@@ -190,6 +173,23 @@
       "flag": "Bermudas",
       "imo": "9839399",
       "source": "departures"
+    },
+    {
+      "name": "EA NODDY",
+      "line": "",
+      "type": "transit",
+      "terminal": "Alcântara",
+      "from": "",
+      "to": "",
+      "date": "2026-11-11T06:05:00",
+      "hour": "06:05",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "LAURA S",
