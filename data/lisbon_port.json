@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T01:43:02.605603+00:00",
+  "fetched_at": "2026-11-13T09:12:53.509726+00:00",
   "source": "portodelisboa.pt",
   "count": 34,
   "errors": [],
@@ -466,23 +466,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MANISA BELLE",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Setúbal",
-      "to": "Gemlik, Bursa / BORUSAN",
-      "date": "2026-11-13T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Carga · Carga Geral",
-      "is_hazard": true,
-      "ship_type": "Carga Geral",
-      "flag": "IT",
-      "imo": "1092842",
-      "source": "arrivals"
-    },
-    {
       "name": "RIBERA DEL DUERO KNUTSEN",
       "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
       "type": "hazard",
@@ -549,6 +532,23 @@
       "flag": "Libéria",
       "imo": "9188922",
       "source": "departures"
+    },
+    {
+      "name": "MANISA BELLE",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-11-13T05:10:00",
+      "hour": "05:10",
+      "pax": 0,
+      "cargo": "Carga · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "HITRA",
