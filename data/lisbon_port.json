@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-13T17:33:00.199608+00:00",
+  "fetched_at": "2026-11-13T23:20:50.476453+00:00",
   "source": "portodelisboa.pt",
-  "count": 35,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -19,6 +19,23 @@
       "ship_type": "Porta-Contentores",
       "flag": "PT",
       "imo": "9388390",
+      "source": "arrivals"
+    },
+    {
+      "name": "XIN WEI HAI",
+      "line": "Agencia Maritima Euronave Porto, Lda",
+      "type": "arrival",
+      "terminal": "Alcântara",
+      "from": "Antwerpen",
+      "to": "Algeciras",
+      "date": "2026-11-15T17:00:00",
+      "hour": "17:00",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "CN",
+      "imo": "9312573",
       "source": "arrivals"
     },
     {
@@ -113,8 +130,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Vigo",
-      "date": "2026-11-15T19:45:00",
-      "hour": "19:45",
+      "date": "2026-11-15T22:00:00",
+      "hour": "22:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -347,6 +364,23 @@
   ],
   "hazards": [
     {
+      "name": "ARETI FORCE",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Jorf Lasfar",
+      "date": "2026-11-15T19:00:00",
+      "hour": "19:00",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Carga Geral",
+      "is_hazard": true,
+      "ship_type": "Carga Geral",
+      "flag": "PT",
+      "imo": "9779020",
+      "source": "arrivals"
+    },
+    {
       "name": "ILHA DA MADEIRA",
       "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
       "type": "hazard",
@@ -361,6 +395,40 @@
       "ship_type": "Porta-Contentores",
       "flag": "PT",
       "imo": "9202077",
+      "source": "arrivals"
+    },
+    {
+      "name": "ACTION",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Viana do Castelo",
+      "to": "La Coruna",
+      "date": "2026-11-15T21:00:00",
+      "hour": "21:00",
+      "pax": 0,
+      "cargo": "Descarga · Tanque / Betume e Asfalto",
+      "is_hazard": true,
+      "ship_type": "Tanque / Betume e Asfalto",
+      "flag": "PT",
+      "imo": "9507984",
+      "source": "arrivals"
+    },
+    {
+      "name": "LOPA T",
+      "line": "Orey Comércio e Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Skikda (Ex Philippeville)",
+      "to": "Murmansk",
+      "date": "2026-11-15T10:30:00",
+      "hour": "10:30",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "PT",
+      "imo": "9621182",
       "source": "arrivals"
     },
     {
@@ -395,23 +463,6 @@
       "ship_type": "Tanque / Betume e Asfalto",
       "flag": "PA",
       "imo": "9563108",
-      "source": "arrivals"
-    },
-    {
-      "name": "RIOJA KNUTSEN",
-      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Sabine",
-      "to": "Omisalj",
-      "date": "2026-11-12T16:00:00",
-      "hour": "16:00",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Tanque / LNG e LPG",
-      "is_hazard": true,
-      "ship_type": "Tanque / LNG e LPG",
-      "flag": "ES",
-      "imo": "9721736",
       "source": "arrivals"
     },
     {
@@ -532,6 +583,23 @@
       "flag": "Malta",
       "imo": "9555084",
       "source": "departures"
+    },
+    {
+      "name": "RIOJA KNUTSEN",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-11-13T17:47:00",
+      "hour": "17:47",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Tanque / LNG e LPG",
+      "is_hazard": true,
+      "ship_type": "Tanque / LNG e LPG",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "GAS AEGEAN",
