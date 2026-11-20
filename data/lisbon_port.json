@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-20T02:06:52.384566+00:00",
+  "fetched_at": "2026-11-20T09:55:49.353090+00:00",
   "source": "portodelisboa.pt",
-  "count": 28,
+  "count": 30,
   "errors": [],
   "ships": [
     {
@@ -175,23 +175,6 @@
       "source": "arrivals"
     },
     {
-      "name": "ATLANTICO",
-      "line": "Pmar - Navegação, Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Caniçal",
-      "to": "Caniçal",
-      "date": "2026-11-20T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Descarga / Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9641314",
-      "source": "arrivals"
-    },
-    {
       "name": "REBECCA S",
       "line": "Pmar - Navegação, Lda",
       "type": "departure",
@@ -224,6 +207,40 @@
       "flag": "Vanuatu",
       "imo": "9298909",
       "source": "departures"
+    },
+    {
+      "name": "MANDO",
+      "line": "Burmester & Stuve - Navegação S.A.",
+      "type": "departure",
+      "terminal": "Alcântara",
+      "from": "Leixões",
+      "to": "Tanger Med",
+      "date": "2026-11-20T01:09:00",
+      "hour": "01:09",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Antígua E Barbuda",
+      "imo": "9175705",
+      "source": "departures"
+    },
+    {
+      "name": "ATLANTICO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-11-20T06:37:00",
+      "hour": "06:37",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "CONTSHIP BOX",
@@ -446,6 +463,23 @@
       "ship_type": "Carga Geral",
       "flag": "Países Baixos",
       "imo": "9313814",
+      "source": "departures"
+    },
+    {
+      "name": "NORSE NEW HAVEN",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Lautoka",
+      "to": "Antwerpen",
+      "date": "2026-11-20T05:27:00",
+      "hour": "05:27",
+      "pax": 0,
+      "cargo": "Descarga · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Singapura",
+      "imo": "9905265",
       "source": "departures"
     },
     {
