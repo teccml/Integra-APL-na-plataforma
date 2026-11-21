@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-21T16:05:06.433715+00:00",
+  "fetched_at": "2026-11-21T21:35:21.999408+00:00",
   "source": "portodelisboa.pt",
-  "count": 41,
+  "count": 42,
   "errors": [],
   "ships": [
     {
@@ -141,6 +141,23 @@
       "source": "arrivals"
     },
     {
+      "name": "Maria",
+      "line": "Noatum Maritime Portugal, LDA",
+      "type": "arrival",
+      "terminal": "Rocha Conde Óbidos",
+      "from": "Peniche",
+      "to": "Malta (Valetta)",
+      "date": "2026-11-23T20:00:00",
+      "hour": "20:00",
+      "pax": 0,
+      "cargo": "Trem de Reboque - Rebocador Estrangeiro · Rebocador (sem reboque)",
+      "is_hazard": false,
+      "ship_type": "Rebocador (sem reboque)",
+      "flag": "KN",
+      "imo": "8108171",
+      "source": "arrivals"
+    },
+    {
       "name": "REBECCA S",
       "line": "Pmar - Navegação, Lda",
       "type": "arrival",
@@ -232,8 +249,8 @@
       "terminal": "Alcântara",
       "from": "Leixões",
       "to": "Casablanca",
-      "date": "2026-11-22T12:00:00",
-      "hour": "12:00",
+      "date": "2026-11-22T11:00:00",
+      "hour": "11:00",
       "pax": 0,
       "cargo": "Descarga / Carga · Porta-Contentores",
       "is_hazard": false,
@@ -653,6 +670,23 @@
       "source": "departures"
     },
     {
+      "name": "MONTE DA GUIA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Leixões",
+      "to": "Caniçal",
+      "date": "2026-11-21T16:42:00",
+      "hour": "16:42",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9123788",
+      "source": "departures"
+    },
+    {
       "name": "ALI AKAY",
       "line": "",
       "type": "hazard",
@@ -665,23 +699,6 @@
       "cargo": "Carga · Carga Geral",
       "is_hazard": true,
       "ship_type": "Carga Geral",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "MONTE DA GUIA",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-11-21T06:43:00",
-      "hour": "06:43",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
       "flag": "",
       "imo": "",
       "source": "in_port"
