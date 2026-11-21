@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-21T00:39:35.915468+00:00",
+  "fetched_at": "2026-11-21T08:04:02.427619+00:00",
   "source": "portodelisboa.pt",
-  "count": 37,
+  "count": 39,
   "errors": [],
   "ships": [
     {
@@ -19,23 +19,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "PT",
       "imo": "9445019",
-      "source": "arrivals"
-    },
-    {
-      "name": "CORVO",
-      "line": "Bensaude - Agentes de Navegacao Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Leixões",
-      "to": "Ponta Delgada",
-      "date": "2026-11-21T07:00:00",
-      "hour": "07:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": false,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9381275",
       "source": "arrivals"
     },
     {
@@ -311,6 +294,40 @@
       "source": "departures"
     },
     {
+      "name": "FURNAS",
+      "line": "Bensaude - Agentes de Navegacao Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Ponta Delgada",
+      "to": "Ponta Delgada",
+      "date": "2026-11-21T00:32:00",
+      "hour": "00:32",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9164548",
+      "source": "departures"
+    },
+    {
+      "name": "CORVO",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-11-21T07:43:00",
+      "hour": "07:43",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
+    },
+    {
       "name": "ATLANTICO",
       "line": "",
       "type": "transit",
@@ -500,23 +517,6 @@
       "source": "arrivals"
     },
     {
-      "name": "MONTE DA GUIA",
-      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "Leixões",
-      "to": "Caniçal",
-      "date": "2026-11-21T06:00:00",
-      "hour": "06:00",
-      "pax": 0,
-      "cargo": "Carga · Porta-Contentores",
-      "is_hazard": true,
-      "ship_type": "Porta-Contentores",
-      "flag": "PT",
-      "imo": "9123788",
-      "source": "arrivals"
-    },
-    {
       "name": "LOPA T",
       "line": "Orey Comércio e Navegação, S.A.",
       "type": "hazard",
@@ -617,6 +617,40 @@
       "flag": "Ilhas Marshall",
       "imo": "1024429",
       "source": "departures"
+    },
+    {
+      "name": "ILHA DA MADEIRA",
+      "line": "Navex - Emp. Portuguesa De Navegação, S.A.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Caniçal",
+      "to": "Ponta Delgada",
+      "date": "2026-11-20T22:05:00",
+      "hour": "22:05",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9202077",
+      "source": "departures"
+    },
+    {
+      "name": "MONTE DA GUIA",
+      "line": "",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "",
+      "to": "",
+      "date": "2026-11-21T06:43:00",
+      "hour": "06:43",
+      "pax": 0,
+      "cargo": "Carga · Porta-Contentores",
+      "is_hazard": true,
+      "ship_type": "Porta-Contentores",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "TRAMMO MARYCAM",
