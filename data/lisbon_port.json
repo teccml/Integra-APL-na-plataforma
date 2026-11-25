@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-25T00:25:58.644754+00:00",
+  "fetched_at": "2026-11-25T09:38:52.059035+00:00",
   "source": "portodelisboa.pt",
-  "count": 42,
+  "count": 43,
   "errors": [],
   "ships": [
     {
@@ -53,23 +53,6 @@
       "ship_type": "Porta-Contentores",
       "flag": "SG",
       "imo": "9942299",
-      "source": "arrivals"
-    },
-    {
-      "name": "EUROPA",
-      "line": "Arenthern - Agência de Navegação Lda",
-      "type": "arrival",
-      "terminal": "Santa Apolónia",
-      "from": "Funchal",
-      "to": "New York",
-      "date": "2026-11-25T03:00:00",
-      "hour": "03:00",
-      "pax": 0,
-      "cargo": "Turismo · Cruzeiro",
-      "is_hazard": false,
-      "ship_type": "Cruzeiro",
-      "flag": "MT",
-      "imo": "9183855",
       "source": "arrivals"
     },
     {
@@ -343,6 +326,40 @@
       "flag": "Bermudas",
       "imo": "9320556",
       "source": "departures"
+    },
+    {
+      "name": "REBECCA S",
+      "line": "Pmar - Navegação, Lda",
+      "type": "departure",
+      "terminal": "Santa Apolónia",
+      "from": "Porto Santo",
+      "to": "Caniçal",
+      "date": "2026-11-25T03:26:00",
+      "hour": "03:26",
+      "pax": 0,
+      "cargo": "Descarga / Carga · Porta-Contentores",
+      "is_hazard": false,
+      "ship_type": "Porta-Contentores",
+      "flag": "Portugal",
+      "imo": "9428205",
+      "source": "departures"
+    },
+    {
+      "name": "EUROPA",
+      "line": "",
+      "type": "transit",
+      "terminal": "Santa Apolónia",
+      "from": "",
+      "to": "",
+      "date": "2026-11-25T02:34:00",
+      "hour": "02:34",
+      "pax": 0,
+      "cargo": "Turismo · Cruzeiro",
+      "is_hazard": false,
+      "ship_type": "Cruzeiro",
+      "flag": "",
+      "imo": "",
+      "source": "in_port"
     },
     {
       "name": "NIEUW STATENDAM",
@@ -653,6 +670,23 @@
       "source": "departures"
     },
     {
+      "name": "CS CELESTE",
+      "line": "Pinto Basto IV - Serviços Marítimos, Lda.",
+      "type": "hazard",
+      "terminal": "Terminal Multiusos do Poço do Bispo",
+      "from": "Singapore",
+      "to": "Leixões",
+      "date": "2026-11-25T01:52:00",
+      "hour": "01:52",
+      "pax": 0,
+      "cargo": "Abastecimento de Combustível · Graneleiro",
+      "is_hazard": true,
+      "ship_type": "Graneleiro",
+      "flag": "Ilhas Marshall",
+      "imo": "9670418",
+      "source": "departures"
+    },
+    {
       "name": "PONTA DO SOL",
       "line": "",
       "type": "hazard",
@@ -665,23 +699,6 @@
       "cargo": "Carga · Carga Geral / Contentores",
       "is_hazard": true,
       "ship_type": "Carga Geral / Contentores",
-      "flag": "",
-      "imo": "",
-      "source": "in_port"
-    },
-    {
-      "name": "CS CELESTE",
-      "line": "",
-      "type": "hazard",
-      "terminal": "Terminal Multiusos do Poço do Bispo",
-      "from": "",
-      "to": "",
-      "date": "2026-11-23T15:14:00",
-      "hour": "15:14",
-      "pax": 0,
-      "cargo": "Abastecimento de Combustível · Graneleiro",
-      "is_hazard": true,
-      "ship_type": "Graneleiro",
       "flag": "",
       "imo": "",
       "source": "in_port"
